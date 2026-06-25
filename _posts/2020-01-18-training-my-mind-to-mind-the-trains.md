@@ -22,7 +22,7 @@ I previously wrote a piece about trains in London. But that was merely for Londo
 
 I have to say, I still think London’s railway network looks way too complicated for such a small place, so I’m training my mind to mind the trains……. (you knew this was coming)
 
-![](/assets/wp-content/uploads/2024/01/1afXj1YWhWPDMcVW-uuRv8g.jpg)
+![](/assets/wp-content/uploads/2024/01/1afXj1YWhWPDMcVW-uuRv8g-scaled.jpg)
 
 Our day started at Liverpool Street. Looks like a pretty nice place to start with, but not necessarily so when you see pigeons doing their business within the station. Fortunately or unfortunately, I don’t have a photo for that.
 
@@ -58,7 +58,7 @@ Another interesting thing I observed was the train’s double-leaf sliding doors
 
 The exterior of the train looks quite normal, but the interior definitely shows the age of the train, as if it is something from the 60s. It even has luggage racks, which reminds us that it used to run long-haul suburban services.
 
-![](/assets/wp-content/uploads/2024/01/1aJcs9tiAWJH7g9B4KVqiug.jpg)London Overground Class 315 Interiors
+![](/assets/wp-content/uploads/2024/01/1aJcs9tiAWJH7g9B4KVqiug-scaled.jpg)London Overground Class 315 Interiors
 
 Still, the train has been retrofitted with shiny new buttons. (that are labelled with braille to fit today’s accessibility requirements)
 
@@ -96,7 +96,7 @@ After quite a while, we arrived at Harringay Green Lanes.
 
 A final look at the Class 710s. The leaves on the tree complemented the orange livery of the locomotive very nicely, so I’ve intentionally tweaked the tones to enhance the autumn colours.
 
-![](/assets/wp-content/uploads/2024/01/1nPqIPzjrw7H3KpThJmnOEA.jpg)
+![](/assets/wp-content/uploads/2024/01/1nPqIPzjrw7H3KpThJmnOEA-scaled.jpg)
 
 A view to the bridge (not from the bridge).
 
@@ -130,7 +130,7 @@ Each tram has a super low floor designs of 350 mm high (or 350 mm low, depending
 
 As always, close ups of seat maquette patterns deserve ta full width position in my blog. (This would be apparent if you read this on a desktop or laptop)
 
-![](/assets/wp-content/uploads/2024/01/1exrFOPz4N5dETLE0TZemHg.jpg)London Tramslink seat maquette cover pattern.
+![](/assets/wp-content/uploads/2024/01/1exrFOPz4N5dETLE0TZemHg-scaled.jpg)London Tramslink seat maquette cover pattern.
 
 Our tram journey came to an end at Mitcham Junction. This portion of tram actually operates actually more like light or medium rail, with segregated right-of-way. However, this is also the section where some parts are single-tracked, so service frequency is limited.
 

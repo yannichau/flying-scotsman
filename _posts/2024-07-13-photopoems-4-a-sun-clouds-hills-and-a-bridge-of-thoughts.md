@@ -20,7 +20,7 @@ tags:
 - photography
 - photopoems
 ---
-![](/assets/wp-content/uploads/2024/06/IMG_5406-1024x640.jpg)
+![](/assets/wp-content/uploads/2024/06/IMG_5406-scaled.jpg)
 
 **The Sun**
 
@@ -50,7 +50,7 @@ Like an ephemeral thriller
 Her magical glee vasnishes from sight  
 As she reveals the charming azure that stays.
 
-![](/assets/wp-content/uploads/2024/06/image-17-1024x768.png)
+![](/assets/wp-content/uploads/2024/06/image-17.png)
 
 **Clouds**
 
@@ -60,7 +60,7 @@ On the
 Utterly almighty Annapurnas, as I gaze upon it,  
 Dumbfounded and simply amazed!
 
-![](/assets/wp-content/uploads/2024/06/image-3-1024x683.png)
+![](/assets/wp-content/uploads/2024/06/image-3.png)
 
 **Terraced Gardens**
 
@@ -82,7 +82,7 @@ the azure blue
 stpes descending  
 from what we call heaven
 
-![](/assets/wp-content/uploads/2024/06/image-15-817x1024.png)
+![](/assets/wp-content/uploads/2024/06/image-15.png)
 
 **Bridge of thoughts**
 

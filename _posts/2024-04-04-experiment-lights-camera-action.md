@@ -27,13 +27,13 @@ Welcome to the first of a series of blogs that I have written for the photograph
 
 In fact I've chosen them for the exact opposing reasons - the imperfections and peculiar perspectives are reflections ofthe environments that my camera and its owner finds extremely challenging to excel in.
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/P1139034-208-Edited-scaled-e1708034447446-911x1024.jpeg) ![](/assets/wp-content/uploads/2024/02/P1139046-209-Edited-edited-1-scaled.jpeg)
+![](/assets/wp-content/uploads/2024/02/P1139034-208-Edited-scaled-e1708034447446.jpeg) ![](/assets/wp-content/uploads/2024/02/P1139046-209-Edited-edited-1-scaled.jpeg)
 
 The first challenge that comes in to mind is balance. There's the camera's preference to over-expose and return a result that looks too bright for sundown, battling against my frequent temptation to counteract this with needlessly chronic under-exposure. For example, the underexposure in the first shot completely removes the foreground and makes the bottom half muddy. In contrast, though the man in the second shot is the subject drawn to the viewer's attention by the arch, the lights behind the pillar and the illumination from his mobile, it feels as if the grass is fighting for attention.
 
 In both images there's an assortment of geometric shapes that define the overall structure, and even a mixture of static and moving objects that convey a degree of liveliness. But the lighting of each photo has only served as distractions. The result is somewhat tasteless.
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/P1138988-200-Edited-scaled-e1708034667945-1024x680.jpeg)
+![](/assets/wp-content/uploads/2024/02/P1138988-200-Edited-scaled-e1708034667945.jpeg)
 
 This problem is further made muddier when the night-time shots are not quite night-time shots. That is, when twilight prevails, the camera is presented with an environment neither too dark or bright. Do photos taken at twilight or moments before sundown belong in this category?
 
@@ -51,7 +51,7 @@ Whereas the dynamism of a film directly engages its viewer towards its plot, a p
 
 In these shots, the object that reassuredly stays constant is the camera.
 
-![](/assets/wp-content/uploads/2024/02/P1139271-246-Edited-scaled-e1708122617809-769x1024.jpeg) ![](/assets/wp-content/uploads/2024/02/P1139275-249-Edited-scaled-e1708122032848-575x1024.jpeg) ![](/assets/wp-content/uploads/2024/02/P1139279-251-Edited-scaled-e1708121882250-575x1024.jpeg) ![](/assets/wp-content/uploads/2024/02/P1139295-254-Edited-scaled-e1708121950933-575x1024.jpeg)
+![](/assets/wp-content/uploads/2024/02/P1139271-246-Edited-scaled-e1708122617809.jpeg) ![](/assets/wp-content/uploads/2024/02/P1139275-249-Edited-scaled-e1708122032848.jpeg) ![](/assets/wp-content/uploads/2024/02/P1139279-251-Edited-scaled-e1708121882250.jpeg) ![](/assets/wp-content/uploads/2024/02/P1139295-254-Edited-scaled-e1708121950933.jpeg)
 
 The result is a series of images which are a stark contrast to the stock architectural images that I am normally accustomed to taking when I travel. Exchange attention of a consistent static object for a glimpse of the varied movements in the city, rule-binding geometric porportions for the unimpeded sprawling nature of light, and pixel-perfect clarity for a blurred perspective - and night photography feels alive!
 
@@ -63,11 +63,11 @@ The electrical engineer in me is especially captivated with this shot, which is 
 
 Except when the camera that reassuredly stays constant no longer stays constant, photos bring entirely new perspectives.
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/P1139310-257-Edited-scaled-e1708122320674-574x1024.jpeg)
+![](/assets/wp-content/uploads/2024/02/P1139310-257-Edited-scaled-e1708122320674.jpeg)
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/P1139309-256-Edited-scaled-e1708122395731-577x1024.jpeg)
+![](/assets/wp-content/uploads/2024/02/P1139309-256-Edited-scaled-e1708122395731.jpeg)
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/P1139318-260-Edited-scaled-e1708122209417-574x1024.jpeg)
+![](/assets/wp-content/uploads/2024/02/P1139318-260-Edited-scaled-e1708122209417.jpeg)
 
 ![](/assets/wp-content/uploads/2024/02/P1139312-259-Edited-scaled-e1708122299191.jpeg)
 
@@ -75,15 +75,15 @@ Except when the camera that reassuredly stays constant no longer stays constant,
 
 Let the camera follow the lights, either along it or towards it.
 
-![](/assets/wp-content/uploads/2024/02/1010283-1024x769.jpg) ![](/assets/wp-content/uploads/2024/02/1010278-1024x769.jpg) ![](/assets/wp-content/uploads/2024/02/1010282-1024x769.jpg) ![](/assets/wp-content/uploads/2024/02/1010286-1024x769.jpg) ![](/assets/wp-content/uploads/2024/02/1010277-1024x769.jpg) ![](/assets/wp-content/uploads/2024/02/1010280-1024x769.jpg)
+![](/assets/wp-content/uploads/2024/02/1010283-scaled.jpg) ![](/assets/wp-content/uploads/2024/02/1010278-scaled.jpg) ![](/assets/wp-content/uploads/2024/02/1010282-scaled.jpg) ![](/assets/wp-content/uploads/2024/02/1010286-scaled.jpg) ![](/assets/wp-content/uploads/2024/02/1010277-scaled.jpg) ![](/assets/wp-content/uploads/2024/02/1010280-scaled.jpg)
 
 With a combination of object movements in the frame, camera manoeuvring, and scaling adjustments within the blog, we are presented with a protagonist that stretches itself towards us, runs across a fractured panorama confined by the borders of the camera sensor, and teases itself in ways that look different every moment you look at it.
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/1010792-1024x769.jpg)
+![](/assets/wp-content/uploads/2024/02/1010792-scaled.jpg)
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/1010794-1024x769.jpg) ![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/1010793-1024x769.jpg)
+![](/assets/wp-content/uploads/2024/02/1010794-scaled.jpg) ![](/assets/wp-content/uploads/2024/02/1010793-scaled.jpg)
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/1010798-1024x769.jpg) ![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/1010796-1024x769.jpg) ![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/1010790-1024x769.jpg)
+![](/assets/wp-content/uploads/2024/02/1010798-scaled.jpg) ![](/assets/wp-content/uploads/2024/02/1010796-scaled.jpg) ![](/assets/wp-content/uploads/2024/02/1010790-scaled.jpg)
 
 The grimly lit stage of my photographic world that initially appears to inhibit ideas surprisingly outdoes itself. The lights have become the protagonists of the piece, rather than the supporting fixtures behind the viewer or hidden in the ceiling. The action is no longer a result of the cohesion between a set's lights and camera, instead it is now a part of the process of creating a photograph. This is the uninspiring film industry motto "Lights, Action, Camera", unmistakedly performed with a twist.
 

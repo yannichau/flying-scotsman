@@ -45,7 +45,7 @@ _“No.”_
 
 I sensed Arjun’s desperation in the conversation, but anyhow I’m too young to comment on that. That said, I wish I do have the spontaneity he has to travel to “wherever the weather is nice”.
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/01/1058262-1024x683.jpg)The Royal Crescent Lawn
+![](/assets/wp-content/uploads/2024/01/1058262-scaled.jpg)The Royal Crescent Lawn
 
 Regardless, at this very moment, Nas just wanted to get the shopping all over with in ten minutes. I tend to think that’s the way I shop as well.
 
@@ -93,7 +93,7 @@ Arjun gave me a quick chuckle. Forgive me, I’m a child. I love the cute marshm
 
 And again the salesman continues selling to the buyer who does not want to be sold. This time regarding the motivations behind art, because Arjun must have been sharing his pieces.
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/01/1058109-1024x768.jpg)
+![](/assets/wp-content/uploads/2024/01/1058109-scaled.jpg)
 
 Nas says that art is motivated by both the artist and buyer seeking for some form of emotional expression or release, which means that the intentions of the artist mostly correspond to that of the buyer. Therefore, the price of the artwork is merely an indicator of the amount of compensation given to the artist for his or her contribution.
 

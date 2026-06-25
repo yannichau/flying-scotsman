@@ -20,7 +20,7 @@ tags:
 - volunteering
 - wales
 ---
-![](/assets/wp-content/uploads/2024/01/image-17.png)Machynlleth Footbridge, signage in both Welsh and English. Interestingly every single symbol has been duplicated as well.
+![](/assets/wp-content/uploads/2024/01/image-17.jpeg)Machynlleth Footbridge, signage in both Welsh and English. Interestingly every single symbol has been duplicated as well.
 
 I know it’s probably not the best idea to write a report in chronological order, but I do believe that presenting photos in chronological order facilitates my flashback process.
 
@@ -74,7 +74,7 @@ Here comes the steam train…….
 
 A closer inspection at its steamy glory.
 
-![](/assets/wp-content/uploads/2024/01/1T-EKHTADIgPfX4lpke3e6A.jpg)
+![](/assets/wp-content/uploads/2024/01/1T-EKHTADIgPfX4lpke3e6A-scaled.jpg)
 
 We then travelled down to the Boston Lodge Work where our volunteering work for the next two days took place. I have never went beyond outer London, let alone Penrhyndeudraeth in Wales.
 
@@ -100,7 +100,7 @@ Speaking of efficiency, we were kind of halted by a sudden brief moment of hail 
 
 But the gorgeous views at the other times of the day never cease to awe you.
 
-![](/assets/wp-content/uploads/2024/01/1GuRCBpu3LQ1K8ilotQmXHg.jpg)Sunset!
+![](/assets/wp-content/uploads/2024/01/1GuRCBpu3LQ1K8ilotQmXHg-scaled.jpg)Sunset!
 
 * * *
 
@@ -166,6 +166,6 @@ After a fairly uneventful journey which we spent playing cards most of the time,
 
 This was an experience beyond an enthusiast activity. Working alongside my passionate peers from the Rail Society as well as experienced volunteers from the Ffestiniog Railway was satisfying.We developed a closer bond with the country’s railways, and also strengthened our cross-generational ties with experienced veterans of the rail industry.
 
-![](/assets/wp-content/uploads/2024/01/12KiEKs-AEsp4juWKbufQuw.jpg)A view from the footbridge of Machynlleth Station
+![](/assets/wp-content/uploads/2024/01/12KiEKs-AEsp4juWKbufQuw-scaled.jpg)A view from the footbridge of Machynlleth Station
 
 I found the trip very rewarding, and if given the opportunity, I look forward to participating in this again in the future!

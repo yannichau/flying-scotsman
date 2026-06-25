@@ -68,4 +68,4 @@ Make no mistake — my motivation to be baptised is not solely driven by my expe
 
 Hallelujah!
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/01/image-1024x682-1.png)
+![](/assets/wp-content/uploads/2024/01/image-1024x682-1.png)

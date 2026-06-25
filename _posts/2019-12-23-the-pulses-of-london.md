@@ -16,7 +16,7 @@ tags:
 - london
 - tfl
 ---
-![](/assets/wp-content/uploads/2024/01/1jB-rQz-XaV1iwS3L8eesDw.jpg)Taken at Hammersmith Station. (District and Piccadilly Lines)
+![](/assets/wp-content/uploads/2024/01/1jB-rQz-XaV1iwS3L8eesDw-scaled.jpg)Taken at Hammersmith Station. (District and Piccadilly Lines)
 
 Those of you who have known me for quite a while would know that I have quite a serious obsession for trains or public transport as whole. This is why I have spent quite a while travelling around in London by trains.
 
@@ -52,7 +52,7 @@ The northern line is quite a complicated line indeed. It has so many branches, w
 
 And I guess things are going to get a bit more complicated with the new Battersea Power Station Branch opening (hopefully) in 2022!
 
-![](/assets/wp-content/uploads/2024/01/15xmuGwa2PvO9CeydnXcCdg.jpg)Here we go!
+![](/assets/wp-content/uploads/2024/01/15xmuGwa2PvO9CeydnXcCdg-scaled.jpg)Here we go!
 
 ## **Piccadilly Line**
 
@@ -98,7 +98,7 @@ Despite its prevalence in Hong Kong, platform gates are a rare sight in the Lond
 
 Both the photo above and below are taken at Westminister.
 
-![](/assets/wp-content/uploads/2024/01/1LfW1WCbKQdC87Xi4MYPxwA.jpg)Concourse of the Westminister Tube Station. ![](/assets/wp-content/uploads/2024/01/1vizDiV3LvdiPgTlxoD9Q1g.jpg)Bakerloo Line Maquette.
+![](/assets/wp-content/uploads/2024/01/1LfW1WCbKQdC87Xi4MYPxwA.jpg)Concourse of the Westminister Tube Station. ![](/assets/wp-content/uploads/2024/01/1vizDiV3LvdiPgTlxoD9Q1g-scaled.jpg)Bakerloo Line Maquette.
 
 ## **Bakerloo Line**
 
@@ -114,7 +114,7 @@ Somehow, the warm tone of the carriages lighting makes the train seem even older
 
 Notice that the sliding doors on this stock are sandwiched between the exterior and interior metallic body, which is quite an antiquated but elegant design. Other than Tokyo, I haven’t seen this type of sliding doors before. Most companies today either opt for exterior sliding dors for simplicity and efficiency, or plug doors for slightly better aerodynamics (which is quite insignificant I think).
 
-![](/assets/wp-content/uploads/2024/01/1SxwiSJ84Dbq_U-ZRPpVqFA.jpg)A Northbound Bakerloo Train departing from Charing Cross. ![](/assets/wp-content/uploads/2024/01/1y2mrDMXLW0NbV_9CqPi5cg.jpg)Holborn, Central Line
+![](/assets/wp-content/uploads/2024/01/1SxwiSJ84Dbq_U-ZRPpVqFA.jpg)A Northbound Bakerloo Train departing from Charing Cross. ![](/assets/wp-content/uploads/2024/01/1y2mrDMXLW0NbV_9CqPi5cg-scaled.jpg)Holborn, Central Line
 
 ## Central Line
 
@@ -158,7 +158,7 @@ I kind of got lucky with this shot, as a photo that is taken a second either bef
 
 These trains are really much newer, with walk-through carriages and air-conditioning. (finally!)
 
-![](/assets/wp-content/uploads/2024/01/1_hxHRX8tyqTvnHM74EgI-g.jpg)Interior of a typical sub-surface train (taken on Circle Line)
+![](/assets/wp-content/uploads/2024/01/1_hxHRX8tyqTvnHM74EgI-g-scaled.jpg)Interior of a typical sub-surface train (taken on Circle Line)
 
 The fact that trains longer than the platforms of some stations really shows how old the underground network is.
 
@@ -216,7 +216,7 @@ By the way, it felt kind of refreshing to see a national rail station with a nam
 
 I didn’t get the chance to ride on TfL Rail (yet), but I did manage to get a shot of it as it was next to the GWR train we alighted.
 
-![](/assets/wp-content/uploads/2024/01/10BThAiGFmkvGbp7VhtmCAQ.jpg)Left: TfL Class 345 train; Right: GWR Class 387 train. ![](/assets/wp-content/uploads/2024/01/1EViMGcufwJTK-1EosuK9EA.jpg)Similarly, the doors of The Thameslink Class 700 Trains are sandwiched in between the outer and inner body of the carriage.
+![](/assets/wp-content/uploads/2024/01/10BThAiGFmkvGbp7VhtmCAQ.jpg)Left: TfL Class 345 train; Right: GWR Class 387 train. ![](/assets/wp-content/uploads/2024/01/1EViMGcufwJTK-1EosuK9EA-scaled.jpg)Similarly, the doors of The Thameslink Class 700 Trains are sandwiched in between the outer and inner body of the carriage.
 
 ## Thameslink
 

@@ -17,7 +17,7 @@ tags: []
 
 I have always wanted an all-encompassing platform for archiving, documenting my projects, and blogging my many journals, and my new website at [yannichau.i234.me](//yanni-test-local-wp-newdb.local) marks a new milestone for my digital portfolio. It has been something I have been working on and off throughout the past year, and at this stage it is as if the pieces I have been crafting are finally coming together.
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/P1139213-235-Edited-scaled-e1708122911649-768x1024.jpeg)
+![](/assets/wp-content/uploads/2024/02/P1139213-235-Edited-scaled-e1708122911649.jpeg)
 
 ## A new purpose
 
@@ -35,7 +35,7 @@ While I am now fairly versed with designing pages with ReactJS and managing a re
 
 In contrast, my new Wordpress platform is highly versatile in terms of the content I can include, and I am currently also experimenting with a plugin that simultaneously publishes my posts to Medium - hitting a bird with two stones (oops - two birds with a stone!)
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/02/P1139203-233-Edited-scaled-e1708122956169-1024x680.jpeg)
+![](/assets/wp-content/uploads/2024/02/P1139203-233-Edited-scaled-e1708122956169.jpeg)
 
 ## Where am I?
 

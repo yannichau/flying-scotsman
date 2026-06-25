@@ -19,7 +19,7 @@ tags:
 - photography
 - photopoems
 ---
-![](/assets/wp-content/uploads/2024/06/image-9-1024x761.png)
+![](/assets/wp-content/uploads/2024/06/image-9.png)
 
 I am the wispy
 
@@ -30,7 +30,7 @@ R olling into strands of hair
 U nderstanding that this is the fore-  
 S hadowing of a cyclone.
 
-![](/assets/wp-content/uploads/2024/06/image-11-1024x641.png)
+![](/assets/wp-content/uploads/2024/06/image-11.png)
 
 ### Replay
 
@@ -59,7 +59,7 @@ children’s clumsy footsteps scrunching by
 Knowing this is the epilogue  
 and a prologue
 
-![](/assets/wp-content/uploads/2024/06/image-16-1024x633.png)
+![](/assets/wp-content/uploads/2024/06/image-16.png)
 
 ### Mellow, Maximum Yellow1
 

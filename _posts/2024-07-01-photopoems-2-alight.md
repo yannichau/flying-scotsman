@@ -22,7 +22,7 @@ tags:
 - photography
 - photopoems
 ---
-![](/assets/wp-content/uploads/2024/06/image-6-1024x771.png)_Half Caste_
+![](/assets/wp-content/uploads/2024/06/image-6.png)_Half Caste_
 
 Leaving at aurora  
 he starts his half-caste day  
@@ -49,9 +49,9 @@ Plight
 and set me  
 **Alight**
 
-![](/assets/wp-content/uploads/2024/06/image-4-1024x769.png)_Alight_
+![](/assets/wp-content/uploads/2024/06/image-4.png)_Alight_
 
-![](/assets/wp-content/uploads/2024/06/image-1024x1021.png)Steam
+![](/assets/wp-content/uploads/2024/06/image.png)Steam
 
 Through the window silts I hear  
 Muffled shrills fleeting into my ear  
@@ -67,7 +67,7 @@ of steam from my boilingly hot water.
 .  
 Which sort of steam do I fancy more?
 
-![](/assets/wp-content/uploads/2024/06/image-8-1024x763.png)
+![](/assets/wp-content/uploads/2024/06/image-8.png)
 
 . . . . . . . . . . . Hi, . . . . . . . . . . .  
 . . . . . . . . . . . . I . . . . . . . . . . . .  

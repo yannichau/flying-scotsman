@@ -16,7 +16,7 @@ tags:
 - photography
 - travel
 ---
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/01/1058073-1024x683.jpg)Fashion Museum Bath
+![](/assets/wp-content/uploads/2024/01/1058073-scaled.jpg)Fashion Museum Bath
 
 # Finding the Right Pace
 
@@ -30,7 +30,7 @@ Nevertheless, as I flip through my albums I realise that there’s many places I
 
 Do I like this polarisingly different way of travelling? My plans for summer 2022 will tell.
 
-![](//yanni-test-local-wp-newdb.local/wp-content/uploads/2024/01/1058000-1024x683.jpg)
+![](/assets/wp-content/uploads/2024/01/1058000-scaled.jpg)
 
 # Solo travelling again in a couple decades?
 
