@@ -81,17 +81,13 @@ Each year, we are given a slightly different subset of work at the railway, depe
 * Moved tons of heavy rails from the scrapyard to a maintenace cart at the depot, for future use!
 
 ![](/assets/wp-content/uploads/2024/01/1cP-pEE6QT2tlZoHQ1ApfLg-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1fpP4Q_pBAArzh55j2ycsrg-scaled.jpg)
 
 A rather peculiar thing about painting the fences was that we were under constant scrutiny from neighbouring residents, who seemed pretty hawk-eyed. Apparently there has previously been some complaints to the railway with regards to “ruining the gardens”!
 
 ![](/assets/wp-content/uploads/2024/01/1Mm7K57ki_X5Lj-GAoI437g-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1vAkcO7u3bz3j2WZ4cLTsQw-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1WM2u6MPKpSZKYkhXcFTBmw-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1TQSgFj4IDJEy79xCz6B0CQ-scaled.jpg)
 
 Simultaneously, another group of us spent the day at the Boston Lodge Depot, helping out with heavy lifting, painting and manual labour work. And while this might sound tediously boring and repetitive, I believe this is actually one of the last few places where a lot of work is still done manually with relatively primitive tools. But at the end of the day, we are working at a railway that is maintained by passionate volunteers, and these are basic practical skills that we should be well equipped anyways.

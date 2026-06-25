@@ -33,7 +33,8 @@ Eventually, you really get an idea of how inclusive a community is to foreigners
 
 By the way, if you see monochrome photos below, I would like to remind you that they are also SOOCs, taken with the L Monochrome D profile on newer Panasonic cameras.
 
-![](/assets/wp-content/uploads/2024/01/1Dr_tIqbIzYL2-DOJmq69bg.jpg)Jaywalker, photo taken at a similar location. ![](/assets/wp-content/uploads/2024/01/1TehM5yFT43HeJ_ygCNTEyA.jpg)A Mini camera Museum!
+![](/assets/wp-content/uploads/2024/01/1Dr_tIqbIzYL2-DOJmq69bg.jpg)Jaywalker, photo taken at a similar location.
+![](/assets/wp-content/uploads/2024/01/1TehM5yFT43HeJ_ygCNTEyA.jpg)A Mini camera Museum!
 
 I know that taking monochrome photos may seem like something of the past, and taking them on a digital camera may even seem counterintuitive. But in many ways, when it comes to shooting photographs on the street, it seems appropriate to eliminate the excessive plethora of colours from the photo.
 
@@ -60,9 +61,7 @@ Back to some coloured photos, 2 red photos to be specific. The first is a passer
 It is now approximately 10 days away from Brexit. People’s lives continue no matter what, but street photos do get interesting when you mix in a bit of politics. As a photographer, a tourist, and a newcomer, I’m always happy to see more perspectives.
 
 ![](/assets/wp-content/uploads/2024/01/1FdAoJNbnysRIrTKBM9CD9g.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/18Vv4g_fXoXFY-387365aqQ.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1vwSVJ1q6XV0KG0Sc5eLllg.jpg)
 
 **Graffiti and Street Art**
@@ -70,13 +69,9 @@ It is now approximately 10 days away from Brexit. People’s lives continue no m
 Graffiti is one of the things I see everywhere around London, and as a tourist, I find them absolutely inspiring. Camden is one of the places where much of the interesting street art comes alive. I don’t think the government exactly endorses this sort of things, but I’m glad that they are tolerated. I am not sure whether people really appreciate street art or not, but I do believe this kind of art cultivates a sense of creativity and creates a community that is open and inclusive to artists with different visions.
 
 ![](/assets/wp-content/uploads/2024/01/1Kv6a8M6b2w1Q36sZUAx5Cw.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1ZY8GEPCnP9nxc5JZbZVqug.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1h5TPphVg5-QkNTYk36oPSg.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/18eXu3rF2bFv7kuHDED59GA.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/12wJSuTlFF0NTS5RfEqpYDQ.jpg) ![](/assets/wp-content/uploads/2024/01/1Hu7ZiplpSwbbCJwJ0Kz-wg.jpg)
 
 As a tourist, I think these drawings very much display the vibrance of this city, and how people are proud of their city and its heritage. It feels exciting to witness artists adding their strokes to these walls, and even more so when you see this space utilised by such talented skateboarders.

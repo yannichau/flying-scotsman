@@ -34,7 +34,6 @@ The fun bit that will be inherited from the previous site is the interactive Lon
 While I am now fairly versed with designing pages with ReactJS and managing a rest API server with NodeJS, it is a hassle dealing with hosting large files like images. I had to host them on a free platform, like imgur, and link them to my database. Finally, Heroku, the platform I used to host my backend on, nailed the coffin for me by suspending their free plan.
 
 In contrast, my new Wordpress platform is highly versatile in terms of the content I can include, and I am currently also experimenting with a plugin that simultaneously publishes my posts to Medium - hitting a bird with two stones (oops - two birds with a stone!)
-
 ![](/assets/wp-content/uploads/2024/02/P1139203-233-Edited-scaled-e1708122956169.jpeg)
 
 ## Where am I?
@@ -42,9 +41,7 @@ In contrast, my new Wordpress platform is highly versatile in terms of the conte
 Hiccups are certainly a common occurence when working with a new platform. The biggest hurdle so far has been actually getting the correct settings to route the website to the internet. As the library of content for the webiste expands and the traffic increases (which will be both a blessing and a curse!), I will have to explore different solutions to enhance the security and efficiency of the website. But I'm sure there's certainly a lot to look forward to!
 
 ![](/assets/wp-content/uploads/2024/02/P1139508-293-Edited-scaled-e1708034063653.jpeg)
-
 ![](/assets/wp-content/uploads/2024/02/P1139509-294-Edited-scaled-e1708121078978.jpeg)
-
 ![](/assets/wp-content/uploads/2024/02/P1139510-295-Edited-scaled-e1708034146700.jpeg)
 
 **Next steps**

@@ -122,7 +122,6 @@ Its[ rolling stock portfolio](https://en.wikipedia.org/wiki/Light_Rail_\(MTR\)#
   3. 🇦🇺 UGL A Gonian Phase III LRVs (1997-)
   4. 🇨🇳 UGL-Nanjing Puzhen Phase IV LRVs (2009-)
   5. 🇨🇳 CRRC Nanjing Puzhen Phase V LRVs (2020-)
-
 ![](/assets/wp-content/uploads/2024/01/1HPsIOxEV_6_kNd3v49J5mw-scaled.jpg)Phase III LRV ![](/assets/wp-content/uploads/2024/01/13EgOg40Gq5tA-YpGozxXTQ-scaled.jpg)A phase IV LRV running on a non-dedicated section
 
 ![](/assets/wp-content/uploads/2024/01/1PqtbmxCigM80k-PgxiJsNg-scaled.jpg)Weird scene: a phase IV LRV navigating tightly fitting below a bridge connecting a car-park and a public estate podium.
@@ -160,13 +159,9 @@ One striking similarity you might see is that R-stock has the same hanging hand-
 ## Moquettes
 
 ![](/assets/wp-content/uploads/2024/01/1IY6bBDyTj6UkzjmE_o9vww-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1vizDiV3LvdiPgTlxoD9Q1g-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/15DypD_7f17qi8M_y8OyY7A-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1R3uYZUbVw0vgF6uw81kvYg-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1L3mUmkt8eS26uLzWFlzy1w-scaled.jpg)
 
 A final aspect of the interior is the seat moquette, which is a feature very unique for TfL, and arguably one of the most exciting aspects of being on a new train. I think the amount of thought that went into designing such a diverse variety of [seat moquette patterns](https://londonist.com/london/transport/all-the-tube-moquette-patterns-bitchily-critiqued) is something to be applauded for.

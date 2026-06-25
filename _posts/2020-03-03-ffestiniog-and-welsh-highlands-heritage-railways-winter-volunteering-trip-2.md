@@ -127,7 +127,6 @@ We arguably learnt quite a bit more about the history of the Great Western Railw
 # Departure
 
 The sky was visibly cloudy the day we had to leave. Maybe we were allfeeling sad that we had to leave such a wonderful place…….(awww)
-
 ![](/assets/wp-content/uploads/2024/01/1_1GoPQzmqeqQWAUI-d3K592w.jpg)A view of the small town of Penrhyndeudraeth.
 
 We passed by Dovey Junction, a station that we were constantly talking about when were playing the GWR game. It’s called a junction but it is located at an inconvenient location. It is where the Cambrian line splits into the line to Aberystwyth and the Cambrian Coast Line to Pwllheli.

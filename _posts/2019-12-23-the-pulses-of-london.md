@@ -89,7 +89,6 @@ Except no one actually needs to walk through this, as there’s actually several
 ## Jubilee Line
 
 The 1996 stock on the Jubille Line is notably similar to the 1995 stock on the Northern Line, but I’ve heard articles about the 1995 stock having more modern equipment than the 1996 stock. (what?)
-
 ![](/assets/wp-content/uploads/2024/01/1WQvDb_pASR7-tRstbiS6wg.jpg)Northbnound Jubilee Line Train departing from Green Park.
 
 Despite its prevalence in Hong Kong, platform gates are a rare sight in the London Underground. It feels weird to suddenly see platform gates again. I believe they are only installed in a few zone one Jubilee Line stations.
@@ -141,7 +140,6 @@ I know it’s not my first time on a deep-level tube train, but you are reminded
 ![](/assets/wp-content/uploads/2024/01/1Ik6AYOmjyb7CSY7WRbM8Ow.jpg)
 
 Are the maze on these walls there to reflect how lost passengers feel in the tube? (lol)
-
 ![](/assets/wp-content/uploads/2024/01/18SMCuVgqMyMRmTwGxwZP3A.jpg)A maze on the Warren Street Platform.
 
 # London Underground Subsurface Lines
@@ -157,7 +155,6 @@ I kind of got lucky with this shot, as a photo that is taken a second either bef
 ![](/assets/wp-content/uploads/2024/01/1D2MPGsdG5MUrI48zCTKDLA.jpg)Circle Line train arriving at Gloucester Road.
 
 These trains are really much newer, with walk-through carriages and air-conditioning. (finally!)
-
 ![](/assets/wp-content/uploads/2024/01/1_hxHRX8tyqTvnHM74EgI-g-scaled.jpg)Interior of a typical sub-surface train (taken on Circle Line)
 
 The fact that trains longer than the platforms of some stations really shows how old the underground network is.
@@ -241,7 +238,6 @@ Made by Siemens, a company I think MTR isn’t very fond of at that moment……
 Not sure what this list of unheard European cities represent.
 
 (Nope, they are not European cities. I did some research and found that they were some exotic destinations of the London Chatham and Dover Railway.)
-
 ![](/assets/wp-content/uploads/2024/01/1Uv_DXTvSVsA3nZgdf-5uZw.jpg)Destination wall on the concourse of Blackfriars Station, with 54 carved sandstones of exotic destinations.
 
 Although it is a “line”, it does have quite a few branches along the way, which makes for many different combination of services routing towards different branches. Plus there is a range of suburban, express, and semi-express services, making this even more complicated. An information display like this always helps.
@@ -263,7 +259,6 @@ I managed to witness the pantograph of the train being retracted at Farringdon, 
 ![](/assets/wp-content/uploads/2024/01/1oOHRLTaBgckWv6gPV17x7g.jpg)A photograph of the pantograph in its collapsed position.
 
 We returned to Kentish Town where we interchanged for the Northern Line. A somewhat odd thing was that there were no gates in between the tube and Thameslink. This is the kind of design that makes TfL fares so complicated, (and makes the system flooded with loopholes that are quickly discovered by rail enthusiasts :D)
-
 ![](/assets/wp-content/uploads/2024/01/13Q79qTdQRwIAVmGKcAey-Q.jpg)
 
 # That’s it

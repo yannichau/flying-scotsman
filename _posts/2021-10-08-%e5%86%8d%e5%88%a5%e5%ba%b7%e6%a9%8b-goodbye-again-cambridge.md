@@ -30,7 +30,6 @@ This is not my first, and hopefully not my last visit to Cambridge. And while th
 Cambridge cannot live without the River Cam, akin to the way the London cannot exist without the River Thames. Except in Cambridge the town is a whole lot smaller, so everything feels so close to the river. That means a big part of our trip revolves about the River and its golden willows and beautiful elm trees.
 
 ![](/assets/wp-content/uploads/2024/01/1myZjczdFh8FgpAbJj5waKQ-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/15G3GAj1XxxfNrJwpXf4wAQ-scaled.jpg)
 
 And of course, past "orgasm bridge" comes a cute (but somewhat hostile) swans and ducks!
@@ -44,13 +43,11 @@ Are we even on Saturday?
 **Surf and turf**
 
 A group of ducks taking a leisurely swim (and brief flight)
-
 ![](/assets/wp-content/uploads/2024/01/1INJ8pcgNvCknXQJrPGspCA-scaled.jpg)
 
 The shadows beneath the bridge particularly caught my attention — when the reflections on the water shimmer, you just become mesmerised in the dancing patterns….
 
 ![](/assets/wp-content/uploads/2024/01/1mNoci_01CzhqbQuRcIWL5g-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1tsDAy7C3MktJ4VLwD7KxUw-scaled.jpg)
 
 # Punting with a long pole
@@ -75,7 +72,6 @@ First of all, the pole is metallic and a large portion of it is always submerged
 Secondly, the river bed varies largely along the length of the River, both in terms of depth and ruggedness. So be aware of getting the pole stuck in between rocks, and falling into the water as the boat continues forward.
 
 Thirdly, beginners like us constantly crash into the banks, as we push the boat in the incorrect direction. In fact, one of us almost managed to get us stuck under the bridge. (Hint: which shot was taken under a bridge?)
-
 ![](/assets/wp-content/uploads/2024/01/1FQUBLm44stM0hty4lrzTzw.jpg) ![](/assets/wp-content/uploads/2024/01/1vE0F9R_NnLZlaAtUflEekg-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1R06wb1SL_oycAGqs-kJoxA-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/18RjmW_bM-Cat9XBn2Fweug-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1aJvhHYqzTQAxLUrYG9J3lQ-scaled.jpg)
 
 To be fair though, our guide Dave does make punting seem a lot easier than it seems, which suggests that it is a skill that can be strengthened over time. And while we’re at it, he’s a zoological studies graduate (forgot the exact name of his degree) and he works at the punting company during vacations. He told us more about his studies, the years Cambridge graduates like him spend queueing for a wedding booking in front of Kings College (even before having a partner in the first place ?!) and the mindblowing amounts colleges charge to open their venues for filming. At a first glance many of these statements might seem like a bit of a bluff, but I guess a Cambridge student knows best.
@@ -123,11 +119,8 @@ I’m just glad that this museum feels like a place co-produced by locals and in
 I’ve always thought that London was cycle friendly. But Cambridge is at a completely next level. I love cycling, so I can’t imagine what cycling in Amsterdam or Copenhagen, the world’s most cycle friendly cities, would feel like. Hopefully, I can visit these places some time in the near future!
 
 ![](/assets/wp-content/uploads/2024/01/1WtJ8mGscsVAU3EjQwi320Q-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1Jzsq337dnoBRqWQnEPVSlw-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1_zG4ViKJaHgXdYfjJx-GFQ-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1AhgIQmSB0VNGJxstAgF0Tg-scaled.jpg)
 
 # Quack, quack, quack!
@@ -143,9 +136,7 @@ And in case you were wondering how I edited the photos in this post, it’s simp
 And here’s more random shots that didn’t quite fit in to other sections of this story.
 
 ![](/assets/wp-content/uploads/2024/01/19rKlAHjf4WDem-UW9441Cw.jpg)Waiting…… ![](/assets/wp-content/uploads/2024/01/1dGfyfMn3f1SGsbS4PCQ7IQ-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1m9kkjlZn4HUOmJXoEBCP8A-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1K19O0DVQcPNRZFRW70fd3g-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1FUItjVoJ9bt6C5HVShrUPA-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1n1c4DTz7EePnhE37HRuEjA-scaled.jpg)Outside the Museum of Archaelogy and Anthropology. ![](/assets/wp-content/uploads/2024/01/1fXoHXIuJbExpGtT88L1o-A-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/17dGwAcTWHYL-bSvvgIgtQg-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1LRqrg6bf_AZb0pQaArcONw-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/01/1fpHoiKCfeRB-4CrW1roHwQ-scaled.jpg)
 
 # And this time it really is the end!

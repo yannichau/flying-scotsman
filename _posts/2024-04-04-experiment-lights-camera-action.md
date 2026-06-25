@@ -64,13 +64,9 @@ The electrical engineer in me is especially captivated with this shot, which is 
 Except when the camera that reassuredly stays constant no longer stays constant, photos bring entirely new perspectives.
 
 ![](/assets/wp-content/uploads/2024/02/P1139310-257-Edited-scaled-e1708122320674.jpeg)
-
 ![](/assets/wp-content/uploads/2024/02/P1139309-256-Edited-scaled-e1708122395731.jpeg)
-
 ![](/assets/wp-content/uploads/2024/02/P1139318-260-Edited-scaled-e1708122209417.jpeg)
-
 ![](/assets/wp-content/uploads/2024/02/P1139312-259-Edited-scaled-e1708122299191.jpeg)
-
 ![](/assets/wp-content/uploads/2024/02/P1139311-258-Edited-scaled-e1708122183886.jpeg)
 
 Let the camera follow the lights, either along it or towards it.
@@ -80,9 +76,7 @@ Let the camera follow the lights, either along it or towards it.
 With a combination of object movements in the frame, camera manoeuvring, and scaling adjustments within the blog, we are presented with a protagonist that stretches itself towards us, runs across a fractured panorama confined by the borders of the camera sensor, and teases itself in ways that look different every moment you look at it.
 
 ![](/assets/wp-content/uploads/2024/02/1010792-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/02/1010794-scaled.jpg) ![](/assets/wp-content/uploads/2024/02/1010793-scaled.jpg)
-
 ![](/assets/wp-content/uploads/2024/02/1010798-scaled.jpg) ![](/assets/wp-content/uploads/2024/02/1010796-scaled.jpg) ![](/assets/wp-content/uploads/2024/02/1010790-scaled.jpg)
 
 The grimly lit stage of my photographic world that initially appears to inhibit ideas surprisingly outdoes itself. The lights have become the protagonists of the piece, rather than the supporting fixtures behind the viewer or hidden in the ceiling. The action is no longer a result of the cohesion between a set's lights and camera, instead it is now a part of the process of creating a photograph. This is the uninspiring film industry motto "Lights, Action, Camera", unmistakedly performed with a twist.

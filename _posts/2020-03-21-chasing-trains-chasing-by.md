@@ -129,7 +129,6 @@ The front 4 coaches are produced by British Rail Engineering Limited (BREL) , wh
 ![](/assets/wp-content/uploads/2024/01/1GKuSHAYJI71BLca6ZGfGbw.jpg)Front 4 coaches of the Southeastern Class 455 train.
 
 The fact that they are in the end pretty much related to each other reminds me of agar.io (gulp)
-
 ![](/assets/wp-content/uploads/2024/01/1_2mQMZdbo0e8yPAKEsR5vQ.jpg)
 
 A closer view of London’s skyline, as the train continues its journey to Charing Cross.
