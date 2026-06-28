@@ -14,7 +14,7 @@ categories:
 tags:
 - photography
 ---
-![](/assets/wp-content/uploads/2024/01/image-16.jpeg)A stacked photo of 4 individual shots, taken at Lai King (sorry if you thought I actually waited for 4 trains to simultaneously appear within frame!)
+![A stacked photo of 4 individual shots, taken at Lai King (sorry if you thought I actually waited for 4 trains to simultaneously appear within frame!)](/assets/wp-content/uploads/2024/01/image-16.png)
 
 [](https://medium.com/@yannichau?source=post_page-----6fc0dc8f660f--------------------------------)I'm from Hong Kong, and knowing that the majority of our society members are from the UK, I’ve rarely been motivated to share my experiences about rail travel in Hong Kong. Afterall, compared to Hong Kong’s transport system, there’s endless things going on in Britain’s mammoth rail network — the grandeur of its ancient steam trains, the funny discussions regarding its post-war rail network (especially after the Beeching cuts), the never ending projects like Cross Rail (Purple Line/ Elizabeth Line/ Tfl Rail) and HS2, the heated debates around timetable reforms and re-nationalisation, and so much more.
 
@@ -36,7 +36,7 @@ Hopefully you would be able to draw some resemblances to Britain’s trains and 
 
 It’s main purpose was to serve the elite residing on the Victoria peak, and today it is a tourist attraction in its own right. The track is just around 1.4km long, but it travels nearly 400m in elevation, via the peak’s mountainous terrain.
 
-![](/assets/wp-content/uploads/2024/01/1HE_SF4lMHbd5cP-RV2zCBA-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1wYfUvQ68G_GOUFd0k8O44Q-scaled.jpg)Barker Road, a stop near the upper terminus, The Peak.
+![](/assets/wp-content/uploads/2024/01/1HE_SF4lMHbd5cP-RV2zCBA-scaled.jpg) ![Barker Road, a stop near the upper terminus, The Peak.](/assets/wp-content/uploads/2024/01/1wYfUvQ68G_GOUFd0k8O44Q-scaled.jpg)
 
 * * *
 
@@ -44,7 +44,7 @@ It’s main purpose was to serve the elite residing on the Victoria peak, and to
 
 The [tram](https://www.scmp.com/native/news/hong-kong/transport/topics/holiday-home/article/3092435/hong-kong-trams-re-energised) on along the North coast of Hong Kong Island in 1904, to meet the needs of the ever expanding city of Victoria.
 
-![](/assets/wp-content/uploads/2024/01/10QRIvbtN1mTAOKgCXMSS7w.jpg)A queue of 13 trams — a rare but rather peculiar occurrence! ![](/assets/wp-content/uploads/2024/01/1Ot2-cMSudrCN1_Y-_6uUEw-scaled.jpg)Young me fidgetting with the destination sign of the tram ![](/assets/wp-content/uploads/2024/01/1Gia5kBk-nk7gNXa0PRH73w-scaled.jpg)Fare (FYI: 2.3HKD converts to approximately 0.23GBP)
+![A queue of 13 trams — a rare but rather peculiar occurrence!](/assets/wp-content/uploads/2024/01/10QRIvbtN1mTAOKgCXMSS7w.jpg) ![Young me fidgetting with the destination sign of the tram](/assets/wp-content/uploads/2024/01/1Ot2-cMSudrCN1_Y-_6uUEw-scaled.jpg) ![Fare (FYI: 2.3HKD converts to approximately 0.23GBP)](/assets/wp-content/uploads/2024/01/1Gia5kBk-nk7gNXa0PRH73w-scaled.jpg)
 
 Looking at the photos of the Kingsway tramway subway, its double decker trams do bear quite a bit of resemblance to Hong Kong’s trams. A while ago the government attempted to replace the trams with near air-conditioned ones (charging higher fares), but there were a number of reliability issues. Currently the majority of the tram fleet are is still non air-conditioned, a rare sight in a city obsessed with air conditioners!
 
@@ -70,13 +70,13 @@ The Kinki Sharyo EMUs SP1900 operate on the West Rail Line and Ma On Shan Line, 
 
 I’m personally not really observant, but other enthusiasts find the motor noises of the Metro Cammells EMUs and the [British Rail class 317s](https://en.wikipedia.org/wiki/British_Rail_Class_317) quite similar. Aesthetically though I think its hard to draw any comparisons, considering that the British EMUs produced in this period are mostly “boxy”.
 
-![](/assets/wp-content/uploads/2024/01/1Rh-pD4T-uicQZofgR1RQ8w-scaled.jpg)Hyundai Rotem R-Stock at Shatin ![](/assets/wp-content/uploads/2024/01/1e-PkEMTvsi0BM_DlCzonDw-scaled.jpg)Kinki Sharyo EMUs SP1900 in Tong Hang ![](/assets/wp-content/uploads/2024/01/1TdmT_MWU-vN9BrnCOr6TTA.png)Metro Cammell EMUs at Kau Lung Hang (Prior to and after refurbishment) — Low-key proud about taking a photo at the exact same location as a 1980s advertisement!
+![Hyundai Rotem R-Stock at Shatin](/assets/wp-content/uploads/2024/01/1Rh-pD4T-uicQZofgR1RQ8w-scaled.jpg) ![Kinki Sharyo EMUs SP1900 in Tong Hang](/assets/wp-content/uploads/2024/01/1e-PkEMTvsi0BM_DlCzonDw-scaled.jpg) ![Metro Cammell EMUs at Kau Lung Hang (Prior to and after refurbishment) — Low-key proud about taking a photo at the exact same location as a 1980s advertisement!](/assets/wp-content/uploads/2024/01/1TdmT_MWU-vN9BrnCOr6TTA.png)
 
 An interesting thing note is that the original variant of the Metro Cammells were dubbed “the yellow cab” for its yellow coloured cab (obviously). This is in line with [Brtain’s legal regulations](https://transportdesigned.com/goodbye-yellow-front-ends-well-miss-you-sort-of/), where train fronts were required to have a yellow panel to make them more visible, a safety measurement when quieter and faster electrical trains were replacing their diesel or steam counterparts; this regulation was still in place in Britain up until 2016 or so.
 
 Aside from the 🇯🇵 Kinki Sharyo EMUs SP1900, MTR has introduced the 🇨🇳 [TML C-trains](https://en.wikipedia.org/wiki/MTR_CRRC_Changchun_EMU) on the West Rail Line and Ma On Shan Line, which have a striking resemblance to the SP1900s in terms of its external appearance.
 
-![](/assets/wp-content/uploads/2024/01/1DoBTxutr1Osg9b0A8-AQiA-scaled.jpg)TML C-Train at Che Kung Temple ![](/assets/wp-content/uploads/2024/01/11fGy1z7V2-Elp37Cu9A9UQ-scaled.jpg)The C-Train alongside SP100 at Che Kung Temple
+![TML C-Train at Che Kung Temple](/assets/wp-content/uploads/2024/01/1DoBTxutr1Osg9b0A8-AQiA-scaled.jpg) ![The C-Train alongside SP100 at Che Kung Temple](/assets/wp-content/uploads/2024/01/11fGy1z7V2-Elp37Cu9A9UQ-scaled.jpg)
 
 * * *
 
@@ -89,7 +89,7 @@ The [MTR](https://en.wikipedia.org/wiki/MTR_Corporation) (Mass Transit Railway
 
 A couple other extensions were built after the merger, most notably the brand new South Island line (lime) in 2016.
 
-![](/assets/wp-content/uploads/2024/01/1f6c8jeE1GfEKU0FxICBw8A.jpg)M-Stock turn-over at Tsuen Wan Depot
+![M-Stock turn-over at Tsuen Wan Depot](/assets/wp-content/uploads/2024/01/1f6c8jeE1GfEKU0FxICBw8A.jpg)
 
 Excluding the rolling stock inherited from KCR, its rolling stock include:
 
@@ -100,7 +100,7 @@ Excluding the rolling stock inherited from KCR, its rolling stock include:
 
 The company has portfolio of operating services overseas, including the UK. It owns a portion of the Southwestern Railway company, and is charged with operating Crossrail under the name “mtr crossrail”. Nevertheless, with re-nationalisation and de-franchisation in the air, I doubt whether MTR (or other operators as a matter of fact) would be granted further operations in the UK.
 
-![](/assets/wp-content/uploads/2024/01/1RPU83guK0Q8fM9LHZc1Nfw-scaled.jpg)TCL A-Stock ![](/assets/wp-content/uploads/2024/01/1wQI0cqovgnPeq_1dj7CYrg-scaled.jpg)TCL K-Stock ![](/assets/wp-content/uploads/2024/01/1J75ClwFdOPIrXAY1udRyyA-scaled.jpg) C-Stock at Kowloon Bay ![](/assets/wp-content/uploads/2024/01/1RwSRTqs_J_CZXWok_FzjNA-scaled.jpg)New variant of the C-stock for the South Island Line, at Ocean Park
+![TCL A-Stock](/assets/wp-content/uploads/2024/01/1RPU83guK0Q8fM9LHZc1Nfw-scaled.jpg) ![TCL K-Stock](/assets/wp-content/uploads/2024/01/1wQI0cqovgnPeq_1dj7CYrg-scaled.jpg) ![C-Stock at Kowloon Bay](/assets/wp-content/uploads/2024/01/1J75ClwFdOPIrXAY1udRyyA-scaled.jpg) ![New variant of the C-stock for the South Island Line, at Ocean Park](/assets/wp-content/uploads/2024/01/1RwSRTqs_J_CZXWok_FzjNA-scaled.jpg)
 
 * * *
 
@@ -122,11 +122,11 @@ Its[ rolling stock portfolio](https://en.wikipedia.org/wiki/Light_Rail_\(MTR\)#
   3. 🇦🇺 UGL A Gonian Phase III LRVs (1997-)
   4. 🇨🇳 UGL-Nanjing Puzhen Phase IV LRVs (2009-)
   5. 🇨🇳 CRRC Nanjing Puzhen Phase V LRVs (2020-)
-![](/assets/wp-content/uploads/2024/01/1HPsIOxEV_6_kNd3v49J5mw-scaled.jpg)Phase III LRV ![](/assets/wp-content/uploads/2024/01/13EgOg40Gq5tA-YpGozxXTQ-scaled.jpg)A phase IV LRV running on a non-dedicated section
 
-![](/assets/wp-content/uploads/2024/01/1PqtbmxCigM80k-PgxiJsNg-scaled.jpg)Weird scene: a phase IV LRV navigating tightly fitting below a bridge connecting a car-park and a public estate podium.
-
-![](/assets/wp-content/uploads/2024/01/1fXpYcEGoundVl7MwoXabSQ-scaled.jpg)Phase II LRV
+![Phase III LRV](/assets/wp-content/uploads/2024/01/1HPsIOxEV_6_kNd3v49J5mw-scaled.jpg) 
+![A phase IV LRV running on a non-dedicated section](/assets/wp-content/uploads/2024/01/13EgOg40Gq5tA-YpGozxXTQ-scaled.jpg)
+![Weird scene: a phase IV LRV navigating tightly fitting below a bridge connecting a car-park and a public estate podium.](/assets/wp-content/uploads/2024/01/1PqtbmxCigM80k-PgxiJsNg-scaled.jpg)
+![Phase II LRV](/assets/wp-content/uploads/2024/01/1fXpYcEGoundVl7MwoXabSQ-scaled.jpg)
 
 So here comes the comparisons. Oddly, the DLR commenced in 1987, 1 year prior to Hong Kong’s LRT. Like the DLR, the LRT runs on (decently heavy) 36 tonne vehicles. Unlike the DLR, the LRT has many road crossings, which makes its operational aspects more similar to tramlink. Unlike tramlink, the LRT requires a greater amount of the platform infrastructure due to the non low-floor design. Similar to the both systems, LRT stops are unmmaned, which makes the system prone to issues like vandalism and fare evasion.
 
@@ -150,7 +150,7 @@ Considering that all heavy rail services in Hong Kong are rapid transit style, i
 
 All in all, this contributes to a more spacious, comfortable (but arguably “clinically feeling”) look for Hong Kong’s carriage interiors. Nevertheless this is the trend all train manufacturers are adopting today, for practicality concerns.
 
-![](/assets/wp-content/uploads/2024/01/1_hxHRX8tyqTvnHM74EgI-g-scaled.jpg)London Underground S7 Stock Interior ![](/assets/wp-content/uploads/2024/01/1xksk0fkXyuMongwqtazbjQ-scaled.jpg)TfL Rail Class 345 Interior ![](/assets/wp-content/uploads/2024/01/1aqXoiadQwNk3KImgjZCxVw-scaled.jpg)London Overground Class 700 Interior ![](/assets/wp-content/uploads/2024/01/1z8Kz9SAja9gNoWXbk7ySZg-scaled.jpg)London Overground Electrostar 378 Interior ![](/assets/wp-content/uploads/2024/01/1sI1hcxQ734wkd5qhQzBjZw-scaled.jpg)Hong Kong Ma On Shan Line SP1900 Interior ![](/assets/wp-content/uploads/2024/01/1wI8Tkce0Q-IHWZTQO3LSQQ-scaled.jpg)Hong Kong East Rail Line R-Stock Interior
+![London Underground S7 Stock Interior](/assets/wp-content/uploads/2024/01/1_hxHRX8tyqTvnHM74EgI-g-scaled.jpg) ![TfL Rail Class 345 Interior](/assets/wp-content/uploads/2024/01/1xksk0fkXyuMongwqtazbjQ-scaled.jpg) ![London Overground Class 700 Interior](/assets/wp-content/uploads/2024/01/1aqXoiadQwNk3KImgjZCxVw-scaled.jpg) ![London Overground Electrostar 378 Interior](/assets/wp-content/uploads/2024/01/1z8Kz9SAja9gNoWXbk7ySZg-scaled.jpg) ![Hong Kong Ma On Shan Line SP1900 Interior](/assets/wp-content/uploads/2024/01/1sI1hcxQ734wkd5qhQzBjZw-scaled.jpg) ![Hong Kong East Rail Line R-Stock Interior](/assets/wp-content/uploads/2024/01/1wI8Tkce0Q-IHWZTQO3LSQQ-scaled.jpg)
 
 One striking similarity you might see is that R-stock has the same hanging hand-straps as all Class 378 and 700. Apparently they are called TOPADSTRAP and are manufactured by an Austrian company called Faigle. The appearance of the hand-straps is subjective, but personally I think they don’t feel ergonomic. I like the hefty feeling of a conventional metallic hand-strap.
 
@@ -180,4 +180,4 @@ Aside from the system’s rolling stock, there’s quite a lot of discussions th
 
 If you’ve read till the very end of this story, thank you. Otherwise, thank you as well!
 
-![](/assets/wp-content/uploads/2024/01/0kPlI_CpDBO3jmIk5.gif)Hong Kong railways, 1910–2026 (Courtesy of [timeout.com](https://www.timeout.com/hong-kong/travel/maps-showing-the-possible-future-of-the-mtr), 2018)
+![Hong Kong railways, 1910–2026 (Courtesy of [timeout.com](https://www.timeout.com/hong-kong/travel/maps-showing-the-possible-future-of-the-mtr), 2018)](/assets/wp-content/uploads/2024/01/0kPlI_CpDBO3jmIk5.gif)

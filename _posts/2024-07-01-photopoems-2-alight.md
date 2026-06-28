@@ -22,7 +22,7 @@ tags:
 - photography
 - photopoems
 ---
-![](/assets/wp-content/uploads/2024/06/image-6.png)_Half Caste_
+![_Half Caste_](/assets/wp-content/uploads/2024/06/image-6.png)
 
 Leaving at aurora  
 he starts his half-caste day  
@@ -49,9 +49,9 @@ Plight
 and set me  
 **Alight**
 
-![](/assets/wp-content/uploads/2024/06/image-4.png)_Alight_
+![_Alight_](/assets/wp-content/uploads/2024/06/image-4.png)
 
-![](/assets/wp-content/uploads/2024/06/image.png)Steam
+![Steam](/assets/wp-content/uploads/2024/06/image.png)
 
 Through the window silts I hear  
 Muffled shrills fleeting into my ear  

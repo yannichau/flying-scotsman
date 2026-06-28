@@ -15,7 +15,7 @@ tags:
 - geography
 - sustainability
 ---
-![](/assets/wp-content/uploads/2024/01/0jfycixDQj71LROoR.jpg)Photo by Kelly Lacy from Pexels
+![Photo by Kelly Lacy from Pexels](/assets/wp-content/uploads/2024/01/0jfycixDQj71LROoR.jpg)
 
 According to the UN Commission on Environment and Development, sustainability is defined by practices that:
 

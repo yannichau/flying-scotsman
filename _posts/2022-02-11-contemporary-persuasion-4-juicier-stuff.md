@@ -17,7 +17,7 @@ tags:
 - photography
 - travel
 ---
-![](/assets/wp-content/uploads/2024/01/1058522-scaled.jpg)A view from Alexandra Park
+![A view from Alexandra Park](/assets/wp-content/uploads/2024/01/1058522-scaled.jpg)
 
 # Home sweet home, London
 
@@ -93,7 +93,7 @@ Now I see why he likes solo travelling.
 
 Sadly, I don’t plan to summarise or recount this hour-long conversation entirely. As an IB student I always tend to think that I’m highly capable of thinking critically, and that these are the skills that will equip me for society. But clearly I rarely reflect upon my cultural and societal identity — I am someone who gets comfortable and accustomed to established ways of thinking, and I suspect this is the reason why I am perfectly habituated for assessment-based learning systems and religious beliefs.
 
-![](/assets/wp-content/uploads/2024/01/1058608-scaled.jpg)Widcombe
+![Widcombe](/assets/wp-content/uploads/2024/01/1058608-scaled.jpg)
 
 In a jokingly sentimental tone, he sang a couple lines “The Man Who Sold the World” — its lyrics are abstract and imperceptible, which resembles himself. I felt he should have sang this to Nas instead, though I reckon there are much better a songs to sing to someone you would like to charm, like “My Boy (My Girl)”.
 

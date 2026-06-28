@@ -23,7 +23,7 @@ tags:
 
 This is not my first, and hopefully not my last visit to Cambridge. And while the title might suggest that this is a literary piece, no, I think my shots speak more eloquently than my words. Enjoy this random collection of shots!
 
-![](/assets/wp-content/uploads/2024/01/1Sk147HbC4jzUMThyAY4bnA-scaled.jpg)Trumpington Street, near St Catherine’s College.
+![Trumpington Street, near St Catherine’s College.](/assets/wp-content/uploads/2024/01/1Sk147HbC4jzUMThyAY4bnA-scaled.jpg)
 
 # Swaying leisurely in the waters…….
 
@@ -65,7 +65,7 @@ In Xu Zhimo’s words:
 
 Once you actually roll up your sleeves (actually I was wearing a short-sleeved T-Shirt anyways) and try punting however, you would realise that his imagery in poem is overly romanticised or even disillusioned, and anyone who thinks “what you read is what you get” would be mildly disappointed upon trying to do so. Or at least that’s the way you would feel when you’re doing it the first time.
 
-![](/assets/wp-content/uploads/2024/01/1_FozC0wo2iXdykA6MKspkQ.jpg)Clueless mars.
+![Clueless mars.](/assets/wp-content/uploads/2024/01/1_FozC0wo2iXdykA6MKspkQ.jpg)
 
 First of all, the pole is metallic and a large portion of it is always submerged in water, which means that you’re also constantly bracing yourself against the drag of the river. It feels as if the river is pulling yourself into it, but on the bright side the pole floats so hold on to it in the very unfortunate event where you fall.
 
@@ -84,7 +84,7 @@ What makes a British town British? Free museums, free museums, and more free mus
 
 ## Fitzwilliam Museum
 
-![](/assets/wp-content/uploads/2024/01/1ghIH3QQirgsYGoyH_mmHNg-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1RmrHVqxAhMFrZw_yJKOsbg-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1wkGd6lPK66HZvlkd3zHvYA.jpg)Reflections and symmetries.
+![](/assets/wp-content/uploads/2024/01/1ghIH3QQirgsYGoyH_mmHNg-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1RmrHVqxAhMFrZw_yJKOsbg-scaled.jpg) ![Reflections and symmetries.](/assets/wp-content/uploads/2024/01/1wkGd6lPK66HZvlkd3zHvYA.jpg)
 
 I don’t really recall much about my visit at the Fitzwilliam museum, but it was certainly amusing to see many senior citizens touring around the museum.
 
@@ -100,7 +100,7 @@ In addition to the collection of fossils and geological artefacts displayed in t
 
 In a typical British fashion, the museum of archaeology and anthropology is full of collectables “stolen” around the world, including a number from China and Mongolia. Also in a typical british fashion, there are a number of sizeable collectables, such as the 8 metre tall Maori flagpole, which always makes me wonder how or why the British, in their right minds, would transport such large objects (or even architectural artefacts) from far, far away places. Apparently, there is a giant door (trap door?) on the floor between G/F and 1/F.
 
-![](/assets/wp-content/uploads/2024/01/1e6t1__p7ixcD8F-YZCz7Sg-scaled.jpg)Li Kai Shing Gallery: [Re:]Engtanglement gallery
+![Li Kai Shing Gallery: [Re:]Engtanglement gallery](/assets/wp-content/uploads/2024/01/1e6t1__p7ixcD8F-YZCz7Sg-scaled.jpg)
 
 Being midly bored with the artefacts arouind the gallery, I “mistakedly” picked up the attendant’s handbook sitting in the corner of gallery. I was on the page outlining visitor’s most asked questions, particularly one addressing the fact that some artefacts are (forcibly) taken from foreign countries.
 
@@ -125,7 +125,7 @@ I’ve always thought that London was cycle friendly. But Cambridge is at a comp
 
 # Quack, quack, quack!
 
-![](/assets/wp-content/uploads/2024/01/1tWdS2NQ-a9RxzNfgoCx12A-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1-yfkemu4kmKi0BBfoVbzPg-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1DmEvfMdsqcpFYjswugC2fg-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/181E6APFd2Wv1IkbUibMDqA-scaled.jpg)Cambridge University Botanic Garden
+![](/assets/wp-content/uploads/2024/01/1tWdS2NQ-a9RxzNfgoCx12A-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1-yfkemu4kmKi0BBfoVbzPg-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1DmEvfMdsqcpFYjswugC2fg-scaled.jpg) ![Cambridge University Botanic Garden](/assets/wp-content/uploads/2024/01/181E6APFd2Wv1IkbUibMDqA-scaled.jpg)
 
 # Quietly I am leaving……
 
@@ -135,10 +135,10 @@ And in case you were wondering how I edited the photos in this post, it’s simp
 
 And here’s more random shots that didn’t quite fit in to other sections of this story.
 
-![](/assets/wp-content/uploads/2024/01/19rKlAHjf4WDem-UW9441Cw.jpg)Waiting…… ![](/assets/wp-content/uploads/2024/01/1dGfyfMn3f1SGsbS4PCQ7IQ-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1m9kkjlZn4HUOmJXoEBCP8A-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1K19O0DVQcPNRZFRW70fd3g-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1FUItjVoJ9bt6C5HVShrUPA-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1n1c4DTz7EePnhE37HRuEjA-scaled.jpg)Outside the Museum of Archaelogy and Anthropology. ![](/assets/wp-content/uploads/2024/01/1fXoHXIuJbExpGtT88L1o-A-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/17dGwAcTWHYL-bSvvgIgtQg-scaled.jpg)
+![Waiting……](/assets/wp-content/uploads/2024/01/19rKlAHjf4WDem-UW9441Cw.jpg) ![](/assets/wp-content/uploads/2024/01/1dGfyfMn3f1SGsbS4PCQ7IQ-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1m9kkjlZn4HUOmJXoEBCP8A-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1K19O0DVQcPNRZFRW70fd3g-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1FUItjVoJ9bt6C5HVShrUPA-scaled.jpg) ![Outside the Museum of Archaelogy and Anthropology.](/assets/wp-content/uploads/2024/01/1n1c4DTz7EePnhE37HRuEjA-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/1fXoHXIuJbExpGtT88L1o-A-scaled.jpg) ![](/assets/wp-content/uploads/2024/01/17dGwAcTWHYL-bSvvgIgtQg-scaled.jpg)
 ![](/assets/wp-content/uploads/2024/01/1LRqrg6bf_AZb0pQaArcONw-scaled.jpg)
 ![](/assets/wp-content/uploads/2024/01/1fpHoiKCfeRB-4CrW1roHwQ-scaled.jpg)
 
 # And this time it really is the end!
 
-![](/assets/wp-content/uploads/2024/01/15lSgLoCqD7FGrrsQ-6VaIw.jpg)Bye bye!
+![Bye bye!](/assets/wp-content/uploads/2024/01/15lSgLoCqD7FGrrsQ-6VaIw.jpg)

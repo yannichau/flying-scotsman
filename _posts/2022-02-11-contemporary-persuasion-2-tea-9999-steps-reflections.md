@@ -17,7 +17,7 @@ tags:
 - photography
 - travel
 ---
-![](/assets/wp-content/uploads/2024/01/1057752-scaled.jpg)A twist at North Parade
+![A twist at North Parade](/assets/wp-content/uploads/2024/01/1057752-scaled.jpg)
 
 # Good morning
 
@@ -37,7 +37,7 @@ _“Do you know how to operate this toaster?”_
 
 _“No.”_
 
-![](/assets/wp-content/uploads/2024/01/1057760-scaled.jpg)Pulteney Bridge
+![Pulteney Bridge](/assets/wp-content/uploads/2024/01/1057760-scaled.jpg)
 
 ## The Mongolian girl
 
@@ -159,7 +159,7 @@ I couldn’t help but notice how this resembled something that happened earlier 
 
 It’s odd how we are all so attached to certain objects that we take for granted, yet we lose hold of them so easily.
 
-![](/assets/wp-content/uploads/2024/01/1057815-scaled.jpg)The Holbourne Museum
+![The Holbourne Museum](/assets/wp-content/uploads/2024/01/1057815-scaled.jpg)
 
 ## Temptatious Indian food, but (sadly) not Kamasutra
 
@@ -177,7 +177,7 @@ As usual, here comes the line that I dare not recite at every restaurant I’ve 
 
 _“Thank you, the food is very nice.”_
 
-![](/assets/wp-content/uploads/2024/01/1058409-scaled.jpg)Stall Street
+![Stall Street](/assets/wp-content/uploads/2024/01/1058409-scaled.jpg)
 
 ## More unthreading
 

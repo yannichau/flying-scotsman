@@ -16,7 +16,7 @@ tags:
 - photography
 - travel
 ---
-![](/assets/wp-content/uploads/2024/01/1058073-scaled.jpg)Fashion Museum Bath
+![Fashion Museum Bath](/assets/wp-content/uploads/2024/01/1058073-scaled.jpg)
 
 # Finding the Right Pace
 

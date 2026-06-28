@@ -152,7 +152,7 @@ And so he went back into swirling rants about Sainsbury’s failing to understan
 
 He did not ask for my name.
 
-![](/assets/wp-content/uploads/2024/01/19eWepqLsRn99mzLEp4KcZQ.jpg)Taken in London in 2019
+![Taken in London in 2019](/assets/wp-content/uploads/2024/01/19eWepqLsRn99mzLEp4KcZQ.jpg)
 
 # A quick note on the photos
 

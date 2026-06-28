@@ -20,27 +20,27 @@ tags:
 - volunteering
 - wales
 ---
-![](/assets/wp-content/uploads/2024/01/image-17.jpeg)Machynlleth Footbridge, signage in both Welsh and English. Interestingly every single symbol has been duplicated as well.
+![Machynlleth Footbridge, signage in both Welsh and English. Interestingly every single symbol has been duplicated as well.](/assets/wp-content/uploads/2024/01/image-17.jpeg)
 
 I know it’s probably not the best idea to write a report in chronological order, but I do believe that presenting photos in chronological order facilitates my flashback process.
 
 Our day started at London Euston, where we stepped aboard the Avanti West coast service to Birmingham new street. This was one week after the franchise was passed from Virgin Trains, when the Pendolinos had yet to be refurbished, with an oddly blank white-washed livery. There are still remnants of Virgin Trains’ 20 years of operation though, as you can tell from the “VT” prefixed train number.
 
-![](/assets/wp-content/uploads/2024/01/1_1CJ2-ErZQslEu-aOkUXL31Q.jpg) ![](/assets/wp-content/uploads/2024/01/1_1NRTaHbmkilg07GVOSmN6eA.jpg) Avanti West Coast Pendolinos
+![](/assets/wp-content/uploads/2024/01/1_1CJ2-ErZQslEu-aOkUXL31Q.jpg) ![Avanti West Coast Pendolinos](/assets/wp-content/uploads/2024/01/1_1NRTaHbmkilg07GVOSmN6eA.jpg)
 
 The next 2 photos were taken at Birmingham New Street.
 
-![](/assets/wp-content/uploads/2024/01/1_1H5lyiC7T-2FJPm2-RwjnYg.jpg)London Northwestern service approaching Birmingham New Street
+![London Northwestern service approaching Birmingham New Street](/assets/wp-content/uploads/2024/01/1_1H5lyiC7T-2FJPm2-RwjnYg.jpg)
 
 We arrived at Birmingham New Street at around 17:00, when it was starting to approach the evening peak. Our train to Wales was quite crowded as well, and it was worsened by the fact that our train was around 20 minutes late.
 
 The new national train timetable came a week after this, so hopefully National Rail/ TfW did manage to somewhat reduce delays?
 
-![](/assets/wp-content/uploads/2024/01/1_1_8NqllxpZUz3CvvXoTQasw.jpg)Birmingham New Street Station Concourse
+![Birmingham New Street Station Concourse](/assets/wp-content/uploads/2024/01/1_1_8NqllxpZUz3CvvXoTQasw.jpg)
 
 This photo was taken at a time when the carriage was relatively less crowded.
 
-![](/assets/wp-content/uploads/2024/01/1_1lf08MoP_iMGrZqzl7sbpTw.jpg)Inside a TfW (Trafnidiaeth Cymru) Class 150/2 Sprinter
+![Inside a TfW (Trafnidiaeth Cymru) Class 150/2 Sprinter](/assets/wp-content/uploads/2024/01/1_1lf08MoP_iMGrZqzl7sbpTw.jpg)
 
 On the topic of degrading train service quality, the shortcomings of the train were especially apparent under such heavy duty. Wind was sifting through the flimsy doors, and in between the window panes. Perhaps the train was never designed for this sort of intercity commuter service afterall.
 
@@ -54,7 +54,7 @@ Meanwhile, as we approach Wales, say hello to bilingualism!
 
 We later changed to another train at Shrewsbury (though it was supposed to be the same service) on to our last leg to Penrhyndeudraeth. As we went further into North Wales along the Cambrian Line, we basically were the only passengers left on the train.
 
-![](/assets/wp-content/uploads/2024/01/1_14N-WvGyqDKhIZnrYoR5jSw.jpg)Inside a deserted Class 158 Express Sprinter Carriage
+![Inside a deserted Class 158 Express Sprinter Carriage](/assets/wp-content/uploads/2024/01/1_14N-WvGyqDKhIZnrYoR5jSw.jpg)
 
 Upon arrival at Penrhyndeudraeth, we were kindly taken to the youth hostel along the heritage railway. More on that later.
 
@@ -96,11 +96,11 @@ While most of the work we performed was not directly related to my electrical an
 
 Speaking of efficiency, we were kind of halted by a sudden brief moment of hail on our second day of volunteering, which I had never experienced before.
 
-![](/assets/wp-content/uploads/2024/01/1_1mwUPRCtfVL4rq0LKbBzGJA.jpg)The lonely carriage in the hail.
+![The lonely carriage in the hail.](/assets/wp-content/uploads/2024/01/1_1mwUPRCtfVL4rq0LKbBzGJA.jpg)
 
 But the gorgeous views at the other times of the day never cease to awe you.
 
-![](/assets/wp-content/uploads/2024/01/1GuRCBpu3LQ1K8ilotQmXHg-scaled.jpg)Sunset!
+![Sunset!](/assets/wp-content/uploads/2024/01/1GuRCBpu3LQ1K8ilotQmXHg-scaled.jpg)
 
 * * *
 
@@ -127,19 +127,19 @@ We arguably learnt quite a bit more about the history of the Great Western Railw
 # Departure
 
 The sky was visibly cloudy the day we had to leave. Maybe we were allfeeling sad that we had to leave such a wonderful place…….(awww)
-![](/assets/wp-content/uploads/2024/01/1_1GoPQzmqeqQWAUI-d3K592w.jpg)A view of the small town of Penrhyndeudraeth.
+![A view of the small town of Penrhyndeudraeth.](/assets/wp-content/uploads/2024/01/1_1GoPQzmqeqQWAUI-d3K592w.jpg)
 
 We passed by Dovey Junction, a station that we were constantly talking about when were playing the GWR game. It’s called a junction but it is located at an inconvenient location. It is where the Cambrian line splits into the line to Aberystwyth and the Cambrian Coast Line to Pwllheli.
 
-![](/assets/wp-content/uploads/2024/01/1_1dyyG86hFQsFErHU2Z5qSqw.jpg)Dovey Junction
+![Dovey Junction](/assets/wp-content/uploads/2024/01/1_1dyyG86hFQsFErHU2Z5qSqw.jpg)
 
 Interestingly, it appears as if it is isolated in the midst of nowhere, with a single island platform that does not seem to be accessible given that theere are tracks at both sides of the platform.
 
-![](/assets/wp-content/uploads/2024/01/1_1YNKuHRbU_VLeeIOkdvMnXg.jpg)The island platform at Dovey Junction.
+![The island platform at Dovey Junction.](/assets/wp-content/uploads/2024/01/1_1YNKuHRbU_VLeeIOkdvMnXg.jpg)
 
 However, according to TfW statistics, 4622 people use the station anually, and 9321 use the station for interchanges. It is unclear how TfW collects this data, and honestly I just wouldn’t want to be stranded at such an isolated station.
 
-![](/assets/wp-content/uploads/2024/01/1_18Q3all9w3dvSoFE4l739Zg.jpg)The Class 158 Express Sorinter.
+![The Class 158 Express Sorinter.](/assets/wp-content/uploads/2024/01/1_18Q3all9w3dvSoFE4l739Zg.jpg)
 
 With so many journeys undergone everyday, the train undestandably regularly suffers quite a bit of wear and tear. This is especially apparent due to its white livery. The windows are extremely murky as well.
 
@@ -147,7 +147,7 @@ With so many journeys undergone everyday, the train undestandably regularly suff
 
 Those of you with keen eyes (hopefully most of you) would notice that there is an oddly crystal clear window amongst the murky array of windows. You may wonder why that is the case.
 
-![](/assets/wp-content/uploads/2024/01/1_1PKTDxE7nEWIR0aL5OfqmCw.jpg)The oddly clean window amongst.
+![The oddly clean window amongst.](/assets/wp-content/uploads/2024/01/1_1PKTDxE7nEWIR0aL5OfqmCw.jpg)
 
 Contrary to what some of you may think of rail enthusiasts, rail enthusiasts like trains not only for the experience of being in a train itself, but also for the experience of witnessing gorgeous, or sometimes even picturesque landscapes along the way. Indeed, one side of the train was always facing the sea (which might have allowed us to see Ireland on a super clear day?!). On the bright side, this means a boundless view for passengers throughout a large segement of the trip. Nonetheless, this also means that it is constantly exposed to the moisture, or more specifically the salinity of the sea water, which leads to the accumulation of salt on the windows. This actually significantly reduces the visibility of the windows.
 
@@ -155,7 +155,7 @@ Our window was particularly murky, so we rushed out to wipe our window at the fi
 
 Now that I look at this photo, I wonder what the cleaners or train presentation managers thought when they saw this oddly clean window. With contentment or bewilderment?
 
-![](/assets/wp-content/uploads/2024/01/1_1264FFU3HzUYKkBafmUT7UQ.jpg)Our Class 221 Super Voyager arriving at London Euston.
+![Our Class 221 Super Voyager arriving at London Euston.](/assets/wp-content/uploads/2024/01/1_1264FFU3HzUYKkBafmUT7UQ.jpg)
 
 After a fairly uneventful journey which we spent playing cards most of the time, we finally arrived at London Euston.
 
@@ -165,6 +165,6 @@ After a fairly uneventful journey which we spent playing cards most of the time,
 
 This was an experience beyond an enthusiast activity. Working alongside my passionate peers from the Rail Society as well as experienced volunteers from the Ffestiniog Railway was satisfying.We developed a closer bond with the country’s railways, and also strengthened our cross-generational ties with experienced veterans of the rail industry.
 
-![](/assets/wp-content/uploads/2024/01/12KiEKs-AEsp4juWKbufQuw-scaled.jpg)A view from the footbridge of Machynlleth Station
+![A view from the footbridge of Machynlleth Station](/assets/wp-content/uploads/2024/01/12KiEKs-AEsp4juWKbufQuw-scaled.jpg)
 
 I found the trip very rewarding, and if given the opportunity, I look forward to participating in this again in the future!

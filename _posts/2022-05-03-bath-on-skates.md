@@ -48,7 +48,7 @@ This makes it perfect for cycling, and I imagine that as a cyclist it would take
 
 Travelling on skates is however a completely different story. Under very dry weather conditions, this path might barely be considered passable for someone who is acclimated to urban street skating.
 
-![](/assets/wp-content/uploads/2024/01/1bUcyxJUYKwKnRbWoTHIyVg@2x.jpg)Saltford, which marks approximately a third of my journey completed!
+![Saltford, which marks approximately a third of my journey completed!](/assets/wp-content/uploads/2024/01/1bUcyxJUYKwKnRbWoTHIyVg@2x.jpg)
 
 There was no rain on my particular day, but there must had been a brief drizzle the previous night, which made the leaf-covered path extremely slippery. It is analogous to the idea that overground trains have to run extremely slowly during the autumn months due to wet leaves lying on tracks.
 

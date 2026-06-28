@@ -45,7 +45,7 @@ _“No.”_
 
 I sensed Arjun’s desperation in the conversation, but anyhow I’m too young to comment on that. That said, I wish I do have the spontaneity he has to travel to “wherever the weather is nice”.
 
-![](/assets/wp-content/uploads/2024/01/1058262-scaled.jpg)The Royal Crescent Lawn
+![The Royal Crescent Lawn](/assets/wp-content/uploads/2024/01/1058262-scaled.jpg)
 
 Regardless, at this very moment, Nas just wanted to get the shopping all over with in ten minutes. I tend to think that’s the way I shop as well.
 

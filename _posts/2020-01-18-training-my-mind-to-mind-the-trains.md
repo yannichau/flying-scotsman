@@ -25,46 +25,46 @@ I have to say, I still think London’s railway network looks way too complicate
 
 Our day started at Liverpool Street. Looks like a pretty nice place to start with, but not necessarily so when you see pigeons doing their business within the station. Fortunately or unfortunately, I don’t have a photo for that.
 
-![](/assets/wp-content/uploads/2024/01/1Plw6_6njGpbh9CaG6fMJWw.jpg)Liverpool Street Station Concourse
+![Liverpool Street Station Concourse](/assets/wp-content/uploads/2024/01/1Plw6_6njGpbh9CaG6fMJWw.jpg)
 
 We then caught the next TfL rail train to Shenfield. I was actually kind of looking forward to seeing the Class 315s running on TfL rail, but I guess they run quite infrequently. This is the interiors of the Class 345 Aventra, exactly the type I previously saw at London Paddington.
 
-![](/assets/wp-content/uploads/2024/01/1_1xksk0fkXyuMongwqtazbjQ.jpg)Interiors of the TfL Rail Class 345 Aventra
+![Interiors of the TfL Rail Class 345 Aventra](/assets/wp-content/uploads/2024/01/1_1xksk0fkXyuMongwqtazbjQ.jpg)
 
 Its colourful maquette seat covering is quite a delight to look at as well.
 
-![](/assets/wp-content/uploads/2024/01/1_1R3uYZUbVw0vgF6uw81kvYg.jpg)TfL Rail Maquette seat covering
+![TfL Rail Maquette seat covering](/assets/wp-content/uploads/2024/01/1_1R3uYZUbVw0vgF6uw81kvYg.jpg)
 
 As expected, this is a photo of the front of the locomotive when we arrived at Romford.
 
-![](/assets/wp-content/uploads/2024/01/1APeBhYcWmDHOnGuv9Nuz9Q.png)Southbound TfL Rail approaching Romford. (Class 345 Aventra)
+![Southbound TfL Rail approaching Romford. (Class 345 Aventra)](/assets/wp-content/uploads/2024/01/1APeBhYcWmDHOnGuv9Nuz9Q.png)
 
 I think I was pretty bored at the time, so I even took a few picture of the sleepers of the rail. I later did a bit of reading, and turns out “Tarmac” used to be one of the country’s largest suppliers for concrete rail sleepers. On a side note, when I was on my volunteering trip to the Ffestiniog and Welsh Heritage Railway, we were told that the newly replaced sleepers were made from recycled plastics. A lot of work must have went into this kind of product to make sure it wouldn’t expand or contract drastically during extreme weather conditions.
 
 I don’t know what company supplies sleepers for the national rail network right now, but the recycled plastic sleepers that I talked about are definitely not as widespread at the moment.
 
-![](/assets/wp-content/uploads/2024/01/1ik7vIh9cTDZ-a6KZWvyQCw.jpg)“Tarmac” concrete rail sleepers
+![“Tarmac” concrete rail sleepers](/assets/wp-content/uploads/2024/01/1ik7vIh9cTDZ-a6KZWvyQCw.jpg)
 
 Meanwhile, we also spotted a stopping southbound Greater Anglia Railway service. Interestingly, there weren’t any northbound Greater Anglia services that stopped at Romford that day.
 
-![](/assets/wp-content/uploads/2024/01/1FSYdBncCKJ5fChSPsyY4Wg.jpg)Greater Anglia Railway Class 321 trains stopping at Romford.
+![Greater Anglia Railway Class 321 trains stopping at Romford.](/assets/wp-content/uploads/2024/01/1FSYdBncCKJ5fChSPsyY4Wg.jpg)
 
 We were waiting for the London Overground Romford to Upminster service to arrive, and finally here it is! The locomotive is quite “boxy” indeed.
 
 Another interesting thing I observed was the train’s double-leaf sliding doors, rather than the single-leaf sliding doors or sliding plug doors used in today’s trains. Not sure what the advantage of a double-leaf sliding door is; maybe it has better aerodynamics, or maybe it reduces the chance of debris jamming on the door rails. But this design is definitely something from the past.
 
-![](/assets/wp-content/uploads/2024/01/1R7u-vn7dd3heh2MZ0rbBpA.jpg)London Overground Class 315
+![London Overground Class 315](/assets/wp-content/uploads/2024/01/1R7u-vn7dd3heh2MZ0rbBpA.jpg)
 
 The exterior of the train looks quite normal, but the interior definitely shows the age of the train, as if it is something from the 60s. It even has luggage racks, which reminds us that it used to run long-haul suburban services.
 
-![](/assets/wp-content/uploads/2024/01/1aJcs9tiAWJH7g9B4KVqiug-scaled.jpg)London Overground Class 315 Interiors
+![London Overground Class 315 Interiors](/assets/wp-content/uploads/2024/01/1aJcs9tiAWJH7g9B4KVqiug-scaled.jpg)
 
 Still, the train has been retrofitted with shiny new buttons. (that are labelled with braille to fit today’s accessibility requirements)
 ![](/assets/wp-content/uploads/2024/01/1ucemh_puJ-2bsUCysxzKDg.jpg)
 
 It was time to return to zone 4 before we would exceed the maximum journey time for zones 1 to 4. So we hopped on the c2c service to Barking.
 
-![](/assets/wp-content/uploads/2024/01/1L-FgukDF3z4M87TiCVYZdw.jpg)c2c Class 357
+![c2c Class 357](/assets/wp-content/uploads/2024/01/1L-FgukDF3z4M87TiCVYZdw.jpg)
 
 This was the first time I saw 2 locomotives connected in this manner. I later found this to be quite common, but at the time I thought it was pretty interesting. I guess the service was bound to split at some point down the line.
 
@@ -72,25 +72,25 @@ This was the first time I saw 2 locomotives connected in this manner. I later fo
 
 Interior wise, we could tell that it was an intercity service, with the maximised seating arrangement and luggage racks. The somewhat limey and pink colour scheme did feel like something from Disneyland though.
 
-![](/assets/wp-content/uploads/2024/01/1grlHUloqg7FCp7DXnr9K4A.jpg)Interiors of c2c Class 357
+![Interiors of c2c Class 357](/assets/wp-content/uploads/2024/01/1grlHUloqg7FCp7DXnr9K4A.jpg)
 
 At this point, we’ve arrived at Barking, where we decided to halt our first leg of the journey. It was then we realised that we have been charged penalty fares (to be explained at the end of the article). Perhaps we need to do some more keep tracking next time......
 
 After lunch, we boarded the Barking to Gospel Oak Overground service, which runs the newest Class 710. I believe they had been running on the line since late 2019, and are currently running on the Watford DC Branch as well.
 
-![](/assets/wp-content/uploads/2024/01/1cWkQ6Pvm6hAgx2LUWe9bHw.png)Overground Class 710’s sleek exterior!
+![Overground Class 710’s sleek exterior!](/assets/wp-content/uploads/2024/01/1cWkQ6Pvm6hAgx2LUWe9bHw.png)
 
 Interestingly, TfL decided to introduce a new maquette on these train seats to freshen up things a bit. The green does demarcate quite a bit from the traditional orange and brown colour scheme.
 
-![](/assets/wp-content/uploads/2024/01/1_1IY6bBDyTj6UkzjmE_o9vww.jpg)Brand new maquette seat coverings on the Class 710s.
+![Brand new maquette seat coverings on the Class 710s.](/assets/wp-content/uploads/2024/01/1_1IY6bBDyTj6UkzjmE_o9vww.jpg)
 
 Surprisingly (or not so surprisingly), autumn leaf fall is a real concern for the London Overground. I would imagine Hong Kong’s MTR simply removing trees along the railway regularly just to ensure that this kind of thing wouldn’t happen. Is TfL a tree conservation organisation as well?
 
-![](/assets/wp-content/uploads/2024/01/1PGeYIuwJINR_CDcQbd12FA.jpg)Leaf Fall Autumn 2019 Notice
+![Leaf Fall Autumn 2019 Notice](/assets/wp-content/uploads/2024/01/1PGeYIuwJINR_CDcQbd12FA.jpg)
 
 After quite a while, we arrived at Harringay Green Lanes.
 
-![](/assets/wp-content/uploads/2024/01/19gqvC03v5_MXHy8QjMLlcQ.jpg)A cyclist boarding the overground
+![A cyclist boarding the overground](/assets/wp-content/uploads/2024/01/19gqvC03v5_MXHy8QjMLlcQ.jpg)
 
 A final look at the Class 710s. The leaves on the tree complemented the orange livery of the locomotive very nicely, so I’ve intentionally tweaked the tones to enhance the autumn colours.
 
@@ -98,15 +98,15 @@ A final look at the Class 710s. The leaves on the tree complemented the orange l
 
 A view to the bridge (not from the bridge).
 
-![](/assets/wp-content/uploads/2024/01/15yOGx93nYIc9Ss8hj4lM4A.jpg)Harringay Green Lanes Overground bridge
+![Harringay Green Lanes Overground bridge](/assets/wp-content/uploads/2024/01/15yOGx93nYIc9Ss8hj4lM4A.jpg)
 
 We then walked to Harringay to change to the southbound Great Northern service.
 
-![](/assets/wp-content/uploads/2024/01/14J0w4kig8Qn8Ul-hlx4v4A.jpg)A view down the slope from Harringay Station.
+![A view down the slope from Harringay Station.](/assets/wp-content/uploads/2024/01/14J0w4kig8Qn8Ul-hlx4v4A.jpg)
 
 Note: the previous photo was taken from a weak bridge.
 
-![](/assets/wp-content/uploads/2024/01/1PCLERWZMy-spLpDwE4HpzQ.jpg)Weak footbridge running across Harringay Station.
+![Weak footbridge running across Harringay Station.](/assets/wp-content/uploads/2024/01/1PCLERWZMy-spLpDwE4HpzQ.jpg)
 
 Once again, it was time for me to practice my lousy pan shot skills! For this shot however, the panning effect isn’t quite obvious.
 
@@ -114,7 +114,7 @@ Once again, it was time for me to practice my lousy pan shot skills! For this sh
 
 Later, we reached East Croydon, where we went on some trams. Do check out my previous post for a few more shots of the Govia Thameslink Railway Class 700 Desiro City’s.
 
-![](/assets/wp-content/uploads/2024/01/1_1F-L4F3tWDNhz8sIiTuiSoQ.jpg)East Croydon Tram Station, Westbound.
+![East Croydon Tram Station, Westbound.](/assets/wp-content/uploads/2024/01/1_1F-L4F3tWDNhz8sIiTuiSoQ.jpg)
 
 This was my first time on trams in the UK, and to be perfectly honest I don’t think I’ve ever been on many trams across the world before. Trams that come to my mind is Hong Kong Island’s Tram and Kagoshima’s Trams. (I think these are the only two tram networks I’ve been on before)
 
@@ -127,29 +127,29 @@ Unlike the aforementioned tram systems, London’s Tramlink system, built in 200
 Each tram has a super low floor designs of 350 mm high (or 350 mm low, depending on your perspective), which is much lower than Hong Kong’s Trams. As a result, the ceiling is deceptively high as well.
 
 As always, close ups of seat maquette patterns deserve ta full width position in my blog. (This would be apparent if you read this on a desktop or laptop)
-![](/assets/wp-content/uploads/2024/01/1exrFOPz4N5dETLE0TZemHg-scaled.jpg)London Tramslink seat maquette cover pattern.
+![London Tramslink seat maquette cover pattern.](/assets/wp-content/uploads/2024/01/1exrFOPz4N5dETLE0TZemHg-scaled.jpg)
 
 Our tram journey came to an end at Mitcham Junction. This portion of tram actually operates actually more like light or medium rail, with segregated right-of-way. However, this is also the section where some parts are single-tracked, so service frequency is limited.
 
-![](/assets/wp-content/uploads/2024/01/1nX7BQinz2v5DUuFdCfZiaw.jpg)Mitcham Junction Tram Station.
+![Mitcham Junction Tram Station.](/assets/wp-content/uploads/2024/01/1nX7BQinz2v5DUuFdCfZiaw.jpg)
 
 Subsequently, we boarded various trains before arriving at Balham. I didnt’ take as many photos as I wanted since we were actually kind of in a rush. Everything before East Croydon commenced as expected, but if you see the schedule outlined at the end of the blog, you can see how things started to get complicated here.
 
-![](/assets/wp-content/uploads/2024/01/1_lRZZHat5vpb5lpfqPrYug.jpg)Southern Class 377 Train approaching Balham.
+![Southern Class 377 Train approaching Balham.](/assets/wp-content/uploads/2024/01/1_lRZZHat5vpb5lpfqPrYug.jpg)
 
 Our train to Clapham Junction was luckily delayed by 5 minutes, which gave us a slight bit more time to run from the underground station to the ground-level platform. I know I should probably feel happy for this, but perhaps that is also the exact reason why Southern was voted the worst train operator for 3 years in a row.
 
 I was quite captivated by the look of the Class 455 locmotives however.
 
-![](/assets/wp-content/uploads/2024/01/1OqU982O51Bepoz5hujc_Ag.jpg)Southern Class 455 Train approaching Balham.
+![Southern Class 455 Train approaching Balham.](/assets/wp-content/uploads/2024/01/1OqU982O51Bepoz5hujc_Ag.jpg)
 
 The aesthetic of the interiors are quite clean, with the curved handrails reaching up to the rail of continuous light boxes. The round yellow handle-pieces on the seats are "cute", and somehow they remind me of Mickey Mouse's ears.
 
-![](/assets/wp-content/uploads/2024/01/1kkUESEpaNi_33lctMpvkKw.jpg)Southern Class 455 Interiors.
+![Southern Class 455 Interiors.](/assets/wp-content/uploads/2024/01/1kkUESEpaNi_33lctMpvkKw.jpg)
 
 When we arrived at Clapham Junction, we immediately rushed to board the train to Kensington (Olympia). It was kind of a shame in that there was actually quite a lot of train-spotting we could do at Clapham Junction, though it was already too dark for any good photos anyway.
 
-![](/assets/wp-content/uploads/2024/01/1_1z8Kz9SAja9gNoWXbk7ySZg.jpg)Interior of a typical London Overground 378 (Electrostar).
+![Interior of a typical London Overground 378 (Electrostar).](/assets/wp-content/uploads/2024/01/1_1z8Kz9SAja9gNoWXbk7ySZg.jpg)
 
 And that is where we ended our full day of train-spotting.
 

@@ -27,7 +27,7 @@ Anyways, by the time I had arrived at Bath it was noon. Normally I would have, w
 
 As a clueless solo traveller, I reckoned I should search for the “best restaurants in Bath”. Afterall I was likely going to spend the night at the bar, so I might as well probably treat myself well for my first lunch. On TripAdvisor, Sally Lunns came along as the top option, as the food is supposedly nice, and the building is one of the oldest in Bath, dating back to 1842. The images of the food did not look particularly special, but I believe in reviews and review ratings — which is sometimes a bad idea because I end up going for “mainstream” stuff.
 
-![](/assets/wp-content/uploads/2024/01/1057737-2-scaled.jpg)Sally Lunns from 1680!
+![Sally Lunns from 1680!](/assets/wp-content/uploads/2024/01/1057737-2-scaled.jpg)
 
 # Queues
 
