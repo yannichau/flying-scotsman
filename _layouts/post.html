@@ -1,42 +1,136 @@
+---
+layout: default
+---
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | xml_escape }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+</article>
+
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Find all paragraphs containing multi-image galleries
-  const galleries = document.querySelectorAll("p:has(img + img)");
-  
-  galleries.forEach(gallery => {
-    const images = gallery.querySelectorAll("img");
-    
-    images.forEach(img => {
-      // 1. Create a wrapper box to house the image + caption together
-      const wrapper = document.createElement("div");
-      wrapper.className = "gallery-item";
-      
-      // Calculate aspect ratio dynamically so flexbox knows how to size the column widths
-      img.onload = function() {
-        const ratio = img.naturalWidth / img.naturalHeight;
-        wrapper.style.flexGrow = ratio; // Gives wider images more space naturally
-      };
-      // Trigger fallback if image is already cached
-      if (img.complete) {
-        const ratio = img.naturalWidth / img.naturalHeight;
-        wrapper.style.flexGrow = ratio || 1;
+document.addEventListener("DOMContentLoaded", () => {
+  const paragraphNodes = Array.from(document.querySelectorAll(".post-content > p"));
+
+  paragraphNodes.forEach((paragraph) => {
+    const images = Array.from(paragraph.querySelectorAll("img"));
+    if (images.length < 2) return;
+
+    const gallery = document.createElement("div");
+    gallery.className = "image-gallery";
+
+    const rows = buildGalleryRows(images);
+
+    rows.forEach((rowImages) => {
+      const row = document.createElement("div");
+      row.className = "gallery-row";
+
+      rowImages.forEach((img) => {
+        const figure = document.createElement("figure");
+        figure.className = "gallery-item";
+
+        const updateRatio = () => {
+          const ratio = img.naturalWidth && img.naturalHeight ? img.naturalWidth / img.naturalHeight : 1;
+          figure.dataset.ratio = String(ratio || 1);
+          layoutGallery(gallery);
+        };
+
+        const imageCopy = img.cloneNode(true);
+        imageCopy.removeAttribute("width");
+        imageCopy.removeAttribute("height");
+        figure.appendChild(imageCopy);
+
+        const captionText = (img.getAttribute("alt") || "").trim();
+        if (captionText) {
+          const caption = document.createElement("figcaption");
+          caption.textContent = captionText;
+          figure.appendChild(caption);
+        }
+
+        if (img.complete) {
+          updateRatio();
+        } else {
+          img.addEventListener("load", updateRatio, { once: true });
+        }
+
+        row.appendChild(figure);
+      });
+
+      gallery.appendChild(row);
+    });
+
+    while (paragraph.firstChild) {
+      paragraph.removeChild(paragraph.firstChild);
+    }
+    paragraph.appendChild(gallery);
+    layoutGallery(gallery);
+  });
+
+  function buildGalleryRows(images) {
+    const rows = [];
+    let remaining = [...images];
+
+    while (remaining.length > 0) {
+      if (remaining.length === 1) {
+        if (rows.length === 0) {
+          rows.push(remaining.splice(0, 1));
+        } else {
+          rows[rows.length - 1].push(remaining.shift());
+        }
+        continue;
       }
 
-      // 2. Extract the hidden Alt string text
-      const captionText = img.getAttribute("alt");
-      
-      // Put the image inside the wrapper
-      img.parentNode.insertBefore(wrapper, img);
-      wrapper.appendChild(img);
-      
-      // 3. If caption text exists, generate a visible element beneath the image
-      if (captionText && captionText.trim() !== "") {
-        const caption = document.createElement("span");
-        caption.className = "custom-caption";
-        caption.textContent = captionText;
-        wrapper.appendChild(caption);
+      let count = 3;
+      if (remaining.length === 2 || remaining.length === 4) {
+        count = 2;
+      } else if (remaining.length % 3 === 1) {
+        count = 2;
       }
+
+      rows.push(remaining.splice(0, count));
+    }
+
+    return rows;
+  }
+
+  function layoutGallery(gallery) {
+    const rows = Array.from(gallery.querySelectorAll(".gallery-row"));
+    if (!rows.length) return;
+
+    const gap = 16;
+    const containerWidth = gallery.getBoundingClientRect().width || 1000;
+
+    rows.forEach((row) => {
+      const items = Array.from(row.querySelectorAll(".gallery-item"));
+      if (!items.length) return;
+
+      const sumRatios = items.reduce((total, item) => {
+        const ratio = parseFloat(item.dataset.ratio || "1");
+        return total + (Number.isFinite(ratio) ? ratio : 1);
+      }, 0);
+
+      const rowHeight = (containerWidth - gap * Math.max(0, items.length - 1)) / sumRatios;
+
+      items.forEach((item) => {
+        const ratio = parseFloat(item.dataset.ratio || "1");
+        const width = (Number.isFinite(ratio) ? ratio : 1) * rowHeight;
+        item.style.setProperty("--gallery-item-width", `${width}px`);
+        item.style.setProperty("--gallery-row-height", `${rowHeight}px`);
+      });
     });
-  });
+  }
 });
 </script>
