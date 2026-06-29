@@ -8,7 +8,7 @@ last_modified_at: 2024-01-24 21:17:38 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2023/08/YanToChau_Contradictions_HK-scaled.jpg
+  path: /assets/wp-content/uploads/2023/08/YanToChau_Contradictions_HK-scaled.avif
   alt: A blue-colored double decker tram driving by a cyclist in a yellow shirt, clearly
     blatant of all traffic regulations.
 categories:

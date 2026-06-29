@@ -8,7 +8,7 @@ last_modified_at: 2024-12-16 22:42:10 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2024/06/image-4.png
+  path: /assets/wp-content/uploads/2024/06/image-4.avif
 categories:
 - Photography
 - Photopoems
@@ -22,7 +22,7 @@ tags:
 - photography
 - photopoems
 ---
-![_Half Caste_](/assets/wp-content/uploads/2024/06/image-6.png)
+![_Half Caste_](/assets/wp-content/uploads/2024/06/image-6.avif)
 
 Leaving at aurora  
 he starts his half-caste day  
@@ -49,9 +49,9 @@ Plight
 and set me  
 **Alight**
 
-![_Alight_](/assets/wp-content/uploads/2024/06/image-4.png)
+![_Alight_](/assets/wp-content/uploads/2024/06/image-4.avif)
 
-![Steam](/assets/wp-content/uploads/2024/06/image.png)
+![Steam](/assets/wp-content/uploads/2024/06/image.avif)
 
 Through the window silts I hear  
 Muffled shrills fleeting into my ear  
@@ -67,7 +67,7 @@ of steam from my boilingly hot water.
 .  
 Which sort of steam do I fancy more?
 
-![](/assets/wp-content/uploads/2024/06/image-8.png)
+![](/assets/wp-content/uploads/2024/06/image-8.avif)
 
 . . . . . . . . . . . Hi, . . . . . . . . . . .  
 . . . . . . . . . . . . I . . . . . . . . . . . .  

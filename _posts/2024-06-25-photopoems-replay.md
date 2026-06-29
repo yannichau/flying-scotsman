@@ -8,7 +8,7 @@ last_modified_at: 2024-12-16 22:41:55 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2024/06/image-11.png
+  path: /assets/wp-content/uploads/2024/06/image-11.avif
 categories:
 - Photography
 - Photopoems
@@ -19,7 +19,7 @@ tags:
 - photography
 - photopoems
 ---
-![](/assets/wp-content/uploads/2024/06/image-9.png)
+![](/assets/wp-content/uploads/2024/06/image-9.avif)
 
 I am the wispy
 
@@ -30,7 +30,7 @@ R olling into strands of hair
 U nderstanding that this is the fore-  
 S hadowing of a cyclone.
 
-![](/assets/wp-content/uploads/2024/06/image-11.png)
+![](/assets/wp-content/uploads/2024/06/image-11.avif)
 
 ### Replay
 
@@ -59,7 +59,7 @@ children’s clumsy footsteps scrunching by
 Knowing this is the epilogue  
 and a prologue
 
-![](/assets/wp-content/uploads/2024/06/image-16.png)
+![](/assets/wp-content/uploads/2024/06/image-16.avif)
 
 ### Mellow, Maximum Yellow1
 

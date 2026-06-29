@@ -8,7 +8,7 @@ last_modified_at: 2024-01-24 22:17:55 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2024/01/1058608-scaled.jpg
+  path: /assets/wp-content/uploads/2024/01/1058608-scaled.avif
 categories:
 - Blogs
 tags:
@@ -17,7 +17,7 @@ tags:
 - photography
 - travel
 ---
-![A view from Alexandra Park](/assets/wp-content/uploads/2024/01/1058522-scaled.jpg)
+![A view from Alexandra Park](/assets/wp-content/uploads/2024/01/1058522-scaled.avif)
 
 # Home sweet home, London
 
@@ -29,7 +29,7 @@ So on the afternoon of New Year’s eve we came to South Bank.
 
 South Bank is pretty charming. The repetitive yet captivating patterns of the National Theatre’s ceiling (which appears oddly underrated), the neon-y lights beneath the Waterloo Bridge, the reflections on the shimmering waves of the Thames, the hippy skateboarders skidding on the rails of the skatepark ramps, the rows of distracting festive lights glistening in front of the cafes’ (which were sadly about to close), and the casually strolling crowds……..it just carries you away. I think I did spent several minutes just staring into the skatepark, except for no apparent reason it was soon shut by a couple security guards with tall metallic fences.
 
-![](/assets/wp-content/uploads/2024/01/1058459-scaled.jpg)
+![](/assets/wp-content/uploads/2024/01/1058459-scaled.avif)
 
 When I arrived Nas and Arjun were both standing in front of a long concrete bench beside the promenade. Admittedly I was a bit lost so I did hadto get Arjun to wave to me, so perhaps that was why they were both standing.
 
@@ -67,7 +67,7 @@ I just have to smile when I see them together, because they are mismatched in so
 
 Then Nas left.
 
-![](/assets/wp-content/uploads/2024/01/1057783-scaled.jpg)
+![](/assets/wp-content/uploads/2024/01/1057783-scaled.avif)
 
 This does not mean the conversation ended though, because Arjun and I remained, and as expected his cynism took off and he began dissing on nothing but everything.
 
@@ -93,7 +93,7 @@ Now I see why he likes solo travelling.
 
 Sadly, I don’t plan to summarise or recount this hour-long conversation entirely. As an IB student I always tend to think that I’m highly capable of thinking critically, and that these are the skills that will equip me for society. But clearly I rarely reflect upon my cultural and societal identity — I am someone who gets comfortable and accustomed to established ways of thinking, and I suspect this is the reason why I am perfectly habituated for assessment-based learning systems and religious beliefs.
 
-![Widcombe](/assets/wp-content/uploads/2024/01/1058608-scaled.jpg)
+![Widcombe](/assets/wp-content/uploads/2024/01/1058608-scaled.avif)
 
 In a jokingly sentimental tone, he sang a couple lines “The Man Who Sold the World” — its lyrics are abstract and imperceptible, which resembles himself. I felt he should have sang this to Nas instead, though I reckon there are much better a songs to sing to someone you would like to charm, like “My Boy (My Girl)”.
 
@@ -109,7 +109,7 @@ The second call was from several days ago. Nas has decided to come to London bet
 
 Good luck.
 
-![](/assets/wp-content/uploads/2024/01/1058549-scaled.jpg)
+![](/assets/wp-content/uploads/2024/01/1058549-scaled.avif)
 
 # Epilogue
 

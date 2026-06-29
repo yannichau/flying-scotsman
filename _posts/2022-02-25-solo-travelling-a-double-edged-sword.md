@@ -8,7 +8,7 @@ last_modified_at: 2024-01-24 22:29:50 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2024/01/1058029-scaled.jpg
+  path: /assets/wp-content/uploads/2024/01/1058029-scaled.avif
 categories:
 - Blogs
 tags:
@@ -16,7 +16,7 @@ tags:
 - photography
 - travel
 ---
-![Fashion Museum Bath](/assets/wp-content/uploads/2024/01/1058073-scaled.jpg)
+![Fashion Museum Bath](/assets/wp-content/uploads/2024/01/1058073-scaled.avif)
 
 # Finding the Right Pace
 
@@ -30,7 +30,7 @@ Nevertheless, as I flip through my albums I realise that there’s many places I
 
 Do I like this polarisingly different way of travelling? My plans for summer 2022 will tell.
 
-![](/assets/wp-content/uploads/2024/01/1058000-scaled.jpg)
+![](/assets/wp-content/uploads/2024/01/1058000-scaled.avif)
 
 # Solo travelling again in a couple decades?
 
@@ -62,7 +62,7 @@ Or maybe, the real question is — how do I want solo travelling to change my li
 
 Again time will tell.
 
-![](/assets/wp-content/uploads/2024/01/1058029-scaled.jpg)
+![](/assets/wp-content/uploads/2024/01/1058029-scaled.avif)
 
 # Atta Peak!
 

@@ -8,7 +8,7 @@ last_modified_at: 2024-01-25 21:26:09 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2023/08/vitasoy.jpeg
+  path: /assets/wp-content/uploads/2023/08/vitasoy.avif
   alt: Vitasoy Boxes
 categories:
 - Uncategorized
@@ -28,7 +28,7 @@ On December 10th 2022, I was baptised into Christ. The ceremony was a public dec
 
 自我出生的那天，我就像在啜着飲筒，幸福地喝著一盒甜甜的維他奶。
 
-![Photo](/assets/wp-content/uploads/2024/01/1HNIvoO_DbxpmitaUPJPR3Q.webp)
+![Photo](/assets/wp-content/uploads/2024/01/1HNIvoO_DbxpmitaUPJPR3Q.avif)
 
 我在兒童主日學被灌輸聖經的真理，在第一次回去其他小朋友就給我演了一場耶穌叫瞎眼看見的畫劇。問我想「決志」嗎？好啊，反正7歲的我，也沒有什麼說不好的原因。我很理所當然地決志，理所當然地相信你是我救贖者，理所當然地「不可停止聚會」。在往後的日子，我也在不同場合中決志了很多次，在佈道會、福音營等，但當我嘗試回憶這些事的時候卻發覺自己的腦海是模糊一片。反而之後一直與中學和大學團契的同伴認識、敬拜、經歷你的片段，卻記憶猶新。
 
@@ -68,4 +68,4 @@ Make no mistake — my motivation to be baptised is not solely driven by my expe
 
 Hallelujah!
 
-![](/assets/wp-content/uploads/2024/01/image-1024x682-1.png)
+![](/assets/wp-content/uploads/2024/01/image-1024x682-1.avif)

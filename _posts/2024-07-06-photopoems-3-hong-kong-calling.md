@@ -8,7 +8,7 @@ last_modified_at: 2024-12-16 22:42:25 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2024/06/image-2.png
+  path: /assets/wp-content/uploads/2024/06/image-2.avif
 categories:
 - Photography
 - Photopoems
@@ -18,7 +18,7 @@ tags:
 - photography
 - photopoems
 ---
-![](/assets/wp-content/uploads/2024/06/image-12.png)
+![](/assets/wp-content/uploads/2024/06/image-12.avif)
 
 ### My dearest morning call
 
@@ -40,7 +40,7 @@ My veins
 Good morning  
 This is your dearest Hong Kong calling
 
-![](/assets/wp-content/uploads/2024/06/edited-8098-scaled.jpg)
+![](/assets/wp-content/uploads/2024/06/edited-8098-scaled.avif)
 
 **squares**|  within| **squares**|  I| see| **hearts**  
 ---|---|---|---|---|---  
@@ -51,7 +51,7 @@ see| our| **hope** ,| yet| please| cure
 **hearts** ,| **hearts**|  as| I| cure| **hope**  
  _escaping the box thinking inside the box _
 
-![](/assets/wp-content/uploads/2024/06/image-2.png)
+![](/assets/wp-content/uploads/2024/06/image-2.avif)
 
 ### Bracelets
 
@@ -74,7 +74,7 @@ bracelet after
 bracelet of alternating green and yellow  
 bracelets
 
-![](/assets/wp-content/uploads/2024/06/image-5.png)
+![](/assets/wp-content/uploads/2024/06/image-5.avif)
 
 ### Destinations
 
@@ -102,7 +102,7 @@ Sometimes crying and struggling to balance
 
 This is destiny not a destination
 
-![](/assets/wp-content/uploads/2024/06/image-10.png)
+![](/assets/wp-content/uploads/2024/06/image-10.avif)
 
 ### Good Night?
 

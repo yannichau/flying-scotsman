@@ -8,7 +8,7 @@ last_modified_at: 2024-01-24 21:28:22 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2024/01/1058073-scaled.jpg
+  path: /assets/wp-content/uploads/2024/01/1058073-scaled.avif
 categories:
 - Blogs
 tags:
@@ -21,7 +21,7 @@ But the things happening in this journal are all present continuous. So for the 
 
 So acknowledge the somewhat fictitious nature of this piece, albeit the fact that it is indeed based on my real encounters, and we shall begin.
 
-![Great Pulteney Street](/assets/wp-content/uploads/2024/01/1057806-scaled.jpg)
+![Great Pulteney Street](/assets/wp-content/uploads/2024/01/1057806-scaled.avif)
 
 * * *
 
@@ -83,7 +83,7 @@ From this perspective, I am in a fortunate position to be lost at this moment, s
 
 Okay.
 
-![Fashion Museum Bath](/assets/wp-content/uploads/2024/01/1058073-scaled.jpg)
+![Fashion Museum Bath](/assets/wp-content/uploads/2024/01/1058073-scaled.avif)
 
 * * *
 
@@ -101,7 +101,7 @@ But baffingly we’re both in Bath, a British town that very much capitalises on
 
 Regardless, I still, to this point, find the country very charismatic as a whole. Perhaps I haven’t lived long enough to make up my mind yet. But I do think the country is a great spring board towards other destinations in Europe — which makes me slightly regret my decision to give up German Level 2.
 
-![The Holbourne Museum](/assets/wp-content/uploads/2024/01/1057864-scaled.jpg)
+![The Holbourne Museum](/assets/wp-content/uploads/2024/01/1057864-scaled.avif)
 
 * * *
 
@@ -117,7 +117,7 @@ So this explains why he has such elaborate insights into the higher education sy
 
 This is all a bit funny because he is raised by this system (at least to some extent) and a successive product of this system. Or at least that’s my impression as of right now.
 
-![The Circus](/assets/wp-content/uploads/2024/01/1058134-scaled.jpg)
+![The Circus](/assets/wp-content/uploads/2024/01/1058134-scaled.avif)
 
 Of course there were a lot more gossipy conversations regarding our trips, but besides that (and many other things I shall not speak of in my blogs) this is all I remember of. And before I realised it has already been nearly an hour since we’ve talked.
 

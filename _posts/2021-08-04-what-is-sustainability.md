@@ -8,14 +8,14 @@ last_modified_at: 2024-01-25 22:22:58 -0000
 publish: true
 pin: false
 image:
-  path: /assets/wp-content/uploads/2024/01/0jfycixDQj71LROoR.jpg
+  path: /assets/wp-content/uploads/2024/01/0jfycixDQj71LROoR.avif
 categories:
 - Geography
 tags:
 - geography
 - sustainability
 ---
-![Photo by Kelly Lacy from Pexels](/assets/wp-content/uploads/2024/01/0jfycixDQj71LROoR.jpg)
+![Photo by Kelly Lacy from Pexels](/assets/wp-content/uploads/2024/01/0jfycixDQj71LROoR.avif)
 
 According to the UN Commission on Environment and Development, sustainability is defined by practices that:
 
@@ -23,13 +23,13 @@ According to the UN Commission on Environment and Development, sustainability is
 
 Achieving sustainability requires a systematic approach to interconnected issues, including a community’s environmental health, social equity and economic vitality¹. Perspectives on sustainability change over time, due to changes in consumption patterns, varying demands from the global population, and the perceived environmental degradation.
 
-![](/assets/wp-content/uploads/2024/01/0Eb2wUJPvTxjUx8cI.png)
+![](/assets/wp-content/uploads/2024/01/0Eb2wUJPvTxjUx8cI.avif)
 
 # Are we going in the right direction?
 
 Have a look at the continuously backward-shifting Earth Overshoot day⁴:
 
-![](/assets/wp-content/uploads/2024/01/0ASsc5Q-4B-S02d2m.png)
+![](/assets/wp-content/uploads/2024/01/0ASsc5Q-4B-S02d2m.avif)
 
 At this rate of consumption, experts predict that our Earth can potentially deplete of all its resources by 205⁰⁵. Therefore, our current consumption model is not sustainable for our future, and there is a need to reduce our consumption or even replenish our resources .
 
@@ -39,7 +39,7 @@ Since societies in the past century have long prioritised economic development w
 
 When abstracted to a personal level, sustainable living is a new lifestyle in which individuals make changes to reduce environmental degradation⁶.
 
-![](/assets/wp-content/uploads/2024/01/0YXlrQF8FaN5GlC4o.png)
+![](/assets/wp-content/uploads/2024/01/0YXlrQF8FaN5GlC4o.avif)
 
 All in all, while the aim of achieving an “environmental equilibrium” and zero carbon footprint is not strictly achievable, sustainable living is most importantly the spirit of achieving it to its fullest.
 
