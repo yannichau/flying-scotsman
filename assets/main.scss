@@ -6,8 +6,20 @@
 p > img:only-of-type {
   display: block;
   margin: 1.5em auto;
-  max-width: min(100%, 450px);
+  width: 100%;
+  max-width: 100%;
   height: auto;
+}
+
+p > img:only-of-type.is-portrait {
+  width: auto;
+  max-width: min(100%, 450px);
+}
+
+@media screen and (max-width: 767px) {
+  p > img:only-of-type.is-portrait {
+    max-width: min(100%, 320px);
+  }
 }
 
 /* Justified image gallery */

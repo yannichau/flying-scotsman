@@ -27,6 +27,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   paragraphNodes.forEach((paragraph) => {
     const images = Array.from(paragraph.querySelectorAll("img"));
+
+    if (images.length === 1) {
+      const image = images[0];
+      const applyOrientation = () => {
+        if (image.naturalWidth && image.naturalHeight) {
+          image.classList.toggle("is-portrait", image.naturalWidth < image.naturalHeight);
+          image.classList.toggle("is-landscape", image.naturalWidth >= image.naturalHeight);
+        }
+      };
+
+      image.classList.add("single-image");
+      if (image.complete) {
+        applyOrientation();
+      } else {
+        image.addEventListener("load", applyOrientation, { once: true });
+      }
+      return;
+    }
+
     if (images.length < 2) return;
 
     const gallery = document.createElement("div");
