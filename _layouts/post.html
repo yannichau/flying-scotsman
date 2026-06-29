@@ -130,7 +130,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!rows.length) return;
 
     const gap = 16;
-    const containerWidth = gallery.getBoundingClientRect().width || 1000;
+    const styles = window.getComputedStyle(gallery);
+    const paddingLeft = parseFloat(styles.paddingLeft) || 0;
+    const paddingRight = parseFloat(styles.paddingRight) || 0;
+    const containerWidth = Math.max(0, gallery.clientWidth - paddingLeft - paddingRight);
 
     rows.forEach((row) => {
       const items = Array.from(row.querySelectorAll(".gallery-item"));
@@ -141,11 +144,11 @@ document.addEventListener("DOMContentLoaded", () => {
         return total + (Number.isFinite(ratio) ? ratio : 1);
       }, 0);
 
-      const rowHeight = (containerWidth - gap * Math.max(0, items.length - 1)) / sumRatios;
+      const rowHeight = Math.max(1, Math.floor((containerWidth - gap * Math.max(0, items.length - 1)) / sumRatios));
 
       items.forEach((item) => {
         const ratio = parseFloat(item.dataset.ratio || "1");
-        const width = (Number.isFinite(ratio) ? ratio : 1) * rowHeight;
+        const width = Math.max(1, Math.floor((Number.isFinite(ratio) ? ratio : 1) * rowHeight));
         item.style.setProperty("--gallery-item-width", `${width}px`);
         item.style.setProperty("--gallery-row-height", `${rowHeight}px`);
       });

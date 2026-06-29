@@ -24,12 +24,17 @@ p > img:only-of-type.is-portrait {
 
 /* Justified image gallery */
 .post-content .image-gallery {
-  width: 100%;
-  max-width: 100%;
-  margin: 2em 0;
+  width: 100vw;
+  max-width: none;
+  margin: 2em calc(50% - 50vw);
   padding: 0 16px;
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+.post-content .image-gallery .gallery-row {
+  width: calc(100vw - 32px);
+  max-width: 100%;
 }
 
 .post-content .image-gallery .gallery-row {
