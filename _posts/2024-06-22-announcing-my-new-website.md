@@ -17,7 +17,7 @@ tags: []
 
 I have always wanted an all-encompassing platform for archiving, documenting my projects, and blogging my many journals, and my new website at [yannichau.i234.me](//yanni-test-local-wp-newdb.local) marks a new milestone for my digital portfolio. It has been something I have been working on and off throughout the past year, and at this stage it is as if the pieces I have been crafting are finally coming together.
 
-![](/assets/wp-content/uploads/2024/02/P1139213-235-Edited-scaled-e1708122911649.avif)
+![]({{ '/assets/wp-content/uploads/2024/02/P1139213-235-Edited-scaled-e1708122911649.avif' | relative_url }})
 
 ## A new purpose
 
@@ -34,15 +34,15 @@ The fun bit that will be inherited from the previous site is the interactive Lon
 While I am now fairly versed with designing pages with ReactJS and managing a rest API server with NodeJS, it is a hassle dealing with hosting large files like images. I had to host them on a free platform, like imgur, and link them to my database. Finally, Heroku, the platform I used to host my backend on, nailed the coffin for me by suspending their free plan.
 
 In contrast, my new Wordpress platform is highly versatile in terms of the content I can include, and I am currently also experimenting with a plugin that simultaneously publishes my posts to Medium - hitting a bird with two stones (oops - two birds with a stone!)
-![](/assets/wp-content/uploads/2024/02/P1139203-233-Edited-scaled-e1708122956169.avif)
+![]({{ '/assets/wp-content/uploads/2024/02/P1139203-233-Edited-scaled-e1708122956169.avif' | relative_url }})
 
 ## Where am I?
 
 Hiccups are certainly a common occurence when working with a new platform. The biggest hurdle so far has been actually getting the correct settings to route the website to the internet. As the library of content for the webiste expands and the traffic increases (which will be both a blessing and a curse!), I will have to explore different solutions to enhance the security and efficiency of the website. But I'm sure there's certainly a lot to look forward to!
 
-![](/assets/wp-content/uploads/2024/02/P1139508-293-Edited-scaled-e1708034063653.avif)
-![](/assets/wp-content/uploads/2024/02/P1139509-294-Edited-scaled-e1708121078978.avif)
-![](/assets/wp-content/uploads/2024/02/P1139510-295-Edited-scaled-e1708034146700.avif)
+![]({{ '/assets/wp-content/uploads/2024/02/P1139508-293-Edited-scaled-e1708034063653.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139509-294-Edited-scaled-e1708121078978.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139510-295-Edited-scaled-e1708034146700.avif' | relative_url }})
 
 **Next steps**
 

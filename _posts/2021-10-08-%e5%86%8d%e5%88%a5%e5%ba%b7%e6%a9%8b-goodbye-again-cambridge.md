@@ -23,18 +23,18 @@ tags:
 
 This is not my first, and hopefully not my last visit to Cambridge. And while the title might suggest that this is a literary piece, no, I think my shots speak more eloquently than my words. Enjoy this random collection of shots!
 
-![Trumpington Street, near St Catherine’s College.](/assets/wp-content/uploads/2024/01/1Sk147HbC4jzUMThyAY4bnA-scaled.avif)
+![Trumpington Street, near St Catherine’s College.]({{ '/assets/wp-content/uploads/2024/01/1Sk147HbC4jzUMThyAY4bnA-scaled.avif' | relative_url }})
 
 # Swaying leisurely in the waters…….
 
 Cambridge cannot live without the River Cam, akin to the way the London cannot exist without the River Thames. Except in Cambridge the town is a whole lot smaller, so everything feels so close to the river. That means a big part of our trip revolves about the River and its golden willows and beautiful elm trees.
 
-![](/assets/wp-content/uploads/2024/01/1myZjczdFh8FgpAbJj5waKQ-scaled.avif)
-![](/assets/wp-content/uploads/2024/01/15G3GAj1XxxfNrJwpXf4wAQ-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1myZjczdFh8FgpAbJj5waKQ-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/15G3GAj1XxxfNrJwpXf4wAQ-scaled.avif' | relative_url }})
 
 And of course, past "orgasm bridge" comes a cute (but somewhat hostile) swans and ducks!
 
-![](/assets/wp-content/uploads/2024/01/14X8jrTrzMBekpKDMKMn7eg-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/14X8jrTrzMBekpKDMKMn7eg-scaled.avif' | relative_url }})
 
 **Saturday mood**
 
@@ -43,12 +43,12 @@ Are we even on Saturday?
 **Surf and turf**
 
 A group of ducks taking a leisurely swim (and brief flight)
-![](/assets/wp-content/uploads/2024/01/1INJ8pcgNvCknXQJrPGspCA-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1INJ8pcgNvCknXQJrPGspCA-scaled.avif' | relative_url }})
 
 The shadows beneath the bridge particularly caught my attention — when the reflections on the water shimmer, you just become mesmerised in the dancing patterns….
 
-![](/assets/wp-content/uploads/2024/01/1mNoci_01CzhqbQuRcIWL5g-scaled.avif)
-![](/assets/wp-content/uploads/2024/01/1tsDAy7C3MktJ4VLwD7KxUw-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1mNoci_01CzhqbQuRcIWL5g-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1tsDAy7C3MktJ4VLwD7KxUw-scaled.avif' | relative_url }})
 
 # Punting with a long pole
 
@@ -61,18 +61,18 @@ In Xu Zhimo’s words:
 >
 > Goodbye again, Cambridge
 
-![](/assets/wp-content/uploads/2024/01/18MEsZN207jV0gy7cCMRYWQ-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1CzuYpIYufzVxLbjacKM3dA-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1MLwSOvk2Ow5Z2b5gojoDCA.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/18MEsZN207jV0gy7cCMRYWQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1CzuYpIYufzVxLbjacKM3dA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1MLwSOvk2Ow5Z2b5gojoDCA.avif' | relative_url }})
 
 Once you actually roll up your sleeves (actually I was wearing a short-sleeved T-Shirt anyways) and try punting however, you would realise that his imagery in poem is overly romanticised or even disillusioned, and anyone who thinks “what you read is what you get” would be mildly disappointed upon trying to do so. Or at least that’s the way you would feel when you’re doing it the first time.
 
-![Clueless mars.](/assets/wp-content/uploads/2024/01/1_FozC0wo2iXdykA6MKspkQ.avif)
+![Clueless mars.]({{ '/assets/wp-content/uploads/2024/01/1_FozC0wo2iXdykA6MKspkQ.avif' | relative_url }})
 
 First of all, the pole is metallic and a large portion of it is always submerged in water, which means that you’re also constantly bracing yourself against the drag of the river. It feels as if the river is pulling yourself into it, but on the bright side the pole floats so hold on to it in the very unfortunate event where you fall.
 
 Secondly, the river bed varies largely along the length of the River, both in terms of depth and ruggedness. So be aware of getting the pole stuck in between rocks, and falling into the water as the boat continues forward.
 
 Thirdly, beginners like us constantly crash into the banks, as we push the boat in the incorrect direction. In fact, one of us almost managed to get us stuck under the bridge. (Hint: which shot was taken under a bridge?)
-![](/assets/wp-content/uploads/2024/01/1FQUBLm44stM0hty4lrzTzw.avif) ![](/assets/wp-content/uploads/2024/01/1vE0F9R_NnLZlaAtUflEekg-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1R06wb1SL_oycAGqs-kJoxA-scaled.avif) ![](/assets/wp-content/uploads/2024/01/18RjmW_bM-Cat9XBn2Fweug-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1aJvhHYqzTQAxLUrYG9J3lQ-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1FQUBLm44stM0hty4lrzTzw.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1vE0F9R_NnLZlaAtUflEekg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1R06wb1SL_oycAGqs-kJoxA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/18RjmW_bM-Cat9XBn2Fweug-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1aJvhHYqzTQAxLUrYG9J3lQ-scaled.avif' | relative_url }})
 
 To be fair though, our guide Dave does make punting seem a lot easier than it seems, which suggests that it is a skill that can be strengthened over time. And while we’re at it, he’s a zoological studies graduate (forgot the exact name of his degree) and he works at the punting company during vacations. He told us more about his studies, the years Cambridge graduates like him spend queueing for a wedding booking in front of Kings College (even before having a partner in the first place ?!) and the mindblowing amounts colleges charge to open their venues for filming. At a first glance many of these statements might seem like a bit of a bluff, but I guess a Cambridge student knows best.
 
@@ -84,11 +84,11 @@ What makes a British town British? Free museums, free museums, and more free mus
 
 ## Fitzwilliam Museum
 
-![](/assets/wp-content/uploads/2024/01/1ghIH3QQirgsYGoyH_mmHNg-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1RmrHVqxAhMFrZw_yJKOsbg-scaled.avif) ![Reflections and symmetries.](/assets/wp-content/uploads/2024/01/1wkGd6lPK66HZvlkd3zHvYA.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1ghIH3QQirgsYGoyH_mmHNg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1RmrHVqxAhMFrZw_yJKOsbg-scaled.avif' | relative_url }}) ![Reflections and symmetries.]({{ '/assets/wp-content/uploads/2024/01/1wkGd6lPK66HZvlkd3zHvYA.avif' | relative_url }})
 
 I don’t really recall much about my visit at the Fitzwilliam museum, but it was certainly amusing to see many senior citizens touring around the museum.
 
-![](/assets/wp-content/uploads/2024/01/1y4uztNCCv6touSIUtbWzyw.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1y4uztNCCv6touSIUtbWzyw.avif' | relative_url }})
 
 ## Sedgwick Museum of Earth Sciences, Museum of Archaeology and Anthropology
 
@@ -96,7 +96,7 @@ If you want an alternative perspective of Charles Darwin, the Sedwick Museum of 
 
 In addition to the collection of fossils and geological artefacts displayed in the small museum, it contains a number of collectables from Darwin, mostly from his trip around the world on the HMS beagle. These experiences are vividly documented in the museum, and it feels reassuring to learn that scientists don’t spend their lives endlessly locked in the lab.
 
-![](/assets/wp-content/uploads/2024/01/1XZXwHZ5FCS4Kq3BrZtJpuA-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1nVbxKOLnvUItXdZ-uOXgvQ-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1XZXwHZ5FCS4Kq3BrZtJpuA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1nVbxKOLnvUItXdZ-uOXgvQ-scaled.avif' | relative_url }})
 
 In a typical British fashion, the museum of archaeology and anthropology is full of collectables “stolen” around the world, including a number from China and Mongolia. Also in a typical british fashion, there are a number of sizeable collectables, such as the 8 metre tall Maori flagpole, which always makes me wonder how or why the British, in their right minds, would transport such large objects (or even architectural artefacts) from far, far away places. Apparently, there is a giant door (trap door?) on the floor between G/F and 1/F.
 
@@ -118,14 +118,14 @@ I’m just glad that this museum feels like a place co-produced by locals and in
 
 I’ve always thought that London was cycle friendly. But Cambridge is at a completely next level. I love cycling, so I can’t imagine what cycling in Amsterdam or Copenhagen, the world’s most cycle friendly cities, would feel like. Hopefully, I can visit these places some time in the near future!
 
-![](/assets/wp-content/uploads/2024/01/1WtJ8mGscsVAU3EjQwi320Q-scaled.avif)
-![](/assets/wp-content/uploads/2024/01/1Jzsq337dnoBRqWQnEPVSlw-scaled.avif)
-![](/assets/wp-content/uploads/2024/01/1_zG4ViKJaHgXdYfjJx-GFQ-scaled.avif)
-![](/assets/wp-content/uploads/2024/01/1AhgIQmSB0VNGJxstAgF0Tg-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1WtJ8mGscsVAU3EjQwi320Q-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1Jzsq337dnoBRqWQnEPVSlw-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1_zG4ViKJaHgXdYfjJx-GFQ-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1AhgIQmSB0VNGJxstAgF0Tg-scaled.avif' | relative_url }})
 
 # Quack, quack, quack!
 
-![](/assets/wp-content/uploads/2024/01/1tWdS2NQ-a9RxzNfgoCx12A-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1-yfkemu4kmKi0BBfoVbzPg-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1DmEvfMdsqcpFYjswugC2fg-scaled.avif) ![Cambridge University Botanic Garden](/assets/wp-content/uploads/2024/01/181E6APFd2Wv1IkbUibMDqA-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1tWdS2NQ-a9RxzNfgoCx12A-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1-yfkemu4kmKi0BBfoVbzPg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1DmEvfMdsqcpFYjswugC2fg-scaled.avif' | relative_url }}) ![Cambridge University Botanic Garden]({{ '/assets/wp-content/uploads/2024/01/181E6APFd2Wv1IkbUibMDqA-scaled.avif' | relative_url }})
 
 # Quietly I am leaving……
 
@@ -135,10 +135,10 @@ And in case you were wondering how I edited the photos in this post, it’s simp
 
 And here’s more random shots that didn’t quite fit in to other sections of this story.
 
-![Waiting……](/assets/wp-content/uploads/2024/01/19rKlAHjf4WDem-UW9441Cw.avif) ![](/assets/wp-content/uploads/2024/01/1dGfyfMn3f1SGsbS4PCQ7IQ-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1m9kkjlZn4HUOmJXoEBCP8A-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1K19O0DVQcPNRZFRW70fd3g-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1FUItjVoJ9bt6C5HVShrUPA-scaled.avif) ![Outside the Museum of Archaelogy and Anthropology.](/assets/wp-content/uploads/2024/01/1n1c4DTz7EePnhE37HRuEjA-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1fXoHXIuJbExpGtT88L1o-A-scaled.avif) ![](/assets/wp-content/uploads/2024/01/17dGwAcTWHYL-bSvvgIgtQg-scaled.avif)
-![](/assets/wp-content/uploads/2024/01/1LRqrg6bf_AZb0pQaArcONw-scaled.avif)
-![](/assets/wp-content/uploads/2024/01/1fpHoiKCfeRB-4CrW1roHwQ-scaled.avif)
+![Waiting……]({{ '/assets/wp-content/uploads/2024/01/19rKlAHjf4WDem-UW9441Cw.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1dGfyfMn3f1SGsbS4PCQ7IQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1m9kkjlZn4HUOmJXoEBCP8A-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1K19O0DVQcPNRZFRW70fd3g-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1FUItjVoJ9bt6C5HVShrUPA-scaled.avif' | relative_url }}) ![Outside the Museum of Archaelogy and Anthropology.]({{ '/assets/wp-content/uploads/2024/01/1n1c4DTz7EePnhE37HRuEjA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1fXoHXIuJbExpGtT88L1o-A-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/17dGwAcTWHYL-bSvvgIgtQg-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1LRqrg6bf_AZb0pQaArcONw-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1fpHoiKCfeRB-4CrW1roHwQ-scaled.avif' | relative_url }})
 
 # And this time it really is the end!
 
-![Bye bye!](/assets/wp-content/uploads/2024/01/15lSgLoCqD7FGrrsQ-6VaIw.avif)
+![Bye bye!]({{ '/assets/wp-content/uploads/2024/01/15lSgLoCqD7FGrrsQ-6VaIw.avif' | relative_url }})

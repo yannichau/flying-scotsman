@@ -18,7 +18,7 @@ tags:
 - photography
 - photopoems
 ---
-![](/assets/wp-content/uploads/2024/06/image-12.avif)
+![]({{ '/assets/wp-content/uploads/2024/06/image-12.avif' | relative_url }})
 
 ### My dearest morning call
 
@@ -40,7 +40,7 @@ My veins
 Good morning  
 This is your dearest Hong Kong calling
 
-![](/assets/wp-content/uploads/2024/06/edited-8098-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/06/edited-8098-scaled.avif' | relative_url }})
 
 **squares**|  within| **squares**|  I| see| **hearts**  
 ---|---|---|---|---|---  
@@ -51,7 +51,7 @@ see| our| **hope** ,| yet| please| cure
 **hearts** ,| **hearts**|  as| I| cure| **hope**  
  _escaping the box thinking inside the box _
 
-![](/assets/wp-content/uploads/2024/06/image-2.avif)
+![]({{ '/assets/wp-content/uploads/2024/06/image-2.avif' | relative_url }})
 
 ### Bracelets
 
@@ -74,7 +74,7 @@ bracelet after
 bracelet of alternating green and yellow  
 bracelets
 
-![](/assets/wp-content/uploads/2024/06/image-5.avif)
+![]({{ '/assets/wp-content/uploads/2024/06/image-5.avif' | relative_url }})
 
 ### Destinations
 
@@ -102,7 +102,7 @@ Sometimes crying and struggling to balance
 
 This is destiny not a destination
 
-![](/assets/wp-content/uploads/2024/06/image-10.avif)
+![]({{ '/assets/wp-content/uploads/2024/06/image-10.avif' | relative_url }})
 
 ### Good Night?
 

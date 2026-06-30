@@ -25,7 +25,7 @@ What strikes me the most about my staying at a hostel is the sheer variety of pe
 
 But I could not be more unprepared for the next person I was about to meet.
 
-![](/assets/wp-content/uploads/2024/01/1PR6geB3OG-3WyXkrFhQHtg-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1x5EdM2PYmGoT2ZvunpJg6g-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1PR6geB3OG-3WyXkrFhQHtg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1x5EdM2PYmGoT2ZvunpJg6g-scaled.avif' | relative_url }})
 
 The match at the bar ended at around 10. Not much going on at the time, but nowhere near bed time.
 
@@ -72,7 +72,7 @@ Yes, this is Ralph McTell’s “Streets of London”. And yes, I’m aware that
 
 Let the narrative speak for itself.
 
-![](/assets/wp-content/uploads/2024/01/1b9uCjAhju4wVzYaLv8w59Q.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1b9uCjAhju4wVzYaLv8w59Q.avif' | relative_url }})
 
 # Sainsbury’s
 
@@ -100,7 +100,7 @@ In a nutshell, the disturbances at home, coupled with an “unfriendly working e
 
 Anyhow, while he remained a Sainsbury’s employee, he was gradually given less assignments, until several weeks later when he was no longer given any assignments at all. For the uninformed (i.e. me at the time), the assignment amount is proportional to his salary. Hence, he was trapped in a position which prevented him from applying to another job at a new location.
 
-![](/assets/wp-content/uploads/2024/01/1kxhY3TrZItv6l90pzb76Vw.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1kxhY3TrZItv6l90pzb76Vw.avif' | relative_url }})
 
 # More complications
 
@@ -118,7 +118,7 @@ When he returned home however, he found the door to him room broken into — dra
 
 Long story short, while the landlord did eventually evict his two drug-addicted flatmates, he never went back to his place anymore.
 
-![](/assets/wp-content/uploads/2024/01/1ixx9HrVQmFrxvA5ANyQmiQ.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1ixx9HrVQmFrxvA5ANyQmiQ.avif' | relative_url }})
 
 # More than homeless?
 
@@ -152,7 +152,7 @@ And so he went back into swirling rants about Sainsbury’s failing to understan
 
 He did not ask for my name.
 
-![Taken in London in 2019](/assets/wp-content/uploads/2024/01/19eWepqLsRn99mzLEp4KcZQ.avif)
+![Taken in London in 2019]({{ '/assets/wp-content/uploads/2024/01/19eWepqLsRn99mzLEp4KcZQ.avif' | relative_url }})
 
 # A quick note on the photos
 
@@ -162,4 +162,4 @@ I was lucky enough to catch a conversation with Pete, the attendant at the galle
 
 Modern art never seems to touch me. Not that I’m allowed to touch the artwork anyways.
 
-![](/assets/wp-content/uploads/2024/01/15y-K7KlmSdhK5RwspKAQpA-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1Fdq8iSzVAdxLH5EpLExmAA-scaled.avif) ![](/assets/wp-content/uploads/2024/01/1fd7EuOqKguT0WanlSBSH7A-scaled.avif) ![](/assets/wp-content/uploads/2024/01/12F6pyKQcH8TuIE8bVWmzEg-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/15y-K7KlmSdhK5RwspKAQpA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1Fdq8iSzVAdxLH5EpLExmAA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1fd7EuOqKguT0WanlSBSH7A-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/12F6pyKQcH8TuIE8bVWmzEg-scaled.avif' | relative_url }})

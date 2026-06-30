@@ -17,7 +17,7 @@ tags:
 - photography
 - travel
 ---
-![](/assets/wp-content/uploads/2024/01/1068687-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1068687-scaled.avif' | relative_url }})
 
 # Primark, M&S and H&M
 
@@ -45,7 +45,7 @@ _“No.”_
 
 I sensed Arjun’s desperation in the conversation, but anyhow I’m too young to comment on that. That said, I wish I do have the spontaneity he has to travel to “wherever the weather is nice”.
 
-![The Royal Crescent Lawn](/assets/wp-content/uploads/2024/01/1058262-scaled.avif)
+![The Royal Crescent Lawn]({{ '/assets/wp-content/uploads/2024/01/1058262-scaled.avif' | relative_url }})
 
 Regardless, at this very moment, Nas just wanted to get the shopping all over with in ten minutes. I tend to think that’s the way I shop as well.
 
@@ -81,7 +81,7 @@ _“Yes.”_
 
 It would be interesting to go clothes shopping with Arjun, though I’m naturally skeptical of changes that might drastically influence the perception of my identity.
 
-![](/assets/wp-content/uploads/2024/01/1057923-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1057923-scaled.avif' | relative_url }})
 
 ## Talking art at a non-artisan coffee shop
 
@@ -93,7 +93,7 @@ Arjun gave me a quick chuckle. Forgive me, I’m a child. I love the cute marshm
 
 And again the salesman continues selling to the buyer who does not want to be sold. This time regarding the motivations behind art, because Arjun must have been sharing his pieces.
 
-![](/assets/wp-content/uploads/2024/01/1058109-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1058109-scaled.avif' | relative_url }})
 
 Nas says that art is motivated by both the artist and buyer seeking for some form of emotional expression or release, which means that the intentions of the artist mostly correspond to that of the buyer. Therefore, the price of the artwork is merely an indicator of the amount of compensation given to the artist for his or her contribution.
 
@@ -111,7 +111,7 @@ I fail to capture the assertiveness in Arjun’s voice, but time after time he d
 
 _“I don’t want to talk about this anymore,”_  as she stood up from the couch and stepped away from the table. A physically powerful move indeed.
 
-![](/assets/wp-content/uploads/2024/01/1058250-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1058250-scaled.avif' | relative_url }})
 
 This is how they ended the conversation. In fairness the conflict was never detrimental at all, considering that it was not something deeply personal to both of them.
 

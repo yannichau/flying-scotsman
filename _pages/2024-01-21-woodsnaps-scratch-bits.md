@@ -10,7 +10,7 @@ pin: false
 categories: []
 tags: []
 ---
-![](/assets/wp-content/uploads/2024/01/acton-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/acton-scaled.avif' | relative_url }})
 
 WoodSnaps
 

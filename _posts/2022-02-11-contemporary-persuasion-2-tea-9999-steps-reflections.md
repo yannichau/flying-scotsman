@@ -17,7 +17,7 @@ tags:
 - photography
 - travel
 ---
-![A twist at North Parade](/assets/wp-content/uploads/2024/01/1057752-scaled.avif)
+![A twist at North Parade]({{ '/assets/wp-content/uploads/2024/01/1057752-scaled.avif' | relative_url }})
 
 # Good morning
 
@@ -37,7 +37,7 @@ _“Do you know how to operate this toaster?”_
 
 _“No.”_
 
-![Pulteney Bridge](/assets/wp-content/uploads/2024/01/1057760-scaled.avif)
+![Pulteney Bridge]({{ '/assets/wp-content/uploads/2024/01/1057760-scaled.avif' | relative_url }})
 
 ## The Mongolian girl
 
@@ -49,7 +49,7 @@ That was when we started to discuss our plans for the day. I wanted to go to the
 
 That morning I went to the Fashion Museum and scrutinised upon the weird fashion tastes of our ancestors. More on that in another blog.
 
-![](/assets/wp-content/uploads/2024/01/1058389-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1058389-scaled.avif' | relative_url }})
 
 # Tea + 9999 steps + Reflections
 
@@ -77,7 +77,7 @@ Eventually, after meandering around the same few streets for a couple times (in 
 
 This scene must have seemed rather comical to our waiter, because she gave us a weirdly uneasy smile the whole time. A questionable combination of three juvenile looking teenagers (this is a complement) heading to an Asian Restaurant that serves anything but authentic Asian food, for coffee, at an uncanny hour for coffee, or in my case, just tea. What are the odds?
 
-![](/assets/wp-content/uploads/2024/01/1058376-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1058376-scaled.avif' | relative_url }})
 
 ## Smoky misty stuff
 
@@ -113,7 +113,7 @@ _“Is that all they teach you in class? All you seem to know is switching on an
 
 Maybe that’s just a literary man’s peculiar perspective of all people in science and engineering related. Notwithstanding the fact that I later discovered much more about his other peculiar interests.
 
-![](/assets/wp-content/uploads/2024/01/1068901-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1068901-scaled.avif' | relative_url }})
 
 ## Another couple hours as a valet?
 
@@ -135,7 +135,7 @@ In your eyes I might be a kid but I’m 20. Not clueless. Or at least not as clu
 
 Yet I suspect it serves the exact opposite purpose. Nevermind.
 
-![](/assets/wp-content/uploads/2024/01/1068881-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1068881-scaled.avif' | relative_url }})
 
 ## Inward bound
 
@@ -159,7 +159,7 @@ I couldn’t help but notice how this resembled something that happened earlier 
 
 It’s odd how we are all so attached to certain objects that we take for granted, yet we lose hold of them so easily.
 
-![The Holbourne Museum](/assets/wp-content/uploads/2024/01/1057815-scaled.avif)
+![The Holbourne Museum]({{ '/assets/wp-content/uploads/2024/01/1057815-scaled.avif' | relative_url }})
 
 ## Temptatious Indian food, but (sadly) not Kamasutra
 
@@ -177,7 +177,7 @@ As usual, here comes the line that I dare not recite at every restaurant I’ve 
 
 _“Thank you, the food is very nice.”_
 
-![Stall Street](/assets/wp-content/uploads/2024/01/1058409-scaled.avif)
+![Stall Street]({{ '/assets/wp-content/uploads/2024/01/1058409-scaled.avif' | relative_url }})
 
 ## More unthreading
 
@@ -251,7 +251,7 @@ _“Yes.”_
 
 It’s a case of a desperate salesman trying to convince a buyer who does not want to be sold. Why are you both doing this to yourself?
 
-![](/assets/wp-content/uploads/2024/01/1058651-scaled.avif)
+![]({{ '/assets/wp-content/uploads/2024/01/1058651-scaled.avif' | relative_url }})
 
 Now that I write this (or more precisely type this because I’m not a cultured literature freak), I realise that the conflict and struggle she faces is beyond my perception, even if words could be found to describe it. In fact, as I take a quick glance through what I’ve written in this section, more than a quarter of it is used to describe the setting of the chill-out-room.
 
