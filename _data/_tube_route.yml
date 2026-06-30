@@ -1,3 +1,27 @@
+- name: "Cockfosters"
+  cx: 1146
+  cy: -80
+- name: "Oakwood"
+  cx: 1176
+  cy: -45
+- name: "Southgate"
+  cx: 1206
+  cy: -20
+- name: "Arnos Grove"
+  cx: 1236
+  cy: 0
+- name: "Bounds Green"
+  cx: 1266
+  cy: 25
+- name: "Wood Green"
+  cx: 1296
+  cy: 50
+- name: "Turnpike Lane"
+  cx: 1326
+  cy: 75
+- name: "Manor House"
+  cx: 1390
+  cy: 165
 - name: "Finsbury Park"
   cx: 1390
   cy: 190

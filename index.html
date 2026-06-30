@@ -96,8 +96,8 @@ layout: default
     }
 
     .blog-station:hover circle {
-        fill: #38bdf8;
-        stroke: #ffffff;
+        fill: transparent;
+        stroke: transparent;
     }
 
     .station-nav {
@@ -188,14 +188,18 @@ layout: default
     const sections = Array.from(document.querySelectorAll('.scroll-section'));
     const zoomWidth = 360;
     const zoomHeight = 180;
-    const mapWidth = 2500;
-    const mapHeight = 1340;
     const stationLayerId = 'blog-stations';
     const viewBoxState = { x: 0, y: 0, width: zoomWidth, height: zoomHeight };
     let viewBoxFrame = null;
     let scrollAnimationFrame = null;
     let initialViewSet = false;
     let activeStationIndex = 0;
+
+    // Change these boundary constraints at the top of your script:
+    const mapMinX = -40.5; // Allowed minimum left boundary
+    const mapMinY = -100.5; // Allowed minimum top boundary
+    const mapWidth = 2500;  // Expanded total width allowance
+    const mapHeight = 1340; // Expanded total height allowance
 
     function clamp(value, min, max) {
         return Math.max(min, Math.min(max, value));
@@ -401,8 +405,10 @@ layout: default
 
         activeStationIndex = index;
         const point = getStationPoint(index);
-        const targetX = clamp(point.x - zoomWidth * 0.1, 0, mapWidth - zoomWidth);
-        const targetY = clamp(point.y - zoomHeight * 0.55, 0, mapHeight - zoomHeight);
+        
+        // FIX: Replaced 0 floors with dynamic negative boundary minimum values
+        const targetX = clamp(point.x - zoomWidth * 0.1, mapMinX, mapWidth - zoomWidth);
+        const targetY = clamp(point.y - zoomHeight * 0.55, mapMinY, mapHeight - zoomHeight);
 
         viewBoxState.x = targetX;
         viewBoxState.y = targetY;
@@ -462,8 +468,9 @@ layout: default
             y: fromPoint.y + (toPoint.y - fromPoint.y) * progress
         };
 
-        const targetX = clamp(travelPoint.x - zoomWidth * 0.1, 0, mapWidth - zoomWidth);
-        const targetY = clamp(travelPoint.y - zoomHeight * 0.55, 0, mapHeight - zoomHeight);
+        // FIX: Replaced 0 floors here as well
+        const targetX = clamp(travelPoint.x - zoomWidth * 0.1, mapMinX, mapWidth - zoomWidth);
+        const targetY = clamp(travelPoint.y - zoomHeight * 0.55, mapMinY, mapHeight - zoomHeight);
 
         viewBoxState.x += (targetX - viewBoxState.x) * 0.16;
         viewBoxState.y += (targetY - viewBoxState.y) * 0.16;
