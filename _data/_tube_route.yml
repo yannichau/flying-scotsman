@@ -1,0 +1,22 @@
+- name: "Finsbury Park"
+  cx: 1390
+  cy: 190
+- name: "Arsenal"
+  cx: 1356
+  cy: 230
+- name: "Holloway Road"
+  cx: 1326
+  cy: 250
+- name: "Caledonian Road"
+  cx: 1290
+  cy: 280
+- name: "King's Cross St. Pancras"
+  cx: 1290
+  cy: 397
+- name: "Russell Square"
+  cx: 1290
+  cy: 460
+- name: "Holborn"
+  cx: 1290
+  cy: 510
+# ... Continue adding the rest of your sequence here

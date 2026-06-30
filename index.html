@@ -1,0 +1,378 @@
+---
+layout: default
+---
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        background-color: #111;
+        overflow-x: hidden;
+    }
+
+    .map-container {
+        position: fixed;
+        inset: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        background: linear-gradient(180deg, #0f172a 0%, #111827 100%);
+    }
+
+    svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+        transition: viewBox 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .scroll-section {
+        position: relative;
+        height: 100vh;
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    .blog-station-link {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .blog-station circle {
+        fill: #facc15;
+        stroke: #ffffff;
+        stroke-width: 2;
+        transition: transform 180ms ease, fill 180ms ease, stroke 180ms ease;
+        transform-origin: center;
+    }
+
+    .blog-station.active circle {
+        fill: #fb7185;
+        stroke: #fff7ed;
+        transform: scale(1.25);
+    }
+
+    .blog-station text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        font-weight: 700;
+        fill: #f8fafc;
+        paint-order: stroke;
+        stroke: rgba(15, 23, 42, 0.95);
+        stroke-width: 3px;
+        stroke-linejoin: round;
+    }
+
+    .blog-station .station-title {
+        font-size: 9px;
+        font-weight: 700;
+        fill: #f8fafc;
+    }
+
+    .blog-station .station-subtitle {
+        font-size: 8px;
+        font-weight: 400;
+        fill: #cbd5e1;
+    }
+
+    .blog-station:hover circle {
+        fill: #38bdf8;
+        stroke: #ffffff;
+    }
+</style>
+
+<div class="map-container">
+    {% include london-map.svg %}
+</div>
+
+{% assign station_data = site.data._tube_route %}
+{% assign station_posts = site.posts | slice: 0, station_data.size %}
+{% for station in station_data %}
+  {% assign post = station_posts[forloop.index0] %}
+  {% if post %}
+    <section class="scroll-section"
+             data-cx="{{ station.cx }}"
+             data-cy="{{ station.cy }}"
+             data-post-url="{{ post.url | relative_url }}"
+             data-post-title="{{ post.title | escape }}"
+             data-post-excerpt="{{ post.excerpt | strip_html | strip_newlines | truncate: 90 | escape }}">
+    </section>
+  {% endif %}
+{% endfor %}
+
+<script>
+    const svgNS = 'http://www.w3.org/2000/svg';
+    const map = document.querySelector('.map-container svg');
+    const sections = Array.from(document.querySelectorAll('.scroll-section'));
+    const zoomWidth = 360;
+    const zoomHeight = 180;
+    const mapWidth = 2500;
+    const mapHeight = 1340;
+    const stationLayerId = 'blog-stations';
+    const viewBoxState = { x: 0, y: 0, width: zoomWidth, height: zoomHeight };
+    let viewBoxFrame = null;
+    let initialViewSet = false;
+
+    function clamp(value, min, max) {
+        return Math.max(min, Math.min(max, value));
+    }
+
+    function ensureStationLayer() {
+        if (!map) return null;
+
+        let layer = map.querySelector(`#${stationLayerId}`);
+        if (!layer) {
+            layer = document.createElementNS(svgNS, 'g');
+            layer.setAttribute('id', stationLayerId);
+            map.appendChild(layer);
+        }
+        return layer;
+    }
+
+    function wrapLabelTitle(title, maxChars = 40, maxLines = 2) {
+        const cleaned = (title || '').trim();
+        if (!cleaned) return [];
+
+        const words = cleaned.split(/\s+/);
+        const lines = [];
+        let currentLine = '';
+
+        for (const word of words) {
+            const nextLine = currentLine ? `${currentLine} ${word}` : word;
+
+            if (nextLine.length <= maxChars) {
+                currentLine = nextLine;
+                continue;
+            }
+
+            if (lines.length >= maxLines - 1) {
+                const fallback = lines[lines.length - 1] || currentLine || word;
+                const truncated = `${fallback}…`;
+                lines[lines.length - 1] = truncated.length > maxChars
+                    ? `${truncated.slice(0, maxChars - 1).trimEnd()}…`
+                    : truncated;
+                return lines.slice(0, maxLines);
+            }
+
+            if (currentLine) {
+                lines.push(currentLine);
+            } else {
+                lines.push(word.length > maxChars ? `${word.slice(0, maxChars - 1).trimEnd()}…` : word);
+            }
+
+            currentLine = word;
+        }
+
+        if (currentLine) {
+            if (lines.length < maxLines) {
+                lines.push(currentLine);
+            } else {
+                const fallback = lines[lines.length - 1] || currentLine;
+                const truncated = `${fallback}…`;
+                lines[lines.length - 1] = truncated.length > maxChars
+                    ? `${truncated.slice(0, maxChars - 1).trimEnd()}…`
+                    : truncated;
+            }
+        }
+
+        return lines.slice(0, maxLines);
+    }
+
+    function buildStationOverlay() {
+        const layer = ensureStationLayer();
+        if (!layer || sections.length === 0) return;
+
+        layer.innerHTML = '';
+
+        sections.forEach((section, index) => {
+            const cx = parseFloat(section.getAttribute('data-cx'));
+            const cy = parseFloat(section.getAttribute('data-cy'));
+            const url = section.getAttribute('data-post-url');
+            const title = section.getAttribute('data-post-title') || 'Blog post';
+            const excerpt = section.getAttribute('data-post-excerpt') || '';
+            const compactExcerpt = excerpt.length > 40 ? `${excerpt.slice(0, 37).trimEnd()}…` : excerpt;
+
+            if (!url || Number.isNaN(cx) || Number.isNaN(cy)) {
+                return;
+            }
+
+            const link = document.createElementNS(svgNS, 'a');
+            link.setAttribute('href', url);
+            link.setAttribute('class', 'blog-station-link');
+            link.setAttribute('title', title);
+
+            const stationGroup = document.createElementNS(svgNS, 'g');
+            stationGroup.setAttribute('class', `blog-station${index === 0 ? ' active' : ''}`);
+            stationGroup.setAttribute('data-index', index);
+
+            const circle = document.createElementNS(svgNS, 'circle');
+            circle.setAttribute('cx', cx);
+            circle.setAttribute('cy', cy);
+            circle.setAttribute('r', 8);
+
+            const text = document.createElementNS(svgNS, 'text');
+            text.setAttribute('x', cx + 16);
+            text.setAttribute('y', cy - 8);
+            text.setAttribute('text-anchor', 'start');
+
+            const titleLines = wrapLabelTitle(title);
+            titleLines.forEach((line, lineIndex) => {
+                const titleLine = document.createElementNS(svgNS, 'tspan');
+                titleLine.setAttribute('class', 'station-title');
+                titleLine.setAttribute('x', cx + 16);
+                titleLine.setAttribute('dy', lineIndex === 0 ? '0' : '11');
+                titleLine.textContent = line;
+                text.appendChild(titleLine);
+            });
+
+            if (compactExcerpt) {
+                const subtitle = document.createElementNS(svgNS, 'tspan');
+                subtitle.setAttribute('class', 'station-subtitle');
+                subtitle.setAttribute('x', cx + 16);
+                subtitle.setAttribute('dy', titleLines.length > 0 ? `${11 * Math.max(titleLines.length, 1)}` : '12');
+                subtitle.textContent = compactExcerpt;
+                text.appendChild(subtitle);
+            }
+
+            stationGroup.appendChild(circle);
+            stationGroup.appendChild(text);
+            link.appendChild(stationGroup);
+            layer.appendChild(link);
+        });
+    }
+
+    function getSectionCenter(section) {
+        return section.offsetTop + section.offsetHeight / 2;
+    }
+
+    function getStationPoint(index) {
+        const section = sections[index];
+        if (!section) {
+            return { x: mapWidth / 2, y: mapHeight / 2 };
+        }
+
+        const cx = parseFloat(section.getAttribute('data-cx'));
+        const cy = parseFloat(section.getAttribute('data-cy'));
+
+        if (Number.isNaN(cx) || Number.isNaN(cy)) {
+            return { x: mapWidth / 2, y: mapHeight / 2 };
+        }
+
+        return { x: cx, y: cy };
+    }
+
+    function jumpToStation(index) {
+        if (!map || sections.length === 0) return;
+
+        const point = getStationPoint(index);
+        const targetX = clamp(point.x - zoomWidth * 0.1, 0, mapWidth - zoomWidth);
+        const targetY = clamp(point.y - zoomHeight * 0.55, 0, mapHeight - zoomHeight);
+
+        viewBoxState.x = targetX;
+        viewBoxState.y = targetY;
+        map.setAttribute('viewBox', `${viewBoxState.x.toFixed(2)} ${viewBoxState.y.toFixed(2)} ${zoomWidth} ${zoomHeight}`);
+
+        map.querySelectorAll('.blog-station').forEach((station, stationIndex) => {
+            station.classList.toggle('active', stationIndex === index);
+        });
+    }
+
+    function updateActiveStation() {
+        if (!map || sections.length === 0) return;
+
+        const viewportCenterY = window.scrollY + window.innerHeight / 2;
+        let activeIndex = 0;
+        let closestDistance = Infinity;
+
+        sections.forEach((section, index) => {
+            const sectionCenter = getSectionCenter(section);
+            const distance = Math.abs(sectionCenter - viewportCenterY);
+            if (distance < closestDistance) {
+                closestDistance = distance;
+                activeIndex = index;
+            }
+        });
+
+        map.querySelectorAll('.blog-station').forEach((station, index) => {
+            station.classList.toggle('active', index === activeIndex);
+        });
+
+        let fromIndex = activeIndex;
+        let toIndex = Math.min(activeIndex + 1, sections.length - 1);
+        let progress = 0;
+
+        if (activeIndex > 0 && viewportCenterY < getSectionCenter(sections[activeIndex])) {
+            fromIndex = activeIndex - 1;
+            toIndex = activeIndex;
+            const fromCenter = getSectionCenter(sections[fromIndex]);
+            const toCenter = getSectionCenter(sections[toIndex]);
+            const span = Math.max(1, toCenter - fromCenter);
+            progress = clamp((viewportCenterY - fromCenter) / span, 0, 1);
+        } else {
+            const fromCenter = getSectionCenter(sections[fromIndex]);
+            const toCenter = getSectionCenter(sections[toIndex]);
+            const span = Math.max(1, toCenter - fromCenter);
+            progress = clamp((viewportCenterY - fromCenter) / span, 0, 1);
+        }
+
+        const fromPoint = getStationPoint(fromIndex);
+        const toPoint = getStationPoint(toIndex);
+        const travelPoint = {
+            x: fromPoint.x + (toPoint.x - fromPoint.x) * progress,
+            y: fromPoint.y + (toPoint.y - fromPoint.y) * progress
+        };
+
+        const targetX = clamp(travelPoint.x - zoomWidth * 0.1, 0, mapWidth - zoomWidth);
+        const targetY = clamp(travelPoint.y - zoomHeight * 0.55, 0, mapHeight - zoomHeight);
+
+        viewBoxState.x += (targetX - viewBoxState.x) * 0.16;
+        viewBoxState.y += (targetY - viewBoxState.y) * 0.16;
+        map.setAttribute('viewBox', `${viewBoxState.x.toFixed(2)} ${viewBoxState.y.toFixed(2)} ${zoomWidth} ${zoomHeight}`);
+    }
+
+    function scheduleViewBoxUpdate() {
+        if (viewBoxFrame) return;
+        viewBoxFrame = window.requestAnimationFrame(() => {
+            viewBoxFrame = null;
+            updateActiveStation();
+        });
+    }
+
+    window.addEventListener('scroll', scheduleViewBoxUpdate, { passive: true });
+    window.addEventListener('resize', scheduleViewBoxUpdate);
+
+    if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
+
+    function initializeLandingView() {
+        buildStationOverlay();
+        window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+        jumpToStation(0);
+        initialViewSet = true;
+        scheduleViewBoxUpdate();
+    }
+
+    window.addEventListener('load', () => {
+        initializeLandingView();
+        window.requestAnimationFrame(() => {
+            window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+            jumpToStation(0);
+            scheduleViewBoxUpdate();
+        });
+    });
+
+    setTimeout(() => {
+        if (!initialViewSet) {
+            initializeLandingView();
+        }
+    }, 300);
+
+    document.addEventListener('DOMContentLoaded', () => {
+        buildStationOverlay();
+        if (!initialViewSet) {
+            jumpToStation(0);
+        }
+        scheduleViewBoxUpdate();
+    });
+</script>
