@@ -2,13 +2,13 @@
   cx: 1390
   cy: 190
 - name: "Arsenal"
-  cx: 1356
-  cy: 230
+  cx: 1370
+  cy: 225
 - name: "Holloway Road"
-  cx: 1326
-  cy: 250
+  cx: 1340
+  cy: 255
 - name: "Caledonian Road"
-  cx: 1290
+  cx: 1310
   cy: 280
 - name: "King's Cross St. Pancras"
   cx: 1290

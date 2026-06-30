@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2500" height="1340" viewBox="-40.5 -120.5 2500 1340">
-	<title>Alternative route map of London Underground, London Overground, Docklands Light Railway and Elizabeth line licensed under Creative Commons Attribution-Share Alike 4.0 International by Wikimedians</title>
+	<!-- <title>Alternative route map of London Underground, London Overground, Docklands Light Railway and Elizabeth line licensed under Creative Commons Attribution-Share Alike 4.0 International by Wikimedians</title> -->
 	<style type="text/css">
 text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 .textbg {stroke:#fff;stroke-width:4;stroke-linejoin:round}
@@ -335,7 +335,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		<g style="visibility:visible" class="progress">
 			<rect x="-200" y="-200" width="3000" height="3000" style="fill:#fff"/>
 			<g>
-				<title>Fare zone 1. If possible, avoid this zone in your journey and tap your checked-in contactless card at any pink route validator for potential fare discount.</title>
+				<!-- <title>Fare zone 1. If possible, avoid this zone in your journey and tap your checked-in contactless card at any pink route validator for potential fare discount.</title> -->
 				<g style="fill:#ffffea;stroke:#eca;stroke-width:1">
 					<use xlink:href="#zone1_base"/>
 					<rect x="-20" y="-35" width="410" height="20" rx="10"/>
@@ -1107,7 +1107,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			</g>
 		</g>
 		<g class="me selizabeth">
-			<title>Elizabeth line</title>
+			<!-- <title>Elizabeth line</title> -->
 			<g class="me">
 				<g id="Elizabeth_route">
 					<g>
@@ -1171,7 +1171,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			<use xlink:href="#Waterloo_and_City_line_route" class="swnc2"/>
 		</g>
 		<g class="me sjubilee">
-			<title>Jubilee line</title>
+			<!-- <title>Jubilee line</title> -->
 			<path id="Jubilee_line_route" d="
 			M 651,162
 			V 294 a 15,15 0 0,0 15,15
@@ -1189,7 +1189,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		<use xlink:href="#Hammersmith_and_City_line_route" class="meb bhnc"/>
 		<use xlink:href="#Circle_line_route" class="meb bcircle"/>
 		<g class="me scentral">
-			<title>Central line</title>
+			<!-- <title>Central line</title> -->
 			<path id="Central_line_route" d="
 			M 340,718.9
 			H 360 q 15,0 27,-9
@@ -1219,7 +1219,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			"/>
 		</g>
 		<g class="me snorthern">
-			<title>Northern line</title>
+			<!-- <title>Northern line</title> -->
 			<path id="Northern_line_route" d="
 			M 854,4.5
 			L 1124,207 q 16,12 16,32
@@ -1236,7 +1236,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			"/>
 		</g>
 		<g class="me sedgware">
-			<title>Edgware line</title>
+			<!-- <title>Edgware line</title> -->
 			<path id="Edgware_line_route" d="
 			M 766,124.5
 			L 962.67,272 q 12,9 27,9
@@ -1252,7 +1252,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			"/>
 		</g>
 		<g class="me svictoria">
-			<title>Victoria line</title>
+			<!-- <title>Victoria line</title> -->
 			<path id="Victoria_line_route" d="
 			M 1682,113
 			L 1423,113 a 30,30 0 0,0 -30,30
@@ -1266,7 +1266,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			"/>
 		</g>
 		<g class="me sbakerloo">
-			<title>Future extension to Lewisham of Bakerloo line</title>
+			<!-- <title>Future extension to Lewisham of Bakerloo line</title> -->
 			<g id="Bakerloo_line_route_extension">
 				<g class="xb">
 					<path id="Bakerloo_line_route_extension_base" d="
@@ -1282,7 +1282,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			</g>
 		</g>
 		<g class="me sbakerloo">
-			<title>Bakerloo line</title>
+			<!-- <title>Bakerloo line</title> -->
 			<path id="Bakerloo_line_route" d="
 			M 529,239
 			L 529,321 a 45,45 0 0,0 18,36 
@@ -1299,7 +1299,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			"/>
 		</g>
 		<g class="me spiccadilly">
-			<title>Piccadilly line</title>
+			<!-- <title>Piccadilly line</title> -->
 			<path id="Piccadilly_line_route" d="
 			M 20,299
 			H 308 a 40,40 0 0,1 24,8
@@ -1335,7 +1335,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		<use xlink:href="#STRg" x="68" y="976.5"/>
 		<use xlink:href="#STRg" transform="translate(126,973)rotate(233.13)"/>
 		<g class="me sdlr">
-			<title>Docklands Light Railway</title>
+			<!-- <title>Docklands Light Railway</title> -->
 			<path id="DLR_routes" d="
 			M 1481.5,570
 			h 115 q 10,0 22.5,7.5 t 22.5,7.5
@@ -1371,7 +1371,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			<use xlink:href="#District_Olympia_branch" class="branch" id="District_Olympia_branch_stripe"/>
 		</g>
 		<g class="me sdistrict">
-			<title>District line</title>
+			<!-- <title>District line</title> -->
 			<path id="District_line_route" d="
 			M 987,567 l -54,40.5 a 145.5,145.5 0 0,0 -29.1,203.7
 			a 36.375,36.375 0 0,1 -29.1,58.2
@@ -1402,7 +1402,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			"/>
 		</g>
 		<g class="me smildmay">
-			<title>Overground Mildmay line</title>
+			<!-- <title>Overground Mildmay line</title> -->
 			<g id="Mildmay_lines_route">
 				<path id="West_London_line_route" d="
 				M 696.5,466
@@ -1436,7 +1436,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			<use xlink:href="#Mildmay_lines_route" class="mes" id="Mildmay_lines_route_stripe"/>
 		</g>
 		<g class="me shnc">
-			<title>Hammersmith &amp; City line</title>
+			<!-- <title>Hammersmith &amp; City line</title> -->
 			<path id="Hammersmith_and_City_line_route" d="
 			M 981,559 a 61.25,61.25 0 0,1 -36.75,12.25
 			h -15 a 66.25,66.25 0 0,0 -39.75,13.25
@@ -1459,7 +1459,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			"/>
 		</g>
 		<g class="me scircle">
-			<title>Circle line</title>
+			<!-- <title>Circle line</title> -->
 			<path id="Circle_line_route" d="
 			M 990,571 l -54,40.5 a 140.5,140.5 0 0,0 168.6,224.8
 			L 1430,592.5 a 50,50 0 0,1 30,-10
@@ -1479,7 +1479,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			"/>
 		</g>
 		<g class="me slioness">
-			<title>Overground Lioness line</title>
+			<!-- <title>Overground Lioness line</title> -->
 			<path id="Lioness_line_route" d="
 			M 534,20
 			L 534,321 a 40,40 0 0,0 16,32
@@ -1488,7 +1488,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			<use xlink:href="#Lioness_line_route" class="mes" id="Lioness_line_stripe"/>
 		</g>
 		<g class="me smetropolitan">
-			<title>Metropolitan line</title>
+			<!-- <title>Metropolitan line</title> -->
 			<path id="Metropolitan_line_route" d="
 			M 100,60
 			L 400,285 q 12,9 27,9 
@@ -1507,7 +1507,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			"/>
 		</g>
 		<g>
-			<title>Overground Lioness line</title>
+			<!-- <title>Overground Lioness line</title> -->
 			<g class="me slioness">
 				<path id="Lioness_line_route_over" d="
 				M 762,512
@@ -1520,7 +1520,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g class="me ssuffragette">
 			<g>
-				<title>Overground Suffragette line</title>
+				<!-- <title>Overground Suffragette line</title> -->
 				<path id="Suffragette_line_route" d="
 				M 1015,216 q 15,0 27,-9
 				L 1122,147 q 12,-9 27,-9
@@ -1535,7 +1535,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			</g>
 		</g>
 		<g class="me sweaver">
-			<title>Overground Weaver line</title>
+			<!-- <title>Overground Weaver line</title> -->
 			<path id="Weaver_line_routes" d="
 			M 1564,485
 			h 28.67 a 40,40 0 0,0 24,-8
@@ -1560,7 +1560,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			<use xlink:href="#Weaver_line_routes" class="mes" id="Weaver_line_routes_stripe"/>
 		</g>
 		<g class="me sliberty">
-			<title>Overground Liberty line. No trains after 8pm on weekdays and out of service on Sundays.</title>
+			<!-- <title>Overground Liberty line. No trains after 8pm on weekdays and out of service on Sundays.</title> -->
 			<path id="Liberty_line_route" d="
 			M 2257,118
 			h 30 q 20,0 32,16
@@ -1570,7 +1570,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			<use xlink:href="#Liberty_line_route" class="mes" id="Liberty_line_route_stripe"/>
 		</g>
 		<g class="me swindrush">
-			<title>Overground Windrush line</title>
+			<!-- <title>Overground Windrush line</title> -->
 			<g>
 				<title>Battersea Park branch of Overground Windrush line. Operates infrequently as parliamentary service. Check the latest official timetable for details.</title>
 				<path id="Windrush_line_Battersea_Park_branch" d="
@@ -1776,400 +1776,6 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 	M 144.625,302
 	v -11
 	"/>
-	<g id="interactivity">
-		<g>
-			<title>Section of Thameslink disused until 2018.</title>
-			<use xlink:href="#Thameslink_Blackfriars_London_Bridge_route" id="Thameslink_disused_blink" class="blink2 sthameslink">
-				<set
-				begin="lthameslink.click;Thameslink_route.click;Thameslink_Blackfriars_London_Bridge_route.click"
-				end="bg.click;Thameslink_blink.click;Thameslink_disused_blink.click;Thameslink_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lthameslink.click;Thameslink_route.click;Thameslink_Blackfriars_London_Bridge_route.click"
-				end="bg.click;Thameslink_blink.click;Thameslink_disused_blink.click;Thameslink_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Thameslink</title>
-			<use xlink:href="#Thameslink_route" id="Thameslink_blink" class="blink2 sthameslink">
-				<set
-				begin="lthameslink.click;Thameslink_route.click;Thameslink_Blackfriars_London_Bridge_route.click"
-				end="bg.click;Thameslink_blink.click;Thameslink_disused_blink.click;Thameslink_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lthameslink.click;Thameslink_route.click;Thameslink_Blackfriars_London_Bridge_route.click"
-				end="bg.click;Thameslink_blink.click;Thameslink_disused_blink.click;Thameslink_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Elizabeth line</title>
-			<use xlink:href="#Elizabeth_route" id="Elizabeth_blink" class="blink selizabeth">
-				<set
-				begin="lelizabeth.click;Elizabeth_route.click;Elizabeth_stripe.click;Elizabeth_branch_east_stripe.click"
-				end="bg.click;Elizabeth_blink.click;Elizabeth_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lelizabeth.click;Elizabeth_route.click;Elizabeth_stripe.click;Elizabeth_branch_east_stripe.click"
-				end="bg.click;Elizabeth_blink.click;Elizabeth_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Waterloo &amp; City line. Out of service on Sundays or public holidays.</title>
-			<use xlink:href="#Waterloo_and_City_line_route" id="Waterloo_and_City_line_blink" class="blink swnc">
-				<set
-				begin="lwnc.click;Waterloo_and_City_line_route.click"
-				end="bg.click;Waterloo_and_City_line_blink.click;Waterloo_and_City_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lwnc.click;Waterloo_and_City_line_route.click"
-				end="bg.click;Waterloo_and_City_line_blink.click;Waterloo_and_City_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Jubilee line</title>
-			<use xlink:href="#Jubilee_line_route" id="Jubilee_line_blink" class="blink sjubilee">
-				<set
-				begin="ljubilee.click;Jubilee_line_route.click"
-				end="bg.click;Jubilee_line_blink.click;Jubilee_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="ljubilee.click;Jubilee_line_route.click"
-				end="bg.click;Jubilee_line_blink.click;Jubilee_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Central line</title>
-			<use xlink:href="#Central_line_route" id="Central_line_blink" class="blink scentral">
-				<set
-				begin="lcentral.click;Central_line_route.click;Central_line_route_over.click"
-				end="bg.click;Central_line_blink.click;Central_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lcentral.click;Central_line_route.click;Central_line_route_over.click"
-				end="bg.click;Central_line_blink.click;Central_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Northern line</title>
-			<use xlink:href="#Northern_line_route" id="Northern_line_blink" class="blink snorthern">
-				<set
-				begin="lnorthern.click;Northern_line_route.click"
-				end="bg.click;Northern_line_blink.click;Northern_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lnorthern.click;Northern_line_route.click"
-				end="bg.click;Northern_line_blink.click;Northern_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Future Battersea extension of Edgware line</title>
-			<use xlink:href="#Edgware_line_Battersea_extension" id="Edgware_line_Battersea_extension_blink" class="blink sedgware">
-				<set
-				begin="ledgware.click;Edgware_line_route.click"
-				end="bg.click;Edgware_line_blink.click;Edgware_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="ledgware.click;Edgware_line_route.click"
-				end="bg.click;Edgware_line_blink.click;Edgware_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Edgware line</title>
-			<use xlink:href="#Edgware_line_route" id="Edgware_line_blink" class="blink sedgware">
-				<set
-				begin="ledgware.click;Edgware_line_route.click"
-				end="bg.click;Edgware_line_blink.click;Edgware_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="ledgware.click;Edgware_line_route.click"
-				end="bg.click;Edgware_line_blink.click;Edgware_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Victoria line</title>
-			<use xlink:href="#Victoria_line_route" id="Victoria_line_blink" class="blink svictoria">
-				<set
-				begin="lvictoria.click;Victoria_line_route.click"
-				end="bg.click;Victoria_line_blink.click;Victoria_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lvictoria.click;Victoria_line_route.click"
-				end="bg.click;Victoria_line_blink.click;Victoria_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Future extension to Lewisham of Bakerloo line</title>
-			<use xlink:href="#Bakerloo_line_route_extension_base" id="Bakerloo_line_extension_blink" class="blink sbakerloo">
-				<set
-				begin="lbakerloo.click;Bakerloo_line_route.click;Bakerloo_line_route_extension.click"
-				end="bg.click;Bakerloo_line_blink.click;Bakerloo_line_extension_blink.click;Bakerloo_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lbakerloo.click;Bakerloo_line_route.click;Bakerloo_line_route_extension.click"
-				end="bg.click;Bakerloo_line_blink.click;Bakerloo_line_extension_blink;Bakerloo_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Bakerloo line</title>
-			<use xlink:href="#Bakerloo_line_route" id="Bakerloo_line_blink" class="blink sbakerloo">
-				<set
-				begin="lbakerloo.click;Bakerloo_line_route.click;Bakerloo_line_route_extension.click"
-				end="bg.click;Bakerloo_line_blink.click;Bakerloo_line_extension_blink.click;Bakerloo_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lbakerloo.click;Bakerloo_line_route.click;Bakerloo_line_route_extension.click"
-				end="bg.click;Bakerloo_line_blink.click;Bakerloo_line_extension_blink;Bakerloo_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Piccadilly line</title>
-			<use xlink:href="#Piccadilly_line_route" id="Piccadilly_line_blink" class="blink spiccadilly">
-				<set
-				begin="lpiccadilly.click;Piccadilly_line_route.click"
-				end="bg.click;Piccadilly_line_blink.click;Piccadilly_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lpiccadilly.click;Piccadilly_line_route.click"
-				end="bg.click;Piccadilly_line_blink.click;Piccadilly_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Docklands Light Railway</title>
-			<use xlink:href="#DLR_routes" id="DLR_blink" class="blink sdlr">
-				<set
-				begin="ldlr.click;DLR_routes.click;DLR_routes_stripe.click;DLR_route_over.click;DLR_route_stripe_over.click"
-				end="bg.click;DLR_blink.click;DLR_off.click;DLR_over_blink.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="ldlr.click;DLR_routes.click;DLR_routes_stripe.click;DLR_route_over.click;DLR_route_stripe_over.click"
-				end="bg.click;DLR_blink.click;DLR_off.click;DLR_over_blink.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Kensington (Olympia) branch of District line. Operates only on weekends and some public holidays. Check the latest official timetable for details.</title>
-			<use xlink:href="#District_Olympia_branch" id="District_Olympia_branch_blink" class="blink sdistrict">
-				<set
-				begin="ldistrict.click;District_line_route.click;District_Olympia_branch.click;District_Olympia_branch_stripe.click"
-				end="bg.click;District_line_blink.click;District_Olympia_branch_blink.click;District_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="ldistrict.click;District_line_route.click;District_Olympia_branch.click;District_Olympia_branch_stripe.click"
-				end="bg.click;District_line_blink.click;District_Olympia_branch_blink.click;District_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>District line</title>
-			<use xlink:href="#District_line_route" id="District_line_blink" class="blink sdistrict">
-				<set
-				begin="ldistrict.click;District_line_route.click;District_Olympia_branch.click;District_Olympia_branch_stripe.click"
-				end="bg.click;District_line_blink.click;District_Olympia_branch_blink.click;District_line_off"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="ldistrict.click;District_line_route.click;District_Olympia_branch.click;District_Olympia_branch_stripe.click"
-				end="bg.click;District_line_blink.click;District_Olympia_branch_blink.click;District_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Overground Mildmay line</title>
-			<use xlink:href="#Mildmay_lines_route" id="North_and_West_London_lines_blink" class="blink smildmay">
-				<set
-				begin="lmildmay.click;Mildmay_lines_route.click;Mildmay_lines_route_stripe.click"
-				end="bg.click;North_and_West_London_lines_blink.click;North_and_West_London_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lmildmay.click;Mildmay_lines_route.click;Mildmay_lines_route_stripe.click"
-				end="bg.click;North_and_West_London_lines_blink.click;North_and_West_London_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Hammersmith &amp; City line</title>
-			<use xlink:href="#Hammersmith_and_City_line_route" id="Hammersmith_and_City_line_blink" class="blink bhnc">
-				<set
-				begin="lhnc.click;Hammersmith_and_City_line_route.click"
-				end="bg.click;Hammersmith_and_City_line_blink.click;Hammersmith_and_City_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lhnc.click;Hammersmith_and_City_line_route.click" 
-				end="bg.click;Hammersmith_and_City_line_blink.click;Hammersmith_and_City_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Circle line</title>
-			<use xlink:href="#Circle_line_route" id="Circle_line_blink" class="blink bcircle">
-				<set
-				begin="lcircle.click;Circle_line_route.click"
-				end="bg.click;Circle_line_blink.click;Circle_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lcircle.click;Circle_line_route.click"
-				end="bg.click;Circle_line_blink.click;Circle_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Overground Lioness line</title>
-			<use xlink:href="#Lioness_line_route" id="Lioness_line_blink" class="blink slioness">
-				<set
-				begin="llioness.click;Lioness_line_route.click;Lioness_line_route_over.click;Lioness_line_over_stripe.click;Lioness_line_stripe.click"
-				end="bg.click;Lioness_line_blink.click;Lioness_line_blink_over.click;Lioness_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="llioness.click;Lioness_line_route.click;Lioness_line_route_over.click;Lioness_line_over_stripe.click;Lioness_line_stripe.click"
-				end="bg.click;Lioness_line_blink.click;Lioness_line_blink_over.click;Lioness_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Metropolitan line</title>
-			<use xlink:href="#Metropolitan_line_route" id="Metropolitan_line_blink" class="blink smetropolitan">
-				<set
-				begin="lmetropolitan.click;Metropolitan_line_route.click"
-				end="bg.click;Metropolitan_line_blink.click;Metropolitan_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lmetropolitan.click;Metropolitan_line_route.click"
-				end="bg.click;Metropolitan_line_blink.click;Metropolitan_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Overground Lioness line</title>
-			<use xlink:href="#Lioness_line_route_over" id="Lioness_line_blink_over" class="blink slioness">
-				<set
-				begin="llioness.click;Lioness_line_route.click;Lioness_line_route_over.click;Lioness_line_over_stripe.click;Lioness_line_stripe.click"
-				end="bg.click;Lioness_line_blink.click;Lioness_line_blink_over.click;Lioness_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="llioness.click;Lioness_line_route.click;Lioness_line_route_over.click;Lioness_line_over_stripe.click;Lioness_line_stripe.click"
-				end="bg.click;Lioness_line_blink.click;Lioness_line_blink_over.click;Lioness_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Overground Suffragette line</title>
-			<use xlink:href="#Suffragette_line_route" id="Suffragette_line_blink" class="blink ssuffragette">
-				<set
-				begin="lsuffragette.click;Suffragette_line_route.click;Suffragette_line_route_stripe.click"
-				end="bg.click;Suffragette_line_blink.click;Suffragette_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lsuffragette.click;Suffragette_line_route.click;Suffragette_line_route_stripe.click"
-				end="bg.click;Suffragette_line_blink.click;Suffragette_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Overground Weaver line</title>
-			<use xlink:href="#Weaver_line_routes" id="Weaver_line_blink" class="blink sweaver">
-				<set
-				begin="lweaver.click;Weaver_line_routes.click;Weaver_line_routes_stripe.click"
-				end="bg.click;Weaver_line_blink.click;Weaver_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lweaver.click;Weaver_line_routes.click;Weaver_line_routes_stripe.click"
-				end="bg.click;Weaver_line_blink.click;Weaver_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Overground Liberty line. No trains after 8pm and out of service on Sundays.</title>
-			<use xlink:href="#Liberty_line_route" id="Liberty_line_blink" class="blink sliberty">
-				<set
-				begin="lliberty.click;Liberty_line_route.click;Liberty_line_route_stripe.click"
-				end="bg.click;Liberty_line_blink.click;Romford_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lliberty.click;Liberty_line_route.click;Liberty_line_route_stripe.click"
-				end="bg.click;Liberty_line_blink.click;Romford_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Battersea Park branch of Overground Windrush line. Operates infrequenctly as parliamentary service. Check the latest official timetable for details.</title>
-			<use xlink:href="#Windrush_line_Battersea_Park_branch" id="Windrush_line_Battersea_Park_branch_blink" class="blink swindrush">
-				<set
-				begin="lwindrush.click;Windrush_line_Battersea_Park_branch.click;Windrush_line_route.click;Windrush_line_route_stripe.click;Windrush_line_Battersea_Park_branch_stripe.click"
-				end="bg.click;Windrush_line_blink.click;Windrush_line_Battersea_Park_branch_blink.click;East_and_South_London_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lwindrush.click;Windrush_line_Battersea_Park_branch.click;Windrush_line_route.click;Windrush_line_route_stripe.click;Windrush_line_Battersea_Park_branch_stripe.click"
-				end="bg.click;Windrush_line_blink.click;Windrush_line_Battersea_Park_branch_blink.click;East_and_South_London_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Overground Windrush line</title>
-			<use xlink:href="#Windrush_line_route" id="Windrush_line_blink" class="blink swindrush">
-				<set
-				begin="lwindrush.click;Windrush_line_Battersea_Park_branch.click;Windrush_line_route.click;Windrush_line_route_stripe.click;Windrush_line_Battersea_Park_branch_stripe.click"
-				end="bg.click;Windrush_line_blink.click;Windrush_line_Battersea_Park_branch_blink.click;East_and_South_London_line_off.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="lwindrush.click;Windrush_line_Battersea_Park_branch.click;Windrush_line_route.click;Windrush_line_route_stripe.click;Windrush_line_Battersea_Park_branch_stripe.click"
-				end="bg.click;Windrush_line_blink.click;Windrush_line_Battersea_Park_branch_blink.click;East_and_South_London_line_off.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-		<g>
-			<title>Docklands Light Railway</title>
-			<use xlink:href="#DLR_route_over" id="DLR_over_blink" class="blink sdlr">
-				<set
-				begin="ldlr.click;DLR_routes.click;DLR_routes_stripe.click;DLR_route_over.click;DLR_route_stripe_over.click"
-				end="bg.click;DLR_blink.click;DLR_off.click;DLR_over_blink.click"
-				attributeName="visibility" attributeType="CSS" to="visible" fill="remove"/>
-				<animate
-				begin="ldlr.click;DLR_routes.click;DLR_routes_stripe.click;DLR_route_over.click;DLR_route_stripe_over.click"
-				end="bg.click;DLR_blink.click;DLR_off.click;DLR_over_blink.click"
-				attributeName="opacity" attributeType="CSS" dur="0.5s" fill="remove" repeatCount="indefinite"
-				values="0; 1; 0" keyTimes="0; 0.5; 1"/>
-			</use>
-		</g>
-	</g>
 	<g class="stl" cursor="pointer">
 		<title>Tramlink. Fare is independent to the general zonal system of railways in London.</title>
 		<path id="Tramlink_route" fill="none" d="

@@ -56,33 +56,115 @@ layout: default
         font-family: Arial, Helvetica, sans-serif;
         font-size: 9px;
         font-weight: 700;
-        fill: #f8fafc;
-        paint-order: stroke;
-        stroke: rgba(15, 23, 42, 0.95);
-        stroke-width: 3px;
-        stroke-linejoin: round;
+        fill: #0f172a;
+        paint-order: normal;
     }
 
     .blog-station .station-title {
         font-size: 9px;
         font-weight: 700;
-        fill: #f8fafc;
+        fill: #0f172a;
     }
 
     .blog-station .station-subtitle {
         font-size: 8px;
         font-weight: 400;
-        fill: #cbd5e1;
+        fill: #0f172a;
+        display: none;
+        opacity: 0;
+    }
+
+    .blog-station.active .station-subtitle {
+        display: inline;
+        opacity: 1;
+    }
+
+    .blog-station .station-label-bg {
+        fill: #0f172a;
+        opacity: 0;
+        transition: opacity 180ms ease;
+    }
+
+    .blog-station.active .station-label-bg {
+        opacity: 1;
+    }
+
+    .blog-station.active text,
+    .blog-station.active .station-title,
+    .blog-station.active .station-subtitle {
+        fill: #f8fafc;
     }
 
     .blog-station:hover circle {
         fill: #38bdf8;
         stroke: #ffffff;
     }
+
+    .station-nav {
+        position: fixed;
+        right: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        z-index: 5;
+        pointer-events: auto;
+    }
+
+    .station-nav button {
+        width: 96px;
+        height: 96px;
+        border: 0;
+        border-radius: 0;
+        background: #0f172a;
+        color: #f8fafc;
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+        box-shadow: none;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .station-nav button:hover {
+        background: #1e293b;
+    }
+
+    .station-nav button:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+        box-shadow: none;
+    }
+
+    .station-nav button svg {
+        width: 72px;
+        height: 72px;
+        fill: currentColor;
+    }
+
+    .station-nav .up svg {
+        transform: rotate(-90deg);
+        transform-origin: center;
+    }
+
+    .station-nav .down svg {
+        transform: rotate(90deg);
+        transform-origin: center;
+    }
 </style>
 
 <div class="map-container">
     {% include london-map.svg %}
+</div>
+
+<div class="station-nav" aria-label="Station navigation">
+    <button type="button" class="station-nav-btn up" data-direction="up" aria-label="Previous station">
+        {% include arrow-right-solid-full.svg %}
+    </button>
+    <button type="button" class="station-nav-btn down" data-direction="down" aria-label="Next station">
+        {% include arrow-right-solid-full.svg %}
+    </button>
 </div>
 
 {% assign station_data = site.data._tube_route %}
@@ -111,7 +193,9 @@ layout: default
     const stationLayerId = 'blog-stations';
     const viewBoxState = { x: 0, y: 0, width: zoomWidth, height: zoomHeight };
     let viewBoxFrame = null;
+    let scrollAnimationFrame = null;
     let initialViewSet = false;
+    let activeStationIndex = 0;
 
     function clamp(value, min, max) {
         return Math.max(min, Math.min(max, value));
@@ -178,6 +262,34 @@ layout: default
         return lines.slice(0, maxLines);
     }
 
+    function updateStationVisualState(activeIndex = activeStationIndex) {
+        if (!map) return;
+
+        map.querySelectorAll('.blog-station').forEach((station, index) => {
+            const isActive = index === activeIndex;
+            station.classList.toggle('active', isActive);
+
+            const subtitle = station.querySelector('.station-subtitle');
+            if (subtitle) {
+                const shouldShowExcerpt = isActive && subtitle.getAttribute('data-has-excerpt') === 'true';
+                subtitle.setAttribute('display', shouldShowExcerpt ? 'inline' : 'none');
+                subtitle.setAttribute('opacity', shouldShowExcerpt ? '1' : '0');
+            }
+
+            const text = station.querySelector('text');
+            const labelBg = station.querySelector('.station-label-bg');
+            if (text && labelBg) {
+                const bbox = text.getBBox();
+                if (bbox && bbox.width && bbox.height) {
+                    labelBg.setAttribute('x', (bbox.x - 6).toFixed(2));
+                    labelBg.setAttribute('y', (bbox.y - 3).toFixed(2));
+                    labelBg.setAttribute('width', (bbox.width + 12).toFixed(2));
+                    labelBg.setAttribute('height', (bbox.height + 6).toFixed(2));
+                }
+            }
+        });
+    }
+
     function buildStationOverlay() {
         const layer = ensureStationLayer();
         if (!layer || sections.length === 0) return;
@@ -230,15 +342,38 @@ layout: default
                 subtitle.setAttribute('class', 'station-subtitle');
                 subtitle.setAttribute('x', cx + 16);
                 subtitle.setAttribute('dy', titleLines.length > 0 ? `${11 * Math.max(titleLines.length, 1)}` : '12');
+                subtitle.setAttribute('data-has-excerpt', 'true');
                 subtitle.textContent = compactExcerpt;
                 text.appendChild(subtitle);
             }
 
             stationGroup.appendChild(circle);
             stationGroup.appendChild(text);
+
             link.appendChild(stationGroup);
             layer.appendChild(link);
+
+            const labelBg = document.createElementNS(svgNS, 'rect');
+            labelBg.setAttribute('class', 'station-label-bg');
+            labelBg.setAttribute('rx', '0');
+            labelBg.setAttribute('ry', '0');
+            stationGroup.insertBefore(labelBg, text);
+
+            const bbox = text.getBBox();
+            if (bbox && bbox.width && bbox.height) {
+                labelBg.setAttribute('x', (bbox.x - 6).toFixed(2));
+                labelBg.setAttribute('y', (bbox.y - 3).toFixed(2));
+                labelBg.setAttribute('width', (bbox.width + 12).toFixed(2));
+                labelBg.setAttribute('height', (bbox.height + 6).toFixed(2));
+            } else {
+                labelBg.setAttribute('x', (cx + 10).toFixed(2));
+                labelBg.setAttribute('y', (cy - 20).toFixed(2));
+                labelBg.setAttribute('width', '120');
+                labelBg.setAttribute('height', '28');
+            }
         });
+
+        updateStationVisualState(activeStationIndex);
     }
 
     function getSectionCenter(section) {
@@ -264,6 +399,7 @@ layout: default
     function jumpToStation(index) {
         if (!map || sections.length === 0) return;
 
+        activeStationIndex = index;
         const point = getStationPoint(index);
         const targetX = clamp(point.x - zoomWidth * 0.1, 0, mapWidth - zoomWidth);
         const targetY = clamp(point.y - zoomHeight * 0.55, 0, mapHeight - zoomHeight);
@@ -272,9 +408,7 @@ layout: default
         viewBoxState.y = targetY;
         map.setAttribute('viewBox', `${viewBoxState.x.toFixed(2)} ${viewBoxState.y.toFixed(2)} ${zoomWidth} ${zoomHeight}`);
 
-        map.querySelectorAll('.blog-station').forEach((station, stationIndex) => {
-            station.classList.toggle('active', stationIndex === index);
-        });
+        updateStationVisualState(index);
     }
 
     function updateActiveStation() {
@@ -293,9 +427,15 @@ layout: default
             }
         });
 
-        map.querySelectorAll('.blog-station').forEach((station, index) => {
-            station.classList.toggle('active', index === activeIndex);
+        activeStationIndex = activeIndex;
+        const navButtons = document.querySelectorAll('.station-nav-btn');
+        navButtons.forEach((button, index) => {
+            const direction = button.getAttribute('data-direction');
+            const targetIndex = direction === 'up' ? activeStationIndex - 1 : activeStationIndex + 1;
+            button.disabled = targetIndex < 0 || targetIndex >= sections.length;
         });
+
+        updateStationVisualState(activeIndex);
 
         let fromIndex = activeIndex;
         let toIndex = Math.min(activeIndex + 1, sections.length - 1);
@@ -330,6 +470,52 @@ layout: default
         map.setAttribute('viewBox', `${viewBoxState.x.toFixed(2)} ${viewBoxState.y.toFixed(2)} ${zoomWidth} ${zoomHeight}`);
     }
 
+    function scrollToStation(index) {
+        const section = sections[index];
+        if (!section) return;
+
+        activeStationIndex = index;
+        updateStationVisualState(index);
+
+        const targetY = clamp(section.offsetTop + section.offsetHeight / 2 - window.innerHeight / 2, 0, document.body.scrollHeight - window.innerHeight);
+        if (scrollAnimationFrame) {
+            cancelAnimationFrame(scrollAnimationFrame);
+            scrollAnimationFrame = null;
+        }
+
+        const startY = window.scrollY;
+        const distanceY = targetY - startY;
+        if (Math.abs(distanceY) < 1) {
+            window.scrollTo({ top: targetY, behavior: 'auto' });
+            scheduleViewBoxUpdate();
+            return;
+        }
+
+        const duration = 650;
+        let startTime = null;
+
+        const step = (timestamp) => {
+            if (!startTime) startTime = timestamp;
+            const elapsed = timestamp - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            const currentY = startY + distanceY * eased;
+
+            window.scrollTo({ top: currentY, behavior: 'auto' });
+            scheduleViewBoxUpdate();
+
+            if (progress < 1) {
+                scrollAnimationFrame = window.requestAnimationFrame(step);
+            } else {
+                window.scrollTo({ top: targetY, behavior: 'auto' });
+                scheduleViewBoxUpdate();
+                scrollAnimationFrame = null;
+            }
+        };
+
+        scrollAnimationFrame = window.requestAnimationFrame(step);
+    }
+
     function scheduleViewBoxUpdate() {
         if (viewBoxFrame) return;
         viewBoxFrame = window.requestAnimationFrame(() => {
@@ -337,6 +523,15 @@ layout: default
             updateActiveStation();
         });
     }
+
+    document.querySelectorAll('.station-nav-btn').forEach((button) => {
+        button.addEventListener('click', () => {
+            const direction = button.getAttribute('data-direction');
+            const delta = direction === 'up' ? -1 : 1;
+            const targetIndex = clamp(activeStationIndex + delta, 0, sections.length - 1);
+            scrollToStation(targetIndex);
+        });
+    });
 
     window.addEventListener('scroll', scheduleViewBoxUpdate, { passive: true });
     window.addEventListener('resize', scheduleViewBoxUpdate);
