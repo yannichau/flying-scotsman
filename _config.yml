@@ -22,8 +22,8 @@ title: Green skies and blue grass
 email: z264interrailer@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   All about the world when the sky is green and the grass is blue.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yannichau.github.io"
+baseurl: "/flying-scotsman"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 

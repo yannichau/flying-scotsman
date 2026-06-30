@@ -5,3 +5,4 @@ _site
 vendor
 assets_raw
 _archive
+Gemfile.lock
