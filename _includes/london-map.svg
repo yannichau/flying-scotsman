@@ -4,88 +4,88 @@
 	<!-- <title>Alternative route map of London Underground, London Overground, Docklands Light Railway and Elizabeth line licensed under Creative Commons Attribution-Share Alike 4.0 International by Wikimedians</title> -->
 	<style type="text/css">
 text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
-.textbg {stroke:#fff;stroke-width:4;stroke-linejoin:round}
+.textbg {stroke: #fff;stroke-width:4;stroke-linejoin:round}
 .zone {font-size:35px;font-weight:bold;text-anchor:middle}
-.st {font-size:14px;fill:#000}
-.small {font-size:11px;fill:#000}
-.intline {font-size:11px;fill:#fff}
-.x {fill:#999}
+.st {font-size:14px;fill: #000}
+.small {font-size:11px;fill: #000}
+.intline {font-size:11px;fill: #fff}
+.x {fill: #999}
 .b {font-weight:bold}
 .mid {text-anchor:middle}
 .end {text-anchor:end}
 .ul {text-decoration:underline;cursor:help}
 .me {fill:none;stroke-width:5}
-.mes {fill:none;stroke-width:1.5;stroke:#fff;stroke-linecap:round}
-.mes2 {fill:none;stroke-width:1.5;stroke:#fff;stroke-dasharray:8,1}
+.mes {fill:none;stroke-width:1.5;stroke: #fff;stroke-linecap:round}
+.mes2 {fill:none;stroke-width:1.5;stroke: #fff;stroke-dasharray:8,1}
 .meb {fill:none;stroke-width:5.5}
 .xb {stroke-dasharray:4,3}
-.mex {fill:none;stroke-width:3.5;stroke:#fff}
-.ftfl {fill:#009}
-.fbakerloo {fill:#894E24}
-.sbakerloo {stroke:#894E24}
-.fcentral {fill:#DC241F}
-.scentral {stroke:#DC241F}
-.fcircle {fill:#d90}
-.scircle {stroke:#FFCE00}
-.bcircle {stroke:#d90}
-.fdistrict {fill:#007229}
-.sdistrict {stroke:#007229}
-.fhnc {fill:#c78}
-.shnc {stroke:#D799AF}
-.bhnc {stroke:#c78}
-.fjubilee {fill:#777}
-.sjubilee {stroke:#868F98}
-.fmetropolitan {fill:#826}
-.smetropolitan {stroke:#751056}
-.fnorthern {fill:#000}
-.snorthern {stroke:#000}
-.fedgware {fill:#aa3}
-.sedgware {stroke:#aa3}
-.fpiccadilly {fill:#0019A8}
-.spiccadilly {stroke:#0019A8}
-.fvictoria {fill:#09d}
-.svictoria {stroke:#00A0E2}
-.fwnc {fill:#5b9}
-.swnc {stroke:#76D0BD}
-.swnc2 {stroke:#0019A8;stroke-width:0.5;fill:none}
-.fdlr {fill:#00a4a7}
-.sdlr {stroke:#00a4a7}
-.sdlr2 {stroke:#fff;stroke-width:1;fill:none}
-.fog {fill:#E87511}
-.fogx {fill:#fb5}
-.fliberty {fill:#5e6867}
-.sliberty {fill:none;stroke:#5e6867}
-.flioness {fill:#feb231}
-.slioness {fill:none;stroke:#feb231}
-.fmildmay {fill:#3784c7}
-.smildmay {fill:none;stroke:#3784c7}
-.fsuffragette {fill:#49c07d}
-.ssuffragette {fill:none;stroke:#49c07d}
-.ssuffragettex {fill:none;stroke:#8cbfa2}
-.fweaver {fill:#9a2c62}
-.sweaver {fill:none;stroke:#9a2c62}
-.fwindrush {fill:#ff4e5a}
-.swindrush {fill:none;stroke:#ff4e5a}
-.swindrushx {fill:none;stroke:#ffb2b8}
-.sogx {stroke:#fb5}
-.felizabeth {fill:#7156A5}
-.selizabeth {stroke:#7156A5}
-.ftflrail {fill:#0019A8}
-.stflrail {stroke:#0019A8}
-.fgreenford {fill:#177f0b}
-.sgreenford {stroke:#177f0b}
-.stl {stroke:#6C0;stroke-width:2}
-.ftl {fill:#5b0}
-.fthameslink {fill:#fad}
-.sthameslink {fill:none;stroke:#fce;stroke-width:3}
-.rn {fill:#99f}
-.osib {fill:none;stroke:#fff;stroke-width:4}
-.osi {fill:none;stroke:#009;stroke-width:2;cursor:help}
-.isib {stroke:#fff;stroke-width:7.5;fill:none}
-.isi {stroke:#000;stroke-width:6;fill:none}
-.isit {stroke:#fff;stroke-width:2;fill:none}
-.branch {stroke:#fff;stroke-width:3;stroke-dasharray:4;fill:none}
-.tleg:hover {fill:#009;stroke-width:1;stroke:#009;cursor:pointer}
+.mex {fill:none;stroke-width:3.5;stroke: #fff}
+.ftfl {fill: #009}
+.fbakerloo {fill: #894E24}
+.sbakerloo {stroke: #894E24}
+.fcentral {fill: #DC241F}
+.scentral {stroke: #DC241F}
+.fcircle {fill: #d90}
+.scircle {stroke: #FFCE00}
+.bcircle {stroke: #d90}
+.fdistrict {fill: #007229}
+.sdistrict {stroke: #007229}
+.fhnc {fill: #c78}
+.shnc {stroke: #D799AF}
+.bhnc {stroke: #c78}
+.fjubilee {fill: #777}
+.sjubilee {stroke: #868F98}
+.fmetropolitan {fill: #826}
+.smetropolitan {stroke: #751056}
+.fnorthern {fill: #000}
+.snorthern {stroke: #000}
+.fedgware {fill: #aa3}
+.sedgware {stroke: #aa3}
+.fpiccadilly {fill: #0019A8}
+.spiccadilly {stroke: #0019A8}
+.fvictoria {fill: #09d}
+.svictoria {stroke: #00A0E2}
+.fwnc {fill: #5b9}
+.swnc {stroke: #76D0BD}
+.swnc2 {stroke: #0019A8;stroke-width:0.5;fill:none}
+.fdlr {fill: #00a4a7}
+.sdlr {stroke: #00a4a7}
+.sdlr2 {stroke: #fff;stroke-width:1;fill:none}
+.fog {fill: #E87511}
+.fogx {fill: #fb5}
+.fliberty {fill: #5e6867}
+.sliberty {fill:none;stroke: #5e6867}
+.flioness {fill: #feb231}
+.slioness {fill:none;stroke: #feb231}
+.fmildmay {fill: #3784c7}
+.smildmay {fill:none;stroke: #3784c7}
+.fsuffragette {fill: #49c07d}
+.ssuffragette {fill:none;stroke: #49c07d}
+.ssuffragettex {fill:none;stroke: #8cbfa2}
+.fweaver {fill: #9a2c62}
+.sweaver {fill:none;stroke: #9a2c62}
+.fwindrush {fill: #ff4e5a}
+.swindrush {fill:none;stroke: #ff4e5a}
+.swindrushx {fill:none;stroke: #ffb2b8}
+.sogx {stroke: #fb5}
+.felizabeth {fill: #7156A5}
+.selizabeth {stroke: #7156A5}
+.ftflrail {fill: #0019A8}
+.stflrail {stroke: #0019A8}
+.fgreenford {fill: #177f0b}
+.sgreenford {stroke: #177f0b}
+.stl {stroke: #6C0;stroke-width:2}
+.ftl {fill: #5b0}
+.fthameslink {fill: #fad}
+.sthameslink {fill:none;stroke: #fce;stroke-width:3}
+.rn {fill: #99f}
+.osib {fill:none;stroke: #fff;stroke-width:4}
+.osi {fill:none;stroke: #009;stroke-width:2;cursor:help}
+.isib {stroke: #fff;stroke-width:7.5;fill:none}
+.isi {stroke: #000;stroke-width:6;fill:none}
+.isit {stroke: #fff;stroke-width:2;fill:none}
+.branch {stroke: #fff;stroke-width:3;stroke-dasharray:4;fill:none}
+.tleg:hover {fill: #009;stroke-width:1;stroke: #009;cursor:pointer}
 .tleg:active {cursor:progress}
 .toff:hover {cursor:pointer}
 .toff:active {cursor:progress}
@@ -94,10 +94,10 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 .pointer {cursor:pointer}
 .progress:active {cursor:progress}
 .zone_layer {visibility:hidden}
-.doublezone {fill:#efe;stroke:#aaa;stroke-width:1}
-.zonefw {font-size:35px;fill:#fff;stroke:#ddd;stroke-width:1}
-.zonefg {font-size:35px;fill:#efefef;stroke:#ddd;stroke-width:1}
-.zonedf {font-size:13px;fill:#999;stroke:none}
+.doublezone {fill: #efe;stroke: #aaa;stroke-width:1}
+.zonefw {font-size:35px;fill: #fff;stroke: #ddd;stroke-width:1}
+.zonefg {font-size:35px;fill: #efefef;stroke: #ddd;stroke-width:1}
+.zonedf {font-size:13px;fill: #999;stroke:none}
 	</style>
 	<defs>
 		<g id="term"><path class="me" d="M -7.5,0 H 7.5"/></g>
@@ -115,7 +115,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		<g id="termjubilee"><use xlink:href="#term" class="sjubilee"/></g>
 		<g id="termmetropolitan"><use xlink:href="#term" class="smetropolitan"/></g>
 		<g id="termmetropolitan2">
-			<use xlink:href="#termb" class="meb" style="stroke:#fff"/>
+			<use xlink:href="#termb" class="meb" style="stroke: #fff"/>
 			<use xlink:href="#termmetropolitan"/>
 		</g>
 		<g id="termnorthern"><use xlink:href="#term" class="snorthern"/></g>
@@ -127,7 +127,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		<g id="termsuffragette"><use xlink:href="#term" class="ssuffragette"/></g>
 		<g id="termelizabeth"><use xlink:href="#term" class="selizabeth"/></g>
 		<g id="termelizabethx"><use xlink:href="#termx" class="selizabeth"/></g>
-		<g id="termx"><path style="fill:#fff;stroke-width:0.75" d="M 1.75,-2 H 7.5 V 2 H -7.5 V -2 H -1.75"/></g>
+		<g id="termx"><path style="fill: #fff;stroke-width:0.75" d="M 1.75,-2 H 7.5 V 2 H -7.5 V -2 H -1.75"/></g>
 		<g id="termedgwarex"><use xlink:href="#termx" class="sedgware"/></g>
 		<g id="st"><path class="me" d="M 1,0 H 7.5"/></g>
 		<g id="stb"><path class="me" style="stroke-width:5.5" d="M 2.5,0 H 7.75"/></g>
@@ -145,14 +145,14 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		<g id="stjubilee"><use xlink:href="#st" class="sjubilee"/></g>
 		<g id="stmetropolitan"><use xlink:href="#st" class="smetropolitan"/></g>
 		<g id="stmetropolitan2">
-			<use xlink:href="#stb" class="meb" style="stroke:#fff"/>
+			<use xlink:href="#stb" class="meb" style="stroke: #fff"/>
 			<use xlink:href="#stmetropolitan"/>
 		</g>
 		<g id="stnorthern"><use xlink:href="#st" class="snorthern"/></g>
 		<g id="stedgware"><use xlink:href="#st" class="sedgware"/></g>
 		<g id="stpiccadilly"><use xlink:href="#st" class="spiccadilly"/></g>
 		<g id="stpiccadilly2">
-			<use xlink:href="#stb" class="meb" style="stroke:#fff"/>
+			<use xlink:href="#stb" class="meb" style="stroke: #fff"/>
 			<use xlink:href="#stpiccadilly"/>
 		</g>
 		<g id="stvictoria"><use xlink:href="#st" class="svictoria"/></g>
@@ -166,8 +166,8 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		<g id="stelizabeth"><use xlink:href="#st" class="selizabeth"/></g>
 		<g id="stgreenford"><use xlink:href="#st" class="sgreenford"/></g>
 		<g id="stx"><path style="fill:none;stroke-width:5" d="M 8,0 L 2,0"/></g>
-		<g id="stxm"><path style="fill:none;stroke:#fff;stroke-width:3.5" d="M 7.25,0 L 0,0"/></g>
-		<g id="stxm2"><path style="fill:none;stroke:#fff;stroke-width:3" d="M 7,0 L 0,0"/></g>
+		<g id="stxm"><path style="fill:none;stroke: #fff;stroke-width:3.5" d="M 7.25,0 L 0,0"/></g>
+		<g id="stxm2"><path style="fill:none;stroke: #fff;stroke-width:3" d="M 7,0 L 0,0"/></g>
 		<g id="stbakerloox">
 			<use xlink:href="#stx" class="sbakerloo"/>
 			<use xlink:href="#stxm"/>
@@ -182,7 +182,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g id="stpiccadillye">
 			<use xlink:href="#stx" class="spiccadilly"/>
-			<path style="fill:none;stroke:#fff;stroke-width:2" d="M 6.5,0 L 2.5,0"/>
+			<path style="fill:none;stroke: #fff;stroke-width:2" d="M 6.5,0 L 2.5,0"/>
 		</g>
 		<g id="stlionessx">
 			<use xlink:href="#stx" class="slioness"/>
@@ -206,18 +206,18 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g id="sttl"><circle cx="0" cy="0" r="4" class="ftl"/></g>
 		<g id="sttlnr">
-			<circle cx="0" cy="0" r="5.5" style="fill:#fff;stroke:#000;stroke-width:0.75"/>
-			<path style="fill:none;stroke:#ef2721;stroke-width:1" d="
+			<circle cx="0" cy="0" r="5.5" style="fill: #fff;stroke: #000;stroke-width:0.75"/>
+			<path style="fill:none;stroke: #ef2721;stroke-width:1" d="
 			M -5,-1.25 H 5
 			M -5,1.25 H 5
 			M -2.5,-3.75 L 2.5,-1.25 -2.5,1.25 2.5,3.75"/>
 		</g>
 		<g id="sttlow">
 			<use xlink:href="#sttl"/>
-			<path style="fill:none;stroke:#fff;stroke-width:1" d="M -3,-3 L 1.5,0 -3,3"/>
+			<path style="fill:none;stroke: #fff;stroke-width:1" d="M -3,-3 L 1.5,0 -3,3"/>
 		</g>
 		<g id="nr">
-			<path style="fill:#ef2721;cursor:help" transform="translate(-6.25,-4)scale(0.25)" d="M 11,0 L 22,0
+			<path style="fill: #ef2721;cursor:help" transform="translate(-6.25,-4)scale(0.25)" d="M 11,0 L 22,0
 			37,8 50,8 50,13 37,13
 			24,20 50,20 50,25 24,25
 			40,33 28,33
@@ -227,50 +227,50 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g id="intnr" cursor="help">
 			<circle id="intnrbase" cx="0" cy="0" r="8.25" fill="#fff"/>
-			<circle id="intnrtop" cx="0" cy="0" r="7" style="fill:#fff;stroke:#000;stroke-width:1"/>
+			<circle id="intnrtop" cx="0" cy="0" r="7" style="fill: #fff;stroke: #000;stroke-width:1"/>
 			<use xlink:href="#nr"/>
 		</g>
 		<g id="intnrx" cursor="help">
 			<circle cx="0" cy="0" r="8.25" fill="#fff"/>
-			<circle cx="0" cy="0" r="7" style="fill:#fff;stroke:#999;stroke-width:1"/>
+			<circle cx="0" cy="0" r="7" style="fill: #fff;stroke: #999;stroke-width:1"/>
 			<use xlink:href="#nr"/>
 		</g>
 		<g id="int">
 			<circle id="intbase" cx="0" cy="0" r="8.25" fill="#fff"/>
-			<circle id="inttop" cx="0" cy="0" r="6" style="fill:#fff;stroke:#000;stroke-width:3"/>
+			<circle id="inttop" cx="0" cy="0" r="6" style="fill: #fff;stroke: #000;stroke-width:3"/>
 		</g>
 		<g id="intx">
 			<circle cx="0" cy="0" r="8.25" fill="#fff"/>
-			<circle cx="0" cy="0" r="6" style="fill:#fff;stroke:#999;stroke-width:3"/>
+			<circle cx="0" cy="0" r="6" style="fill: #fff;stroke: #999;stroke-width:3"/>
 		</g>
 		<g id="cap2">
 			<rect x="-8.25" y="-8.25" width="31" height="16.5" rx="8.25" fill="#fff"/>
-			<rect x="-6" y="-6" width="26.5" height="12" rx="6" style="fill:#fff;stroke:#000;stroke-width:3"/>
+			<rect x="-6" y="-6" width="26.5" height="12" rx="6" style="fill: #fff;stroke: #000;stroke-width:3"/>
 		</g>
 		<g id="cap2l">
 			<rect x="-8.25" y="-8.25" width="34.5" height="16.5" rx="8.25" fill="#fff"/>
-			<rect x="-6" y="-6" width="30" height="12" rx="6" style="fill:#fff;stroke:#000;stroke-width:3"/>
+			<rect x="-6" y="-6" width="30" height="12" rx="6" style="fill: #fff;stroke: #000;stroke-width:3"/>
 		</g>
 		<g id="cap2lx">
 			<rect x="-8.25" y="-8.25" width="34.5" height="16.5" rx="8.25" fill="#fff"/>
-			<rect x="-6" y="-6" width="30" height="12" rx="6" style="fill:#fff;stroke:#999;stroke-width:3"/>
+			<rect x="-6" y="-6" width="30" height="12" rx="6" style="fill: #fff;stroke: #999;stroke-width:3"/>
 		</g>
 		<g id="cap2nr" cursor="help"><!--length from stadium center 1 to center 2=14.5; half length=7.25-->
 			<rect x="-8.25" y="-8.25" width="31" height="16.5" rx="8.25" fill="#fff"/>
-			<rect x="-7" y="-7" width="28.5" height="14" rx="7" style="fill:#fff;stroke:#000;stroke-width:1"/>
+			<rect x="-7" y="-7" width="28.5" height="14" rx="7" style="fill: #fff;stroke: #000;stroke-width:1"/>
 		</g>
 		<g id="cap3nr" cursor="help">
 			<rect x="-8.25" y="-8.25" width="38" height="16.5" rx="8.25" fill="#fff"/>
-			<rect x="-7" y="-7" width="35.5" height="14" rx="7" style="fill:#fff;stroke:#000;stroke-width:1"/>
+			<rect x="-7" y="-7" width="35.5" height="14" rx="7" style="fill: #fff;stroke: #000;stroke-width:1"/>
 		</g>
-		<g id="STRg"><path style="fill:#fff;stroke:none" d="M 0,0 L 3,3 v -2.5 L 0,-2.5 -3,0.5 v 2.5 z"/></g>
-		<g id="airport" transform="rotate(-90)scale(0.04)translate(-250,-250)" style="stroke:none;fill:#000">
+		<g id="STRg"><path style="fill: #fff;stroke:none" d="M 0,0 L 3,3 v -2.5 L 0,-2.5 -3,0.5 v 2.5 z"/></g>
+		<g id="airport" transform="rotate(-90)scale(0.04)translate(-250,-250)" style="stroke:none;fill: #000">
 			<polygon points="490,250 450,225 320,225 170,10 140,10 200,225 80,225 30,150 10,150 30,240 30,260 10,350 30,350 80,275 200,275 140,490 170,490 320,275 450,275"/>
 			<ellipse cx="441" cy="250" rx="50" ry="24" stroke="#000"/>
 		</g>
 		<g id="route_base"><rect x="-8" y="-8" width="16" height="16" rx="5" class="fog"/></g>
 		<g id="AETRAM" cursor="help" transform="scale(0.025,0.025)translate(-250,0)">
-			<path style="stroke-width:25;stroke:#000;fill:none" d="
+			<path style="stroke-width:25;stroke: #000;fill:none" d="
 			M -80,-20 L 170,50 330,50 580,-20
 			M 170,50 L 200,20 300,20 330,50 300,20 250,20 250,150
 			"/>
@@ -300,7 +300,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			V 0
 			L -9,-3 -6,-3.5
 			"/>
-			<path style="fill:none;stroke:#000;stroke-width:1" d="
+			<path style="fill:none;stroke: #000;stroke-width:1" d="
 			M -9.5,4 H 10.5
 			M -9.5,7 H 10.5
 			M -8.5,2.5 V 8.5
@@ -333,10 +333,10 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 	</defs>
 	<g id="bg">
 		<g style="visibility:visible" class="progress">
-			<rect x="-200" y="-200" width="3000" height="3000" style="fill:#fff"/>
+			<rect x="-200" y="-200" width="3000" height="3000" style="fill: #fff"/>
 			<g>
-				<!-- <title>Fare zone 1. If possible, avoid this zone in your journey and tap your checked-in contactless card at any pink route validator for potential fare discount.</title> -->
-				<g style="fill:#ffffea;stroke:#eca;stroke-width:1">
+				<title>Fare zone 1. If possible, avoid this zone in your journey and tap your checked-in contactless card at any pink route validator for potential fare discount.</title>
+				<g style="fill: #ffffea;stroke: #eca;stroke-width:1">
 					<use xlink:href="#zone1_base"/>
 					<rect x="-20" y="-35" width="410" height="20" rx="10"/>
 				</g>
@@ -674,13 +674,13 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g id="Thames_stripe" class="progress">
 			<title>River Thames</title>
-			<path style="stroke:none;fill:#e9f7ff" d="
+			<path style="stroke:none;fill: #e9f7ff" d="
 			M 327.5,1010
 			a 140,140 0 0,1 -140,140
 			a 125,125 0 0,0 125,-125
 			v -15.5
 			"/>
-			<path style="stroke-width:15;stroke:#e9f7ff;fill:none" d="
+			<path style="stroke-width:15;stroke: #e9f7ff;fill:none" d="
 			M 320,1010
 			V 930 q 0,-40 32,-64
 			a 60,60 0 0,1 96,48
@@ -845,7 +845,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			</g>
 			<g id="Watford_Junction_special_fare_zone">
 				<title>Watford Junction special fare zone</title>
-				<rect x="521.5" y="-20" width="150" height="50" rx="10" style="fill:#fed"/>
+				<rect x="521.5" y="-20" width="150" height="50" rx="10" style="fill: #fed"/>
 				
 			</g>
 			<g id="Shenfield_special_fare_zone">
@@ -864,7 +864,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 	</g>
 	<g>
-		<g id="airport_connection_highlight" style="fill:#aef;stroke:none;visibility:hidden">
+		<g id="airport_connection_highlight" style="fill: #aef;stroke:none;visibility:hidden">
 <!--Heathrow-->
 			<g cursor="help">
 				<title>London Heathrow Airport</title>
@@ -952,11 +952,11 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g id="airport_connection_highlight_switch" style="opacity:0;cursor:pointer">
 			<g id="airport_switch_base">
-				<rect x="-25" y="-80" width="10" height="10" style="fill:#fff;stroke:#000;stroke-width:1"/>
+				<rect x="-25" y="-80" width="10" height="10" style="fill: #fff;stroke: #000;stroke-width:1"/>
 				
 			</g>
 			<g id="airport_switch_over" style="visibility:hidden;opacity:0">
-				<path d="M -25,-80 l 10,10 m -10,0 l 10,-10 m -10,0 h 10 v 10 h -10 z" style="fill:#fff;stroke:#000;stroke-width:1"/>
+				<path d="M -25,-80 l 10,10 m -10,0 l 10,-10 m -10,0 h 10 v 10 h -10 z" style="fill: #fff;stroke: #000;stroke-width:1"/>
 				
 				<set
 				begin="airport_switch_base.click"
@@ -973,11 +973,11 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 	</g>
 	<g id="zone_switch" style="opacity:0;cursor:pointer">
 		<g id="zone_switch_base">
-			<rect x="-25" y="-55" width="10" height="10" style="fill:#fff;stroke:#000;stroke-width:1"/>
+			<rect x="-25" y="-55" width="10" height="10" style="fill: #fff;stroke: #000;stroke-width:1"/>
 			
 		</g>
 		<g id="zone_switch_over" style="visibility:hidden;opacity:0">
-			<path d="M -25,-55 l 10,10 m -10,0 l 10,-10 m -10,0 h 10 v 10 h -10 z" style="fill:#fff;stroke:#000;stroke-width:1"/>
+			<path d="M -25,-55 l 10,10 m -10,0 l 10,-10 m -10,0 h 10 v 10 h -10 z" style="fill: #fff;stroke: #000;stroke-width:1"/>
 			
 			<set
 			begin="zone_switch_base.click"
@@ -996,7 +996,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			<title>Stansted Express (National Rail) serving between London Liverpool Street, Tottenham Hale and Stansted Airport railway stations.</title>
 					<use xlink:href="#airport_railway" x="1548" y="36"/>
 					
-			<g style="fill:none;stroke:#fcc;stroke-width:3">
+			<g style="fill:none;stroke: #fcc;stroke-width:3">
 				<path id="Stansted_Express_route" d="
 				M 1530,40
 				V 135.5 a 40,40 0 0,0 16,32
@@ -1010,7 +1010,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g cursor="help">
 			<title>National Rail serving between Tottenham Hale and Stratford without intermediate station for passengers interchange train for Stansted Airport.</title>
-			<path id="Tottenham_Hale-Stratford_route" style="fill:none;stroke:#ece;stroke-width:3" d="
+			<path id="Tottenham_Hale-Stratford_route" style="fill:none;stroke: #ece;stroke-width:3" d="
 			M 1535,113
 			V 135.5 a 35,35 0 0,0 14,28
 			l 24,18 q 12,9 27,9
@@ -1025,7 +1025,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			<title>National Rail service between London Liverpool Street and Southend Airport/Southend Victoria. Intermediate stations within the network of Transport for London are Stratford, Shenfield and less frequently Romford. On Sundays, trains for Southend also call at Brentwood, Harold Wood and Gidea Park.</title>
 			<use xlink:href="#airport_railway" x="2437" y="-39"/>
 			
-			<g style="fill:none;stroke:#9db;stroke-width:3">
+			<g style="fill:none;stroke: #9db;stroke-width:3">
 				<path id="Southend_route" d="
 				M 2377,28
 				L 2441,-20
@@ -1047,7 +1047,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g cursor="help">
 			<title>Southern Brighton Mainline (National Rail) serving between London Victoria, Clapham Junction, East Croydon, Gatwick Airport and Brighton.</title>
-			<g style="fill:none;stroke:#cea;stroke-width:3">
+			<g style="fill:none;stroke: #cea;stroke-width:3">
 				<path id="Southern_Brighton_Mainline_route" d="
 				M 1098.333,981
 				l 38.25,51 q 12,16 32,16
@@ -1326,7 +1326,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			l -60,45
 			a 20,20 0 1,1 -12,-36
 			"/>
-			<path id="Piccadilly_Heathrow_divider" style="stroke:none;fill:#fff" d="
+			<path id="Piccadilly_Heathrow_divider" style="stroke:none;fill: #fff" d="
 			M 70,959 
 			h 20 a 1,1 0 0,1 0,2
 			h-20 a 1,1 0 0,1 0,-2
@@ -1623,8 +1623,8 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		M 0,72 H 210 v 40 H 0 z
 		M 0,156 H 210 v 40 H 0 z
 		"/>
-		<rect x="0" y="0" width="210" height="230" rx="25" style="fill:#fff;fill-opacity:0;stroke:#009;stroke-width:2.5"/>
-		<path style="stroke:none;fill:#009" d="
+		<rect x="0" y="0" width="210" height="230" rx="25" style="fill: #fff;fill-opacity:0;stroke: #009;stroke-width:2.5"/>
+		<path style="stroke:none;fill: #009" d="
 		M 1.25,25
 		h 210
 		a 25,25 0 0,0 -25,-25
@@ -1647,7 +1647,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<use xlink:href="#legend_branch" class="branch"/>
 		<use xlink:href="#airport_railway" x="53" y="212"/>
-		<g style="font-size:12px;fill:#000">
+		<g style="font-size:12px;fill: #000">
 			
 			
 			
@@ -1664,8 +1664,8 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		<path fill="#f7f7f7" stroke="none" d="
 		M 205,342 H 410 V 360 a 25,25 0 0,1 -25,25 H 205 z
 		"/>
-		<rect x="0" y="0" width="410" height="385" rx="25" style="fill:#fff;fill-opacity:0;stroke:#009;stroke-width:2.5"/>
-		<path style="stroke:none;fill:#009" d="
+		<rect x="0" y="0" width="410" height="385" rx="25" style="fill: #fff;fill-opacity:0;stroke: #009;stroke-width:2.5"/>
+		<path style="stroke:none;fill: #009" d="
 		M 1.25,25
 		h 410
 		a 25,25 0 0,0 -25,-25
@@ -1763,7 +1763,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			
 		</g>
 	</g>
-	<path id="Uxbridge-Rayner_Lane_divider" style="fill:none;stroke:#fff;stroke-width:0.25" d="
+	<path id="Uxbridge-Rayner_Lane_divider" style="fill:none;stroke: #fff;stroke-width:0.25" d="
 	M 17.5,296.5
 	H 139.5
 	
@@ -1827,7 +1827,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 					M 1582.25,563.25 h -59 q -15,0 -27,9 l -4,3
 					"/>
 				</g>
-				<use xlink:href="#Fenchurch_Street_osi_base" class="osi" style="stroke:#ef2721"/>
+				<use xlink:href="#Fenchurch_Street_osi_base" class="osi" style="stroke: #ef2721"/>
 				<g transform="translate(1582.25,563.25)">
 					<ellipse fill="#fff" rx="8" ry="6"/>
 					<use xlink:href="#nr"/>
@@ -1868,15 +1868,15 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			<g transform="translate(1474.5,558)" cursor="help">
 				<g id="Bank_Monument_hub">
 					<title>Free out-of-station interchange between all Bank-Monument gatelines within 15 minutes.</title>
-					<path d="M 0,0 l 20.25,27" style="stroke:#fff;stroke-width:7.5"/>
+					<path d="M 0,0 l 20.25,27" style="stroke: #fff;stroke-width:7.5"/>
 					<rect x="-8.25" y="-8.25" width="31" height="16.5" rx="8.5" fill="#fff" transform="rotate(53.13)"/>
 					<circle cx="20.25" cy="27" r="8.25" fill="#fff"/>
-					<rect x="-6" y="-6" width="26.5" height="12" rx="6" style="stroke:#000;stroke-width:3" transform="rotate(53.13)"/>
-					<circle cx="20.25" cy="27" r="6" style="stroke:#000;stroke-width:3"/>
-					<path d="M 0,0 l 20.25,27" style="stroke:#000;stroke-width:6"/>
-					<rect x="-4.5" y="-4.5" width="23.5" height="9" rx="4.5" style="fill:#fff;stroke:none" transform="rotate(53.13)"/>
-					<circle cx="20.25" cy="27" r="4.5" style="fill:#fff;stroke:none"/>
-					<path d="M 0,0 l 20.25,27" style="stroke:#fff;stroke-width:2"/>
+					<rect x="-6" y="-6" width="26.5" height="12" rx="6" style="stroke: #000;stroke-width:3" transform="rotate(53.13)"/>
+					<circle cx="20.25" cy="27" r="6" style="stroke: #000;stroke-width:3"/>
+					<path d="M 0,0 l 20.25,27" style="stroke: #000;stroke-width:6"/>
+					<rect x="-4.5" y="-4.5" width="23.5" height="9" rx="4.5" style="fill: #fff;stroke:none" transform="rotate(53.13)"/>
+					<circle cx="20.25" cy="27" r="4.5" style="fill: #fff;stroke:none"/>
+					<path d="M 0,0 l 20.25,27" style="stroke: #fff;stroke-width:2"/>
 				</g>
 			</g>
 			
@@ -2545,7 +2545,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			<use xlink:href="#stpiccadilly" transform="translate(93,956.5)rotate(-90)" id="Heathrow_23"/>
 			<use xlink:href="#termelizabeth" transform="translate(30,966.5)rotate(90)" id="Heathrow_5_elizabeth"/>
 			<use xlink:href="#termpiccadilly" transform="translate(30,956.5)rotate(90)" id="Heathrow_5_Piccadilly"/>
-			<path id="Heathrow_5_separator" style="fill:none;stroke:#efefef;stroke-width:0.5" d="M 27.5,964 h 5"/>
+			<path id="Heathrow_5_separator" style="fill:none;stroke: #efefef;stroke-width:0.5" d="M 27.5,964 h 5"/>
 			<use xlink:href="#stpiccadilly" transform="translate(160,947.5)rotate(53.13)" id="Hatton_Cross"/>
 			<use xlink:href="#stpiccadilly" transform="translate(190,925)rotate(53.13)" id="Hounslow_West"/>
 			<use xlink:href="#stpiccadilly" transform="translate(220,902.5)rotate(53.13)" id="Hounslow_Central"/>
@@ -2899,7 +2899,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 	</g>
 	<defs id="def_rv">
 		<g id="rv">
-			<circle cx="0" cy="0" r="10" style="fill:#f6c;stroke:#f6c;stroke-width:1"/>
+			<circle cx="0" cy="0" r="10" style="fill: #f6c;stroke: #f6c;stroke-width:1"/>
 			
 		</g>
 	</defs>
