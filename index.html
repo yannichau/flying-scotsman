@@ -167,17 +167,20 @@ layout: default
     </button>
 </div>
 
-{% assign station_data = site.data._tube_route %}
+{% assign station_data = site.data._blog_route %}
 {% assign station_posts = site.posts | slice: 0, station_data.size %}
 {% for station in station_data %}
   {% assign post = station_posts[forloop.index0] %}
   {% if post %}
-    <section class="scroll-section"
-             data-cx="{{ station.cx }}"
-             data-cy="{{ station.cy }}"
-             data-post-url="{{ post.url | relative_url }}"
-             data-post-title="{{ post.title | escape }}"
-             data-post-excerpt="{{ post.excerpt | strip_html | strip_newlines | truncate: 90 | escape }}">
+    <section class="scroll-section" 
+            data-station-id="{{ station.name }}"
+            data-cx="{{ station.x | default: '' }}" 
+            data-cy="{{ station.y | default: '' }}"
+            data-rotation="{{ station.rotation | default: '' }}"
+            data-post-url="{{ post.url | relative_url }}" 
+            data-post-title="{{ post.title | escape }}" 
+            data-post-excerpt="{{ post.excerpt | strip_html | strip_newlines | truncate: 90 | escape }}">
+        <!-- Card content here -->
     </section>
   {% endif %}
 {% endfor %}
@@ -300,22 +303,85 @@ layout: default
 
         layer.innerHTML = '';
 
+        // --- PHASE 1: Extract Data & Compute Math ---
+        sections.forEach((section) => {
+            const stationId = section.getAttribute('data-station-id');
+            let cx = parseFloat(section.getAttribute('data-cx'));
+            let cy = parseFloat(section.getAttribute('data-cy'));
+            let baseRotation = parseFloat(section.getAttribute('data-rotation'));
+
+            // Look up data directly from SVG if not manually overridden
+            if (stationId && (Number.isNaN(cx) || Number.isNaN(cy) || Number.isNaN(baseRotation))) {
+                const svgEl = map.querySelector('#' + CSS.escape(stationId));
+                if (svgEl) {
+                    const transform = svgEl.getAttribute('transform');
+                    if (transform) {
+                        const translateMatch = transform.match(/translate\(\s*(-?[\d.]+)\s*(?:,\s*(-?[\d.]+))?\s*\)/);
+                        if (translateMatch && Number.isNaN(cx)) {
+                            cx = parseFloat(translateMatch[1]);
+                            cy = translateMatch[2] ? parseFloat(translateMatch[2]) : 0;
+                        }
+                        const rotateMatch = transform.match(/rotate\(\s*(-?[\d.]+)\s*\)/);
+                        if (rotateMatch && Number.isNaN(baseRotation)) {
+                            baseRotation = parseFloat(rotateMatch[1]);
+                        }
+                    }
+                    
+                    if (Number.isNaN(cx)) cx = parseFloat(svgEl.getAttribute('x') || 0);
+                    if (Number.isNaN(cy)) cy = parseFloat(svgEl.getAttribute('y') || 0);
+                }
+            }
+
+            if (Number.isNaN(cx)) cx = 0;
+            if (Number.isNaN(cy)) cy = 0;
+            if (Number.isNaN(baseRotation)) baseRotation = 0;
+
+            section.setAttribute('data-cx', cx);
+            section.setAttribute('data-cy', cy);
+
+            // --- Simplified Math: No rotation, just offset ---
+            let normalizedRotation = (baseRotation % 360 + 360) % 360;
+            let baseRad = normalizedRotation * (Math.PI / 180);
+
+            // 1. Force rotation to zero
+            let textRotation = 0;
+
+            // 2. Determine Anchor: if pointing right, text grows right ('start'). If pointing left, text grows left ('end').
+            let textAnchor = Math.cos(baseRad) >= -0.01 ? 'start' : 'end';
+
+            // 3. Increase offset (Changed from 10 to 22 for more breathing room)
+            const offsetDistance = 22; 
+            let textX = cx + (offsetDistance * Math.cos(baseRad));
+            
+            // Adjust Y slightly so the text vertically centers with the dot
+            let textY = cy + (offsetDistance * Math.sin(baseRad)) + 3;
+
+            section.setAttribute('data-text-x', textX.toFixed(2));
+            section.setAttribute('data-text-y', textY.toFixed(2));
+            section.setAttribute('data-text-anchor', textAnchor);
+            section.setAttribute('data-text-rotation', textRotation.toFixed(2));
+        });
+
+        // --- PHASE 2: Draw the Elements ---
         sections.forEach((section, index) => {
-            const cx = parseFloat(section.getAttribute('data-cx'));
-            const cy = parseFloat(section.getAttribute('data-cy'));
             const url = section.getAttribute('data-post-url');
             const title = section.getAttribute('data-post-title') || 'Blog post';
             const excerpt = section.getAttribute('data-post-excerpt') || '';
-            const compactExcerpt = excerpt.length > 40 ? `${excerpt.slice(0, 37).trimEnd()}…` : excerpt;
+            // Change from 40 down to 28 characters for extra breathing room
+            const compactExcerpt = excerpt.length > 28 ? `${excerpt.slice(0, 25).trimEnd()}…` : excerpt;
 
-            if (!url || Number.isNaN(cx) || Number.isNaN(cy)) {
-                return;
-            }
+            const cx = parseFloat(section.getAttribute('data-cx'));
+            const cy = parseFloat(section.getAttribute('data-cy'));
+            const textX = parseFloat(section.getAttribute('data-text-x'));
+            const textY = parseFloat(section.getAttribute('data-text-y'));
+            const textAnchor = section.getAttribute('data-text-anchor');
+            const textRotation = section.getAttribute('data-text-rotation'); // Now always 0
+
+            if (!url || Number.isNaN(cx) || Number.isNaN(cy)) return;
 
             const link = document.createElementNS(svgNS, 'a');
             link.setAttribute('href', url);
             link.setAttribute('class', 'blog-station-link');
-            link.setAttribute('title', title);
 
             const stationGroup = document.createElementNS(svgNS, 'g');
             stationGroup.setAttribute('class', `blog-station${index === 0 ? ' active' : ''}`);
@@ -326,16 +392,19 @@ layout: default
             circle.setAttribute('cy', cy);
             circle.setAttribute('r', 8);
 
+            const textGroup = document.createElementNS(svgNS, 'g');
+            textGroup.setAttribute('transform', `rotate(${textRotation}, ${textX}, ${textY})`);
+
             const text = document.createElementNS(svgNS, 'text');
-            text.setAttribute('x', cx + 16);
-            text.setAttribute('y', cy - 8);
-            text.setAttribute('text-anchor', 'start');
+            text.setAttribute('x', textX);
+            text.setAttribute('y', textY);
+            text.setAttribute('text-anchor', textAnchor);
 
             const titleLines = wrapLabelTitle(title);
             titleLines.forEach((line, lineIndex) => {
                 const titleLine = document.createElementNS(svgNS, 'tspan');
                 titleLine.setAttribute('class', 'station-title');
-                titleLine.setAttribute('x', cx + 16);
+                titleLine.setAttribute('x', textX);
                 titleLine.setAttribute('dy', lineIndex === 0 ? '0' : '11');
                 titleLine.textContent = line;
                 text.appendChild(titleLine);
@@ -344,36 +413,31 @@ layout: default
             if (compactExcerpt) {
                 const subtitle = document.createElementNS(svgNS, 'tspan');
                 subtitle.setAttribute('class', 'station-subtitle');
-                subtitle.setAttribute('x', cx + 16);
+                subtitle.setAttribute('x', textX);
                 subtitle.setAttribute('dy', titleLines.length > 0 ? `${11 * Math.max(titleLines.length, 1)}` : '12');
-                subtitle.setAttribute('data-has-excerpt', 'true');
                 subtitle.textContent = compactExcerpt;
                 text.appendChild(subtitle);
             }
 
+            textGroup.appendChild(text);
             stationGroup.appendChild(circle);
-            stationGroup.appendChild(text);
-
+            stationGroup.appendChild(textGroup);
             link.appendChild(stationGroup);
             layer.appendChild(link);
 
-            const labelBg = document.createElementNS(svgNS, 'rect');
-            labelBg.setAttribute('class', 'station-label-bg');
-            labelBg.setAttribute('rx', '0');
-            labelBg.setAttribute('ry', '0');
-            stationGroup.insertBefore(labelBg, text);
-
+            // Generate properly fitting background label masking box
             const bbox = text.getBBox();
             if (bbox && bbox.width && bbox.height) {
+                const labelBg = document.createElementNS(svgNS, 'rect');
+                labelBg.setAttribute('class', 'station-label-bg');
+                labelBg.setAttribute('rx', '2');
+                labelBg.setAttribute('ry', '2');
                 labelBg.setAttribute('x', (bbox.x - 6).toFixed(2));
                 labelBg.setAttribute('y', (bbox.y - 3).toFixed(2));
                 labelBg.setAttribute('width', (bbox.width + 12).toFixed(2));
                 labelBg.setAttribute('height', (bbox.height + 6).toFixed(2));
-            } else {
-                labelBg.setAttribute('x', (cx + 10).toFixed(2));
-                labelBg.setAttribute('y', (cy - 20).toFixed(2));
-                labelBg.setAttribute('width', '120');
-                labelBg.setAttribute('height', '28');
+                
+                textGroup.insertBefore(labelBg, text);
             }
         });
 
@@ -406,10 +470,16 @@ layout: default
         activeStationIndex = index;
         const point = getStationPoint(index);
         
-        // FIX: Replaced 0 floors with dynamic negative boundary minimum values
-        const targetX = clamp(point.x - zoomWidth * 0.1, mapMinX, mapWidth - zoomWidth);
-        const targetY = clamp(point.y - zoomHeight * 0.55, mapMinY, mapHeight - zoomHeight);
+        const section = sections[index];
+        const anchor = section ? section.getAttribute('data-text-anchor') : 'start';
+        
+        // Lock to the target layout side
+        const biasX = anchor === 'end' ? 0.75 : 0.25;
 
+        const targetX = clamp(point.x - zoomWidth * biasX, mapMinX, mapWidth - zoomWidth);
+        const targetY = clamp(point.y - zoomHeight * 0.5, mapMinY, mapHeight - zoomHeight);
+
+        // Snap instantly
         viewBoxState.x = targetX;
         viewBoxState.y = targetY;
         map.setAttribute('viewBox', `${viewBoxState.x.toFixed(2)} ${viewBoxState.y.toFixed(2)} ${zoomWidth} ${zoomHeight}`);
@@ -468,13 +538,27 @@ layout: default
             y: fromPoint.y + (toPoint.y - fromPoint.y) * progress
         };
 
-        // FIX: Replaced 0 floors here as well
-        const targetX = clamp(travelPoint.x - zoomWidth * 0.1, mapMinX, mapWidth - zoomWidth);
-        const targetY = clamp(travelPoint.y - zoomHeight * 0.55, mapMinY, mapHeight - zoomHeight);
+        // --- Fix: Frame using the target layout configuration ---
+        const activeSection = sections[activeIndex];
+        const activeAnchor = activeSection ? activeSection.getAttribute('data-text-anchor') : 'start';
+        const activeBias = activeAnchor === 'end' ? 0.75 : 0.25;
 
-        viewBoxState.x += (targetX - viewBoxState.x) * 0.16;
-        viewBoxState.y += (targetY - viewBoxState.y) * 0.16;
+        const targetX = clamp(travelPoint.x - zoomWidth * activeBias, mapMinX, mapWidth - zoomWidth);
+        const targetY = clamp(travelPoint.y - zoomHeight * 0.5, mapMinY, mapHeight - zoomHeight);
+
+        // Compute remaining travel distance
+        const diffX = targetX - viewBoxState.x;
+        const diffY = targetY - viewBoxState.y;
+
+        // Apply smooth camera slide
+        viewBoxState.x += diffX * 0.16;
+        viewBoxState.y += diffY * 0.16;
         map.setAttribute('viewBox', `${viewBoxState.x.toFixed(2)} ${viewBoxState.y.toFixed(2)} ${zoomWidth} ${zoomHeight}`);
+
+        // Fix: If the camera hasn't finished settling perfectly, keep the loop alive!
+        if (Math.abs(diffX) > 0.05 || Math.abs(diffY) > 0.05) {
+            scheduleViewBoxUpdate();
+        }
     }
 
     function scrollToStation(index) {
