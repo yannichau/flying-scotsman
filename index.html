@@ -6,79 +6,123 @@ layout: default
     body, html {
         margin: 0;
         padding: 0;
-        background-color: #111;
-        overflow-x: hidden;
+        background-color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
 
+    /* Fixed map window */
     .map-container {
         position: fixed;
         inset: 0;
         width: 100vw;
         height: 100vh;
         z-index: 1;
-        background: linear-gradient(180deg, #0f172a 0%, #111827 100%);
+        background-color: #ffffff;
+        overflow: hidden;
     }
 
+    /* 200% oversized canvas to prevent the "rhombus" clipping effect when rotated */
+    .svg-wrapper {
+        position: absolute;
+        top: -50vh;
+        left: -50vw;
+        width: 200vw;
+        height: 200vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform-origin: center center;
+        will-change: transform;
+    }
+
+    /* The SVG itself smoothly pans its viewBox */
     svg {
         width: 100%;
         height: 100%;
         display: block;
         transition: viewBox 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+        will-change: viewBox;
     }
 
-    .scroll-section {
+    .blog-feed {
         position: relative;
-        height: 40vh;  /* Reduced from 100 vh to increase scrolling speed */
         z-index: 2;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1vh 12px;
         pointer-events: none;
     }
 
-    .blog-station-link {
-        cursor: pointer;
+    /* Tight gaps between posts for a standard reading rhythm */
+    .post-row {
+        display: flex;
+        align-items: center;
+        min-height: 5vh; 
+        margin-bottom: 1vh; 
+        pointer-events: auto;
+        box-sizing: border-box;
+        transition: opacity 0.4s ease;
+    }
+    
+    .post-row:last-child {
+        margin-bottom: 5vh;
+    }
+
+    .post-row.align-left {
+        justify-content: flex-start;
+    }
+    
+    .post-row.align-right {
+        justify-content: flex-end;
+    }
+
+    .post-card {
+        background: rgba(255, 255, 255, 0.96);
+        padding: 24px;
+        border-radius: 6px;
+        box-shadow: 0 4px 20px rgba(15, 23, 42, 0.06);
+        width: 100%;
+        max-width: 800px;
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(15, 23, 42, 0.05);
+    }
+
+    .post-row.align-right .post-card {
+        text-align: right;
+    }
+
+    .post-card h2 {
+        margin: 0 0 8px 0;
+        font-size: 20px;
+        color: #0f172a;
+    }
+
+    .post-card h2 a {
+        color: inherit;
         text-decoration: none;
     }
 
-    .blog-station text {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 9px;
-        font-weight: 700;
-        fill: #0f172a;
-        paint-order: normal;
+    .post-card h2 a:hover { text-decoration: underline; }
+
+    .post-excerpt {
+        color: #475569;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 0;
     }
 
-    .blog-station .station-title {
-        font-size: 9px;
-        font-weight: 700;
-        fill: #0f172a;
+    .post-image-wrapper {
+        width: 100%;
+        height: 160px;
+        background: #f1f5f9;
+        border-radius: 4px;
+        margin-bottom: 12px;
     }
 
-    .blog-station .station-subtitle {
-        font-size: 8px;
-        font-weight: 400;
-        fill: #0f172a;
-        display: none;
-        opacity: 0;
-    }
-
-    .blog-station.active .station-subtitle {
-        display: inline;
-        opacity: 1;
-    }
-
-    .blog-station .station-label-bg {
-        fill: #0f172a;
-        opacity: 0;
-        transition: opacity 180ms ease;
-    }
-
-    .blog-station.active .station-label-bg {
-        opacity: 1;
-    }
-
-    .blog-station.active text,
-    .blog-station.active .station-title,
-    .blog-station.active .station-subtitle {
-        fill: #f8fafc;
+    .post-image-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .station-nav {
@@ -94,286 +138,100 @@ layout: default
     }
 
     .station-nav button {
-        width: 96px;
-        height: 96px;
+        width: 44px;
+        height: 44px;
         border: 0;
-        border-radius: 0;
+        border-radius: 50%;
         background: #0f172a;
         color: #f8fafc;
         display: grid;
         place-items: center;
         cursor: pointer;
-        box-shadow: none;
-        padding: 8px;
-        box-sizing: border-box;
     }
-
-    .station-nav button:hover {
-        background: #1e293b;
-    }
-
-    .station-nav button:disabled {
-        opacity: 0.4;
-        cursor: not-allowed;
-        box-shadow: none;
-    }
-
-    .station-nav button svg {
-        width: 72px;
-        height: 72px;
-        fill: currentColor;
-    }
-
-    .station-nav .up svg {
-        transform: rotate(-90deg);
-        transform-origin: center;
-    }
-
-    .station-nav .down svg {
-        transform: rotate(90deg);
-        transform-origin: center;
-    }
+    
+    .station-nav button:hover { background: #1e293b; }
+    .station-nav button:disabled { opacity: 0.3; cursor: not-allowed; }
+    .station-nav button svg { width: 20px; height: 20px; fill: currentColor; }
+    .station-nav .up svg { transform: rotate(-90deg); }
+    .station-nav .down svg { transform: rotate(90deg); }
 </style>
 
 <div class="map-container">
-    {% include london-map.svg %}
+    <div class="svg-wrapper">
+        {% include london-map.svg %}
+    </div>
 </div>
 
-<div class="station-nav" aria-label="Station navigation">
-    <button type="button" class="station-nav-btn up" data-direction="up" aria-label="Previous station">
-        {% include arrow-right-solid-full.svg %}
-    </button>
-    <button type="button" class="station-nav-btn down" data-direction="down" aria-label="Next station">
-        {% include arrow-right-solid-full.svg %}
-    </button>
-</div>
-
-<!-- Create a collection of posts from site.posts limited to the same number of items as the station list. 
- That makes it possible to pair each station with a matching post by position. -->
+<main class="blog-feed">
 {% assign station_data = site.data._blog_route %}
 {% assign station_posts = site.posts | slice: 0, station_data.size %}
+
 {% for station in station_data %}
   {% assign post = station_posts[forloop.index0] %}
   {% if post %}
-    <section class="scroll-section" 
+    {% if post.image.path %}
+        {% assign featured_image = post.image.path %}
+    {% else %}
+        {% assign featured_image = post.image %}
+    {% endif %}
+
+    <section class="post-row" 
             data-station-id="{{ station.name }}"
-            data-lines="{{ station.lines | default: '' }}"
             data-cx="{{ station.x | default: '' }}" 
             data-cy="{{ station.y | default: '' }}"
-            data-rotation="{{ station.rotation | default: '' }}"
-            data-post-url="{{ post.url | relative_url }}" 
-            data-post-title="{{ post.title | escape }}" 
-            data-post-excerpt="{{ post.excerpt | strip_html | strip_newlines | truncate: 90 | escape }}">
-        <!-- Card content here -->
+            data-rotation="{{ station.rotation | default: '' }}">
+        
+        <article class="post-card">
+            {% if featured_image %}
+            <div class="post-image-wrapper">
+                <img src="{{ featured_image | relative_url }}" alt="{{ post.title | escape }}">
+            </div>
+            {% endif %}
+            
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+            
+            <div class="post-excerpt">
+                {{ post.excerpt | strip_html | truncate: 140 }}
+            </div>
+        </article>
     </section>
   {% endif %}
 {% endfor %}
+</main>
 
 <script>
-    const svgNS = 'http://www.w3.org/2000/svg';
-    const map = document.querySelector('.map-container svg');
-    const sections = Array.from(document.querySelectorAll('.scroll-section'));
-    const zoomWidth = 360;
-    const zoomHeight = 180;
-    const stationLayerId = 'blog-stations';
-    const viewBoxState = { x: 0, y: 0, width: zoomWidth, height: zoomHeight };
+    const svgWrapper = document.querySelector('.svg-wrapper');
+    const map = svgWrapper.querySelector('svg');
+    const rows = Array.from(document.querySelectorAll('.post-row'));
+    
+    // Zoom configurations are doubled because the parent wrapper is 200vw/200vh
+    const zoomWidth = 720;
+    const zoomHeight = 360;
+    const euclideanDistance = 20;
+
+    const mapMinX = -40.5;
+    const mapMinY = -100.5;
+    const mapWidth = 2500;
+    const mapHeight = 1340;
+
     let viewBoxFrame = null;
     let scrollAnimationFrame = null;
-    let initialViewSet = false;
     let activeStationIndex = 0;
 
-    // Boundary constraints for the map's viewBox to prevent excessive panning
-    const mapMinX = -40.5; // Allowed minimum left boundary
-    const mapMinY = -100.5 // Allowed minimum top boundary
-    const mapWidth = 2500;  // Expanded total width allowance
-    const mapHeight = 1340; // Expanded total height allowance
-
     function clamp(value, min, max) {
-        // Return the value constrained between min and max
         return Math.max(min, Math.min(max, value));
     }
 
-    function truncateText(text, maxChars = 40) {
-        const cleaned = (text || '').trim();
-        if (!cleaned) return '';
-        if (cleaned.length <= maxChars) return cleaned;
-        return `${cleaned.slice(0, Math.max(0, maxChars - 1)).trimEnd()}…`;
-    }
-
-    function updateLineHighlighting(activeLines) {
-        // The function first checks whether a style element with the ID dynamic-line-filter already exists. 
-        // If not, it creates one and adds it to the document head. 
-        // This style tag is used to inject CSS rules dynamically.
-        let styleTag = document.getElementById('dynamic-line-filter');
-        if (!styleTag) {
-            styleTag = document.createElement('style');
-            styleTag.id = 'dynamic-line-filter';
-            document.head.appendChild(styleTag);
-        }
-
-        // . If no active lines are provided, or the array is empty, 
-        // the function clears the style content so the map returns to its normal appearance.
-        if (!activeLines || activeLines.length === 0) {
-            styleTag.textContent = '';
-            return;
-        }
-
-        // List of all line identifiers extracted from your SVG styling rules
-        const allLines = [
-            'tfl', 'bakerloo', 'central', 'circle', 'district', 'hnc', 'jubilee', 
-            'metropolitan', 'northern', 'edgware', 'piccadilly', 'victoria', 
-            'wnc', 'dlr', 'og', 'liberty', 'lioness', 'mildmay', 
-            'suffragette', 'weaver', 'windrush', 'elizabeth', 'tflrail', 'greenford', 'tl', 'thameslink'
-        ];
-
-        let cssRules = [];
-        allLines.forEach(line => {
-            // If this map line is NOT currently active, fade it out completely
-            if (!activeLines.includes(line)) {
-                //  Generates CSS rules that target the relevant classes for that line, such as .fline, .sline, .bline, and related variants.
-                cssRules.push(`
-                    .f${line}, .s${line}, .s${line}2, .b${line}, .f${line}x, .s${line}x { 
-                        opacity: 0.15 !important; 
-                        transition: opacity 0.3s ease;
-                    }
-                `); //  If a line is not in the active list, its opacity is reduced to 0.15
-            } else {
-                // Smoothly fade active lines back in
-                cssRules.push(`
-                    .f${line}, .s${line}, .s${line}2, .b${line}, .f${line}x, .s${line}x { 
-                        opacity: 1 !important; 
-                        transition: opacity 0.3s ease;
-                    }
-                `);
-            }
-        });
-
-        styleTag.textContent = cssRules.join('\n');
-    }
-
-    function ensureStationLayer() {
-        //  It first checks whether the map object is available; if not, it returns null immediately. 
-        // This prevents errors if the SVG cannot be found in the page.
-        if (!map) return null;
-        
-        // , the function looks for an element with the ID stored in stationLayerId inside the SVG. 
-        // If that layer is missing, it creates a new SVG <g> element, assigns the required ID to it, 
-        // and appends it to the map so it becomes part of the SVG structure. 
-        let layer = map.querySelector(`#${stationLayerId}`);
-        if (!layer) {
-            layer = document.createElementNS(svgNS, 'g');
-            layer.setAttribute('id', stationLayerId);
-            map.appendChild(layer);
-        }
-        return layer;
-    }
-
-    function wrapLabelTitle(title, maxChars = 40, maxLines = 2) {
-        // Trim whitespace and return empty array if title is blank
-        const cleaned = (title || '').trim();
-        if (!cleaned) return [];
-        
-        // Split the title into words based on whitespace
-        const words = cleaned.split(/\s+/);
-        const lines = [];
-        let currentLine = '';
-        
-        // Build the output line by line, 
-        // Add each word to the current line only when doing so would not exceed the allowed character limit.
-        for (const word of words) {
-            const nextLine = currentLine ? `${currentLine} ${word}` : word;
+    function parseStationCoordinates() {
+        rows.forEach((row, index) => {
+            const stationId = row.getAttribute('data-station-id');
+            let cx = parseFloat(row.getAttribute('data-cx'));
+            let cy = parseFloat(row.getAttribute('data-cy'));
+            let baseRotation = parseFloat(row.getAttribute('data-rotation'));
             
-            if (nextLine.length <= maxChars) {
-                currentLine = nextLine;
-                continue;
-            }
-
-            if (lines.length >= maxLines - 1) {
-                const fallback = lines[lines.length - 1] || currentLine || word;
-                lines[lines.length - 1] = truncateText(fallback, maxChars);
-                return lines.slice(0, maxLines);
-            }
-
-            if (currentLine) {
-                lines.push(currentLine);
-            } else {
-                lines.push(truncateText(word, maxChars));
-            }
-
-            currentLine = word;
-        }
-
-        if (currentLine) {
-            if (lines.length < maxLines) {
-                lines.push(currentLine);
-            } else {
-                const fallback = lines[lines.length - 1] || currentLine;
-                lines[lines.length - 1] = truncateText(fallback, maxChars);
-            }
-        }
-
-        return lines.slice(0, maxLines);
-    }
-
-    function updateStationVisualState(activeIndex = activeStationIndex) {
-        // Updates the visual state of all station markers on the SVG map based on the currently active station
-        if (!map) return;
-
-        //  Loops through every element with the class blog-station
-        map.querySelectorAll('.blog-station').forEach((station, index) => {
-            // Compare each station's index to the active index and toggle the 'active' class accordingly
-            const isActive = index === activeIndex;
-            station.classList.toggle('active', isActive);
-            
-            // Also look for a subtitle element. 
-            // If that subtitle exists and the station is active while its data-has-excerpt attribute is set to "true", 
-            // the subtitle is shown with full opacity. Otherwise, it is hidden by setting display to none and opacity to 0. 
-            // This makes the UI reveal extra details only for the currently selected station.
-            const subtitle = station.querySelector('.station-subtitle');
-            if (subtitle) {
-                const shouldShowExcerpt = isActive && subtitle.getAttribute('data-has-excerpt') === 'true';
-                subtitle.setAttribute('display', shouldShowExcerpt ? 'inline' : 'none');
-                subtitle.setAttribute('opacity', shouldShowExcerpt ? '1' : '0');
-            }
-
-            // Then checks the station’s text label and its background rectangle.
-            const text = station.querySelector('text');
-            const labelBg = station.querySelector('.station-label-bg');
-            if (text && labelBg) {
-                // Use the SVG getBBox() method to measure the rendered text, 
-                // Adjust the label background’s position and size so the background fits neatly around the text with a little padding. 
-                // Keeps the station labels visually aligned and readable as the active station changes.
-                const bbox = text.getBBox();
-                if (bbox && bbox.width && bbox.height) {
-                    labelBg.setAttribute('x', (bbox.x - 6).toFixed(2));
-                    labelBg.setAttribute('y', (bbox.y - 3).toFixed(2));
-                    labelBg.setAttribute('width', (bbox.width + 12).toFixed(2));
-                    labelBg.setAttribute('height', (bbox.height + 6).toFixed(2));
-                }
-            }
-        });
-    }
-
-    function buildStationOverlay() {
-        // Build an SVG overlay for station markers by reading each section’s position and metadata, 
-        // Then turn that data into visible map elements
-        const layer = ensureStationLayer();
-        if (!layer || sections.length === 0) return;
-
-        layer.innerHTML = '';
-
-        // --- PHASE 1: Extract Data & Compute Math ---
-        sections.forEach((section) => {
-            // Pulls coordinates and rotation values from each section, ...
-            const stationId = section.getAttribute('data-station-id');
-            let cx = parseFloat(section.getAttribute('data-cx'));
-            let cy = parseFloat(section.getAttribute('data-cy'));
-            let baseRotation = parseFloat(section.getAttribute('data-rotation'));
-            
-            // ... And if those values are missing it tries to recover them from the matching SVG element 
-            // by reading its transform or positional attributes
+            // Fallback to SVG DOM parsing if missing
             if (stationId && (Number.isNaN(cx) || Number.isNaN(cy) || Number.isNaN(baseRotation))) {
-                const svgEl = map.querySelector('#' + CSS.escape(stationId));
+                const svgEl = map ? map.querySelector('#' + CSS.escape(stationId)) : null;
                 if (svgEl) {
                     const transform = svgEl.getAttribute('transform');
                     if (transform) {
@@ -387,7 +245,6 @@ layout: default
                             baseRotation = parseFloat(rotateMatch[1]);
                         }
                     }
-                    
                     if (Number.isNaN(cx)) cx = parseFloat(svgEl.getAttribute('x') || 0);
                     if (Number.isNaN(cy)) cy = parseFloat(svgEl.getAttribute('y') || 0);
                 }
@@ -397,284 +254,150 @@ layout: default
             if (Number.isNaN(cy)) cy = 0;
             if (Number.isNaN(baseRotation)) baseRotation = 0;
 
-            section.setAttribute('data-cx', cx);
-            section.setAttribute('data-cy', cy);
+            row.setAttribute('data-cx', cx);
+            row.setAttribute('data-cy', cy);
+            row.setAttribute('data-rotation', baseRotation);
 
-            // --- Simplified Math: No rotation, just offset ---
-            let normalizedRotation = (baseRotation % 360 + 360) % 360;
-            let baseRad = normalizedRotation * (Math.PI / 180);
+            // Dynamically assign left/right layout classes
+            let normR = (baseRotation % 360 + 360) % 360;
+            let isRightQuadrant = false;
 
-            // 1. Force rotation to zero
-            let textRotation = 0;
-
-            // 2. Determine Anchor: if pointing right, text grows right ('start'). If pointing left, text grows left ('end').
-            let textAnchor = Math.cos(baseRad) >= -0.01 ? 'start' : 'end';
-
-            // 3. Increase offset (Changed from 10 to 22 for more breathing room)
-            const offsetDistance = 22; 
-            let textX = cx + (offsetDistance * Math.cos(baseRad));
-            
-            // Adjust Y slightly so the text vertically centers with the dot
-            let textY = cy + (offsetDistance * Math.sin(baseRad)) + 3;
-
-            section.setAttribute('data-text-x', textX.toFixed(2));
-            section.setAttribute('data-text-y', textY.toFixed(2));
-            section.setAttribute('data-text-anchor', textAnchor);
-            section.setAttribute('data-text-rotation', textRotation.toFixed(2));
-        });
-
-        // --- PHASE 2: Draw the Elements ---
-        //  Builds an SVG link and a station group at the station’s position.
-        sections.forEach((section, index) => {
-            const url = section.getAttribute('data-post-url');
-            const title = section.getAttribute('data-post-title') || 'Blog post';
-            const excerpt = section.getAttribute('data-post-excerpt') || '';
-            // Change from 40 down to 28 characters for extra breathing room
-            const compactExcerpt = truncateText(excerpt, 28);
-
-            const cx = parseFloat(section.getAttribute('data-cx'));
-            const cy = parseFloat(section.getAttribute('data-cy'));
-            const textX = parseFloat(section.getAttribute('data-text-x'));
-            const textY = parseFloat(section.getAttribute('data-text-y'));
-            const textAnchor = section.getAttribute('data-text-anchor');
-            const textRotation = section.getAttribute('data-text-rotation'); // Now always 0
-
-            if (!url || Number.isNaN(cx) || Number.isNaN(cy)) return;
-            
-            // Create the clickable link that wraps the station group
-            const link = document.createElementNS(svgNS, 'a');
-            link.setAttribute('href', url);
-            link.setAttribute('class', 'blog-station-link');
-            
-            const stationGroup = document.createElementNS(svgNS, 'g');
-            stationGroup.setAttribute('class', `blog-station${index === 0 ? ' active' : ''}`);
-            stationGroup.setAttribute('data-index', index);
-
-            const textGroup = document.createElementNS(svgNS, 'g');
-            textGroup.setAttribute('transform', `rotate(${textRotation}, ${textX}, ${textY})`);
-
-            const text = document.createElementNS(svgNS, 'text');
-            text.setAttribute('x', textX);
-            text.setAttribute('y', textY);
-            text.setAttribute('text-anchor', textAnchor);
-
-            const titleLines = wrapLabelTitle(title);
-            titleLines.forEach((line, lineIndex) => {
-                const titleLine = document.createElementNS(svgNS, 'tspan');
-                titleLine.setAttribute('class', 'station-title');
-                titleLine.setAttribute('x', textX);
-                titleLine.setAttribute('dy', lineIndex === 0 ? '0' : '11');
-                titleLine.textContent = line;
-                text.appendChild(titleLine);
-            });
-
-            if (compactExcerpt) {
-                const subtitle = document.createElementNS(svgNS, 'tspan');
-                subtitle.setAttribute('class', 'station-subtitle');
-                subtitle.setAttribute('x', textX);
-                subtitle.setAttribute('dy', titleLines.length > 0 ? `${11 * Math.max(titleLines.length, 1)}` : '12');
-                subtitle.textContent = compactExcerpt;
-                text.appendChild(subtitle);
+            if (normR === 90 || normR === 270) {
+                let prevIndex = index - 1;
+                let prevRight = true;
+                if (prevIndex >= 0) {
+                    let prevRow = rows[prevIndex];
+                    let prevR = parseFloat(prevRow.getAttribute('data-rotation'));
+                    let prevNormR = (prevR % 360 + 360) % 360;
+                    prevRight = (prevNormR > 270 || prevNormR < 90);
+                }
+                isRightQuadrant = prevRight;
+            } else if (normR > 270 || normR < 90) {
+                isRightQuadrant = true;
             }
 
-            textGroup.appendChild(text);
-            stationGroup.appendChild(textGroup);
-            link.appendChild(stationGroup);
-            layer.appendChild(link);
-
-            // Generate properly fitting background label masking box
-            const bbox = text.getBBox();
-            if (bbox && bbox.width && bbox.height) {
-                const labelBg = document.createElementNS(svgNS, 'rect');
-                labelBg.setAttribute('class', 'station-label-bg');
-                labelBg.setAttribute('rx', '0');  // zero corner radius on the background rectangle
-                labelBg.setAttribute('ry', '0');
-                labelBg.setAttribute('x', (bbox.x - 6).toFixed(2));
-                labelBg.setAttribute('y', (bbox.y - 3).toFixed(2));
-                labelBg.setAttribute('width', (bbox.width + 12).toFixed(2));
-                labelBg.setAttribute('height', (bbox.height + 6).toFixed(2));
-                
-                textGroup.insertBefore(labelBg, text);
-            }
+            row.classList.add(isRightQuadrant ? 'align-right' : 'align-left');
         });
-
-        updateStationVisualState(activeStationIndex);
     }
 
-    function getSectionCenter(section) {
-        // Calculate vertical center of a section for determining which station is currently active based on scroll position
-        return section.offsetTop + section.offsetHeight / 2;
-    }
+    function calculateMapPlacement(index) {
+        const row = rows[index];
+        if (!row) return { x: mapWidth / 2, y: mapHeight / 2, angle: 0 };
 
-    function getStationPoint(index) {
-        //  Look up the position of a station by its index in the sections array.
-        const section = sections[index];
+        const cx = parseFloat(row.getAttribute('data-cx'));
+        const cy = parseFloat(row.getAttribute('data-cy'));
+        const baseRotation = parseFloat(row.getAttribute('data-rotation'));
 
-        // If those values are missing or invalid, it falls back to the center of the map.
-        if (!section) {
-            return { x: mapWidth / 2, y: mapHeight / 2 };
+        let normR = (baseRotation % 360 + 360) % 360;
+        let finalRotationAngle = 0;
+        let isRightQuadrant = row.classList.contains('align-right');
+
+        if (normR === 90 || normR === 270) {
+            finalRotationAngle = isRightQuadrant ? -90 : 90;
+        } else if (isRightQuadrant) {
+            finalRotationAngle = -normR;
+        } else {
+            finalRotationAngle = 180 - normR;
         }
 
-        const cx = parseFloat(section.getAttribute('data-cx'));
-        const cy = parseFloat(section.getAttribute('data-cy'));
+        let rad = finalRotationAngle * (Math.PI / 180);
+        let displacementX = euclideanDistance * Math.cos(rad);
+        let displacementY = euclideanDistance * Math.sin(rad);
 
-        if (Number.isNaN(cx) || Number.isNaN(cy)) {
-            return { x: mapWidth / 2, y: mapHeight / 2 };
-        }
+        // Map math updated for the 200% canvas wrapper
+        // If post is right, station is left (25% mark = 270 offset from 720 width)
+        // If post is left, station is right (75% mark = 450 offset from 720 width)
+        let anchorOffset = isRightQuadrant ? 270 : 450; 
+        
+        let targetX = clamp((cx + displacementX) - anchorOffset, mapMinX, mapWidth - zoomWidth);
+        let targetY = clamp((cy + displacementY) - (zoomHeight / 2), mapMinY, mapHeight - zoomHeight);
 
-        return { x: cx, y: cy };
+        return { x: targetX, y: targetY, angle: finalRotationAngle };
     }
 
-    function jumpToStation(index) {
-        if (!map || sections.length === 0) return;
+    function updateActiveMapTransform() {
+        if (!map || rows.length === 0) return;
 
-        // Stores the requested station index as the active one, looks up that station’s coordinates
-        activeStationIndex = index;
-        const point = getStationPoint(index);
-        
-        // Determines whether the station label is anchored to the left or right side of the point (start/end) 
-        // That anchor influences the horizontal positioning so the map centers the station in a way that keeps the label side visible.
-        const section = sections[index];
-        const anchor = section ? section.getAttribute('data-text-anchor') : 'start';
-        
-        // Lock to the target layout side
-        const biasX = anchor === 'end' ? 0.75 : 0.25;
-
-        // Calculate the target viewport position using the station’s point and the current zoom dimension
-        // Horizontal position is biased depending on whether the label anchor is end or start
-        // Vertical position centers the station in the viewport
-        const targetX = clamp(point.x - zoomWidth * biasX, mapMinX, mapWidth - zoomWidth);
-        const targetY = clamp(point.y - zoomHeight * 0.5, mapMinY, mapHeight - zoomHeight);
-
-        //  Jumps the SVG map to a specific station instantly.
-        viewBoxState.x = targetX;
-        viewBoxState.y = targetY;
-        map.setAttribute('viewBox', `${viewBoxState.x.toFixed(2)} ${viewBoxState.y.toFixed(2)} ${zoomWidth} ${zoomHeight}`);
-        
-        // Refresh the station visuals so the selected station is shown as active.
-        updateStationVisualState(index);
-    }
-
-    function updateActiveStation() {
-        // This function keeps the map and the selected station in sync as the user scrolls through the page
-        if (!map || sections.length === 0) return;
-
-        // First finds the section whose vertical center is closest to the middle of the viewport, 
-        // treating that section as the currently active station.
-        const viewportCenterY = window.scrollY + window.innerHeight / 2;
+        const currentScrollY = window.scrollY;
+        const totalScrollableHeight = document.body.scrollHeight - window.innerHeight;
         let activeIndex = 0;
-        let closestDistance = Infinity;
 
-        sections.forEach((section, index) => {
-            const sectionCenter = getSectionCenter(section);
-            const distance = Math.abs(sectionCenter - viewportCenterY);
-            if (distance < closestDistance) {
-                closestDistance = distance;
-                activeIndex = index;
-            }
-        });
+        if (currentScrollY <= 15) {
+            activeIndex = 0;
+        } else if (currentScrollY >= totalScrollableHeight - 15) {
+            activeIndex = rows.length - 1;
+        } else {
+            const viewportCenterY = currentScrollY + window.innerHeight / 2;
+            let closestDistance = Infinity;
+
+            rows.forEach((row, index) => {
+                const rowCenter = row.offsetTop + row.offsetHeight / 2;
+                const distance = Math.abs(rowCenter - viewportCenterY);
+                if (distance < closestDistance) {
+                    closestDistance = distance;
+                    activeIndex = index;
+                }
+            });
+        }
 
         activeStationIndex = activeIndex;
-        
-        // Enable or disable the previous/next station navigation buttons based on whether a neighboring station exists.
-        const navButtons = document.querySelectorAll('.station-nav-btn');
-        navButtons.forEach((button, index) => {
-            const direction = button.getAttribute('data-direction');
-            const targetIndex = direction === 'up' ? activeStationIndex - 1 : activeStationIndex + 1;
-            button.disabled = targetIndex < 0 || targetIndex >= sections.length;
+
+        rows.forEach((row, index) => {
+            row.classList.toggle('active', index === activeIndex);
         });
-        
-        // Update the visual state of the map markers and the station labels so the selected station appears highlighted. 
-        updateStationVisualState(activeIndex);
 
         let fromIndex = activeIndex;
-        let toIndex = Math.min(activeIndex + 1, sections.length - 1);
+        let toIndex = activeIndex;
         let progress = 0;
 
-        if (activeIndex > 0 && viewportCenterY < getSectionCenter(sections[activeIndex])) {
+        const viewportCenter = currentScrollY + window.innerHeight / 2;
+        const currentCenter = rows[activeIndex].offsetTop + rows[activeIndex].offsetHeight / 2;
+
+        if (viewportCenter < currentCenter && activeIndex > 0) {
             fromIndex = activeIndex - 1;
             toIndex = activeIndex;
-            const fromCenter = getSectionCenter(sections[fromIndex]);
-            const toCenter = getSectionCenter(sections[toIndex]);
-            const span = Math.max(1, toCenter - fromCenter);
-            progress = clamp((viewportCenterY - fromCenter) / span, 0, 1);
-        } else {
-            const fromCenter = getSectionCenter(sections[fromIndex]);
-            const toCenter = getSectionCenter(sections[toIndex]);
-            const span = Math.max(1, toCenter - fromCenter);
-            progress = clamp((viewportCenterY - fromCenter) / span, 0, 1);
+            let span = Math.max(1, currentCenter - (rows[fromIndex].offsetTop + rows[fromIndex].offsetHeight / 2));
+            progress = clamp((viewportCenter - (rows[fromIndex].offsetTop + rows[fromIndex].offsetHeight / 2)) / span, 0, 1);
+        } else if (viewportCenter > currentCenter && activeIndex < rows.length - 1) {
+            fromIndex = activeIndex;
+            toIndex = activeIndex + 1;
+            let nextCenter = rows[toIndex].offsetTop + rows[toIndex].offsetHeight / 2;
+            let span = Math.max(1, nextCenter - currentCenter);
+            progress = clamp((viewportCenter - currentCenter) / span, 0, 1);
         }
 
-        // Calculate how far the viewport sits between the current and next station positions. I
-        // Use that progress value to interpolate a “travel point” between the two stations,
-        const fromPoint = getStationPoint(fromIndex);
-        const toPoint = getStationPoint(toIndex);
-        const travelPoint = {
-            x: fromPoint.x + (toPoint.x - fromPoint.x) * progress,
-            y: fromPoint.y + (toPoint.y - fromPoint.y) * progress
-        };
+        const stateFrom = calculateMapPlacement(fromIndex);
+        const stateTo = calculateMapPlacement(toIndex);
 
-        // Reads the active section’s data-lines attribute, splits it into an array of line names, 
-        // and passes that list to the line-highlighting logic so only the relevant transport lines are emphasized.
-        const activeSection = sections[activeIndex];
-        const activeAnchor = activeSection ? activeSection.getAttribute('data-text-anchor') : 'start';
-        const linesStr = activeSection ? activeSection.getAttribute('data-lines') : '';
-        // Split comma-separated string into a clean array: ['piccadilly', 'victoria']
-        const activeLines = linesStr ? linesStr.split(',').map(s => s.trim()) : [];
-        updateLineHighlighting(activeLines);
+        let interpolatedX = stateFrom.x + (stateTo.x - stateFrom.x) * progress;
+        let interpolatedY = stateFrom.y + (stateTo.y - stateFrom.y) * progress;
         
-        // Use the active station’s label anchor to decide how much horizontal bias to apply when centering the map.
-        const activeBias = activeAnchor === 'end' ? 0.75 : 0.25; 
-        const targetX = clamp(travelPoint.x - zoomWidth * activeBias, mapMinX, mapWidth - zoomWidth);
-        const targetY = clamp(travelPoint.y - zoomHeight * 0.5, mapMinY, mapHeight - zoomHeight);
+        let diffAngle = stateTo.angle - stateFrom.angle;
+        if (diffAngle > 180) diffAngle -= 360;
+        if (diffAngle < -180) diffAngle += 360;
+        let interpolatedAngle = stateFrom.angle + diffAngle * progress;
 
-        // Compute remaining travel distance
-        const diffX = targetX - viewBoxState.x;
-        const diffY = targetY - viewBoxState.y;
-
-        // Apply smooth camera slide
-        viewBoxState.x += diffX * 0.16;
-        viewBoxState.y += diffY * 0.16;
-        map.setAttribute('viewBox', `${viewBoxState.x.toFixed(2)} ${viewBoxState.y.toFixed(2)} ${zoomWidth} ${zoomHeight}`);
-
-        // Fix: If the camera hasn't finished settling perfectly, keep the loop alive!
-        if (Math.abs(diffX) > 0.05 || Math.abs(diffY) > 0.05) {
-            scheduleViewBoxUpdate();
-        }
+        // Apply ViewBox panning to the SVG
+        map.setAttribute('viewBox', `${interpolatedX.toFixed(2)} ${interpolatedY.toFixed(2)} ${zoomWidth} ${zoomHeight}`);
+        
+        // Apply rotation ONLY to the 200% oversized wrapper
+        svgWrapper.style.transform = `rotate(${interpolatedAngle.toFixed(2)}deg)`;
     }
 
-    function scrollToStation(index) {
-        // The function scrolls the page to a specific station section in a smooth, animated wa
-        const section = sections[index];
-        if (!section) return;
+    function scrollToStationRow(index) {
+        const targetRow = rows[index];
+        if (!targetRow) return;
 
-        // Update the active station index and the related visual state so the interface reflects the selection.
-        activeStationIndex = index;
-        updateStationVisualState(index);
+        if (scrollAnimationFrame) cancelAnimationFrame(scrollAnimationFrame);
 
-        // Calculate a target vertical position that centers the selected section in the viewport
-        const targetY = clamp(section.offsetTop + section.offsetHeight / 2 - window.innerHeight / 2, 0, document.body.scrollHeight - window.innerHeight);
-        if (scrollAnimationFrame) {
-            //  If an earlier scroll animation is still running, it cancels that animation before starting a new one.
-            cancelAnimationFrame(scrollAnimationFrame);
-            scrollAnimationFrame = null;
-        }
-
-        // To create the animation, the function records the current scroll position and the distance to the target.
+        const targetY = clamp(
+            targetRow.offsetTop + targetRow.offsetHeight / 2 - window.innerHeight / 2,
+            0,
+            document.body.scrollHeight - window.innerHeight
+        );
         const startY = window.scrollY;
         const distanceY = targetY - startY;
-
-        //  If that distance is already very small, it jumps directly to the destination.
-        if (Math.abs(distanceY) < 1) {
-            window.scrollTo({ top: targetY, behavior: 'auto' });
-            scheduleViewBoxUpdate();
-            return;
-        }
-
-        // Otherwise, it uses requestAnimationFrame to update the scroll position over a fixed duration of about 650 milliseconds, 
-        // applying a cubic easing effect for a smoother motion.
-        // Each frame also calls scheduleViewBoxUpdate() so any related visual elements remain synchronized with the scrolling.
-        const duration = 650;
+        const duration = 600;
         let startTime = null;
 
         const step = (timestamp) => {
@@ -682,84 +405,43 @@ layout: default
             const elapsed = timestamp - startTime;
             const progress = Math.min(elapsed / duration, 1);
             const eased = 1 - Math.pow(1 - progress, 3);
-            const currentY = startY + distanceY * eased;
-
-            window.scrollTo({ top: currentY, behavior: 'auto' });
-            scheduleViewBoxUpdate();
+            
+            window.scrollTo({ top: startY + distanceY * eased, behavior: 'auto' });
+            scheduleMapUpdate();
 
             if (progress < 1) {
                 scrollAnimationFrame = window.requestAnimationFrame(step);
             } else {
                 window.scrollTo({ top: targetY, behavior: 'auto' });
-                scheduleViewBoxUpdate();
                 scrollAnimationFrame = null;
             }
         };
-
         scrollAnimationFrame = window.requestAnimationFrame(step);
     }
 
-    function scheduleViewBoxUpdate() {
-        // Small scheduling helper that delays the map view update until the browser is ready to render the next frame. 
-        // Prevents the viewbox logic from running too often by making sure only one pending animation frame exists at a time. 
-        // The viewBoxFrame variable acts as a flag and a handle for that scheduled frame.
+    function scheduleMapUpdate() {
         if (viewBoxFrame) return;
         viewBoxFrame = window.requestAnimationFrame(() => {
             viewBoxFrame = null;
-            updateActiveStation();
+            updateActiveMapTransform();
         });
     }
 
-    document.querySelectorAll('.station-nav-btn').forEach((button) => {
-        button.addEventListener('click', () => {
-            const direction = button.getAttribute('data-direction');
-            const delta = direction === 'up' ? -1 : 1;
-            const targetIndex = clamp(activeStationIndex + delta, 0, sections.length - 1);
-            scrollToStation(targetIndex);
-        });
-    });
-
-    window.addEventListener('scroll', scheduleViewBoxUpdate, { passive: true });
-    window.addEventListener('resize', scheduleViewBoxUpdate);
+    window.addEventListener('scroll', scheduleMapUpdate, { passive: true });
+    window.addEventListener('resize', scheduleMapUpdate);
 
     if ('scrollRestoration' in history) {
-        // In modern browsers, history has a property named scrollRestoration that 
-        // controls whether the browser automatically restores the previous scroll position 
-        // when the user navigates back or forward through history.
-        // If that property exists, the code sets it to 'manual'. This tells the browser not to restore scroll position automatically.
-        // Otherwise the page’s own JavaScript is already managing the scroll position
-        // and the browser’s default restoration could interfere with it.
         history.scrollRestoration = 'manual';
     }
 
-    function initializeLandingView() {
-        buildStationOverlay();
+    document.addEventListener('DOMContentLoaded', () => {
+        parseStationCoordinates();
         window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
-        jumpToStation(0);
-        initialViewSet = true;
-        scheduleViewBoxUpdate();
-    }
-
-    window.addEventListener('load', () => {
-        initializeLandingView();
-        window.requestAnimationFrame(() => {
-            window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
-            jumpToStation(0);
-            scheduleViewBoxUpdate();
-        });
+        updateActiveMapTransform();
     });
 
-    setTimeout(() => {
-        if (!initialViewSet) {
-            initializeLandingView();
-        }
-    }, 300);
-
-    document.addEventListener('DOMContentLoaded', () => {
-        buildStationOverlay();
-        if (!initialViewSet) {
-            jumpToStation(0);
-        }
-        scheduleViewBoxUpdate();
+    window.addEventListener('load', () => {
+        parseStationCoordinates();
+        updateActiveMapTransform();
     });
 </script>

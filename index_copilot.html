@@ -1,0 +1,596 @@
+---
+layout: default
+---
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        color: #f8fafc;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .map-container {
+        position: fixed;
+        inset: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        background: #ffffff;
+        pointer-events: none;
+        overflow: hidden;
+    }
+
+    .map-container svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: #ffffff;
+        overflow: visible;
+    }
+
+    .blog-shell {
+        position: relative;
+        z-index: 2;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 5rem 1.25rem 6rem;
+    }
+
+    .blog-intro {
+        max-width: 680px;
+        padding: 1rem 0 1.5rem;
+    }
+
+    .blog-intro h1 {
+        margin: 0 0 0.7rem;
+        font-size: clamp(2rem, 3.4vw, 2.8rem);
+        line-height: 1.05;
+        letter-spacing: -0.02em;
+    }
+
+    .blog-intro p {
+        margin: 0;
+        color: rgba(248, 250, 252, 0.75);
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+
+    .blog-list {
+        display: grid;
+        gap: 0.6rem;
+    }
+
+    .scroll-section {
+        position: relative;
+        padding: 0.2rem 0;
+        min-height: 20vh;
+        display: flex;
+        align-items: center;
+        pointer-events: none;
+    }
+
+    .blog-card {
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+        background: rgba(15, 23, 42, 0.82);
+        border: 1px solid rgba(248, 250, 252, 0.16);
+        box-shadow: 0 20px 50px rgba(2, 6, 23, 0.3);
+        backdrop-filter: blur(14px);
+        overflow: hidden;
+        pointer-events: auto;
+        transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+    }
+
+    .scroll-section.active .blog-card {
+        transform: translateY(-2px);
+        border-color: rgba(248, 250, 252, 0.5);
+        box-shadow: 0 24px 60px rgba(2, 6, 23, 0.45);
+    }
+
+    .blog-card-link {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-decoration: none;
+        color: inherit;
+        min-height: 200px;
+    }
+
+    .blog-card.has-image .blog-card-link {
+        grid-template-columns: minmax(220px, 0.9fr) minmax(0, 1.1fr);
+    }
+
+    .card-media {
+        min-height: 200px;
+        background: rgba(15, 23, 42, 0.6);
+    }
+
+    .card-media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .card-body {
+        padding: 1.1rem 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.45rem;
+    }
+
+    .card-meta {
+        margin: 0;
+        font-size: 0.8rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: rgba(248, 250, 252, 0.6);
+    }
+
+    .card-title {
+        margin: 0;
+        font-size: clamp(1.1rem, 1.7vw, 1.35rem);
+        line-height: 1.2;
+    }
+
+    .card-excerpt {
+        margin: 0;
+        color: rgba(248, 250, 252, 0.78);
+        line-height: 1.55;
+        font-size: 0.95rem;
+    }
+
+    .station-nav {
+        position: fixed;
+        right: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        z-index: 5;
+        pointer-events: auto;
+    }
+
+    .station-nav button {
+        width: 92px;
+        height: 92px;
+        border: 0;
+        border-radius: 0;
+        background: rgba(15, 23, 42, 0.9);
+        color: #f8fafc;
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+        box-shadow: none;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .station-nav button:hover {
+        background: rgba(30, 41, 59, 0.95);
+    }
+
+    .station-nav button:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+        box-shadow: none;
+    }
+
+    .station-nav button svg {
+        width: 68px;
+        height: 68px;
+        fill: currentColor;
+    }
+
+    .station-nav .up svg {
+        transform: rotate(-90deg);
+        transform-origin: center;
+    }
+
+    .station-nav .down svg {
+        transform: rotate(90deg);
+        transform-origin: center;
+    }
+
+    @media (max-width: 760px) {
+        .blog-shell {
+            padding: 4rem 1rem 5rem;
+        }
+
+        .blog-card.has-image .blog-card-link {
+            grid-template-columns: 1fr;
+        }
+
+        .card-media {
+            min-height: 180px;
+        }
+
+        .station-nav {
+            right: 12px;
+        }
+
+        .station-nav button {
+            width: 68px;
+            height: 68px;
+        }
+
+        .station-nav button svg {
+            width: 48px;
+            height: 48px;
+        }
+    }
+</style>
+
+<div class="map-container">
+    {% include london-map.svg %}
+</div>
+
+<div class="station-nav" aria-label="Station navigation">
+    <button type="button" class="station-nav-btn up" data-direction="up" aria-label="Previous station">
+        {% include arrow-right-solid-full.svg %}
+    </button>
+    <button type="button" class="station-nav-btn down" data-direction="down" aria-label="Next station">
+        {% include arrow-right-solid-full.svg %}
+    </button>
+</div>
+
+<div class="blog-shell">
+    <div class="blog-intro">
+        <h1>Journal</h1>
+        <p>A linear archive of notes, photographs, and short reflections, stitched together with the London map as a quiet guide.</p>
+    </div>
+
+    <div class="blog-list">
+        {% assign station_data = site.data._blog_route %}
+        {% assign station_posts = site.posts | slice: 0, station_data.size %}
+        {% for station in station_data %}
+          {% assign post = station_posts[forloop.index0] %}
+          {% if post %}
+            {% assign featured_image = post.image.path %}
+            {% assign excerpt_text = post.excerpt | strip_html | strip_newlines %}
+            {% if excerpt_text == '' %}
+              {% assign excerpt_text = post.content | strip_html | strip_newlines | truncate: 180 %}
+            {% endif %}
+            <section class="scroll-section"
+                    data-station-id="{{ station.name }}"
+                    data-lines="{{ station.lines | default: '' }}"
+                    data-cx="{{ station.x | default: '' }}"
+                    data-cy="{{ station.y | default: '' }}"
+                    data-rotation="{{ station.rotation | default: '' }}"
+                    data-post-url="{{ post.url | relative_url }}"
+                    data-post-title="{{ post.title | escape }}"
+                    data-post-excerpt="{{ excerpt_text | truncate: 120 | escape }}">
+                <article class="blog-card{% if featured_image %} has-image{% endif %}">
+                    <a class="blog-card-link" href="{{ post.url | relative_url }}">
+                        {% if featured_image %}
+                            <div class="card-media">
+                                <img src="{{ featured_image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+                            </div>
+                        {% endif %}
+                        <div class="card-body">
+                            <p class="card-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+                            <h2 class="card-title">{{ post.title }}</h2>
+                            {% if excerpt_text != '' %}
+                                <p class="card-excerpt">{{ excerpt_text | truncate: 160 }}</p>
+                            {% endif %}
+                        </div>
+                    </a>
+                </article>
+            </section>
+          {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    const svgNS = 'http://www.w3.org/2000/svg';
+    const map = document.querySelector('.map-container svg');
+    const sections = Array.from(document.querySelectorAll('.scroll-section'));
+    const zoomWidth = 1600;
+    const zoomHeight = 1600;
+    const viewBoxPadding = { x: 400, y: 400 };
+    const viewBoxState = { x: 0, y: 0, width: zoomWidth + viewBoxPadding.x, height: zoomHeight + viewBoxPadding.y };
+    let scrollAnimationFrame = null;
+    let initialViewSet = false;
+    let activeStationIndex = 0;
+    let mapUpdateFrame = null;
+    let mapContentGroup = null;
+
+    const mapMinX = -80;
+    const mapMinY = -100;
+    const mapWidth = 2500;
+    const mapHeight = 1340;
+    const stationVisualCache = new Map();
+
+    function clamp(value, min, max) {
+        return Math.max(min, Math.min(max, value));
+    }
+
+    function normalizeRotation(rotation) {
+        const value = Number.isFinite(rotation) ? rotation : 0;
+        return ((value % 360) + 360) % 360;
+    }
+
+    function getRotationQuadrant(rotation) {
+        const normalized = normalizeRotation(rotation);
+        return normalized >= 90 && normalized <= 270 ? 'left' : 'right';
+    }
+
+    function getEffectiveRotation(rawRotation, previousRotation) {
+        const normalized = normalizeRotation(rawRotation);
+        if (normalized === 90 || normalized === 270) {
+            const previousQuadrant = previousRotation == null ? 'right' : getRotationQuadrant(previousRotation);
+            return previousQuadrant === 'left' ? 270 : 90;
+        }
+
+        const wrapped = ((normalized + 180) % 360 + 360) % 360 - 180;
+        if (wrapped > 90) {
+            return 180 - wrapped;
+        }
+        if (wrapped < -90) {
+            return wrapped + 180;
+        }
+
+        return -wrapped;
+    }
+
+    function getTextAnchor(rawRotation, previousRotation) {
+        const rotation = getEffectiveRotation(rawRotation, previousRotation);
+        return getRotationQuadrant(rotation) === 'left' ? 'end' : 'start';
+    }
+
+    function getStationMetadata(index) {
+        if (stationVisualCache.has(index)) {
+            return stationVisualCache.get(index);
+        }
+
+        const section = sections[index];
+        const stationId = section ? section.getAttribute('data-station-id') : '';
+        let cx = parseFloat(section ? section.getAttribute('data-cx') : '');
+        let cy = parseFloat(section ? section.getAttribute('data-cy') : '');
+        let rawRotation = parseFloat(section ? section.getAttribute('data-rotation') : '');
+
+        if (stationId && (Number.isNaN(cx) || Number.isNaN(cy) || Number.isNaN(rawRotation))) {
+            const svgEl = map ? map.querySelector('#' + CSS.escape(stationId)) : null;
+            if (svgEl) {
+                const transform = svgEl.getAttribute('transform') || '';
+                const translateMatch = transform.match(/translate\(\s*(-?[\d.]+)\s*(?:,\s*(-?[\d.]+))?\s*\)/);
+                if (translateMatch) {
+                    if (Number.isNaN(cx)) cx = parseFloat(translateMatch[1]);
+                    if (Number.isNaN(cy)) cy = parseFloat(translateMatch[2] || '0');
+                }
+                const rotateMatch = transform.match(/rotate\(\s*(-?[\d.]+)\s*\)/);
+                if (rotateMatch && Number.isNaN(rawRotation)) {
+                    rawRotation = parseFloat(rotateMatch[1]);
+                }
+                if (Number.isNaN(cx)) cx = parseFloat(svgEl.getAttribute('x') || '0');
+                if (Number.isNaN(cy)) cy = parseFloat(svgEl.getAttribute('y') || '0');
+            }
+        }
+
+        if (Number.isNaN(cx)) cx = 0;
+        if (Number.isNaN(cy)) cy = 0;
+        if (Number.isNaN(rawRotation)) rawRotation = 0;
+
+        if (section) {
+            section.setAttribute('data-cx', cx);
+            section.setAttribute('data-cy', cy);
+            section.setAttribute('data-rotation', rawRotation.toFixed(2));
+        }
+
+        const previousRotation = index > 0 ? getStationMetadata(index - 1).rawRotation : 0;
+        const rotation = getEffectiveRotation(rawRotation, previousRotation);
+        const textAnchor = getTextAnchor(rawRotation, previousRotation);
+        const metadata = { cx, cy, rawRotation, rotation, textAnchor };
+        stationVisualCache.set(index, metadata);
+        return metadata;
+    }
+
+    function getSectionCenter(section) {
+        return section.offsetTop + section.offsetHeight / 2;
+    }
+
+    function getFocusRatio(index) {
+        const section = sections[index];
+        if (!section) return 0.4;
+
+        const scrollableHeight = Math.max(1, document.body.scrollHeight - window.innerHeight);
+        const sectionCenter = section.offsetTop + section.offsetHeight / 2;
+        const normalized = clamp(sectionCenter / scrollableHeight, 0, 1);
+        return 0.16 + normalized * 0.58;
+    }
+
+    function updateActiveCard(activeIndex = activeStationIndex) {
+        sections.forEach((section, index) => {
+            section.classList.toggle('active', index === activeIndex);
+        });
+    }
+
+    function getMapContentGroup() {
+        if (!map) return null;
+        if (mapContentGroup) return mapContentGroup;
+
+        mapContentGroup = map.querySelector('#map-rotator');
+        if (mapContentGroup) return mapContentGroup;
+
+        const wrapper = document.createElementNS(svgNS, 'g');
+        wrapper.setAttribute('id', 'map-rotator');
+
+        const children = Array.from(map.childNodes).filter((node) => node.nodeType === Node.ELEMENT_NODE && node.tagName.toLowerCase() !== 'style');
+        children.forEach((child) => {
+            wrapper.appendChild(child);
+            map.removeChild(child);
+        });
+
+        map.appendChild(wrapper);
+        mapContentGroup = wrapper;
+        return wrapper;
+    }
+
+    function updateMapRotation(index) {
+        const metadata = getStationMetadata(index);
+        const group = getMapContentGroup();
+        if (!group) return;
+
+        const centerX = metadata.cx;
+        const centerY = metadata.cy;
+        group.setAttribute('transform', `rotate(${metadata.rotation} ${centerX} ${centerY})`);
+    }
+
+    function updateStationView(index) {
+        if (!map || sections.length === 0) return;
+
+        const metadata = getStationMetadata(index);
+        const frameWidth = zoomWidth + viewBoxPadding.x;
+        const frameHeight = zoomHeight + viewBoxPadding.y;
+        const targetX = clamp(metadata.cx - frameWidth / 2, mapMinX, mapWidth - frameWidth);
+        const targetY = clamp(metadata.cy - frameHeight / 2, mapMinY, mapHeight - frameHeight);
+
+        viewBoxState.x = targetX;
+        viewBoxState.y = targetY;
+        viewBoxState.width = frameWidth;
+        viewBoxState.height = frameHeight;
+        map.setAttribute('viewBox', `${viewBoxState.x.toFixed(2)} ${viewBoxState.y.toFixed(2)} ${viewBoxState.width.toFixed(2)} ${viewBoxState.height.toFixed(2)}`);
+
+        updateMapRotation(index);
+        updateActiveCard(index);
+    }
+
+    function jumpToStation(index) {
+        activeStationIndex = index;
+        updateStationView(index);
+    }
+
+    function updateActiveStation() {
+        if (!map || sections.length === 0) return;
+
+        const viewportCenterY = window.scrollY + window.innerHeight / 2;
+        let activeIndex = 0;
+        let closestDistance = Infinity;
+
+        sections.forEach((section, index) => {
+            const sectionCenter = getSectionCenter(section);
+            const distance = Math.abs(sectionCenter - viewportCenterY);
+            if (distance < closestDistance) {
+                closestDistance = distance;
+                activeIndex = index;
+            }
+        });
+
+        activeStationIndex = activeIndex;
+
+        const navButtons = document.querySelectorAll('.station-nav-btn');
+        navButtons.forEach((button) => {
+            const direction = button.getAttribute('data-direction');
+            const targetIndex = direction === 'up' ? activeStationIndex - 1 : activeStationIndex + 1;
+            button.disabled = targetIndex < 0 || targetIndex >= sections.length;
+        });
+
+        updateStationView(activeIndex);
+    }
+
+    function scrollToStation(index) {
+        const section = sections[index];
+        if (!section) return;
+
+        activeStationIndex = index;
+        updateActiveCard(index);
+
+        const targetY = clamp(section.offsetTop + section.offsetHeight / 2 - window.innerHeight / 2, 0, document.body.scrollHeight - window.innerHeight);
+        if (scrollAnimationFrame) {
+            cancelAnimationFrame(scrollAnimationFrame);
+            scrollAnimationFrame = null;
+        }
+
+        const startY = window.scrollY;
+        const distanceY = targetY - startY;
+
+        if (Math.abs(distanceY) < 1) {
+            window.scrollTo({ top: targetY, behavior: 'auto' });
+            requestMapUpdate();
+            return;
+        }
+
+        const duration = 450;
+        let startTime = null;
+
+        const step = (timestamp) => {
+            if (!startTime) startTime = timestamp;
+            const elapsed = timestamp - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            const currentY = startY + distanceY * eased;
+
+            window.scrollTo({ top: currentY, behavior: 'auto' });
+            requestMapUpdate();
+
+            if (progress < 1) {
+                scrollAnimationFrame = window.requestAnimationFrame(step);
+            } else {
+                window.scrollTo({ top: targetY, behavior: 'auto' });
+                requestMapUpdate();
+                scrollAnimationFrame = null;
+            }
+        };
+
+        scrollAnimationFrame = window.requestAnimationFrame(step);
+    }
+
+    function requestMapUpdate() {
+        if (mapUpdateFrame) return;
+        mapUpdateFrame = window.requestAnimationFrame(() => {
+            mapUpdateFrame = null;
+            updateActiveStation();
+        });
+    }
+
+    document.querySelectorAll('.station-nav-btn').forEach((button) => {
+        button.addEventListener('click', () => {
+            const direction = button.getAttribute('data-direction');
+            const delta = direction === 'up' ? -1 : 1;
+            const targetIndex = clamp(activeStationIndex + delta, 0, sections.length - 1);
+            scrollToStation(targetIndex);
+        });
+    });
+
+    window.addEventListener('scroll', requestMapUpdate, { passive: true });
+    window.addEventListener('resize', requestMapUpdate);
+
+    if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
+
+    function initializeLandingView() {
+        sections.forEach((_, index) => getStationMetadata(index));
+        window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+        jumpToStation(0);
+        initialViewSet = true;
+        requestMapUpdate();
+    }
+
+    window.addEventListener('load', () => {
+        initializeLandingView();
+        window.requestAnimationFrame(() => {
+            window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+            jumpToStation(0);
+            requestMapUpdate();
+        });
+    });
+
+    setTimeout(() => {
+        if (!initialViewSet) {
+            initializeLandingView();
+        }
+    }, 300);
+
+    document.addEventListener('DOMContentLoaded', () => {
+        if (!initialViewSet) {
+            initializeLandingView();
+        }
+    });
+</script>
