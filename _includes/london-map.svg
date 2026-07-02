@@ -20,72 +20,74 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 .meb {fill:none;stroke-width:5.5}
 .xb {stroke-dasharray:4,3}
 .mex {fill:none;stroke-width:3.5;stroke: #fff}
-.ftfl {fill: #009}
-.fbakerloo {fill: #894E24}
-.sbakerloo {stroke: #894E24}
-.fcentral {fill: #DC241F}
-.scentral {stroke: #DC241F}
-.fcircle {fill: #d90}
-.scircle {stroke: #FFCE00}
-.bcircle {stroke: #d90}
-.fdistrict {fill: #007229}
-.sdistrict {stroke: #007229}
-.fhnc {fill: #c78}
-.shnc {stroke: #D799AF}
-.bhnc {stroke: #c78}
-.fjubilee {fill: #777}
-.sjubilee {stroke: #868F98}
-.fmetropolitan {fill: #826}
-.smetropolitan {stroke: #751056}
-.fnorthern {fill: #000}
-.snorthern {stroke: #000}
-.fedgware {fill: #aa3}
-.sedgware {stroke: #aa3}
-.fpiccadilly {fill: #0019A8}
-.spiccadilly {stroke: #0019A8}
-.fvictoria {fill: #09d}
-.svictoria {stroke: #00A0E2}
-.fwnc {fill: #5b9}
-.swnc {stroke: #76D0BD}
-.swnc2 {stroke: #0019A8;stroke-width:0.5;fill:none}
-.fdlr {fill: #00a4a7}
-.sdlr {stroke: #00a4a7}
-.sdlr2 {stroke: #fff;stroke-width:1;fill:none}
-.fog {fill: #E87511}
-.fogx {fill: #fb5}
-.fliberty {fill: #5e6867}
-.sliberty {fill:none;stroke: #5e6867}
-.flioness {fill: #feb231}
-.slioness {fill:none;stroke: #feb231}
-.fmildmay {fill: #3784c7}
-.smildmay {fill:none;stroke: #3784c7}
-.fsuffragette {fill: #49c07d}
-.ssuffragette {fill:none;stroke: #49c07d}
-.ssuffragettex {fill:none;stroke: #8cbfa2}
-.fweaver {fill: #9a2c62}
-.sweaver {fill:none;stroke: #9a2c62}
-.fwindrush {fill: #ff4e5a}
-.swindrush {fill:none;stroke: #ff4e5a}
-.swindrushx {fill:none;stroke: #ffb2b8}
-.sogx {stroke: #fb5}
-.felizabeth {fill: #7156A5}
-.selizabeth {stroke: #7156A5}
-.ftflrail {fill: #0019A8}
-.stflrail {stroke: #0019A8}
-.fgreenford {fill: #177f0b}
-.sgreenford {stroke: #177f0b}
-.stl {stroke: #6C0;stroke-width:2}
-.ftl {fill: #5b0}
-.fthameslink {fill: #fad}
-.sthameslink {fill:none;stroke: #fce;stroke-width:3}
-.rn {fill: #99f}
-.osib {fill:none;stroke: #fff;stroke-width:4}
-.osi {fill:none;stroke: #009;stroke-width:2;cursor:help}
-.isib {stroke: #fff;stroke-width:7.5;fill:none}
-.isi {stroke: #000;stroke-width:6;fill:none}
-.isit {stroke: #fff;stroke-width:2;fill:none}
-.branch {stroke: #fff;stroke-width:3;stroke-dasharray:4;fill:none}
-.tleg:hover {fill: #009;stroke-width:1;stroke: #009;cursor:pointer}
+
+.ftfl {fill: #0000991a}
+.fbakerloo {fill: #894E241a}
+.sbakerloo {stroke: #894E241a}
+.fcentral {fill: #DC241F1a}
+.scentral {stroke: #DC241F1a}
+.fcircle {fill: #dd99001a}
+.scircle {stroke: #FFCE001a}
+.bcircle {stroke: #dd99001a}
+.fdistrict {fill: #0072291a}
+.sdistrict {stroke: #0072291a}
+.fhnc {fill: #cc77881a}
+.shnc {stroke: #D799AF1a}
+.bhnc {stroke: #cc77881a}
+.fjubilee {fill: #7777771a}
+.sjubilee {stroke: #868F981a}
+.fmetropolitan {fill: #8822661a}
+.smetropolitan {stroke: #7510561a}
+.fnorthern {fill: #0000001a}
+.snorthern {stroke: #0000001a}
+.fedgware {fill: #aaaa331a}
+.sedgware {stroke: #aaaa331a}
+.fpiccadilly {fill: #0019A81a}
+.spiccadilly {stroke: #0019A81a}
+.fvictoria {fill: #0099dd1a}
+.svictoria {stroke: #00A0E21a}
+.fwnc {fill: #55bb991a}
+.swnc {stroke: #76D0BD1a}
+.swnc2 {stroke: #0019A81a;stroke-width:0.5;fill:none}
+.fdlr {fill: #00a4a71a}
+.sdlr {stroke: #00a4a71a}
+.sdlr2 {stroke: #ffffff1a;stroke-width:1;fill:none}
+.fog {fill: #E875111a}
+.fogx {fill: #ffbb551a}
+.fliberty {fill: #5e68671a}
+.sliberty {fill:none;stroke: #5e68671a}
+.flioness {fill: #feb2311a}
+.slioness {fill:none;stroke: #feb2311a}
+.fmildmay {fill: #3784c71a}
+.smildmay {fill:none;stroke: #3784c71a}
+.fsuffragette {fill: #49c07d1a}
+.ssuffragette {fill:none;stroke: #49c07d1a}
+.ssuffragettex {fill:none;stroke: #8cbfa21a}
+.fweaver {fill: #9a2c621a}
+.sweaver {fill:none;stroke: #9a2c621a}
+.fwindrush {fill: #ff4e5a1a}
+.swindrush {fill:none;stroke: #ff4e5a1a}
+.swindrushx {fill:none;stroke: #ffb2b81a}
+.sogx {stroke: #ffbb551a}
+.felizabeth {fill: #7156A51a}
+.selizabeth {stroke: #7156A51a}
+.ftflrail {fill: #0019A81a}
+.stflrail {stroke: #0019A81a}
+.fgreenford {fill: #177f0b1a}
+.sgreenford {stroke: #177f0b1a}
+.stl {stroke: #66CC001a;stroke-width:2}
+.ftl {fill: #55bb001a}
+.fthameslink {fill: #ffaadd1a}
+.sthameslink {fill:none;stroke: #ffccee1a;stroke-width:3}
+.rn {fill: #9999ff1a}
+.osib {fill:none;stroke: #ffffff1a;stroke-width:4}
+.osi {fill:none;stroke: #0000991a;stroke-width:2;cursor:help}
+.isib {stroke: #ffffff1a;stroke-width:7.5;fill:none}
+.isi {stroke: #0000001a;stroke-width:6;fill:none}
+.isit {stroke: #ffffff1a;stroke-width:2;fill:none}
+.branch {stroke: #ffffff1a;stroke-width:3;stroke-dasharray:4;fill:none}
+.tleg:hover {fill: #0000991a;stroke-width:1;stroke: #0000991a;cursor:pointer}
+
 .tleg:active {cursor:progress}
 .toff:hover {cursor:pointer}
 .toff:active {cursor:progress}
@@ -206,8 +208,8 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g id="sttl"><circle cx="0" cy="0" r="4" class="ftl"/></g>
 		<g id="sttlnr">
-			<circle cx="0" cy="0" r="5.5" style="fill: #fff;stroke: #000;stroke-width:0.75"/>
-			<path style="fill:none;stroke: #ef2721;stroke-width:1" d="
+			<circle cx="0" cy="0" r="5.5" style="fill: #fff;stroke: #0000001a;stroke-width:0.75"/>
+			<path style="fill:none;stroke: #ef27211a;stroke-width:1" d="
 			M -5,-1.25 H 5
 			M -5,1.25 H 5
 			M -2.5,-3.75 L 2.5,-1.25 -2.5,1.25 2.5,3.75"/>
@@ -217,7 +219,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			<path style="fill:none;stroke: #fff;stroke-width:1" d="M -3,-3 L 1.5,0 -3,3"/>
 		</g>
 		<g id="nr">
-			<path style="fill: #ef2721;cursor:help" transform="translate(-6.25,-4)scale(0.25)" d="M 11,0 L 22,0
+			<path style="fill: #ef27211a;cursor:help" transform="translate(-6.25,-4)scale(0.25)" d="M 11,0 L 22,0
 			37,8 50,8 50,13 37,13
 			24,20 50,20 50,25 24,25
 			40,33 28,33
@@ -227,7 +229,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g id="intnr" cursor="help">
 			<circle id="intnrbase" cx="0" cy="0" r="8.25" fill="#fff"/>
-			<circle id="intnrtop" cx="0" cy="0" r="7" style="fill: #fff;stroke: #000;stroke-width:1"/>
+			<circle id="intnrtop" cx="0" cy="0" r="7" style="fill: #fff;stroke: #0000001a;stroke-width:1"/>
 			<use xlink:href="#nr"/>
 		</g>
 		<g id="intnrx" cursor="help">
@@ -237,7 +239,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g id="int">
 			<circle id="intbase" cx="0" cy="0" r="8.25" fill="#fff"/>
-			<circle id="inttop" cx="0" cy="0" r="6" style="fill: #fff;stroke: #000;stroke-width:3"/>
+			<circle id="inttop" cx="0" cy="0" r="6" style="fill: #fff;stroke: #0000001a;stroke-width:3"/>
 		</g>
 		<g id="intx">
 			<circle cx="0" cy="0" r="8.25" fill="#fff"/>
@@ -245,11 +247,11 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g id="cap2">
 			<rect x="-8.25" y="-8.25" width="31" height="16.5" rx="8.25" fill="#fff"/>
-			<rect x="-6" y="-6" width="26.5" height="12" rx="6" style="fill: #fff;stroke: #000;stroke-width:3"/>
+			<rect x="-6" y="-6" width="26.5" height="12" rx="6" style="fill: #fff;stroke: #0000001a;stroke-width:3"/>
 		</g>
 		<g id="cap2l">
 			<rect x="-8.25" y="-8.25" width="34.5" height="16.5" rx="8.25" fill="#fff"/>
-			<rect x="-6" y="-6" width="30" height="12" rx="6" style="fill: #fff;stroke: #000;stroke-width:3"/>
+			<rect x="-6" y="-6" width="30" height="12" rx="6" style="fill: #fff;stroke: #0000001a;stroke-width:3"/>
 		</g>
 		<g id="cap2lx">
 			<rect x="-8.25" y="-8.25" width="34.5" height="16.5" rx="8.25" fill="#fff"/>
@@ -257,24 +259,24 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g id="cap2nr" cursor="help"><!--length from stadium center 1 to center 2=14.5; half length=7.25-->
 			<rect x="-8.25" y="-8.25" width="31" height="16.5" rx="8.25" fill="#fff"/>
-			<rect x="-7" y="-7" width="28.5" height="14" rx="7" style="fill: #fff;stroke: #000;stroke-width:1"/>
+			<rect x="-7" y="-7" width="28.5" height="14" rx="7" style="fill: #fff;stroke: #0000001a;stroke-width:1"/>
 		</g>
 		<g id="cap3nr" cursor="help">
 			<rect x="-8.25" y="-8.25" width="38" height="16.5" rx="8.25" fill="#fff"/>
-			<rect x="-7" y="-7" width="35.5" height="14" rx="7" style="fill: #fff;stroke: #000;stroke-width:1"/>
+			<rect x="-7" y="-7" width="35.5" height="14" rx="7" style="fill: #fff;stroke: #0000001a;stroke-width:1"/>
 		</g>
 		<g id="STRg"><path style="fill: #fff;stroke:none" d="M 0,0 L 3,3 v -2.5 L 0,-2.5 -3,0.5 v 2.5 z"/></g>
-		<g id="airport" transform="rotate(-90)scale(0.04)translate(-250,-250)" style="stroke:none;fill: #000">
+		<g id="airport" transform="rotate(-90)scale(0.04)translate(-250,-250)" style="stroke:none;fill: #0000001a">
 			<polygon points="490,250 450,225 320,225 170,10 140,10 200,225 80,225 30,150 10,150 30,240 30,260 10,350 30,350 80,275 200,275 140,490 170,490 320,275 450,275"/>
-			<ellipse cx="441" cy="250" rx="50" ry="24" stroke="#000"/>
+			<ellipse cx="441" cy="250" rx="50" ry="24" stroke="#0000001a"/>
 		</g>
 		<g id="route_base"><rect x="-8" y="-8" width="16" height="16" rx="5" class="fog"/></g>
 		<g id="AETRAM" cursor="help" transform="scale(0.025,0.025)translate(-250,0)">
-			<path style="stroke-width:25;stroke: #000;fill:none" d="
+			<path style="stroke-width:25;stroke: #0000001a;fill:none" d="
 			M -80,-20 L 170,50 330,50 580,-20
 			M 170,50 L 200,20 300,20 330,50 300,20 250,20 250,150
 			"/>
-			<path fill="#000" d="
+			<path fill="#0000001a" d="
 			M 150,140 L 350,140 410,190 90,190
 			M 430,190 A 70,140 0 0,1 430,580 H 70 A 70,140 0 0,1 70,190
 			"/>
@@ -289,7 +291,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 		</g>
 		<g id="airport_railway">
 			<rect fill="#ddd" x="-10" y="-10" width="21" height="21" rx="5"/>
-			<path fill="#000" d="
+			<path fill="#0000001a" d="
 			M -9,-7
 			H -8
 			L -3,-4 4,-3.5
@@ -300,7 +302,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			V 0
 			L -9,-3 -6,-3.5
 			"/>
-			<path style="fill:none;stroke: #000;stroke-width:1" d="
+			<path style="fill:none;stroke: #0000001a;stroke-width:1" d="
 			M -9.5,4 H 10.5
 			M -9.5,7 H 10.5
 			M -8.5,2.5 V 8.5
@@ -313,7 +315,7 @@ text {font-family:Arimo,Liberation Sans,Helvetica,Arial,sans-serif}
 			"/>
 		</g>
 		<g id="bus" transform="scale(0.8)">
-			<path fill="#000" d="
+			<path fill="#0000001a" d="
 			M 0,-2
 			a 2,2 0 0,1 2,-2
 			h 25 a 2,2 0 0,1 2,2
