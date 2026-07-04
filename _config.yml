@@ -53,3 +53,5 @@ plugins:
 #   - vendor/ruby/
 sass:
   quiet_deps: true
+
+excerpt_separator: ""

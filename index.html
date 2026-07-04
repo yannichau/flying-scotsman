@@ -5,7 +5,8 @@ layout: default
 <script src="https://d3js.org/d3.v7.min.js"></script>
 
 <style>
-    body, html {
+    body,
+    html {
         margin: 0;
         padding: 0;
         background-color: #ffffff;
@@ -18,11 +19,12 @@ layout: default
         top: 0;
         left: 50%;
         transform: translateX(-50%);
-        width: 40vw;              
-        max-width: 1400px;        
+        width: 50vw;
+        max-width: 1400px;
         height: 100vh;
         z-index: 1;
-        pointer-events: none; /* Let clicks pass through to the post cards */
+        pointer-events: none;
+        /* Let clicks pass through to the post cards */
         box-sizing: border-box;
     }
 
@@ -43,16 +45,17 @@ layout: default
         position: relative;
         z-index: 2;
         margin: 0 auto;
-        /* Forces it to take up 40% of the true screen width on desktop */
-        width: 40vw;              
-        max-width: 1400px;        
-        
+        /* Forces it to take up 50% of the true screen width on desktop */
+        width: 50vw;
+        max-width: 1400px;
+
         /* 1. Center the feed relative to the screen */
         left: 50%;
         transform: translateX(-50%);
 
         /* 2. Gutter to hold the tube line safely outside the post text */
-        padding: 8vh 12px 8vh 80px; /* Reduced desktop padding slightly to avoid excessive empty space */
+        padding: 8vh 12px 8vh 80px;
+        /* Reduced desktop padding slightly to avoid excessive empty space */
         box-sizing: border-box;
     }
 
@@ -60,18 +63,19 @@ layout: default
     @media (max-width: 768px) {
         .blog-feed {
             width: 90vw;
-            padding: 4vh 12px 4vh 45px; /* Tight, optimized gutter for narrow screens */
+            padding: 4vh 12px 4vh 45px;
+            /* Tight, optimized gutter for narrow screens */
         }
     }
 
     .post-row {
         display: flex;
         align-items: center;
-        margin-bottom: 8vh; 
+        margin-bottom: 8vh;
         box-sizing: border-box;
         transition: opacity 0.4s ease;
     }
-    
+
     .post-row:last-child {
         margin-bottom: 0;
     }
@@ -81,7 +85,7 @@ layout: default
         background: #ffffff;
         padding: 24px;
         display: flex;
-        flex-direction: row; 
+        flex-direction: row;
         gap: 32px;
         width: 100%;
     }
@@ -101,7 +105,7 @@ layout: default
         display: flex;
         flex-direction: column;
         gap: 12px;
-        text-align: left; 
+        text-align: left;
     }
 
     .post-card h2 {
@@ -116,7 +120,9 @@ layout: default
         text-decoration: none;
     }
 
-    .post-card h2 a:hover { text-decoration: underline; }
+    .post-card h2 a:hover {
+        text-decoration: underline;
+    }
 
     .post-excerpt {
         color: #475569;
@@ -126,9 +132,9 @@ layout: default
     }
 
     .post-image-wrapper {
-        width: 25%; 
+        width: 25%;
         max-width: 200px;
-        flex-shrink: 0; 
+        flex-shrink: 0;
         border-radius: 6px;
         overflow: hidden;
     }
@@ -138,7 +144,8 @@ layout: default
         .post-image-wrapper {
             width: 100%;
             max-width: none;
-            height: 200px; /* Optional: standardizes image heights on mobile */
+            height: 200px;
+            /* Optional: standardizes image heights on mobile */
         }
     }
 
@@ -154,41 +161,55 @@ layout: default
 </div>
 
 <main class="blog-feed">
-{% for post in site.posts %}
-  {% if post.image.path %}
-      {% assign featured_image = post.image.path %}
-  {% else %}
-      {% assign featured_image = post.image %}
-  {% endif %}
+    {% for post in site.posts %}
+    {% if post.image.path %}
+    {% assign featured_image = post.image.path %}
+    {% else %}
+    {% assign featured_image = post.image %}
+    {% endif %}
 
-  <section class="post-row" 
-         data-station-type="{% if forloop.first or forloop.last %}terminus{% else %}regular{% endif %}"
-         data-station-name="{{ post.title | escape }}">
-      <article class="post-card">
-          <div class="post-info">
-              <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-              {% if post.excerpt %}
-              <div class="post-excerpt">
-                  {{ post.excerpt | strip_html | truncate: 160 }}
-              </div>
-              {% endif %}
-          </div>
-          
-          {% if featured_image %}
-          <div class="post-image-wrapper">
-              <img src="{{ featured_image | relative_url }}" alt="{{ post.title | escape }}">
-          </div>
-          {% endif %}
-      </article>
-  </section>
-{% endfor %}
+    <section class="post-row"
+        data-station-type="{% if forloop.first or forloop.last %}terminus{% else %}regular{% endif %}"
+        data-station-name="{{ post.title | escape }}">
+        <article class="post-card">
+            <div class="post-info">
+                <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+                {% if post.excerpt %}
+                {% endif %}
+                {% comment %}
+                1. Capture the default excerpt and strip all HTML tags out of it
+                {% endcomment %}
+                {% assign check_excerpt = post.excerpt | strip_html | strip %}
+
+                {% if check_excerpt != "" and check_excerpt != nil %}
+                {% comment %}
+                If the excerpt actually contains real text, display it safely
+                {% endcomment %}
+                <p class="post-excerpt">{{ check_excerpt | truncate: 150 }}</p>
+                {% else %}
+                {% comment %}
+                FALLBACK BLOCK: If it's blank (like your image post), bypass the excerpt entirely.
+                Go into the full post body, wipe out images/headers, and grab the first 160 characters.
+                {% endcomment %}
+                <p class="post-excerpt">{{ post.content | strip_html | strip | truncate: 160 }}</p>
+                {% endif %}
+            </div>
+
+            {% if featured_image %}
+            <div class="post-image-wrapper">
+                <img src="{{ featured_image | relative_url }}" alt="{{ post.title | escape }}">
+            </div>
+            {% endif %}
+        </article>
+    </section>
+    {% endfor %}
 </main>
 
 <script>
     const svg = d3.select("#tube-line-svg");
     const rows = document.querySelectorAll('.post-row');
 
-    const lineColor = "#e32017"; 
+    const lineColor = "#e32017";
     const strokeWidth = 12;
 
     function renderTubeLine() {
@@ -200,13 +221,13 @@ layout: default
         const svgContainer = document.querySelector('.map-container').getBoundingClientRect();
         const firstCard = rows[0].querySelector('.post-card');
         const cardRect = firstCard.getBoundingClientRect();
-        
+
         // Mobile Check: If viewport width is 768px or less, use a narrower offset (e.g. 25px)
         const isMobile = window.innerWidth <= 768;
-        const lineOffset = isMobile ? 25 : 45; 
-        
+        const lineOffset = isMobile ? 25 : 45;
+
         // Centers the track beautifully relative to the card's dynamic left boundary
-        const targetX = cardRect.left - svgContainer.left - lineOffset; 
+        const targetX = cardRect.left - svgContainer.left - lineOffset;
 
         const scrollY = window.scrollY;
         const stationData = [];
@@ -226,7 +247,7 @@ layout: default
                 const isInterchange = Math.abs(hash % 100) / 100 < 0.4; // 40% chance of being an interchange
                 type = isInterchange ? 'interchange' : 'stub';
             }
-            
+
             stationData.push({ y: centerY, type: type, name: stationName });
         });
 
@@ -271,7 +292,7 @@ layout: default
                 group.append("line")
                     .attr("x1", 0)
                     .attr("y1", 0)
-                    .attr("x2", strokeWidth * 2) 
+                    .attr("x2", strokeWidth * 2)
                     .attr("y2", 0)
                     .attr("stroke", lineColor)
                     .attr("stroke-width", strokeWidth);
