@@ -16,11 +16,21 @@ layout: default
     .map-container {
         position: fixed;
         top: 0;
-        left: 0;
-        width: 100vw;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40vw;              
+        max-width: 1400px;        
         height: 100vh;
         z-index: 1;
         pointer-events: none; /* Let clicks pass through to the post cards */
+        box-sizing: border-box;
+    }
+
+    /* Mobile view: let the map-container follow the wider blog-feed width */
+    @media (max-width: 768px) {
+        .map-container {
+            width: 90vw;
+        }
     }
 
     #tube-line-svg {
@@ -33,7 +43,7 @@ layout: default
         position: relative;
         z-index: 2;
         margin: 0 auto;
-        /* Forces it to take up 80% of the true screen width */
+        /* Forces it to take up 40% of the true screen width on desktop */
         width: 40vw;              
         max-width: 1400px;        
         
@@ -42,8 +52,16 @@ layout: default
         transform: translateX(-50%);
 
         /* 2. Gutter to hold the tube line safely outside the post text */
-        padding: 8vh 12px 8vh 12px; 
+        padding: 8vh 12px 8vh 80px; /* Reduced desktop padding slightly to avoid excessive empty space */
         box-sizing: border-box;
+    }
+
+    /* Mobile view: Expand column width and reduce excessive left padding */
+    @media (max-width: 768px) {
+        .blog-feed {
+            width: 90vw;
+            padding: 4vh 12px 4vh 45px; /* Tight, optimized gutter for narrow screens */
+        }
     }
 
     .post-row {
@@ -66,6 +84,15 @@ layout: default
         flex-direction: row; 
         gap: 32px;
         width: 100%;
+    }
+
+    /* Mobile view: Stack contents vertically so the image drops below title and excerpt */
+    @media (max-width: 768px) {
+        .post-card {
+            flex-direction: column;
+            gap: 16px;
+            padding: 16px;
+        }
     }
 
     .post-info {
@@ -104,6 +131,15 @@ layout: default
         flex-shrink: 0; 
         border-radius: 6px;
         overflow: hidden;
+    }
+
+    /* Mobile view: Expand image wrapper to fill full card width below text */
+    @media (max-width: 768px) {
+        .post-image-wrapper {
+            width: 100%;
+            max-width: none;
+            height: 200px; /* Optional: standardizes image heights on mobile */
+        }
     }
 
     .post-image-wrapper img {
@@ -161,11 +197,16 @@ layout: default
         if (rows.length === 0) return;
 
         // 1. Dynamic Alignment Engine: Find where the blog post card starts
+        const svgContainer = document.querySelector('.map-container').getBoundingClientRect();
         const firstCard = rows[0].querySelector('.post-card');
         const cardRect = firstCard.getBoundingClientRect();
         
-        // Centers the track 60px to the left of your actual blog card text/images
-        const targetX = cardRect.left - 60; 
+        // Mobile Check: If viewport width is 768px or less, use a narrower offset (e.g. 25px)
+        const isMobile = window.innerWidth <= 768;
+        const lineOffset = isMobile ? 25 : 45; 
+        
+        // Centers the track beautifully relative to the card's dynamic left boundary
+        const targetX = cardRect.left - svgContainer.left - lineOffset; 
 
         const scrollY = window.scrollY;
         const stationData = [];
