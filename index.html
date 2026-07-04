@@ -29,7 +29,7 @@ layout: default
     }
 
     /* Mobile view: let the map-container follow the wider blog-feed width */
-    @media (max-width: 768px) {
+    @media (max-width: 1280px) {
         .map-container {
             width: 90vw;
         }
@@ -60,10 +60,10 @@ layout: default
     }
 
     /* Mobile view: Expand column width and reduce excessive left padding */
-    @media (max-width: 768px) {
+    @media (max-width: 1280px) {
         .blog-feed {
             width: 90vw;
-            padding: 4vh 12px 4vh 45px;
+            padding: 4vh 12px 4vh 60px;
             /* Tight, optimized gutter for narrow screens */
         }
     }
@@ -222,9 +222,9 @@ layout: default
         const firstCard = rows[0].querySelector('.post-card');
         const cardRect = firstCard.getBoundingClientRect();
 
-        // Mobile Check: If viewport width is 768px or less, use a narrower offset (e.g. 25px)
-        const isMobile = window.innerWidth <= 768;
-        const lineOffset = isMobile ? 25 : 45;
+        // Mobile Check: If viewport width is 1280px or less, use a narrower offset (e.g. 25px)
+        const isMobile = window.innerWidth <= 1280;
+        const lineOffset = isMobile ? 20 : 45;
 
         // Centers the track beautifully relative to the card's dynamic left boundary
         const targetX = cardRect.left - svgContainer.left - lineOffset;
