@@ -24,8 +24,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   All about the world when the sky is green and the grass is blue.
 url: "https://yannichau.github.io"
 baseurl: "/flying-scotsman"
+
 # twitter_username: jekyllrb
 # github_username:  jekyll
+# Social Media Links for Header
+linkedin_url: "https://www.linkedin.com/in/yanni-chau-a52b61195"
+github_url:   "https://github.com/yannichau"
+youtube_url:  "http://www.youtube.com/@cluelessyanni5664"
+medium_url:   "https://medium.com/@yannichau/about"
 
 # Build settings
 theme: minima

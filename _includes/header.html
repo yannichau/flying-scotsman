@@ -1,0 +1,179 @@
+<header class="custom-site-header" role="banner">
+  <div class="header-fluid-container">
+    
+    <a class="site-title-custom" rel="author" href="{{ '/' | relative_url }}">
+      {{ site.title | escape }}
+    </a>
+
+    <nav class="navigation-custom">
+      <input type="checkbox" id="nav-toggle-checkbox" class="nav-toggle-checkbox">
+      
+      <label for="nav-toggle-checkbox" class="nav-toggle-label">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </label>
+
+      <div class="nav-links-wrapper">
+        {% if site.linkedin_url %}
+          <a class="header-custom-link" href="{{ site.linkedin_url }}" target="_blank" rel="noopener noreferrer">
+            LinkedIn{% include arrow-upper-right.svg %}
+          </a>
+        {% endif %}
+
+        {% if site.github_url %}
+          <a class="header-custom-link" href="{{ site.github_url }}" target="_blank" rel="noopener noreferrer">
+            GitHub{% include arrow-upper-right.svg %}
+          </a>
+        {% endif %}
+
+        {% if site.youtube_url %}
+          <a class="header-custom-link" href="{{ site.youtube_url }}" target="_blank" rel="noopener noreferrer">
+            YouTube{% include arrow-upper-right.svg %}
+          </a>
+        {% endif %}
+
+        {% if site.medium_url %}
+          <a class="header-custom-link" href="{{ site.medium_url }}" target="_blank" rel="noopener noreferrer">
+            Medium{% include arrow-upper-right.svg %}
+          </a>
+        {% endif %}
+      </div>
+    </nav>
+
+  </div>
+</header>
+
+<style>
+  /* ====== GLOBAL HEADER & CONTAINER OVERRIDES ====== */
+  .custom-site-header {
+    background-color: #ffffff; /* Adjust if your theme background is different */
+    position: relative;
+    z-index: 100;
+    /* Removes the native Minima bottom border line */
+    border-bottom: none !important; 
+  }
+
+  /* Removes Minima's default layout constraints to stretch completely edge-to-edge */
+  .header-fluid-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4vw; /* Uses viewport widths for a dynamic safe margin on large displays */
+    min-height: 64px;
+    box-sizing: border-box;
+  }
+
+  /* ====== SITE TITLE & LINK TYPOGRAPHY MATCHING ====== */
+  .site-title-custom,
+  .header-custom-link {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    font-size: 22px !important;       /* Matches Minima's default title text height */
+    font-weight: 300 !important;       /* Clean, light editorial weight */
+    letter-spacing: -0.5px !important; /* Elegant modern letter spacing */
+    line-height: 1 !important;
+    color: #2a2a2a !important;        /* Default dark text color */
+    text-decoration: none !important;
+  }
+
+  /* Horizontal inline link arrangement for desktop screens */
+  .nav-links-wrapper {
+    display: flex;
+    gap: 32px; /* Generous spacing between items */
+    align-items: center;
+  }
+
+  .header-custom-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: opacity 0.2s ease;
+  }
+
+  .header-custom-link:hover {
+    opacity: 0.7; /* Smooth micro-interaction on hover */
+  }
+
+  /* Native adjustment for your custom SVG arrow shape inside the text-matched links */
+  /* Adjust width and height for size of arrow */
+  .header-custom-link svg {
+    width: 1.5em !important;
+    height: 1.5em !important;
+    fill: currentColor !important;
+    vertical-align: middle;
+    flex-shrink: 0; /* Prevents the arrow from shrinking in tight spaces */ 
+  }
+
+  /* Hide mobile-specific interactions on full desktop layouts */
+  .nav-toggle-checkbox,
+  .nav-toggle-label {
+    display: none;
+  }
+
+  /* ====== RESPONSIVE BREAKPOINT: UNDER 1280PX ====== */
+  @media (max-width: 1280px) {
+    /* Reveal the interactive toggle label button */
+    .nav-toggle-label {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 24px;
+      height: 18px;
+      cursor: pointer;
+      z-index: 102;
+    }
+
+    /* Simple structural styles for custom hamburger bars */
+    .hamburger-line {
+      width: 100%;
+      height: 2px;
+      background-color: #2a2a2a;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      transform-origin: left center;
+    }
+
+    /* Transform the links container into a hidden vertical mobile flyout drawer */
+    .nav-links-wrapper {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      width: 100vw;
+      background-color: #ffffff;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0;
+      padding: 0;
+      max-height: 0;
+      overflow: hidden;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+      transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+      z-index: 101;
+    }
+
+    /* Layout rules for links inside the collapsed view block dropdown */
+    .header-custom-link {
+      width: 100%;
+      padding: 18px 6vw;
+      box-sizing: border-box;
+      border-bottom: 1px solid #f4f4f4;
+      justify-content: space-between; /* Pushes text to the left and your arrow to the far right */
+    }
+
+    /* ====== CSS ENGINE ACTION: ACTIVE TOGGLE CONDITIONS ====== */
+    /* When user checks the invisible input trigger, fluidly unpack the menu drawer */
+    .nav-toggle-checkbox:checked ~ .nav-links-wrapper {
+      max-height: 300px; /* Expands to fit the combined elements gracefully */
+    }
+
+    /* Morphing the 3 lines into an elegant "X" shape when active */
+    .nav-toggle-checkbox:checked + .nav-toggle-label .hamburger-line:nth-child(1) {
+      transform: rotate(45deg);
+    }
+    .nav-toggle-checkbox:checked + .nav-toggle-label .hamburger-line:nth-child(2) {
+      opacity: 0;
+    }
+    .nav-toggle-checkbox:checked + .nav-toggle-label .hamburger-line:nth-child(3) {
+      transform: rotate(-45deg);
+    }
+  }
+</style>
