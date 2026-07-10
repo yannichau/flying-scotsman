@@ -43,6 +43,14 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         image.addEventListener("load", applyOrientation, { once: true });
       }
+      
+      // alt text caption extractor
+      const captionText = (image.getAttribute("alt") || "").trim();
+      if (captionText) {
+        const caption = document.createElement("figcaption");
+        caption.textContent = captionText;
+        image.parentNode.appendChild(caption);
+      }
       return;
     }
 
