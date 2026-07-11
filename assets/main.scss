@@ -74,9 +74,9 @@ p > img:only-of-type.is-portrait {
 
 /* Justified image gallery containers */
 .post-content .image-gallery {
-  width: 100vw;
+  width: 80vw;
   max-width: none;
-  margin: 2em calc(50% - 50vw);
+  margin: 2em calc(50% - 40vw);
   padding: 0 16px;
   box-sizing: border-box;
   overflow-x: hidden;
@@ -144,7 +144,7 @@ p > img:only-of-type.is-portrait {
   width: 100vw;
   max-width: none;
   /* Pull the image left to the absolute edge of the screen */
-  margin-left: calc(50% - 50vw);
+  // margin-left: calc(50% - 50vw);
   display: block;
 }
 
@@ -152,17 +152,17 @@ p > img:only-of-type.is-portrait {
    Mobile Optimization for image breakout styles (.wide and .full)
    ========================================================================== */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1280px) {
   /* On mobile, standard content width is fine for .wide */
   .post-content p > img.wide {
-    width: 100%;
-    margin-left: 0;
+    width: 90vw;
+    // margin-left: 0;
   }
   
   /* .full will remain 100vw edge-to-edge, which looks great on mobile, 
      but we ensure it doesn't cause accidental horizontal scrolling */
   .post-content p > img.full {
     width: 100vw;
-    margin-left: calc(50% - 50vw); 
+    // margin-left: calc(50% - 50vw); 
   }
 }
