@@ -16,6 +16,7 @@ tags:
 - personal
 - photography
 - travel
+images-validated: true
 ---
 I was initially very bummed that there were little to no residents at the hostel who were my age, or at least close to it.
 

@@ -14,8 +14,9 @@ categories:
 tags:
 - bath
 - photography
+images-validated: true
 ---
-his is a painstakingly long journal, disguised as a cute photograph-filled blog, that describes two acquaintainces (friends) I’ve spent the most time with during (and after) the trip. In fact, these two radically interesting hostel-mates are probably the reason I am not discouraged from making any more solo travel trips in the future!
+This is a painstakingly long journal, disguised as a cute photograph-filled blog, that describes two acquaintainces (friends) I’ve spent the most time with during (and after) the trip. In fact, these two radically interesting hostel-mates are probably the reason I am not discouraged from making any more solo travel trips in the future!
 
 But the things happening in this journal are all present continuous. So for the sake of maintaining a certain degree of privacy for myself and these two acquaintainces, I fear that certain names (or even places, items or incidents) mentioned in this blog have been shamelessly altered from their original form, by my unimaginative imaginations.
 

@@ -17,11 +17,13 @@ tags:
 - london
 - photography
 - tfl
+images-validated: true
 ---
 I previously wrote a piece about trains in London. But that was merely for London’s underground (mainly). This time I will move on to photos taken during my train-spotting trip in mid-November.
 
 I have to say, I still think London’s railway network looks way too complicated for such a small place, so I’m training my mind to mind the trains……. (you knew this was coming)
-![]({{ '/assets/wp-content/uploads/2024/01/1afXj1YWhWPDMcVW-uuRv8g-scaled.avif' | relative_url }})
+
+![]({{ '/assets/wp-content/uploads/2024/01/1afXj1YWhWPDMcVW-uuRv8g-scaled.avif' | relative_url }}){: .full }
 
 Our day started at Liverpool Street. Looks like a pretty nice place to start with, but not necessarily so when you see pigeons doing their business within the station. Fortunately or unfortunately, I don’t have a photo for that.
 
@@ -33,7 +35,7 @@ We then caught the next TfL rail train to Shenfield. I was actually kind of look
 
 Its colourful maquette seat covering is quite a delight to look at as well.
 
-![TfL Rail Maquette seat covering]({{ '/assets/wp-content/uploads/2024/01/1_1R3uYZUbVw0vgF6uw81kvYg.avif' | relative_url }})
+![TfL Rail Maquette seat covering]({{ '/assets/wp-content/uploads/2024/01/1_1R3uYZUbVw0vgF6uw81kvYg.avif' | relative_url }}){: .wide }
 
 As expected, this is a photo of the front of the locomotive when we arrived at Romford.
 
@@ -57,7 +59,7 @@ Another interesting thing I observed was the train’s double-leaf sliding doors
 
 The exterior of the train looks quite normal, but the interior definitely shows the age of the train, as if it is something from the 60s. It even has luggage racks, which reminds us that it used to run long-haul suburban services.
 
-![London Overground Class 315 Interiors]({{ '/assets/wp-content/uploads/2024/01/1aJcs9tiAWJH7g9B4KVqiug-scaled.avif' | relative_url }})
+![London Overground Class 315 Interiors]({{ '/assets/wp-content/uploads/2024/01/1aJcs9tiAWJH7g9B4KVqiug-scaled.avif' | relative_url }}){: .wide }
 
 Still, the train has been retrofitted with shiny new buttons. (that are labelled with braille to fit today’s accessibility requirements)
 ![]({{ '/assets/wp-content/uploads/2024/01/1ucemh_puJ-2bsUCysxzKDg.avif' | relative_url }})
@@ -82,7 +84,7 @@ After lunch, we boarded the Barking to Gospel Oak Overground service, which runs
 
 Interestingly, TfL decided to introduce a new maquette on these train seats to freshen up things a bit. The green does demarcate quite a bit from the traditional orange and brown colour scheme.
 
-![Brand new maquette seat coverings on the Class 710s.]({{ '/assets/wp-content/uploads/2024/01/1_1IY6bBDyTj6UkzjmE_o9vww.avif' | relative_url }})
+![Brand new maquette seat coverings on the Class 710s.]({{ '/assets/wp-content/uploads/2024/01/1_1IY6bBDyTj6UkzjmE_o9vww.avif' | relative_url }}){: .wide }
 
 Surprisingly (or not so surprisingly), autumn leaf fall is a real concern for the London Overground. I would imagine Hong Kong’s MTR simply removing trees along the railway regularly just to ensure that this kind of thing wouldn’t happen. Is TfL a tree conservation organisation as well?
 
@@ -94,7 +96,7 @@ After quite a while, we arrived at Harringay Green Lanes.
 
 A final look at the Class 710s. The leaves on the tree complemented the orange livery of the locomotive very nicely, so I’ve intentionally tweaked the tones to enhance the autumn colours.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1nPqIPzjrw7H3KpThJmnOEA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1nPqIPzjrw7H3KpThJmnOEA-scaled.avif' | relative_url }}){: .full }
 
 A view to the bridge (not from the bridge).
 
@@ -110,7 +112,7 @@ Note: the previous photo was taken from a weak bridge.
 
 Once again, it was time for me to practice my lousy pan shot skills! For this shot however, the panning effect isn’t quite obvious.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1Uiteetvkr85Hhb7o4EIQmA.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1Uiteetvkr85Hhb7o4EIQmA.avif' | relative_url }}){: .wide }
 
 Later, we reached East Croydon, where we went on some trams. Do check out my previous post for a few more shots of the Govia Thameslink Railway Class 700 Desiro City’s.
 
@@ -126,7 +128,8 @@ Unlike the aforementioned tram systems, London’s Tramlink system, built in 200
 
 Each tram has a super low floor designs of 350 mm high (or 350 mm low, depending on your perspective), which is much lower than Hong Kong’s Trams. As a result, the ceiling is deceptively high as well.
 
-As always, close ups of seat maquette patterns deserve ta full width position in my blog. (This would be apparent if you read this on a desktop or laptop)
+As always, close ups of seat maquette patterns deserve ta full width position in my blog. (This would be apparent if you read this on a desktop or laptop).
+
 ![London Tramslink seat maquette cover pattern.]({{ '/assets/wp-content/uploads/2024/01/1exrFOPz4N5dETLE0TZemHg-scaled.avif' | relative_url }})
 
 Our tram journey came to an end at Mitcham Junction. This portion of tram actually operates actually more like light or medium rail, with segregated right-of-way. However, this is also the section where some parts are single-tracked, so service frequency is limited.

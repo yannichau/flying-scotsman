@@ -16,6 +16,7 @@ tags:
 - personal
 - photography
 - travel
+images-validated: true
 ---
 ![A view from Alexandra Park]({{ '/assets/wp-content/uploads/2024/01/1058522-scaled.avif' | relative_url }})
 

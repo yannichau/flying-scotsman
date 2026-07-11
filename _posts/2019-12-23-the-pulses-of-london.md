@@ -15,8 +15,9 @@ categories:
 tags:
 - london
 - tfl
+images-validated: true
 ---
-![Taken at Hammersmith Station. (District and Piccadilly Lines)]({{ '/assets/wp-content/uploads/2024/01/1jB-rQz-XaV1iwS3L8eesDw-scaled.avif' | relative_url }})
+![Taken at Hammersmith Station. (District and Piccadilly Lines)]({{ '/assets/wp-content/uploads/2024/01/1jB-rQz-XaV1iwS3L8eesDw-scaled.avif' | relative_url }}){: .wide }
 
 Those of you who have known me for quite a while would know that I have quite a serious obsession for trains or public transport as whole. This is why I have spent quite a while travelling around in London by trains.
 
@@ -52,7 +53,7 @@ The northern line is quite a complicated line indeed. It has so many branches, w
 
 And I guess things are going to get a bit more complicated with the new Battersea Power Station Branch opening (hopefully) in 2022!
 
-![Here we go!]({{ '/assets/wp-content/uploads/2024/01/15xmuGwa2PvO9CeydnXcCdg-scaled.avif' | relative_url }})
+![Here we go!]({{ '/assets/wp-content/uploads/2024/01/15xmuGwa2PvO9CeydnXcCdg-scaled.avif' | relative_url }}){: .wide }
 
 ## **Piccadilly Line**
 
@@ -97,7 +98,9 @@ Despite its prevalence in Hong Kong, platform gates are a rare sight in the Lond
 
 Both the photo above and below are taken at Westminister.
 
-![Concourse of the Westminister Tube Station.]({{ '/assets/wp-content/uploads/2024/01/1LfW1WCbKQdC87Xi4MYPxwA.avif' | relative_url }}) ![Bakerloo Line Maquette.]({{ '/assets/wp-content/uploads/2024/01/1vizDiV3LvdiPgTlxoD9Q1g-scaled.avif' | relative_url }})
+![Concourse of the Westminister Tube Station.]({{ '/assets/wp-content/uploads/2024/01/1LfW1WCbKQdC87Xi4MYPxwA.avif' | relative_url }}) 
+
+![Bakerloo Line Maquette.]({{ '/assets/wp-content/uploads/2024/01/1vizDiV3LvdiPgTlxoD9Q1g-scaled.avif' | relative_url }}){: .wide }
 
 ## **Bakerloo Line**
 
@@ -140,7 +143,8 @@ I know it’s not my first time on a deep-level tube train, but you are reminded
 ![]({{ '/assets/wp-content/uploads/2024/01/1Ik6AYOmjyb7CSY7WRbM8Ow.avif' | relative_url }})
 
 Are the maze on these walls there to reflect how lost passengers feel in the tube? (lol)
-![A maze on the Warren Street Platform.]({{ '/assets/wp-content/uploads/2024/01/18SMCuVgqMyMRmTwGxwZP3A.avif' | relative_url }})
+
+![A maze on the Warren Street Platform.]({{ '/assets/wp-content/uploads/2024/01/18SMCuVgqMyMRmTwGxwZP3A.avif' | relative_url }}){: .wide }
 
 # London Underground Subsurface Lines
 
@@ -221,7 +225,7 @@ Thameslink is a north-south rail service that runs through central London, and i
 
 The following photo is taken at Blackfriars, a station that is built **above and across  **the River Thames!
 
-![Two Thameslink Class 700 Trains side by side, one northbound and one southbound.]({{ '/assets/wp-content/uploads/2024/01/1QzXayD68UWqW_obpOsCbug.avif' | relative_url }})
+![Two Thameslink Class 700 Trains side by side, one northbound and one southbound.]({{ '/assets/wp-content/uploads/2024/01/1QzXayD68UWqW_obpOsCbug.avif' | relative_url }}){: .wide }
 
 I saw a SouthEastern Class 377 Train on another platform. Coincidentally, I saw it again on my way back.
 

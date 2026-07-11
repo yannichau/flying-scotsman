@@ -15,6 +15,7 @@ tags:
 - bath
 - photography
 - travel
+images-validated: true
 ---
 ![Fashion Museum Bath]({{ '/assets/wp-content/uploads/2024/01/1058073-scaled.avif' | relative_url }})
 
@@ -62,7 +63,7 @@ Or maybe, the real question is — how do I want solo travelling to change my li
 
 Again time will tell.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1058029-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1058029-scaled.avif' | relative_url }}){: .wide }
 
 # Atta Peak!
 

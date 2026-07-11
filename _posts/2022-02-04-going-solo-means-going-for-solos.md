@@ -16,6 +16,7 @@ tags:
 - bath
 - solo-travel
 - travel
+images-validated: true
 ---
 ![]({{ '/assets/wp-content/uploads/2024/01/1058179-scaled.avif' | relative_url }})
 

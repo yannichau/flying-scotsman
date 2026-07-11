@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /2022/02/11/737
-title: 'Contemporary Persuasion 3: Primark, M&amp;S and H&amp;M'
+title: 'Contemporary Persuasion 3: Primark, M&S and H&M'
 description: None
 date: 2022-02-11 21:48:00 -0000
 last_modified_at: 2024-01-24 22:23:48 -0000
@@ -16,8 +16,9 @@ tags:
 - personal
 - photography
 - travel
+images-validated: true
 ---
-![]({{ '/assets/wp-content/uploads/2024/01/1068687-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1068687-scaled.avif' | relative_url }}){: .wide }
 
 # Primark, M&S and H&M
 
@@ -81,7 +82,7 @@ _“Yes.”_
 
 It would be interesting to go clothes shopping with Arjun, though I’m naturally skeptical of changes that might drastically influence the perception of my identity.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1057923-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1057923-scaled.avif' | relative_url }}){: .wide }
 
 ## Talking art at a non-artisan coffee shop
 

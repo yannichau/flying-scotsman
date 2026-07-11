@@ -13,8 +13,9 @@ categories:
 - Railways
 tags:
 - photography
+images-validated: true
 ---
-![A stacked photo of 4 individual shots, taken at Lai King (sorry if you thought I actually waited for 4 trains to simultaneously appear within frame!)]({{ '/assets/wp-content/uploads/2024/01/image-16.avif' | relative_url }})
+![A stacked photo of 4 individual shots, taken at Lai King (sorry if you thought I actually waited for 4 trains to simultaneously appear within frame!)]({{ '/assets/wp-content/uploads/2024/01/image-16.avif' | relative_url }}){: .full }
 
 [](https://medium.com/@yannichau?source=post_page-----6fc0dc8f660f--------------------------------)I'm from Hong Kong, and knowing that the majority of our society members are from the UK, I’ve rarely been motivated to share my experiences about rail travel in Hong Kong. Afterall, compared to Hong Kong’s transport system, there’s endless things going on in Britain’s mammoth rail network — the grandeur of its ancient steam trains, the funny discussions regarding its post-war rail network (especially after the Beeching cuts), the never ending projects like Cross Rail (Purple Line/ Elizabeth Line/ Tfl Rail) and HS2, the heated debates around timetable reforms and re-nationalisation, and so much more.
 
@@ -44,7 +45,9 @@ It’s main purpose was to serve the elite residing on the Victoria peak, and to
 
 The [tram](https://www.scmp.com/native/news/hong-kong/transport/topics/holiday-home/article/3092435/hong-kong-trams-re-energised) on along the North coast of Hong Kong Island in 1904, to meet the needs of the ever expanding city of Victoria.
 
-![A queue of 13 trams — a rare but rather peculiar occurrence!]({{ '/assets/wp-content/uploads/2024/01/10QRIvbtN1mTAOKgCXMSS7w.avif' | relative_url }}) ![Young me fidgetting with the destination sign of the tram]({{ '/assets/wp-content/uploads/2024/01/1Ot2-cMSudrCN1_Y-_6uUEw-scaled.avif' | relative_url }}) ![Fare (FYI: 2.3HKD converts to approximately 0.23GBP)]({{ '/assets/wp-content/uploads/2024/01/1Gia5kBk-nk7gNXa0PRH73w-scaled.avif' | relative_url }})
+![A queue of 13 trams — a rare but rather peculiar occurrence!]({{ '/assets/wp-content/uploads/2024/01/10QRIvbtN1mTAOKgCXMSS7w.avif' | relative_url }}) ![Young me fidgetting with the destination sign of the tram]({{ '/assets/wp-content/uploads/2024/01/1Ot2-cMSudrCN1_Y-_6uUEw-scaled.avif' | relative_url }}) 
+
+![Fare (FYI: 2.3HKD converts to approximately 0.23GBP)]({{ '/assets/wp-content/uploads/2024/01/1Gia5kBk-nk7gNXa0PRH73w-scaled.avif' | relative_url }})
 
 Looking at the photos of the Kingsway tramway subway, its double decker trams do bear quite a bit of resemblance to Hong Kong’s trams. A while ago the government attempted to replace the trams with near air-conditioned ones (charging higher fares), but there were a number of reliability issues. Currently the majority of the tram fleet are is still non air-conditioned, a rare sight in a city obsessed with air conditioners!
 
@@ -70,7 +73,9 @@ The Kinki Sharyo EMUs SP1900 operate on the West Rail Line and Ma On Shan Line, 
 
 I’m personally not really observant, but other enthusiasts find the motor noises of the Metro Cammells EMUs and the [British Rail class 317s](https://en.wikipedia.org/wiki/British_Rail_Class_317) quite similar. Aesthetically though I think its hard to draw any comparisons, considering that the British EMUs produced in this period are mostly “boxy”.
 
-![Hyundai Rotem R-Stock at Shatin]({{ '/assets/wp-content/uploads/2024/01/1Rh-pD4T-uicQZofgR1RQ8w-scaled.avif' | relative_url }}) ![Kinki Sharyo EMUs SP1900 in Tong Hang]({{ '/assets/wp-content/uploads/2024/01/1e-PkEMTvsi0BM_DlCzonDw-scaled.avif' | relative_url }}) ![Metro Cammell EMUs at Kau Lung Hang (Prior to and after refurbishment) — Low-key proud about taking a photo at the exact same location as a 1980s advertisement!]({{ '/assets/wp-content/uploads/2024/01/1TdmT_MWU-vN9BrnCOr6TTA.avif' | relative_url }})
+![Hyundai Rotem R-Stock at Shatin]({{ '/assets/wp-content/uploads/2024/01/1Rh-pD4T-uicQZofgR1RQ8w-scaled.avif' | relative_url }}) ![Kinki Sharyo EMUs SP1900 in Tong Hang]({{ '/assets/wp-content/uploads/2024/01/1e-PkEMTvsi0BM_DlCzonDw-scaled.avif' | relative_url }}) 
+
+![Metro Cammell EMUs at Kau Lung Hang (Prior to and after refurbishment) — Low-key proud about taking a photo at the exact same location as a 1980s advertisement!]({{ '/assets/wp-content/uploads/2024/01/1TdmT_MWU-vN9BrnCOr6TTA.avif' | relative_url }}){: .wide }
 
 An interesting thing note is that the original variant of the Metro Cammells were dubbed “the yellow cab” for its yellow coloured cab (obviously). This is in line with [Brtain’s legal regulations](https://transportdesigned.com/goodbye-yellow-front-ends-well-miss-you-sort-of/), where train fronts were required to have a yellow panel to make them more visible, a safety measurement when quieter and faster electrical trains were replacing their diesel or steam counterparts; this regulation was still in place in Britain up until 2016 or so.
 
@@ -150,7 +155,11 @@ Considering that all heavy rail services in Hong Kong are rapid transit style, i
 
 All in all, this contributes to a more spacious, comfortable (but arguably “clinically feeling”) look for Hong Kong’s carriage interiors. Nevertheless this is the trend all train manufacturers are adopting today, for practicality concerns.
 
-![London Underground S7 Stock Interior]({{ '/assets/wp-content/uploads/2024/01/1_hxHRX8tyqTvnHM74EgI-g-scaled.avif' | relative_url }}) ![TfL Rail Class 345 Interior]({{ '/assets/wp-content/uploads/2024/01/1xksk0fkXyuMongwqtazbjQ-scaled.avif' | relative_url }}) ![London Overground Class 700 Interior]({{ '/assets/wp-content/uploads/2024/01/1aqXoiadQwNk3KImgjZCxVw-scaled.avif' | relative_url }}) ![London Overground Electrostar 378 Interior]({{ '/assets/wp-content/uploads/2024/01/1z8Kz9SAja9gNoWXbk7ySZg-scaled.avif' | relative_url }}) ![Hong Kong Ma On Shan Line SP1900 Interior]({{ '/assets/wp-content/uploads/2024/01/1sI1hcxQ734wkd5qhQzBjZw-scaled.avif' | relative_url }}) ![Hong Kong East Rail Line R-Stock Interior]({{ '/assets/wp-content/uploads/2024/01/1wI8Tkce0Q-IHWZTQO3LSQQ-scaled.avif' | relative_url }})
+![London Underground S7 Stock Interior]({{ '/assets/wp-content/uploads/2024/01/1_hxHRX8tyqTvnHM74EgI-g-scaled.avif' | relative_url }}) ![TfL Rail Class 345 Interior]({{ '/assets/wp-content/uploads/2024/01/1xksk0fkXyuMongwqtazbjQ-scaled.avif' | relative_url }}) 
+
+![London Overground Class 700 Interior]({{ '/assets/wp-content/uploads/2024/01/1aqXoiadQwNk3KImgjZCxVw-scaled.avif' | relative_url }}) ![London Overground Electrostar 378 Interior]({{ '/assets/wp-content/uploads/2024/01/1z8Kz9SAja9gNoWXbk7ySZg-scaled.avif' | relative_url }}) 
+
+![Hong Kong Ma On Shan Line SP1900 Interior]({{ '/assets/wp-content/uploads/2024/01/1sI1hcxQ734wkd5qhQzBjZw-scaled.avif' | relative_url }}) ![Hong Kong East Rail Line R-Stock Interior]({{ '/assets/wp-content/uploads/2024/01/1wI8Tkce0Q-IHWZTQO3LSQQ-scaled.avif' | relative_url }})
 
 One striking similarity you might see is that R-stock has the same hanging hand-straps as all Class 378 and 700. Apparently they are called TOPADSTRAP and are manufactured by an Austrian company called Faigle. The appearance of the hand-straps is subjective, but personally I think they don’t feel ergonomic. I like the hefty feeling of a conventional metallic hand-strap.
 
@@ -180,4 +189,4 @@ Aside from the system’s rolling stock, there’s quite a lot of discussions th
 
 If you’ve read till the very end of this story, thank you. Otherwise, thank you as well!
 
-![Hong Kong railways, 1910–2026 (Courtesy of [timeout.com](https://www.timeout.com/hong-kong/travel/maps-showing-the-possible-future-of-the-mtr), 2018)](/assets/wp-content/uploads/2024/01/0kPlI_CpDBO3jmIk5.avif)
+![Hong Kong railways, 1910–2026 (Courtesy of [timeout.com](https://www.timeout.com/hong-kong/travel/maps-showing-the-possible-future-of-the-mtr), 2018)]({{ '/assets/wp-content/uploads/2024/01/0kPlI_CpDBO3jmIk5.gif' | relative_url }})

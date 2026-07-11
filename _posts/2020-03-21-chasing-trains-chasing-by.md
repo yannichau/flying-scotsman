@@ -18,6 +18,7 @@ tags:
 - travel
 - tube
 - underground
+images-validated: true
 ---
 Before I start my usual train-spotting related content, I just want to very briefly ponder over this very moment — apparently this is pretty much how my first year in the UK ended. All mini metro games always end a bit too fast and a bit too unexpected, leaving you miserable at times and frustrated in other times. This is how I feel right now.
 
@@ -31,7 +32,7 @@ I guess that’s part of being a train enthusiast, who always makes predictions 
 
 The motion blur photo below is of an Avanti West Coast Pedolino speeding by Watford Junction, taken at a time when we weren’t quite chasing trains. The chilling gust of wind as the train busts through is quite shivering though.
 
-![Avanti West Coast Pedolino speeding through Watford Junction.]({{ '/assets/wp-content/uploads/2024/01/1c3RBvgY-Cl7Caf7eezUXpg-scaled.avif' | relative_url }})
+![Avanti West Coast Pedolino speeding through Watford Junction.]({{ '/assets/wp-content/uploads/2024/01/1c3RBvgY-Cl7Caf7eezUXpg-scaled.avif' | relative_url }}){: .full }
 
 During our last trainspotting trip in November, we somehow managed to go beyond the maximum travel time which costed us quite a bit; in fact, we paid nearly double the daily cap price for zones 1 to 4. This time around, with a bit more careful planning, we managed to stay within the cap for zones 1 to 2. We made sure we stayed within the 1 hour 50 min limit (for zones 1 to 2 on weekends). Our planned and actual itenerary are as follows:
 
@@ -90,7 +91,7 @@ Here’s a peek of one of the DLR’s depots, located right next to Poplar. Mayb
 
 On the other side of the bridge we get a panoramic view of London’s city skyline (at a distance). I did spend some heavily editing this photo because the glass pane is so murky. The colours still end up a bit weird though.
 
-![DLR train approaching Poplar.]({{ '/assets/wp-content/uploads/2024/01/1_1p4425Bf3FwA9AlY4F1S_pw.avif' | relative_url }})
+![DLR train approaching Poplar.]({{ '/assets/wp-content/uploads/2024/01/1_1p4425Bf3FwA9AlY4F1S_pw.avif' | relative_url }}){: .wide }
 
 On a side note, new DLR trains are on the horizons, and they will replace the B90/92/92K stock pretty soon (soon in a British sense).
 
@@ -150,11 +151,11 @@ After a short ride, we arrived at Clapham Junction. The orange of the violin cas
 
 And I think we spent nearly 15 mins staring at the Class 458s from the bridge across the Clapham Junction Platforms. I think we would have stayed there a bit longer if we weren’t about to exceed our maximum journey time.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1i7dVrDUU_Tf2tKKpDpMSPQ.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1i7dVrDUU_Tf2tKKpDpMSPQ.avif' | relative_url }}){: .wide }
 
 Here’s another panoramic view of the shed at Clapham Junction. This rounds up leg 2. The view is quite magnificent, isn’t it?
 
-![]({{ '/assets/wp-content/uploads/2024/01/1QMbQtYMybyeFCWzG6d-hcA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1QMbQtYMybyeFCWzG6d-hcA-scaled.avif' | relative_url }}){: .full }
 
 * * *
 
@@ -190,7 +191,7 @@ As the train departed, the driver honked, perhaps to give me a wave, or to warn 
 
 I retouched this photo to emphasise the yellows of the train itself and the tactile paving system.
 
-![Class 319 departing Watford Junction platform 11. (there aren’t 11 platforms)]({{ '/assets/wp-content/uploads/2024/01/1RXC7own-sMnFW43xuJQdUA-scaled.avif' | relative_url }})
+![Class 319 departing Watford Junction platform 11. (there aren’t 11 platforms)]({{ '/assets/wp-content/uploads/2024/01/1RXC7own-sMnFW43xuJQdUA-scaled.avif' | relative_url }}{: .wide }
 
 Many Metro Cammell Trains in the UK have motors that sound like the ones on the east rail line in Hong Kong, and this one in particularly so. Though not entirely relevant to this train at this location, it was this moment that I realised that all British trains (not underground or DLR trains) have yellow front panels. Turns out this is not a coincidence at all. When the 1950s came by, the industry started using newer diesel and electric trains that were far faster and quieter than their steam counterparts. Consequently, to make trains more visible, the legistration mandates yellow front panels on all trains. A newer standard didn’t come until 2015, which no longer includes this requirement but establishes new requirements for frontlamps. That’s why trains as new as the GWR Class 800s still have a yellow “nose”.
 

@@ -14,6 +14,7 @@ categories:
 tags:
 - geography
 - sustainability
+images-validated: true
 ---
 ![Photo by Kelly Lacy from Pexels]({{ '/assets/wp-content/uploads/2024/01/0jfycixDQj71LROoR.avif' | relative_url }})
 

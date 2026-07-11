@@ -16,6 +16,7 @@ tags:
 - personal
 - photography
 - travel
+images-validated: true
 ---
 ![A twist at North Parade]({{ '/assets/wp-content/uploads/2024/01/1057752-scaled.avif' | relative_url }})
 
@@ -49,7 +50,7 @@ That was when we started to discuss our plans for the day. I wanted to go to the
 
 That morning I went to the Fashion Museum and scrutinised upon the weird fashion tastes of our ancestors. More on that in another blog.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1058389-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1058389-scaled.avif' | relative_url }}){: .wide }
 
 # Tea + 9999 steps + Reflections
 

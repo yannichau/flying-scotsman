@@ -16,6 +16,7 @@ tags:
 - cambridge
 - photography
 - travel
+images-validated: true
 ---
 “Goodbye again, Cambridge” is a poem by a modern Chinese poet Xu Zhi Mo (再別康橋,徐志摩）, and one of our compulsory study materials a couple years back in Chinese classes. I don’t exactly have my notes for the piece, but the imagery of the poem is something I vividly remember in my mind. I think the reason for that is his ability to illustrate the scenery in such a realistic yet lively manner, which is a style of writing rarely seen in older poems.
 
@@ -34,16 +35,10 @@ Cambridge cannot live without the River Cam, akin to the way the London cannot e
 
 And of course, past "orgasm bridge" comes a cute (but somewhat hostile) swans and ducks!
 
-![]({{ '/assets/wp-content/uploads/2024/01/14X8jrTrzMBekpKDMKMn7eg-scaled.avif' | relative_url }})
+![Saturday mood]({{ '/assets/wp-content/uploads/2024/01/14X8jrTrzMBekpKDMKMn7eg-scaled.avif' | relative_url }})
 
-**Saturday mood**
 
-Are we even on Saturday?
-
-**Surf and turf**
-
-A group of ducks taking a leisurely swim (and brief flight)
-![]({{ '/assets/wp-content/uploads/2024/01/1INJ8pcgNvCknXQJrPGspCA-scaled.avif' | relative_url }})
+![Surf and turf: A group of ducks taking a leisurely swim (and brief flight)]({{ '/assets/wp-content/uploads/2024/01/1INJ8pcgNvCknXQJrPGspCA-scaled.avif' | relative_url }})
 
 The shadows beneath the bridge particularly caught my attention — when the reflections on the water shimmer, you just become mesmerised in the dancing patterns….
 
@@ -84,7 +79,9 @@ What makes a British town British? Free museums, free museums, and more free mus
 
 ## Fitzwilliam Museum
 
-![]({{ '/assets/wp-content/uploads/2024/01/1ghIH3QQirgsYGoyH_mmHNg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1RmrHVqxAhMFrZw_yJKOsbg-scaled.avif' | relative_url }}) ![Reflections and symmetries.]({{ '/assets/wp-content/uploads/2024/01/1wkGd6lPK66HZvlkd3zHvYA.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1ghIH3QQirgsYGoyH_mmHNg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1RmrHVqxAhMFrZw_yJKOsbg-scaled.avif' | relative_url }}) 
+
+![Reflections and symmetries.]({{ '/assets/wp-content/uploads/2024/01/1wkGd6lPK66HZvlkd3zHvYA.avif' | relative_url }})
 
 I don’t really recall much about my visit at the Fitzwilliam museum, but it was certainly amusing to see many senior citizens touring around the museum.
 
@@ -100,7 +97,7 @@ In addition to the collection of fossils and geological artefacts displayed in t
 
 In a typical British fashion, the museum of archaeology and anthropology is full of collectables “stolen” around the world, including a number from China and Mongolia. Also in a typical british fashion, there are a number of sizeable collectables, such as the 8 metre tall Maori flagpole, which always makes me wonder how or why the British, in their right minds, would transport such large objects (or even architectural artefacts) from far, far away places. Apparently, there is a giant door (trap door?) on the floor between G/F and 1/F.
 
-![Li Kai Shing Gallery: [Re:]Engtanglement gallery](/assets/wp-content/uploads/2024/01/1e6t1__p7ixcD8F-YZCz7Sg-scaled.avif)
+![Li Kai Shing Gallery: [Re:]Engtanglement gallery]({{ '/assets/wp-content/uploads/2024/01/1e6t1__p7ixcD8F-YZCz7Sg-scaled.avif' | relative_url }})
 
 Being midly bored with the artefacts arouind the gallery, I “mistakedly” picked up the attendant’s handbook sitting in the corner of gallery. I was on the page outlining visitor’s most asked questions, particularly one addressing the fact that some artefacts are (forcibly) taken from foreign countries.
 
@@ -135,7 +132,17 @@ And in case you were wondering how I edited the photos in this post, it’s simp
 
 And here’s more random shots that didn’t quite fit in to other sections of this story.
 
-![Waiting……]({{ '/assets/wp-content/uploads/2024/01/19rKlAHjf4WDem-UW9441Cw.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1dGfyfMn3f1SGsbS4PCQ7IQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1m9kkjlZn4HUOmJXoEBCP8A-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1K19O0DVQcPNRZFRW70fd3g-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1FUItjVoJ9bt6C5HVShrUPA-scaled.avif' | relative_url }}) ![Outside the Museum of Archaelogy and Anthropology.]({{ '/assets/wp-content/uploads/2024/01/1n1c4DTz7EePnhE37HRuEjA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1fXoHXIuJbExpGtT88L1o-A-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/17dGwAcTWHYL-bSvvgIgtQg-scaled.avif' | relative_url }})
+![Waiting……]({{ '/assets/wp-content/uploads/2024/01/19rKlAHjf4WDem-UW9441Cw.avif' | relative_url }}) 
+
+![]({{ '/assets/wp-content/uploads/2024/01/1dGfyfMn3f1SGsbS4PCQ7IQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1m9kkjlZn4HUOmJXoEBCP8A-scaled.avif' | relative_url }}) 
+
+![]({{ '/assets/wp-content/uploads/2024/01/1K19O0DVQcPNRZFRW70fd3g-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1FUItjVoJ9bt6C5HVShrUPA-scaled.avif' | relative_url }}) 
+
+![Outside the Museum of Archaelogy and Anthropology.]({{ '/assets/wp-content/uploads/2024/01/1n1c4DTz7EePnhE37HRuEjA-scaled.avif' | relative_url }}) 
+
+![]({{ '/assets/wp-content/uploads/2024/01/1fXoHXIuJbExpGtT88L1o-A-scaled.avif' | relative_url }}) 
+![]({{ '/assets/wp-content/uploads/2024/01/17dGwAcTWHYL-bSvvgIgtQg-scaled.avif' | relative_url }})
+
 ![]({{ '/assets/wp-content/uploads/2024/01/1LRqrg6bf_AZb0pQaArcONw-scaled.avif' | relative_url }})
 ![]({{ '/assets/wp-content/uploads/2024/01/1fpHoiKCfeRB-4CrW1roHwQ-scaled.avif' | relative_url }})
 

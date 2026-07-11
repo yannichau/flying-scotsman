@@ -16,6 +16,7 @@ tags:
 - london
 - photography
 - travel
+images-validated: true
 ---
 As you may know, I will be studying at Imperial College in the following four years. So in the first week, I took the opportunity to wander around London as a tourist, with my family. Besides, what better way to fully understand my new camera’s capabilities than to explore a place I’ve (almost) never been too?
 

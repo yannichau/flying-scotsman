@@ -18,6 +18,7 @@ tags:
 - hong kong
 - ib
 - london
+images-validated: true
 ---
 Urban microclimates refer to the small variations in weather and climatic conditions within a compressed, dense urban environment. Human activity occurs in many forms and they affect the microclimates of different regions to different spatial and temporal extents. With respect to two case studies, namely the urban heat island effect created by dense buildings in Hong Kong, and the commencement of the London Olympics in 2012, this essay discusses the varied effects of human activity on urban microclimates.
 
