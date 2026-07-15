@@ -18,8 +18,9 @@ tags:
 - travel
 - volunteering
 - wales
+images-validated: true
 ---
-![]({{ '/assets/wp-content/uploads/2024/01/image-jpeg.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/penrhyn-group-photo.avif' | relative_url }})
 
 Every year, ICRTS organises a volunteering tour to the Ffestiniog and Welsh Highlands Railway. This is an opportunity for us to partake in all sorts of hands-on maintenance and engineering work at a railway, and more importantly and an opportunity for us to forge and maintain links with enthusiasts and veterans of the industry.
 
@@ -59,7 +60,9 @@ This year, our journey was slightly different as there was a section of track be
 
 Therefore, we had to board a rail replacement bus service. Normally I dislike being stuck on a coach, but the views of the sunset was actually nice, and I was seated next to a recently graduated Marine biologist who gave me a lot of insights about the area. Hopefully one day I do get to visit the area, not just for the Heritage Railway!
 
-![]({{ '/assets/wp-content/uploads/2024/01/1qI2U-YoEYVdy3GSQTt0_Ww-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/174k9SLF7fm_zQ5e0fUSgqA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1KNHZf5hAqm9qGJN5raS36g.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1qI2U-YoEYVdy3GSQTt0_Ww-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/174k9SLF7fm_zQ5e0fUSgqA-scaled.avif' | relative_url }}) 
+
+![]({{ '/assets/wp-content/uploads/2024/01/1KNHZf5hAqm9qGJN5raS36g.avif' | relative_url }})
 
 Interestingly, I noticed that the signage at all the stations have been altered. This is an update that is long overdue, considering that the region’s operation has been handed over from Arriva to TfW quite a while ago.
 
@@ -142,4 +145,6 @@ Hopefully, I would get to pronounce you correctly when I visit you next time!
 
 A curated selection from Brian, Jonathan and Ryan.
 
+<div class="image-carousel" markdown="1">
 ![]({{ '/assets/wp-content/uploads/2024/01/1I3l48KKVMQnbQWQ1SiTm2w-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1WHI-VmQkewJat3LmqFVaFQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1q_JIY3nK-JGaYJsXgFTCeA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1YUT8n5158cTQJXkIKB24AA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1mXdf9MOiItnfqljsnLQ_ZA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1vLNhWtwebtBp6qYQoDKjKw-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1A_lkXSBqdnueb-S_SO5NUw-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1BD37EV10Rsv8xK187j2X7Q.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1N3QrPh6hXnd1jBdb8abVeA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1mBLeKDAupnbxQ9jwsg41pA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1MqH1pZpEwrni-yOWTiJZog-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1ZWGSeyUJtaxxVBvRKyB6wQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/18ZIhkCqEUNScXG48oertGg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1Sq0AWoEQRFEQ4TqgkBwTlQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1iArLxsIPuLqsTbW_rULsRA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/16nml_8yBE32lTHwRQcsFxA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1JOHdN8jB-90faTwMmqCVgg.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1TYgrZfGMb6lSC9u_aFtOEQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1nViWFGcbVNkvrhgGNwjwgQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/155i_nFqgN5J7T4XgiQPz2Q-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1e7TalGCFMgV0DdP0h5an1g.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1Tzik6Ci9FP-T_BtPP_PiOg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1kiksDQNm-bLqns07dPvVdg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/16YE_i7pvXwqXkkceUpKq-g-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1Q5bvkJhsUfC5rPPxpbyBUQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1lwxxpotylKNsECrHJQNL1w-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1YCxSFJxOW_MrHK_XIJs3hQ.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1C1uYWF_npwWW-KK8ljC1ZA.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/image-56.avif' | relative_url }})
+</div>

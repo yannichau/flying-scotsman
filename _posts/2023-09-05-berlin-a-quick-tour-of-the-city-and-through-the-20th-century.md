@@ -15,6 +15,7 @@ categories:
 tags:
 - berlin
 - interrail
+images-validated: true
 ---
 The content of this piece is a voice-dictated script originally intended a video. But as I did not take sufficient photographs and videos this leaves a blog as the best option for documentary. If you are interested in my other videos, check out the interrail playlist on my YouTube channel.
 
@@ -42,7 +43,7 @@ To me, it’s intriguing how the building has once hoisted a Prussian Flag, then
 
 Anyways, after the night of the broken glass or Kristallnacht in 1938, this was the first time Hitler’s antisemitism or anti-Jew actions started operating at a state level, such that Jews were oppressed systematically. They were publicly harassed on streets, banned for serving customers of the Aryan race, and in general stripped of their freedoms and rights in all aspects of society.
 
-![]({{ '/assets/wp-content/uploads/2024/01/IMG_7294-130-Edited-edited-1-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/IMG_7294-130-Edited-edited-1-scaled.avif' | relative_url }}){: .wide }
 
 # Jewish Museum
 
@@ -52,7 +53,7 @@ This was explored at a much greater degree of detail at the Jewish Museum, and i
 
 The anger, loneliness and grief faced by this population is then conveyed via a number of artistic exhibits in the museum, such as a dark echoey chamber with only a hint of light from a slit in the ceiling, a hall filled with round metallic pieces depicting expressions of grief and anger, and an outdoor garden with many tall metallic columns, which almost resembles tombstones.
 
-![]({{ '/assets/wp-content/uploads/2024/01/IMG_6282-2-Edited-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/IMG_6282-2-Edited-scaled.avif' | relative_url }}){: .wide }
 
 # Memorial of the murdered Jews
 
@@ -102,7 +103,7 @@ Considering that this museum is the original building that retains objects from 
 
 As common sense dawned upon the German people, the wall eventually come down. A number of artists from across the world came to paint murals on a remaining segment of the wall, now known as the East side gallery.
 
-![]({{ '/assets/wp-content/uploads/2024/01/IMG_6204-20-Edited-1024x720.jpeg' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/berlin-mauer-cracked-glass.webp' | relative_url }})
 
 The best known mural of all is of course the Fraternal Kiss mural, which is the kiss between the USSR and GDR general secretaries. There are of course many satirical murals along the wall, and my favourite, or the one that I find the most inspiring of all, is the one named “It happened in November” which depicts thousands of people with different emotions flow from east to west. Though I think its supposed to be a largely positive illustrative recount of an event that should be celebrated, for me it’s also jarring how the two walls are positioned parallel to each other, as if its a number of bodies piled on the death strip. So this makes the meaning of the painting a lot more complex and powerful — as if these people have overcome the death strip, and by translation, death.
 

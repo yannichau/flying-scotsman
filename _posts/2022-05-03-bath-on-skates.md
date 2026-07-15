@@ -15,6 +15,7 @@ categories:
 tags:
 - bath
 - travel
+images-validated: true
 ---
 The thing that defines British weather is its high unpredictability — and that’s exactly the thing that made me extremely nervous about planning an outdoor skating trip while going on a trip, especially considering that it’s winter.
 
@@ -66,7 +67,11 @@ Though in hindsight this also probably signalled that I was dangerously behind s
 
 The Avon Valley Railway is one of the reasons I decided to skate along this path. Sadly it was closed during the winter months, which made the entire place rather desolate looking.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1OX2rOvaf0gl74zUaVO1nxg@2x-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1N_F1TU8wzwNz0kVRCDS3wA@2x.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1oHVrcainsdl04UKeT7hUiw@2x.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1OX2rOvaf0gl74zUaVO1nxg@2x-scaled.avif' | relative_url }}) 
+
+![]({{ '/assets/wp-content/uploads/2024/01/1N_F1TU8wzwNz0kVRCDS3wA@2x.avif' | relative_url }}){: .wide }
+
+![]({{ '/assets/wp-content/uploads/2024/01/1oHVrcainsdl04UKeT7hUiw@2x.avif' | relative_url }})
 
 Hello Kitty!
 

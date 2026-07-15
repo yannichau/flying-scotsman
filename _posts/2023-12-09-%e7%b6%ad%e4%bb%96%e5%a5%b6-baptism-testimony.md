@@ -15,6 +15,7 @@ categories:
 tags:
 - journal
 - personal
+images-validated: true
 ---
 我於二零二二年十二月十日受浸，見證我接受耶穌基督坐我生命的救主。我除了當天在倫敦中華基督教會台上公開的講見證，也想將這個分享保存在medium上。以下是我用中文和英文撰寫的節錄。
 
