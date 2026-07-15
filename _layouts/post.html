@@ -164,3 +164,61 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const carousels = document.querySelectorAll('.image-carousel');
+  
+  // Set up the cinematic background intersection observer
+  const bgObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      // If 50% or more of the carousel is visible on screen, trigger dark mode
+      if (entry.isIntersecting) {
+        document.body.classList.add('carousel-dark-mode');
+      } else {
+        document.body.classList.remove('carousel-dark-mode');
+      }
+    });
+  }, { threshold: 0.5 });
+
+  carousels.forEach(carousel => {
+    // 1. Observe this carousel for the background color effect
+    bgObserver.observe(carousel);
+
+    // 2. Clean up Kramdown's DOM structure
+    const images = carousel.querySelectorAll('img');
+    if (images.length === 0) return;
+
+    const track = document.createElement('div');
+    track.className = 'carousel-track';
+    
+    // Move images into the horizontal track
+    images.forEach(img => track.appendChild(img));
+    carousel.innerHTML = ''; // Clear out the messy <p> tags
+    carousel.appendChild(track);
+
+    // 3. Create Navigation Buttons
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'carousel-btn prev';
+    prevBtn.innerHTML = '&#10094;'; // Left arrow symbol
+    
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'carousel-btn next';
+    nextBtn.innerHTML = '&#10095;'; // Right arrow symbol
+
+    carousel.appendChild(prevBtn);
+    carousel.appendChild(nextBtn);
+
+    // 4. Button Click Logic (Scrolls exactly 1 viewport width)
+    const scrollAmount = window.innerWidth;
+    
+    nextBtn.addEventListener('click', () => {
+      track.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    });
+    
+    prevBtn.addEventListener('click', () => {
+      track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    });
+  });
+});
+</script>
