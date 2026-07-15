@@ -2,6 +2,14 @@
 ---
 @import "minima";
 
+/* Divider line*/
+.post-content hr {
+    width: 30%;           /* Makes the line shorter (adjust this percentage as needed) */
+    margin: 4em auto;     /* Increases top/bottom spacing and centers it */
+    // border: 0;            /* Resets default browser borders */
+    // border-top: 1px solid #ddd; /* Sets a clean, subtle line color */
+}
+
 /* Global Standalone & Gallery Layout Alignment */
 p > img:only-of-type,
 .post-content .image-gallery .gallery-item img {
@@ -74,9 +82,9 @@ p > img:only-of-type.is-portrait {
 
 /* Justified image gallery containers */
 .post-content .image-gallery {
-  width: 80vw;
+  width: 60vw;
   max-width: none;
-  margin: 2em calc(50% - 40vw);
+  margin: 2em calc(50% - 30vw);
   padding: 0 16px;
   box-sizing: border-box;
   overflow-x: hidden;
@@ -96,7 +104,7 @@ p > img:only-of-type.is-portrait {
   flex-direction: column;
   flex: 1 1 auto;
   width: auto;
-  min-width: 250px;
+  // min-width: 250px;
 }
 
 .post-content .image-gallery .gallery-item img {
@@ -164,5 +172,92 @@ p > img:only-of-type.is-portrait {
   .post-content p > img.full {
     width: 100vw;
     // margin-left: calc(50% - 50vw); 
+  }
+}
+
+/* ==========================================================================
+   Image Carousel & Dark Mode Layout
+   ========================================================================== */
+
+/* The smooth transition for the entire page background */
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Toggled by JS when the carousel is in view */
+body.carousel-dark-mode {
+  background-color: #050505;
+  color: #a9a9a9;
+}
+
+/* The Carousel Container (Edge-to-Edge) */
+.image-carousel {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  background: #000;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* The scrolling track */
+.carousel-track {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  /* Hide scrollbars for a clean look */
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+.carousel-track::-webkit-scrollbar { 
+  display: none; 
+}
+
+/* Individual Images */
+.carousel-track img {
+  scroll-snap-align: center;
+  flex: 0 0 auto;
+  width: 100vw; /* One image per screen width */
+  height: 70vh; /* Fixed height for desktop */
+  max-height: 800px;
+  object-fit: contain; /* Prevents stretching/cropping */
+  padding: 0 5vw; /* Gives a little breathing room on the edges */
+}
+
+/* Navigation Buttons */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 24px;
+  padding: 12px 16px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+.carousel-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.carousel-btn.prev { left: 16px; }
+.carousel-btn.next { right: 16px; }
+
+/* Mobile Optimization */
+@media screen and (max-width: 767px) {
+  .carousel-track img {
+    height: 50vh; /* Shorter fixed height for mobile */
+  }
+  /* Buttons can obstruct images on mobile; native swipe is usually preferred, 
+     but we scale them down just in case */
+  .carousel-btn {
+    padding: 8px 12px;
+    font-size: 18px;
   }
 }
