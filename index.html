@@ -19,53 +19,58 @@ layout: default
         top: 0;
         left: 50%;
         transform: translateX(-50%);
-        width: 50vw;
-        max-width: 1400px;
+        width: 55vw;
+        max-width: 1200px; /* Limits container width on full screens */
         height: 100vh;
         z-index: 1;
         pointer-events: none;
-        /* Let clicks pass through to the post cards */
         box-sizing: border-box;
-    }
-
-    /* Mobile view: let the map-container follow the wider blog-feed width */
-    @media (max-width: 1280px) {
-        .map-container {
-            width: 90vw;
-        }
+        overflow: visible; /* Prevents clipping */
     }
 
     #tube-line-svg {
         width: 100%;
         height: 100%;
         display: block;
+        overflow: visible; /* Crucial: stops left-side negative coordinates from being clipped */
+    }
+
+    @media (max-width: 1280px) {
+        .map-container {
+            width: 95vw;
+        }
     }
 
     .blog-feed {
         position: relative;
         z-index: 2;
         margin: 0 auto;
-        /* Forces it to take up 50% of the true screen width on desktop */
         width: 50vw;
-        max-width: 1400px;
-
-        /* 1. Center the feed relative to the screen */
+        max-width: 1200px;
         left: 50%;
         transform: translateX(-50%);
-
-        /* 2. Gutter to hold the tube line safely outside the post text */
-        padding: 8vh 12px 8vh 80px;
-        /* Reduced desktop padding slightly to avoid excessive empty space */
+        padding: 8vh 12px 8vh 110px;
         box-sizing: border-box;
     }
 
-    /* Mobile view: Expand column width and reduce excessive left padding */
     @media (max-width: 1280px) {
         .blog-feed {
             width: 90vw;
-            padding: 4vh 12px 4vh 60px;
-            /* Tight, optimized gutter for narrow screens */
+            padding: 4vh 12px 4vh 85px;
         }
+    }
+
+    .post-info {
+        flex: 1;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        text-align: left;
+        background: #ffffff;
+        position: relative;
+        z-index: 3;
+        padding-right: 8px;
     }
 
     .post-row {
@@ -97,15 +102,6 @@ layout: default
             gap: 16px;
             padding: 16px;
         }
-    }
-
-    .post-info {
-        flex: 1;
-        min-width: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        text-align: left;
     }
 
     .post-card h2 {
@@ -209,66 +205,132 @@ layout: default
     const svg = d3.select("#tube-line-svg");
     const rows = document.querySelectorAll('.post-row');
 
-    const lineColor = "#e32017";
+    const tubeColors = ["#e32017", "#003688", "#00a3e0", "#ffd300", "#00782a", "#f3a9bb", "#ee7c0e"];
     const strokeWidth = 12;
 
     function renderTubeLine() {
-        // Clear previous calculations
         svg.selectAll("*").remove();
         if (rows.length === 0) return;
 
-        // 1. Dynamic Alignment Engine: Find where the blog post card starts
         const svgContainer = document.querySelector('.map-container').getBoundingClientRect();
         const firstCard = rows[0].querySelector('.post-card');
         const cardRect = firstCard.getBoundingClientRect();
 
-        // Mobile Check: If viewport width is 1280px or less, use a narrower offset (e.g. 25px)
         const isMobile = window.innerWidth <= 1280;
-        const lineOffset = isMobile ? 20 : 45;
+        const baseOffset = isMobile ? 32 : 65;
+        const baseX = cardRect.left - svgContainer.left - baseOffset;
 
-        // Centers the track beautifully relative to the card's dynamic left boundary
-        const targetX = cardRect.left - svgContainer.left - lineOffset;
-
-        const scrollY = window.scrollY;
         const stationData = [];
 
-        // Calculate center Y points for the cards
-        rows.forEach((row) => {
+        // 1. Gather station data and positions
+        rows.forEach((row, index) => {
             const rect = row.getBoundingClientRect();
             const centerY = rect.top + rect.height / 2;
             const stationName = row.getAttribute('data-station-name') || "";
             let type = row.getAttribute('data-station-type');
 
+            let isInterchange = false;
             if (type === 'regular') {
                 let hash = 0;
                 for (let i = 0; i < stationName.length; i++) {
                     hash = stationName.charCodeAt(i) + ((hash << 5) - hash);
                 }
-                const isInterchange = Math.abs(hash % 100) / 100 < 0.4; // 40% chance of being an interchange
+                isInterchange = (Math.abs(hash % 100) / 100 < 0.35); 
                 type = isInterchange ? 'interchange' : 'stub';
+            } else if (type === 'interchange') {
+                isInterchange = true;
             }
 
-            stationData.push({ y: centerY, type: type, name: stationName });
+            // Zigzags on desktop only; mobile stays straight & vertical
+            let currentXOffset = 0;
+            if (!isMobile && type === 'interchange' && index > 0 && index < rows.length - 1) {
+                const shifts = [-30, 30]; 
+                currentXOffset = shifts[index % shifts.length];
+            }
+
+            const stationX = baseX + currentXOffset;
+
+            stationData.push({ 
+                x: stationX, 
+                y: centerY, 
+                type: type, 
+                name: stationName,
+                isInterchange: isInterchange
+            });
         });
 
-        // 2. Pass targetX down into the track line generator
-        const lineGenerator = d3.line()
-            .x(targetX)
-            .y(d => d.y)
-            .curve(d3.curveLinear);
+        // 2. Build segments with strict interchange-only color transitions
+        let currentColorIndex = 0;
+        const segments = [];
 
-        svg.append("path")
-            .datum(stationData)
-            .attr("fill", "none")
-            .attr("stroke", lineColor)
-            .attr("stroke-width", strokeWidth)
-            .attr("stroke-linecap", "round")
-            .attr("d", lineGenerator);
+        for (let i = 0; i < stationData.length - 1; i++) {
+            const curr = stationData[i];
+            const next = stationData[i + 1];
 
-        // 3. Render icons centered around targetX
+            segments.push({
+                curr: curr,
+                next: next,
+                color: tubeColors[currentColorIndex]
+            });
+
+// Only change color *after* passing an interchange so the incoming segment keeps the old color
+            if (next.type === 'interchange' && i < stationData.length - 2) {
+                currentColorIndex = (currentColorIndex + 1) % tubeColors.length;
+            }
+        }
+
+        // Assign colors back to stations for stubs/termini
+        stationData.forEach((station, idx) => {
+            if (idx === 0) {
+                station.color = segments[0].color;
+            } else {
+                station.color = segments[idx - 1].color;
+            }
+        });
+
+        // 3. Render continuous segments with TRUE 45-degree diagonals and rounded joints
+        segments.forEach(seg => {
+            const curr = seg.curr;
+            const next = seg.next;
+            let pathData = "";
+
+            const dx = next.x - curr.x;
+            const dy = next.y - curr.y;
+
+            if (dx === 0 || isMobile) {
+                pathData = `M ${curr.x} ${curr.y} L ${next.x} ${next.y}`;
+            } else {
+                // TRUE 45-degree geometry: vertical shift equals absolute horizontal shift
+                // Variable to control how far from the station the diagonal starts
+                const verticalHold = 80; // Increase this number to push the diagonal further away from stations
+
+                const shiftDist = Math.abs(dx);
+                const midY1 = curr.y + (dy > 0 ? verticalHold : -verticalHold);
+                const midY2 = next.y + (dy > 0 ? -shiftDist - verticalHold : shiftDist + verticalHold);
+
+                if ((dy > 0 && midY1 >= next.y) || (dy < 0 && midY1 <= next.y)) {
+                    pathData = `M ${curr.x} ${curr.y} L ${next.x} ${next.y}`;
+                } else {
+                    pathData = `M ${curr.x} ${curr.y} ` +
+                               `L ${curr.x} ${midY1} ` +
+                               `L ${next.x} ${midY2} ` +
+                               `L ${next.x} ${next.y}`;
+                }
+            }
+
+            svg.append("path")
+                .attr("fill", "none")
+                .attr("stroke", seg.color)
+                .attr("stroke-width", strokeWidth)
+                .attr("stroke-linecap", "round")
+                .attr("stroke-linejoin", "round") // Automatically rounds out the inner and outer bends
+                .attr("d", pathData);
+        });
+
+        // 4. Render station icons on top
         stationData.forEach((station) => {
             const group = svg.append("g")
-                .attr("transform", `translate(${targetX}, ${station.y})`);
+                .attr("transform", `translate(${station.x}, ${station.y})`);
 
             if (station.type === 'terminus') {
                 group.append("line")
@@ -276,7 +338,7 @@ layout: default
                     .attr("y1", 0)
                     .attr("x2", strokeWidth)
                     .attr("y2", 0)
-                    .attr("stroke", lineColor)
+                    .attr("stroke", station.color)
                     .attr("stroke-width", strokeWidth)
                     .attr("stroke-linecap", "square");
 
@@ -288,18 +350,17 @@ layout: default
                     .attr("stroke-width", strokeWidth / 3);
 
             } else {
-                // Point the stub straight right
                 group.append("line")
                     .attr("x1", 0)
                     .attr("y1", 0)
                     .attr("x2", strokeWidth * 2)
                     .attr("y2", 0)
-                    .attr("stroke", lineColor)
+                    .attr("stroke", station.color)
                     .attr("stroke-width", strokeWidth);
             }
         });
     }
-    // Attach frame update triggers across scroll, view updates, and document rendering hooks
+
     window.addEventListener('scroll', renderTubeLine, { passive: true });
     window.addEventListener('resize', renderTubeLine);
     document.addEventListener('DOMContentLoaded', renderTubeLine);
