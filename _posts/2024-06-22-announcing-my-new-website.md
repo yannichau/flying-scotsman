@@ -40,9 +40,32 @@ In contrast, my new Wordpress platform is highly versatile in terms of the conte
 
 Hiccups are certainly a common occurence when working with a new platform. The biggest hurdle so far has been actually getting the correct settings to route the website to the internet. As the library of content for the webiste expands and the traffic increases (which will be both a blessing and a curse!), I will have to explore different solutions to enhance the security and efficiency of the website. But I'm sure there's certainly a lot to look forward to!
 
-![]({{ '/assets/wp-content/uploads/2024/02/P1139508-293-Edited-scaled-e1708034063653.avif' | relative_url }})
-![]({{ '/assets/wp-content/uploads/2024/02/P1139509-294-Edited-scaled-e1708121078978.avif' | relative_url }})
-![]({{ '/assets/wp-content/uploads/2024/02/P1139510-295-Edited-scaled-e1708034146700.avif' | relative_url }})
+<!-- Row 1 (Shifted slightly left) -->
+<div style="position: relative; left: 50%; transform: translateX(-50%); width: 100vw; max-width: 100vw; display: flex; justify-content: flex-start; padding-left: 5vw; padding-right: 15vw; margin-top: 30px; margin-bottom: 40px; box-sizing: border-box;">
+  <div style="width: 70%;">
+    <img src="{{ '/assets/wp-content/uploads/2024/02/P1139508-293-Edited-scaled-e1708034063653.avif' | relative_url }}" 
+         alt="Image 1" 
+         style="width: 100%; height: auto; border-radius: 0; box-shadow: 0 8px 20px rgba(0,0,0,0.12); object-fit: cover; display: block;">
+  </div>
+</div>
+
+<!-- Row 2 (Centered) -->
+<div style="position: relative; left: 50%; transform: translateX(-50%); width: 100vw; max-width: 100vw; display: flex; justify-content: center; padding-left: 10vw; padding-right: 10vw; margin-bottom: 40px; box-sizing: border-box;">
+  <div style="width: 70%;">
+    <img src="{{ '/assets/wp-content/uploads/2024/02/P1139509-294-Edited-scaled-e1708121078978.avif' | relative_url }}" 
+         alt="Image 2" 
+         style="width: 100%; height: auto; border-radius: 0; box-shadow: 0 8px 20px rgba(0,0,0,0.12); object-fit: cover; display: block;">
+  </div>
+</div>
+
+<!-- Row 3 (Shifted right) -->
+<div style="position: relative; left: 50%; transform: translateX(-50%); width: 100vw; max-width: 100vw; display: flex; justify-content: flex-end; padding-left: 15vw; padding-right: 5vw; margin-bottom: 60px; box-sizing: border-box;">
+  <div style="width: 70%;">
+    <img src="{{ '/assets/wp-content/uploads/2024/02/P1139510-295-Edited-scaled-e1708034146700.avif' | relative_url }}" 
+         alt="Image 3" 
+         style="width: 100%; height: auto; border-radius: 0; box-shadow: 0 8px 20px rgba(0,0,0,0.12); object-fit: cover; display: block;">
+  </div>
+</div>
 
 **Next steps**
 

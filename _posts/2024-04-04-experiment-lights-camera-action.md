@@ -48,10 +48,37 @@ Let the lights power up, the film in the camera roll, as the actors begin their 
 
 Whereas the dynamism of a film directly engages its viewer towards its plot, a protagonist's actions or the atmosphere of an environment, the inherent static outcome of a photograph invites the viewer to stare at it with an invariable but often heightening amount of attention. It is therefore an intriguing task for a photographer to recreate the same degree of engagement in photographs.
 
-![]({{ '/assets/wp-content/uploads/2024/02/P1139367-261-Edited-scaled-e1708122130112.avif' | relative_url }})
-![]({{ '/assets/wp-content/uploads/2024/02/P1139368-262-Edited-scaled-e1708121691187.avif' | relative_url }})
-![]({{ '/assets/wp-content/uploads/2024/02/P1139369-263-Edited-scaled-e1708121756255.avif' | relative_url }})
-![]({{ '/assets/wp-content/uploads/2024/02/P1139371-265-Edited-scaled-e1708121719733.avif' | relative_url }})
+<div style="position: relative; left: 50%; transform: translateX(-50%); width: 100vw; max-width: 100vw; display: flex; gap: 16px; align-items: flex-start; justify-content: center; margin-top: 30px; margin-bottom: 110px; padding: 0 24px; box-sizing: border-box;">
+  
+  <!-- Column 1 (Highest) -->
+  <div style="flex: 1; transform: translateY(0px);">
+    <img src="{{ '/assets/wp-content/uploads/2024/02/P1139367-261-Edited-scaled-e1708122130112.avif' | relative_url }}" 
+         alt="Image 1" 
+         style="width: 100%; height: auto; border-radius: 0; box-shadow: 0 8px 20px rgba(0,0,0,0.12); object-fit: cover; display: block;">
+  </div>
+
+  <!-- Column 2 -->
+  <div style="flex: 1; transform: translateY(40px);">
+    <img src="{{ '/assets/wp-content/uploads/2024/02/P1139368-262-Edited-scaled-e1708121691187.avif' | relative_url }}" 
+         alt="Image 2" 
+         style="width: 100%; height: auto; border-radius: 0; box-shadow: 0 8px 20px rgba(0,0,0,0.12); object-fit: cover; display: block;">
+  </div>
+
+  <!-- Column 3 -->
+  <div style="flex: 1; transform: translateY(60px);">
+    <img src="{{ '/assets/wp-content/uploads/2024/02/P1139369-263-Edited-scaled-e1708121756255.avif' | relative_url }}" 
+         alt="Image 3" 
+         style="width: 100%; height: auto; border-radius: 0; box-shadow: 0 8px 20px rgba(0,0,0,0.12); object-fit: cover; display: block;">
+  </div>
+
+  <!-- Column 4 (Lowest) -->
+  <div style="flex: 1; transform: translateY(80px);">
+    <img src="{{ '/assets/wp-content/uploads/2024/02/P1139371-265-Edited-scaled-e1708121719733.avif' | relative_url }}" 
+         alt="Image 4" 
+         style="width: 100%; height: auto; border-radius: 0; box-shadow: 0 8px 20px rgba(0,0,0,0.12); object-fit: cover; display: block;">
+  </div>
+
+</div>
 
 In these shots, the object that reassuredly stays constant is the camera.
 
