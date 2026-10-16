@@ -1,5 +1,22 @@
 {
-    "chat.tools.terminal.autoApprove": {
-        "bundle": true
+  "chat.tools.terminal.autoApprove": {
+    "bundle": true
+  },
+  "path-autocomplete.pathMappings": {
+    "/": "${workspaceRoot}/"
+  },
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.excludedAndIgnoredPaths": [
+    "**/_site/**",
+    "**/.jekyll-cache/**",
+    "**/node_modules/**",
+    "**/.git/**"
+  ],
+  "patternlinks.rules": [
+    {
+      "linkPattern": "\\{\\{\\s*'([^']+)'\\s*\\|\\s*relative_url\\s*\\}\\}",
+      "linkTarget": "file://${workspaceRoot}$1",
+      "languages": ["markdown", "html"]
     }
+  ]
 }
