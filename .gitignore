@@ -6,3 +6,8 @@ vendor
 assets_raw
 _archive
 Gemfile.lock
+
+# No jpg or png in assets
+# /assets/**/*.jpg
+# /assets/**/*.jpeg
+/assets/wp-content/uploads/2024/02/昂藏七尺？昂藏八尺。 by clueless yanni - Exposure_files
