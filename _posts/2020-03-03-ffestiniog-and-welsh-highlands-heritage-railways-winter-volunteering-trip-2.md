@@ -27,7 +27,8 @@ I know it’s probably not the best idea to write a report in chronological orde
 
 Our day started at London Euston, where we stepped aboard the Avanti West coast service to Birmingham new street. This was one week after the franchise was passed from Virgin Trains, when the Pendolinos had yet to be refurbished, with an oddly blank white-washed livery. There are still remnants of Virgin Trains’ 20 years of operation though, as you can tell from the “VT” prefixed train number.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1_1CJ2-ErZQslEu-aOkUXL31Q.avif' | relative_url }}) ![Avanti West Coast Pendolinos]({{ '/assets/wp-content/uploads/2024/01/1_1NRTaHbmkilg07GVOSmN6eA.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1_1CJ2-ErZQslEu-aOkUXL31Q.avif' | relative_url }})
+![Avanti West Coast Pendolinos]({{ '/assets/wp-content/uploads/2024/01/1_1NRTaHbmkilg07GVOSmN6eA.avif' | relative_url }})
 
 The next 2 photos were taken at Birmingham New Street.
 

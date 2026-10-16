@@ -37,7 +37,8 @@ I would like to start my article with a thought of the day displayed at Hammersm
 
 The Northern Line is the first tube line I have taken in London. The photo below is a southbound train departing from Mill Hill East, arriving at Finchley Central. Most southbound trains arriving at this station are actually from High Barnet, which means that this is actually a decently rare sight.
 
-![Southbound Northern Line Train at Finchley Central, taken from the footwalk of the station.]({{ '/assets/wp-content/uploads/2024/01/1xmiN7vjM_qu7bgr1aYIyPA.avif' | relative_url }}) ![Northbound Northern line train to High Barnet, arriving at West Finchley]({{ '/assets/wp-content/uploads/2024/01/1fZxo5rbZmMYeWKYREsBzLA.avif' | relative_url }})
+![Southbound Northern Line Train at Finchley Central, taken from the footwalk of the station.]({{ '/assets/wp-content/uploads/2024/01/1xmiN7vjM_qu7bgr1aYIyPA.avif' | relative_url }})
+![Northbound Northern line train to High Barnet, arriving at West Finchley]({{ '/assets/wp-content/uploads/2024/01/1fZxo5rbZmMYeWKYREsBzLA.avif' | relative_url }})
 
 These trains are manufactured by Alstom.
 
@@ -79,7 +80,8 @@ Incidentally we boarded on to a train with a bunch of tourists with lots of lugg
 
 After a long tedious train journey, it sometimes just feels kinda daunting to walk through the long tunnels within the underground.
 
-![Lost.]({{ '/assets/wp-content/uploads/2024/01/1RQYP6_7vCA0bfNBYtAylKg.avif' | relative_url }}) ![Squarrish photo of a convex mirror.]({{ '/assets/wp-content/uploads/2024/01/1QCKjclvoDfYmaN2PwR8cpA.avif' | relative_url }})
+![Lost.]({{ '/assets/wp-content/uploads/2024/01/1RQYP6_7vCA0bfNBYtAylKg.avif' | relative_url }})
+![Squarrish photo of a convex mirror.]({{ '/assets/wp-content/uploads/2024/01/1QCKjclvoDfYmaN2PwR8cpA.avif' | relative_url }})
 
 In fact, at Covent Garden, you have to walk 193 steps to ground level.
 
@@ -106,7 +108,8 @@ Both the photo above and below are taken at Westminister.
 
 The Bakerloo line is run on the London Underground 1972 stock, the oldest trains currently on the network. In fact, they don’t even have electronic displays for the train destination at the front.
 
-![Northbound Bakerloo Line Train arriving at Embankment]({{ '/assets/wp-content/uploads/2024/01/1WtktNBLNgxWpiuO9TTCNSA.avif' | relative_url }}) ![A Northbound Bakerloo Train departing from Charing Cross.]({{ '/assets/wp-content/uploads/2024/01/1w7FjH1HNEy_9ktMyzgf_Ww.avif' | relative_url }})
+![Northbound Bakerloo Line Train arriving at Embankment]({{ '/assets/wp-content/uploads/2024/01/1WtktNBLNgxWpiuO9TTCNSA.avif' | relative_url }})
+![A Northbound Bakerloo Train departing from Charing Cross.]({{ '/assets/wp-content/uploads/2024/01/1w7FjH1HNEy_9ktMyzgf_Ww.avif' | relative_url }})
 
 Those of you with keen eyes would have noticed that the Northbound destination is displayed on the front of the train (first photo) while the southbound destination is displayed on the back of the train (second photo). Is this a mistake or not? It does seem convenient to place static destination cards like this, such that drivers won’t need to replace the destination card at the end of the line.
 
@@ -116,7 +119,8 @@ Somehow, the warm tone of the carriages lighting makes the train seem even older
 
 Notice that the sliding doors on this stock are sandwiched between the exterior and interior metallic body, which is quite an antiquated but elegant design. Other than Tokyo, I haven’t seen this type of sliding doors before. Most companies today either opt for exterior sliding dors for simplicity and efficiency, or plug doors for slightly better aerodynamics (which is quite insignificant I think).
 
-![A Northbound Bakerloo Train departing from Charing Cross.]({{ '/assets/wp-content/uploads/2024/01/1SxwiSJ84Dbq_U-ZRPpVqFA.avif' | relative_url }}) ![Holborn, Central Line]({{ '/assets/wp-content/uploads/2024/01/1y2mrDMXLW0NbV_9CqPi5cg-scaled.avif' | relative_url }})
+![A Northbound Bakerloo Train departing from Charing Cross.]({{ '/assets/wp-content/uploads/2024/01/1SxwiSJ84Dbq_U-ZRPpVqFA.avif' | relative_url }})
+![Holborn, Central Line]({{ '/assets/wp-content/uploads/2024/01/1y2mrDMXLW0NbV_9CqPi5cg-scaled.avif' | relative_url }})
 
 ## Central Line
 
@@ -136,7 +140,8 @@ The Waterloo and City Line, which is the shortest line on the tube, also uses th
 
 The 2009 stock is currently the newest stock on the underground. You would think that it has features that we take for granted like air-conditioning or walk-through carriages, but no, it’s not the case, even for newer trains.
 
-![The front of a Southbound Victoria Line Train, arriving at Warren Street.]({{ '/assets/wp-content/uploads/2024/01/11XbnZrteRyveVQWWgAIIJg.avif' | relative_url }}) ![The back of a Southbound Victoria Line Train, departing from Green Park.]({{ '/assets/wp-content/uploads/2024/01/1Q5mEQcnqDmUdCpRB7CFwDQ.avif' | relative_url }})
+![The front of a Southbound Victoria Line Train, arriving at Warren Street.]({{ '/assets/wp-content/uploads/2024/01/11XbnZrteRyveVQWWgAIIJg.avif' | relative_url }})
+![The back of a Southbound Victoria Line Train, departing from Green Park.]({{ '/assets/wp-content/uploads/2024/01/1Q5mEQcnqDmUdCpRB7CFwDQ.avif' | relative_url }})
 
 I know it’s not my first time on a deep-level tube train, but you are reminded of how small the carriages are every time you board or alight the train through the curved doors.
 
@@ -217,7 +222,8 @@ By the way, it felt kind of refreshing to see a national rail station with a nam
 
 I didn’t get the chance to ride on TfL Rail (yet), but I did manage to get a shot of it as it was next to the GWR train we alighted.
 
-![Left: TfL Class 345 train; Right: GWR Class 387 train.]({{ '/assets/wp-content/uploads/2024/01/10BThAiGFmkvGbp7VhtmCAQ.avif' | relative_url }}) ![Similarly, the doors of The Thameslink Class 700 Trains are sandwiched in between the outer and inner body of the carriage.]({{ '/assets/wp-content/uploads/2024/01/1EViMGcufwJTK-1EosuK9EA-scaled.avif' | relative_url }})
+![Left: TfL Class 345 train; Right: GWR Class 387 train.]({{ '/assets/wp-content/uploads/2024/01/10BThAiGFmkvGbp7VhtmCAQ.avif' | relative_url }})
+![Similarly, the doors of The Thameslink Class 700 Trains are sandwiched in between the outer and inner body of the carriage.]({{ '/assets/wp-content/uploads/2024/01/1EViMGcufwJTK-1EosuK9EA-scaled.avif' | relative_url }})
 
 ## Thameslink
 

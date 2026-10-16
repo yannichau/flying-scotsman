@@ -26,7 +26,8 @@ What strikes me the most about my staying at a hostel is the sheer variety of pe
 
 But I could not be more unprepared for the next person I was about to meet.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1PR6geB3OG-3WyXkrFhQHtg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1x5EdM2PYmGoT2ZvunpJg6g-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1PR6geB3OG-3WyXkrFhQHtg-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1x5EdM2PYmGoT2ZvunpJg6g-scaled.avif' | relative_url }})
 
 The match at the bar ended at around 10. Not much going on at the time, but nowhere near bed time.
 
@@ -163,4 +164,7 @@ I was lucky enough to catch a conversation with Pete, the attendant at the galle
 
 Modern art never seems to touch me. Not that I’m allowed to touch the artwork anyways.
 
-![]({{ '/assets/wp-content/uploads/2024/01/15y-K7KlmSdhK5RwspKAQpA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1Fdq8iSzVAdxLH5EpLExmAA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1fd7EuOqKguT0WanlSBSH7A-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/12F6pyKQcH8TuIE8bVWmzEg-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/15y-K7KlmSdhK5RwspKAQpA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1Fdq8iSzVAdxLH5EpLExmAA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1fd7EuOqKguT0WanlSBSH7A-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/12F6pyKQcH8TuIE8bVWmzEg-scaled.avif' | relative_url }})

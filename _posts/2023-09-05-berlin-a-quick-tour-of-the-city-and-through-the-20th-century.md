@@ -71,7 +71,8 @@ Life in East Germany or the DDR was hard, and though there were benefits like fr
 
 On the other side, that is the west side of the border, Tempelhof airport tells the story of a different problem- which is resource security. As a result of West Berlin being physically separated from the rest of West Germany, resource transport links to the isolated region were halted. This prompted the construction of several airports within West Berlin to facilitate the great airlift, wher by the Americans transported resources to the region by air. An interesting tidbit was that American soldiers would drop candies for children before landing, hence the planes were nicknamed candy bombers. Today, as a result of German reunification, there is no need for 4 airports, and Tempelhof Airport is a decommissioned one.
 
-![]({{ '/assets/wp-content/uploads/2024/01/IMG_7167-108-Edited-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/IMG_7157-105-Edited-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/IMG_7167-108-Edited-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/IMG_7157-105-Edited-scaled.avif' | relative_url }})
 
 I took the opportunity to skate along this airport, which was one of the more unique experiences of the trip. Along the runways and taxiways, there are numerous skaters practising tricks or simply strolling around as beginners, as well as wind-surfers who were windsurfing with their large sails — except they were skate-boarders windsurfing on land! This is only possible because of the vast open space of the airport, which allows high wind speeds to develop. These winds might be good for windsurfing or airplanes taking off, but when skating against the wind its so strong as if I’m skating backwards!
 
@@ -95,7 +96,8 @@ During the split, one of the key points of crossings between east and west Berli
 
 An arguably more important point of crossing is Friederich Straße train station, which was later used as a crossing for civilians — more specifically any citizens of the western world and East Berlin elites who were authorised to travel abroad. Today, you will not be able to tell the split that used to exist at the station, considering that it’s such an important train station where so much traffic goes through. What instead remains, is a customs control hall that was used for entering and exiting the DDR, which is now repurposed as a small museum called the Palace of Tears or TrallenPalasse. This museum contains the border officer booths and inspection offices that were used by the DDR, as well as a number of photographs, exhibits and testimonies of things that used to happen here. There’s stories about shop staff who used to work there, East Berliners who were harassed on their way to West Berlin, and other experiences about crossings with illegal passports.
 
-![]({{ '/assets/wp-content/uploads/2024/01/IMG_7439-169-Edited-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/IMG_7434-167-Edited-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/IMG_7439-169-Edited-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/IMG_7434-167-Edited-scaled.avif' | relative_url }})
 
 Considering that this museum is the original building that retains objects from the DDR era, I think it is heavily underrated. I should also mention that it is free!
 
@@ -111,4 +113,6 @@ All in all, this pretty much sums up my video of Berlin. There’s many other pl
 
 Afterall, if we consider the reunification that happened 30 years ago, Berlin is a pretty young city which is full of vitality, with plenty for any traveller to explore. I hope you’ve enjoyed my recount, and in German, Danke, und Tchuss (Thank you and goodbye)!
 
-![]({{ '/assets/wp-content/uploads/2024/01/IMG_9716-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/IMG_9667-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/IMG_9559-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/IMG_9716-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/IMG_9667-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/IMG_9559-scaled.avif' | relative_url }})

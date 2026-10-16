@@ -37,7 +37,8 @@ Hopefully you would be able to draw some resemblances to Britain’s trains and 
 
 It’s main purpose was to serve the elite residing on the Victoria peak, and today it is a tourist attraction in its own right. The track is just around 1.4km long, but it travels nearly 400m in elevation, via the peak’s mountainous terrain.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1HE_SF4lMHbd5cP-RV2zCBA-scaled.avif' | relative_url }}) ![Barker Road, a stop near the upper terminus, The Peak.]({{ '/assets/wp-content/uploads/2024/01/1wYfUvQ68G_GOUFd0k8O44Q-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1HE_SF4lMHbd5cP-RV2zCBA-scaled.avif' | relative_url }})
+![Barker Road, a stop near the upper terminus, The Peak.]({{ '/assets/wp-content/uploads/2024/01/1wYfUvQ68G_GOUFd0k8O44Q-scaled.avif' | relative_url }})
 
 * * *
 
@@ -45,7 +46,8 @@ It’s main purpose was to serve the elite residing on the Victoria peak, and to
 
 The [tram](https://www.scmp.com/native/news/hong-kong/transport/topics/holiday-home/article/3092435/hong-kong-trams-re-energised) on along the North coast of Hong Kong Island in 1904, to meet the needs of the ever expanding city of Victoria.
 
-![A queue of 13 trams — a rare but rather peculiar occurrence!]({{ '/assets/wp-content/uploads/2024/01/10QRIvbtN1mTAOKgCXMSS7w.avif' | relative_url }}) ![Young me fidgetting with the destination sign of the tram]({{ '/assets/wp-content/uploads/2024/01/1Ot2-cMSudrCN1_Y-_6uUEw-scaled.avif' | relative_url }}) 
+![A queue of 13 trams — a rare but rather peculiar occurrence!]({{ '/assets/wp-content/uploads/2024/01/10QRIvbtN1mTAOKgCXMSS7w.avif' | relative_url }})
+![Young me fidgetting with the destination sign of the tram]({{ '/assets/wp-content/uploads/2024/01/1Ot2-cMSudrCN1_Y-_6uUEw-scaled.avif' | relative_url }}) 
 
 ![Fare (FYI: 2.3HKD converts to approximately 0.23GBP)]({{ '/assets/wp-content/uploads/2024/01/1Gia5kBk-nk7gNXa0PRH73w-scaled.avif' | relative_url }})
 
@@ -73,7 +75,8 @@ The Kinki Sharyo EMUs SP1900 operate on the West Rail Line and Ma On Shan Line, 
 
 I’m personally not really observant, but other enthusiasts find the motor noises of the Metro Cammells EMUs and the [British Rail class 317s](https://en.wikipedia.org/wiki/British_Rail_Class_317) quite similar. Aesthetically though I think its hard to draw any comparisons, considering that the British EMUs produced in this period are mostly “boxy”.
 
-![Hyundai Rotem R-Stock at Shatin]({{ '/assets/wp-content/uploads/2024/01/1Rh-pD4T-uicQZofgR1RQ8w-scaled.avif' | relative_url }}) ![Kinki Sharyo EMUs SP1900 in Tong Hang]({{ '/assets/wp-content/uploads/2024/01/1e-PkEMTvsi0BM_DlCzonDw-scaled.avif' | relative_url }}) 
+![Hyundai Rotem R-Stock at Shatin]({{ '/assets/wp-content/uploads/2024/01/1Rh-pD4T-uicQZofgR1RQ8w-scaled.avif' | relative_url }})
+![Kinki Sharyo EMUs SP1900 in Tong Hang]({{ '/assets/wp-content/uploads/2024/01/1e-PkEMTvsi0BM_DlCzonDw-scaled.avif' | relative_url }}) 
 
 ![Metro Cammell EMUs at Kau Lung Hang (Prior to and after refurbishment) — Low-key proud about taking a photo at the exact same location as a 1980s advertisement!]({{ '/assets/wp-content/uploads/2024/01/1TdmT_MWU-vN9BrnCOr6TTA.avif' | relative_url }}){: .wide }
 
@@ -81,7 +84,8 @@ An interesting thing note is that the original variant of the Metro Cammells wer
 
 Aside from the 🇯🇵 Kinki Sharyo EMUs SP1900, MTR has introduced the 🇨🇳 [TML C-trains](https://en.wikipedia.org/wiki/MTR_CRRC_Changchun_EMU) on the West Rail Line and Ma On Shan Line, which have a striking resemblance to the SP1900s in terms of its external appearance.
 
-![TML C-Train at Che Kung Temple]({{ '/assets/wp-content/uploads/2024/01/1DoBTxutr1Osg9b0A8-AQiA-scaled.avif' | relative_url }}) ![The C-Train alongside SP100 at Che Kung Temple]({{ '/assets/wp-content/uploads/2024/01/11fGy1z7V2-Elp37Cu9A9UQ-scaled.avif' | relative_url }})
+![TML C-Train at Che Kung Temple]({{ '/assets/wp-content/uploads/2024/01/1DoBTxutr1Osg9b0A8-AQiA-scaled.avif' | relative_url }})
+![The C-Train alongside SP100 at Che Kung Temple]({{ '/assets/wp-content/uploads/2024/01/11fGy1z7V2-Elp37Cu9A9UQ-scaled.avif' | relative_url }})
 
 * * *
 
@@ -105,7 +109,10 @@ Excluding the rolling stock inherited from KCR, its rolling stock include:
 
 The company has portfolio of operating services overseas, including the UK. It owns a portion of the Southwestern Railway company, and is charged with operating Crossrail under the name “mtr crossrail”. Nevertheless, with re-nationalisation and de-franchisation in the air, I doubt whether MTR (or other operators as a matter of fact) would be granted further operations in the UK.
 
-![TCL A-Stock]({{ '/assets/wp-content/uploads/2024/01/1RPU83guK0Q8fM9LHZc1Nfw-scaled.avif' | relative_url }}) ![TCL K-Stock]({{ '/assets/wp-content/uploads/2024/01/1wQI0cqovgnPeq_1dj7CYrg-scaled.avif' | relative_url }}) ![C-Stock at Kowloon Bay]({{ '/assets/wp-content/uploads/2024/01/1J75ClwFdOPIrXAY1udRyyA-scaled.avif' | relative_url }}) ![New variant of the C-stock for the South Island Line, at Ocean Park]({{ '/assets/wp-content/uploads/2024/01/1RwSRTqs_J_CZXWok_FzjNA-scaled.avif' | relative_url }})
+![TCL A-Stock]({{ '/assets/wp-content/uploads/2024/01/1RPU83guK0Q8fM9LHZc1Nfw-scaled.avif' | relative_url }})
+![TCL K-Stock]({{ '/assets/wp-content/uploads/2024/01/1wQI0cqovgnPeq_1dj7CYrg-scaled.avif' | relative_url }})
+![C-Stock at Kowloon Bay]({{ '/assets/wp-content/uploads/2024/01/1J75ClwFdOPIrXAY1udRyyA-scaled.avif' | relative_url }})
+![New variant of the C-stock for the South Island Line, at Ocean Park]({{ '/assets/wp-content/uploads/2024/01/1RwSRTqs_J_CZXWok_FzjNA-scaled.avif' | relative_url }})
 
 * * *
 
@@ -135,7 +142,8 @@ Its[ rolling stock portfolio](https://en.wikipedia.org/wiki/Light_Rail_\(MTR\)#
 
 So here comes the comparisons. Oddly, the DLR commenced in 1987, 1 year prior to Hong Kong’s LRT. Like the DLR, the LRT runs on (decently heavy) 36 tonne vehicles. Unlike the DLR, the LRT has many road crossings, which makes its operational aspects more similar to tramlink. Unlike tramlink, the LRT requires a greater amount of the platform infrastructure due to the non low-floor design. Similar to the both systems, LRT stops are unmmaned, which makes the system prone to issues like vandalism and fare evasion.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1F-L4F3tWDNhz8sIiTuiSoQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1p4425Bf3FwA9AlY4F1S_pw-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1F-L4F3tWDNhz8sIiTuiSoQ-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1p4425Bf3FwA9AlY4F1S_pw-scaled.avif' | relative_url }})
 
 Of all 3 systems, I like [tramlink](https://en.wikipedia.org/wiki/Tramlink) the most. It’s vehicles are sleek, and operation-wise it makes sense. It is a cleaner alternative for buses, and the platform infrastructure required is minimal due to the trams’ low-floor design. More importantly it feels right in place for a street setting. That said it is the newest of the bunch.
 
@@ -155,11 +163,14 @@ Considering that all heavy rail services in Hong Kong are rapid transit style, i
 
 All in all, this contributes to a more spacious, comfortable (but arguably “clinically feeling”) look for Hong Kong’s carriage interiors. Nevertheless this is the trend all train manufacturers are adopting today, for practicality concerns.
 
-![London Underground S7 Stock Interior]({{ '/assets/wp-content/uploads/2024/01/1_hxHRX8tyqTvnHM74EgI-g-scaled.avif' | relative_url }}) ![TfL Rail Class 345 Interior]({{ '/assets/wp-content/uploads/2024/01/1xksk0fkXyuMongwqtazbjQ-scaled.avif' | relative_url }}) 
+![London Underground S7 Stock Interior]({{ '/assets/wp-content/uploads/2024/01/1_hxHRX8tyqTvnHM74EgI-g-scaled.avif' | relative_url }})
+![TfL Rail Class 345 Interior]({{ '/assets/wp-content/uploads/2024/01/1xksk0fkXyuMongwqtazbjQ-scaled.avif' | relative_url }}) 
 
-![London Overground Class 700 Interior]({{ '/assets/wp-content/uploads/2024/01/1aqXoiadQwNk3KImgjZCxVw-scaled.avif' | relative_url }}) ![London Overground Electrostar 378 Interior]({{ '/assets/wp-content/uploads/2024/01/1z8Kz9SAja9gNoWXbk7ySZg-scaled.avif' | relative_url }}) 
+![London Overground Class 700 Interior]({{ '/assets/wp-content/uploads/2024/01/1aqXoiadQwNk3KImgjZCxVw-scaled.avif' | relative_url }})
+![London Overground Electrostar 378 Interior]({{ '/assets/wp-content/uploads/2024/01/1z8Kz9SAja9gNoWXbk7ySZg-scaled.avif' | relative_url }}) 
 
-![Hong Kong Ma On Shan Line SP1900 Interior]({{ '/assets/wp-content/uploads/2024/01/1sI1hcxQ734wkd5qhQzBjZw-scaled.avif' | relative_url }}) ![Hong Kong East Rail Line R-Stock Interior]({{ '/assets/wp-content/uploads/2024/01/1wI8Tkce0Q-IHWZTQO3LSQQ-scaled.avif' | relative_url }})
+![Hong Kong Ma On Shan Line SP1900 Interior]({{ '/assets/wp-content/uploads/2024/01/1sI1hcxQ734wkd5qhQzBjZw-scaled.avif' | relative_url }})
+![Hong Kong East Rail Line R-Stock Interior]({{ '/assets/wp-content/uploads/2024/01/1wI8Tkce0Q-IHWZTQO3LSQQ-scaled.avif' | relative_url }})
 
 One striking similarity you might see is that R-stock has the same hanging hand-straps as all Class 378 and 700. Apparently they are called TOPADSTRAP and are manufactured by an Austrian company called Faigle. The appearance of the hand-straps is subjective, but personally I think they don’t feel ergonomic. I like the hefty feeling of a conventional metallic hand-strap.
 

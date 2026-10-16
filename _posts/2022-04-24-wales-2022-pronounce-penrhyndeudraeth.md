@@ -60,7 +60,8 @@ This year, our journey was slightly different as there was a section of track be
 
 Therefore, we had to board a rail replacement bus service. Normally I dislike being stuck on a coach, but the views of the sunset was actually nice, and I was seated next to a recently graduated Marine biologist who gave me a lot of insights about the area. Hopefully one day I do get to visit the area, not just for the Heritage Railway!
 
-![]({{ '/assets/wp-content/uploads/2024/01/1qI2U-YoEYVdy3GSQTt0_Ww-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/174k9SLF7fm_zQ5e0fUSgqA-scaled.avif' | relative_url }}) 
+![]({{ '/assets/wp-content/uploads/2024/01/1qI2U-YoEYVdy3GSQTt0_Ww-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/174k9SLF7fm_zQ5e0fUSgqA-scaled.avif' | relative_url }}) 
 
 ![]({{ '/assets/wp-content/uploads/2024/01/1KNHZf5hAqm9qGJN5raS36g.avif' | relative_url }})
 
@@ -68,11 +69,13 @@ Interestingly, I noticed that the signage at all the stations have been altered.
 
 I like the old sign a lot more — the new signage looks way too clinical, and the colors and iconography just looks hideous. In fairness however, I do have a specific preference for teal and blue things.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1QJcxpCRSUl9m5fgg0wPy3Q-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1e6G-zNqPcv6PBtbKulsW2w-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1QJcxpCRSUl9m5fgg0wPy3Q-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1e6G-zNqPcv6PBtbKulsW2w-scaled.avif' | relative_url }})
 
 And as a treat after our long journey, we headed to the local pub for a couple pints and pool!
 
-![]({{ '/assets/wp-content/uploads/2024/01/1Ez1i0TUkYMy5OexkAARJPg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1UINnXgpFazf6uVN9Wwjjdg-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1Ez1i0TUkYMy5OexkAARJPg-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1UINnXgpFazf6uVN9Wwjjdg-scaled.avif' | relative_url }})
 
 # The bread and butter: Volunteering at the railway
 
@@ -95,7 +98,8 @@ A rather peculiar thing about painting the fences was that we were under constan
 
 Simultaneously, another group of us spent the day at the Boston Lodge Depot, helping out with heavy lifting, painting and manual labour work. And while this might sound tediously boring and repetitive, I believe this is actually one of the last few places where a lot of work is still done manually with relatively primitive tools. But at the end of the day, we are working at a railway that is maintained by passionate volunteers, and these are basic practical skills that we should be well equipped anyways.
 
-![]({{ '/assets/wp-content/uploads/2024/01/13vILVNIJHFXzR_E2Nrq9Yg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1bO5SgJQ9_WosHHGYT9HY5A-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/13vILVNIJHFXzR_E2Nrq9Yg-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1bO5SgJQ9_WosHHGYT9HY5A-scaled.avif' | relative_url }})
 
 Furthermore, working in the depot meant witnessing a slew of steam and diesel trains that were being renovated and maintained. Even though the depot might seempretty small compared to typical mainline depots, it is in fact one of the largest depots for narrow gauge trains in Britain!
 
@@ -113,7 +117,8 @@ Communal living at the hostel is also one of the highlights of the trip. During 
 
 That cucumber salad was very much an ad-hoc dish created out of the need to use up the 8 cucumbers we bought for the trip. The decision to purchase so many cucumbers in the first place though, remains a mystery.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1DoOCE7dEzzWW_pHH4P9UBA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1ifIVwWSPTd_fiYq5Q5kEwQ-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1DoOCE7dEzzWW_pHH4P9UBA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1ifIVwWSPTd_fiYq5Q5kEwQ-scaled.avif' | relative_url }})
 
 Another fun pass-time in the evenings is the GWR game. Here’s a quick description of the game that I’ve written in a blog post two year ago:
 
@@ -146,5 +151,33 @@ Hopefully, I would get to pronounce you correctly when I visit you next time!
 A curated selection from Brian, Jonathan and Ryan.
 
 <div class="image-carousel" markdown="1">
-![]({{ '/assets/wp-content/uploads/2024/01/1I3l48KKVMQnbQWQ1SiTm2w-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1WHI-VmQkewJat3LmqFVaFQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1q_JIY3nK-JGaYJsXgFTCeA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1YUT8n5158cTQJXkIKB24AA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1mXdf9MOiItnfqljsnLQ_ZA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1vLNhWtwebtBp6qYQoDKjKw-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1A_lkXSBqdnueb-S_SO5NUw-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1BD37EV10Rsv8xK187j2X7Q.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1N3QrPh6hXnd1jBdb8abVeA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1mBLeKDAupnbxQ9jwsg41pA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1MqH1pZpEwrni-yOWTiJZog-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1ZWGSeyUJtaxxVBvRKyB6wQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/18ZIhkCqEUNScXG48oertGg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1Sq0AWoEQRFEQ4TqgkBwTlQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1iArLxsIPuLqsTbW_rULsRA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/16nml_8yBE32lTHwRQcsFxA-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1JOHdN8jB-90faTwMmqCVgg.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1TYgrZfGMb6lSC9u_aFtOEQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1nViWFGcbVNkvrhgGNwjwgQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/155i_nFqgN5J7T4XgiQPz2Q-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1e7TalGCFMgV0DdP0h5an1g.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1Tzik6Ci9FP-T_BtPP_PiOg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1kiksDQNm-bLqns07dPvVdg-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/16YE_i7pvXwqXkkceUpKq-g-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1Q5bvkJhsUfC5rPPxpbyBUQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1lwxxpotylKNsECrHJQNL1w-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1YCxSFJxOW_MrHK_XIJs3hQ.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1C1uYWF_npwWW-KK8ljC1ZA.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/image-56.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1I3l48KKVMQnbQWQ1SiTm2w-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1WHI-VmQkewJat3LmqFVaFQ-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1q_JIY3nK-JGaYJsXgFTCeA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1YUT8n5158cTQJXkIKB24AA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1mXdf9MOiItnfqljsnLQ_ZA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1vLNhWtwebtBp6qYQoDKjKw-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1A_lkXSBqdnueb-S_SO5NUw-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1BD37EV10Rsv8xK187j2X7Q.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1N3QrPh6hXnd1jBdb8abVeA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1mBLeKDAupnbxQ9jwsg41pA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1MqH1pZpEwrni-yOWTiJZog-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1ZWGSeyUJtaxxVBvRKyB6wQ-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/18ZIhkCqEUNScXG48oertGg-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1Sq0AWoEQRFEQ4TqgkBwTlQ-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1iArLxsIPuLqsTbW_rULsRA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/16nml_8yBE32lTHwRQcsFxA-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1JOHdN8jB-90faTwMmqCVgg.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1TYgrZfGMb6lSC9u_aFtOEQ-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1nViWFGcbVNkvrhgGNwjwgQ-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/155i_nFqgN5J7T4XgiQPz2Q-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1e7TalGCFMgV0DdP0h5an1g.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1Tzik6Ci9FP-T_BtPP_PiOg-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1kiksDQNm-bLqns07dPvVdg-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/16YE_i7pvXwqXkkceUpKq-g-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1Q5bvkJhsUfC5rPPxpbyBUQ-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1lwxxpotylKNsECrHJQNL1w-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1YCxSFJxOW_MrHK_XIJs3hQ.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1C1uYWF_npwWW-KK8ljC1ZA.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/image-56.avif' | relative_url }})
 </div>

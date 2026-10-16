@@ -27,7 +27,8 @@ Welcome to the first of a series of blogs that I have written for the photograph
 
 In fact I've chosen them for the exact opposing reasons - the imperfections and peculiar perspectives are reflections ofthe environments that my camera and its owner finds extremely challenging to excel in.
 
-![]({{ '/assets/wp-content/uploads/2024/02/P1139034-208-Edited-scaled-e1708034447446.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/P1139046-209-Edited-edited-1-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139034-208-Edited-scaled-e1708034447446.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139046-209-Edited-edited-1-scaled.avif' | relative_url }})
 
 The first challenge that comes in to mind is balance. There's the camera's preference to over-expose and return a result that looks too bright for sundown, battling against my frequent temptation to counteract this with needlessly chronic under-exposure. For example, the underexposure in the first shot completely removes the foreground and makes the bottom half muddy. In contrast, though the man in the second shot is the subject drawn to the viewer's attention by the arch, the lights behind the pillar and the illumination from his mobile, it feels as if the grass is fighting for attention.
 
@@ -47,11 +48,17 @@ Let the lights power up, the film in the camera roll, as the actors begin their 
 
 Whereas the dynamism of a film directly engages its viewer towards its plot, a protagonist's actions or the atmosphere of an environment, the inherent static outcome of a photograph invites the viewer to stare at it with an invariable but often heightening amount of attention. It is therefore an intriguing task for a photographer to recreate the same degree of engagement in photographs.
 
-![]({{ '/assets/wp-content/uploads/2024/02/P1139367-261-Edited-scaled-e1708122130112.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/P1139368-262-Edited-scaled-e1708121691187.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/P1139369-263-Edited-scaled-e1708121756255.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/P1139371-265-Edited-scaled-e1708121719733.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139367-261-Edited-scaled-e1708122130112.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139368-262-Edited-scaled-e1708121691187.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139369-263-Edited-scaled-e1708121756255.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139371-265-Edited-scaled-e1708121719733.avif' | relative_url }})
 
 In these shots, the object that reassuredly stays constant is the camera.
 
-![]({{ '/assets/wp-content/uploads/2024/02/P1139271-246-Edited-scaled-e1708122617809.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/P1139275-249-Edited-scaled-e1708122032848.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/P1139279-251-Edited-scaled-e1708121882250.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/P1139295-254-Edited-scaled-e1708121950933.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139271-246-Edited-scaled-e1708122617809.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139275-249-Edited-scaled-e1708122032848.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139279-251-Edited-scaled-e1708121882250.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/P1139295-254-Edited-scaled-e1708121950933.avif' | relative_url }})
 
 The result is a series of images which are a stark contrast to the stock architectural images that I am normally accustomed to taking when I travel. Exchange attention of a consistent static object for a glimpse of the varied movements in the city, rule-binding geometric porportions for the unimpeded sprawling nature of light, and pixel-perfect clarity for a blurred perspective - and night photography feels alive!
 
@@ -71,13 +78,21 @@ Except when the camera that reassuredly stays constant no longer stays constant,
 
 Let the camera follow the lights, either along it or towards it.
 
-![]({{ '/assets/wp-content/uploads/2024/02/1010283-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/1010278-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/1010282-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/1010286-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/1010277-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/1010280-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/1010283-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/1010278-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/1010282-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/1010286-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/1010277-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/1010280-scaled.avif' | relative_url }})
 
 With a combination of object movements in the frame, camera manoeuvring, and scaling adjustments within the blog, we are presented with a protagonist that stretches itself towards us, runs across a fractured panorama confined by the borders of the camera sensor, and teases itself in ways that look different every moment you look at it.
 
 ![]({{ '/assets/wp-content/uploads/2024/02/1010792-scaled.avif' | relative_url }})
-![]({{ '/assets/wp-content/uploads/2024/02/1010794-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/1010793-scaled.avif' | relative_url }})
-![]({{ '/assets/wp-content/uploads/2024/02/1010798-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/1010796-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/02/1010790-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/1010794-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/1010793-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/1010798-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/1010796-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/02/1010790-scaled.avif' | relative_url }})
 
 The grimly lit stage of my photographic world that initially appears to inhibit ideas surprisingly outdoes itself. The lights have become the protagonists of the piece, rather than the supporting fixtures behind the viewer or hidden in the ceiling. The action is no longer a result of the cohesion between a set's lights and camera, instead it is now a part of the process of creating a photograph. This is the uninspiring film industry motto "Lights, Action, Camera", unmistakedly performed with a twist.
 

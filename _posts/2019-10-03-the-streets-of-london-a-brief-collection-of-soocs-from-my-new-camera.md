@@ -57,7 +57,8 @@ And wherever you go, there’s always some tourists doing (normal/nosy) touristy
 
 Back to some coloured photos, 2 red photos to be specific. The first is a passerby with clothes and hair matching the brick walls behind! The second looks as if it is an advertisement for Uber JUMP rental bikes (I wish I got paid for something like this lol), but the contrast between the bright red finish of the bike and the somewhat washed colours of the buildings behind makes for an absolutely brilliant photo!
 
-![]({{ '/assets/wp-content/uploads/2024/01/1LUWbPMVb9mpf_WqXs6BfGg.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1OR4qgaI7u8gTgnQu9sFZEg.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1LUWbPMVb9mpf_WqXs6BfGg.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1OR4qgaI7u8gTgnQu9sFZEg.avif' | relative_url }})
 
 It is now approximately 10 days away from Brexit. People’s lives continue no matter what, but street photos do get interesting when you mix in a bit of politics. As a photographer, a tourist, and a newcomer, I’m always happy to see more perspectives.
 
@@ -73,7 +74,8 @@ Graffiti is one of the things I see everywhere around London, and as a tourist, 
 ![]({{ '/assets/wp-content/uploads/2024/01/1ZY8GEPCnP9nxc5JZbZVqug.avif' | relative_url }})
 ![]({{ '/assets/wp-content/uploads/2024/01/1h5TPphVg5-QkNTYk36oPSg.avif' | relative_url }})
 ![]({{ '/assets/wp-content/uploads/2024/01/18eXu3rF2bFv7kuHDED59GA.avif' | relative_url }})
-![]({{ '/assets/wp-content/uploads/2024/01/12wJSuTlFF0NTS5RfEqpYDQ.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1Hu7ZiplpSwbbCJwJ0Kz-wg.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/12wJSuTlFF0NTS5RfEqpYDQ.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1Hu7ZiplpSwbbCJwJ0Kz-wg.avif' | relative_url }})
 
 As a tourist, I think these drawings very much display the vibrance of this city, and how people are proud of their city and its heritage. It feels exciting to witness artists adding their strokes to these walls, and even more so when you see this space utilised by such talented skateboarders.
 
@@ -103,7 +105,8 @@ I did enjoy many artifacts within the British Museum, especially the greek marbl
 
 Time to move on to something else……I know that zoomed in photos of buildings like this somewhat removes context from the environment, but I think the combination of colours at Mizuho Bank, Old Bailey, lookd refreshing.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1-dr5WidzIMKThNOjodfBMA.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1-rcDDC4-6Q5Ouimjxy_wQ.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1-dr5WidzIMKThNOjodfBMA.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1-rcDDC4-6Q5Ouimjxy_wQ.avif' | relative_url }})
 
 Architects nowadys tend to take a more simplistic approach to designing building exteriors, and the exciting thing is that I get to recreate them on Minecraft (I wish I had time for this kind of stuff though)!
 

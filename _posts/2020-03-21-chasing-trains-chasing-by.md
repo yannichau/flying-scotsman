@@ -135,7 +135,8 @@ The fact that they are in the end pretty much related to each other reminds me o
 
 A closer view of London’s skyline, as the train continues its journey to Charing Cross.
 
-![A peek at London’s skyline from Waterloo East.]({{ '/assets/wp-content/uploads/2024/01/1GCwZDLkVxE5R4Ihb5ywd9g.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1IizBzYHIal0aMUJUNCCl3w.avif' | relative_url }})
+![A peek at London’s skyline from Waterloo East.]({{ '/assets/wp-content/uploads/2024/01/1GCwZDLkVxE5R4Ihb5ywd9g.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1IizBzYHIal0aMUJUNCCl3w.avif' | relative_url }})
 
 We took a short walk to Waterloo, which just looks like other London Terminals. Unlike other terminals, the entire concourse is slightly curved.
 

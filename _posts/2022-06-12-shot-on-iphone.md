@@ -29,7 +29,8 @@ Sundays are full of surprises.
 
 Not only because Sundays are particularly eventful when I go to church, but (ironically) also because when Sunday afternoons become uneventful my mind decides to wander around.
 
-![]({{ '/assets/wp-content/uploads/2024/01/1YUcihQVNpeq0OFWBE34ULQ-scaled.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/1BcHdnYqx4pcht0J9qN5nHg-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1YUcihQVNpeq0OFWBE34ULQ-scaled.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/1BcHdnYqx4pcht0J9qN5nHg-scaled.avif' | relative_url }})
 
 On a particularly recent Sunday, I tried to go on a trainspotting tour in Southeast London, only to realise that the Overground was closed. This is pretty funny considering that being a train enthusiast myself I completely overlooked such a common recurring event.
 
@@ -37,11 +38,13 @@ On a particularly recent Sunday, I tried to go on a trainspotting tour in Southe
 
 So because of TfL’s (somewhat expected) recurring “Sabbaths”, I decided to head back into the city centre, as I would have to catch a coach a couple hours later anyway
 
-![]({{ '/assets/wp-content/uploads/2024/01/image-2-png.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/image-3-png.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/image-2-png.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/image-3-png.avif' | relative_url }})
 
 Peculiarly, I ended up at The Barbican Estate, a complex of residential units, the Guildhall and several art centres or museums, situated in the City of London. I think this place must have popped into my mind after watching Jago Hazzard’s video about the Barbican’s brutalist architecture.
 
-![]({{ '/assets/wp-content/uploads/2024/01/image-4-png.avif' | relative_url }}) ![]({{ '/assets/wp-content/uploads/2024/01/image-5.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/image-4-png.avif' | relative_url }})
+![]({{ '/assets/wp-content/uploads/2024/01/image-5.avif' | relative_url }})
 
 Whether it is a masterpiece or an exhibit of the 60’s hideous Soviet-inspired design practices remains a topic of debate, but what strikes me the most about the Barbican Estate is its atmosphere which reminds me of Hong Kong.
 
